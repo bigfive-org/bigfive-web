@@ -72,7 +72,8 @@ export interface Facet {
 export type Translator = {
   name: string;
   language: string;
-  githubUser: string;
+  githubUser?: string;
+  description?: string;
 }
 
 export function getTemplate(lang: string): any;

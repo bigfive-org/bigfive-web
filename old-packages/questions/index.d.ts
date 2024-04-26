@@ -37,7 +37,8 @@ export type Info = {
 export type Translator = {
   name: string;
   language: string;
-  githubUser: string;
+  githubUser?: string;
+  description?: string;
 }
 
 export function getItems(lang?: string, shuffle?: boolean): Question[];

@@ -1,7 +1,8 @@
 [
   {
-    "name": "Dr. John A. Johnson",
-    "language": "en"
+    "name": "John A. Johnson",
+    "language": "en",
+    "description": "Professor Emeritus of Psychology at the Pennsylvania State University"
   },
   {
     "name": "Eli Huseby",
