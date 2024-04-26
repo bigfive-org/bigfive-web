@@ -1,7 +1,8 @@
 [
   {
     "name": "Dr. John A. Johnson",
-    "language": "en"
+    "language": "en",
+    "description": "Professor Emeritus of Psychology at the Pennsylvania State University"
   },
   {
     "name": "Eli Huseby",
@@ -17,7 +18,7 @@
   },
   {
     "name": "Sigurður Kári Árnason",
-    "githubUser": "https://github.com/sigurdurkari",
+    "githubUser": "sigurdurkari",
     "language": "is"
   },
   {
@@ -30,7 +31,7 @@
   },
   {
     "name": "Martin Bäckström",
-    "githubUser": "https://github.com/SwedishBarbarossa",
+    "githubUser": "SwedishBarbarossa",
     "language": "se"
   },
   {
@@ -63,37 +64,37 @@
   },
   {
     "name": "Javid Askerov",
-    "githubUser": "https://github.com/askeroff",
+    "githubUser": "askeroff",
     "language": "ru"
   },
   {
     "name": "Roy Jia",
-    "githubUser": "https://github.com/RoyJia",
+    "githubUser": "RoyJia",
     "language": "zh-cn"
   },
   {
     "name": "Maneepailin Sriuthenchai",
-    "githubUser": "https://github.com/linsuri",
+    "githubUser": "linsuri",
     "language": "th"
   },
   {
     "name": "Anastasia Tapper",
-    "githubUser": "https: //github.com/ankkukku",
+    "githubUser": "ankkukku",
     "language": "fi"
   },
   {
     "name": "David Adi Nugroho",
-    "githubUser": "https://github.com/lakuapik",
+    "githubUser": "lakuapik",
     "language": "id"
   },
   {
     "name": "Punit Singh",
-    "githubUser": "https://github.com/thepunitsingh",
+    "githubUser": "thepunitsingh",
     "language": "hi"
   },
   {
     "name": "Elena Kunina",
-    "githubUser": "https://github.com/Menolas",
+    "githubUser": "Menolas",
     "language": "uk"
   },
   {
@@ -114,7 +115,7 @@
   },
   {
     "name": "Cătălin Topală",
-    "githubUser": "https: //github.com/catalintopala",
+    "githubUser": "catalintopala",
     "language": "ro"
   },
   {
