@@ -7,7 +7,7 @@ import { Link } from '@nextui-org/link';
 export const Translators = () => {
   return (
     <div className='flex mt-4 flex-wrap mb-8'>
-      <div className='w-full flex text-gray-700 mb-4 justify-between'>
+      <div className='w-full flex text-gray-700 dark:text-white mb-4 justify-between'>
         <div className='flex'>
           By our awesome translators &nbsp;
           <HeartFilledIcon />
