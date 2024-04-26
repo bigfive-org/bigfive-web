@@ -16,10 +16,10 @@ The frontend is written in [nodejs](https://nodejs.org) using the
 Download and install [nodejs](https://nodejs.org),
 [git](https://git-scm.com/downloads) and [vercel-cli](https://vercel.com/download)
 
-Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+Install [pnpm](https://pnpm.io/installation)
 
 ```
-npm install --global yarn
+npm install --global pnpm
 ```
 
 Install docker and docker-compose
@@ -40,7 +40,7 @@ DB_COLLECTION=results
 Run the setup script to install all dependencies
 
 ```
-yarn
+pnpm install
 ```
 
 Start mongodb server
@@ -52,7 +52,7 @@ docker-compose up -d
 Run the development server
 
 ```
-yarn dev
+pnpm dev
 ```
 
 ## Linting
@@ -60,7 +60,7 @@ yarn dev
 Run the linter
 
 ```
-yarn lint && yarn format:fix
+pnpm lint && pnpm format:fix
 ```
 
 ## License
