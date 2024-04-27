@@ -7,7 +7,7 @@ const articles = [
   'conscientiousness',
   'extraversion',
   'neuroticism',
-  'openness',
+  'openness_to_experience',
   'conscientiousness_longevity',
   'bigfive_relationships',
   'personality_diseases',
