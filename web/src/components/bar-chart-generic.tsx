@@ -32,7 +32,7 @@ export const BarChartCompare = ({
     },
     chart: {
       toolbar: {
-        show: false
+        show: true
       },
       fontFamily: 'Inter, sans-serif',
       background: 'transparent'
