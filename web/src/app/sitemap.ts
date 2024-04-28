@@ -12,7 +12,8 @@ const articles = [
   'bigfive_relationships',
   'personality_diseases',
   'the_dark_of_personality',
-  'link_between_personality_trais_psychological_needs'
+  'link_between_personality_trais_psychological_needs',
+  'personality_predicts_relationship_status'
 ];
 const resultLanguages = getInfo().languages.map((l) => l.id);
 
