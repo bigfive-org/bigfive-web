@@ -71,7 +71,7 @@ export const ComparePeople = ({
 
   const isInvalidName = React.useMemo(() => {
     if (name === '') return false;
-    return !/^[a-zA-Z0-9]+$/.test(name);
+    return !/^[\p{L}\p{M}\p{Zs}]{2,30}$/u.test(name);
   }, [name]);
 
   const isInvalidId = React.useMemo(() => {
@@ -89,6 +89,11 @@ export const ComparePeople = ({
     const newId = formatId(editId);
     return !validId(newId);
   }, [editId]);
+
+  const isInvalidEditName = React.useMemo(() => {
+    if (editName === '') return false;
+    return !/^[\p{L}\p{M}\p{Zs}]{2,30}$/u.test(editName)
+  }, [editName]);
 
   function deleteItem(id: string) {
     setRows((prev) => {
@@ -148,9 +153,11 @@ export const ComparePeople = ({
             <PersonIcon className='text-2xl text-default-400 pointer-events-none flex-shrink-0' />
           }
           value={name}
+          minLength={2}
+          maxLength={30}
           isInvalid={isInvalidName}
           errorMessage={
-            isInvalidName && 'Only letters and numbers are allowed.'
+            isInvalidName && 'Only letters allowed. Min 2 and max 30 characters.'
           }
           onValueChange={setName}
         />
@@ -174,7 +181,7 @@ export const ComparePeople = ({
             color='primary'
             className='flex-shrink-0'
             onClick={addPerson}
-            isDisabled={!name || !id || isInvalidId}
+            isDisabled={!name || !id || isInvalidId || isInvalidName}
           >
             {addPersonText}
           </Button>
@@ -246,6 +253,10 @@ export const ComparePeople = ({
                   }
                   value={editName}
                   onValueChange={setEditName}
+                  isInvalid={isInvalidEditName}
+                  errorMessage={
+                    isInvalidEditName && 'Only letters allowed. Min 2 and max 30 characters.'
+                  }
                 />
                 <Input
                   type='text'

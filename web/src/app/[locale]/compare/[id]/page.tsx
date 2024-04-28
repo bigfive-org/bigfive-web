@@ -24,7 +24,7 @@ export default async function ComparePage({
     // new format for compare
     people = id.split('_').map((person) => {
       const [name, id] = person.split('-');
-      return { name, id };
+      return { name: decodeURI(name), id };
     });
   } else {
     // old format for compare
