@@ -16,7 +16,7 @@ export default function ComparePage({
   unstable_setRequestLocale(locale);
   const t = useTranslations('getCompare');
   return (
-    <div className='h-[calc(60vh)]'>
+    <div className='min-h-screen'>
       <h1 className={title()}>{t('title')}</h1>
       <br />
       <br />

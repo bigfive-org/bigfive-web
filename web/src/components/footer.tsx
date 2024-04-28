@@ -20,14 +20,14 @@ interface FooterProps {
 export default function Footer({ footerLinks }: FooterProps) {
   const year = new Date().getFullYear();
   return (
-    <footer className='container mx-auto max-w-7xl py-24 px-12'>
+    <footer className='container mx-auto max-w-7xl py-24 px-7'>
       <div className='container mx-auto flex justify-between'>
-        <div className='w-1/2'>
+        <div className=''>
           <span className='text-center'>
             <Logo />
           </span>
         </div>
-        <div className='w-1/2 flex justify-end'>
+        <div className='justify-end'>
           <NextUILink
             isExternal
             href={siteConfig.links.twitter}
