@@ -18,7 +18,7 @@ import {
 import { Button } from '@nextui-org/button';
 import { Input } from '@nextui-org/input';
 import React, { useState } from 'react';
-import { base64url, formatId, validId } from '@/lib/helpers';
+import { formatId, validId } from '@/lib/helpers';
 import { useRouter } from '@/navigation';
 import {
   Modal,
@@ -69,6 +69,11 @@ export const ComparePeople = ({
   const [editIndex, setEditIndex] = useState<number>();
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
+  const isInvalidName = React.useMemo(() => {
+    if (name === '') return false;
+    return !/^[a-zA-Z0-9]+$/.test(name);
+  }, [name]);
+
   const isInvalidId = React.useMemo(() => {
     if (id === '') return false;
 
@@ -103,7 +108,8 @@ export const ComparePeople = ({
   }
 
   function comparePeople() {
-    const urlParam = base64url.encode(JSON.stringify(rows));
+    const urlParam = rows.map((row) => `${row.name}-${row.id}`).join('_');
+
     router.push(`/compare/${urlParam}`);
   }
 
@@ -142,6 +148,10 @@ export const ComparePeople = ({
             <PersonIcon className='text-2xl text-default-400 pointer-events-none flex-shrink-0' />
           }
           value={name}
+          isInvalid={isInvalidName}
+          errorMessage={
+            isInvalidName && 'Only letters and numbers are allowed.'
+          }
           onValueChange={setName}
         />
         <Input

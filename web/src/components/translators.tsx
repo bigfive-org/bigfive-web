@@ -18,10 +18,7 @@ export const Translators = () => {
           </Link>
         </div>
       </div>
-      <AvatarGroup
-        isBordered
-        total={getTranslators().length}
-      >
+      <AvatarGroup isBordered total={getTranslators().length}>
         {getTranslators()
           .sort((a, _) => (a.githubUser ? -1 : 1))
           .map((translator) => (

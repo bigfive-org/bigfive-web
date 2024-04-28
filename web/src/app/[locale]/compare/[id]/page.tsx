@@ -18,7 +18,18 @@ type Person = {
 export default async function ComparePage({
   params: { id }
 }: ComparePageProps) {
-  const people: Person[] = base64url.decode(id);
+  let people: Person[];
+
+  if (id.includes('_')) {
+    // new format for compare
+    people = id.split('_').map((person) => {
+      const [name, id] = person.split('-');
+      return { name, id };
+    });
+  } else {
+    // old format for compare
+    people = base64url.decode(id);
+  }
   const reports = await Promise.all(
     people.map(async (person) => {
       const report = await getTestResult(person.id);
