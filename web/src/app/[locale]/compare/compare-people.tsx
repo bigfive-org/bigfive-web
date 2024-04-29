@@ -92,7 +92,7 @@ export const ComparePeople = ({
 
   const isInvalidEditName = React.useMemo(() => {
     if (editName === '') return false;
-    return !/^[\p{L}\p{M}\p{Zs}]{2,30}$/u.test(editName)
+    return !/^[\p{L}\p{M}\p{Zs}]{2,30}$/u.test(editName);
   }, [editName]);
 
   function deleteItem(id: string) {
@@ -157,7 +157,8 @@ export const ComparePeople = ({
           maxLength={30}
           isInvalid={isInvalidName}
           errorMessage={
-            isInvalidName && 'Only letters allowed. Min 2 and max 30 characters.'
+            isInvalidName &&
+            'Only letters allowed. Min 2 and max 30 characters.'
           }
           onValueChange={setName}
         />
@@ -255,7 +256,8 @@ export const ComparePeople = ({
                   onValueChange={setEditName}
                   isInvalid={isInvalidEditName}
                   errorMessage={
-                    isInvalidEditName && 'Only letters allowed. Min 2 and max 30 characters.'
+                    isInvalidEditName &&
+                    'Only letters allowed. Min 2 and max 30 characters.'
                   }
                 />
                 <Input

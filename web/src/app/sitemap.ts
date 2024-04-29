@@ -1,20 +1,9 @@
 import { MetadataRoute } from 'next';
 import { basePath, locales } from '@/config/site';
 import { getInfo } from '@bigfive-org/results';
+import { allPosts } from 'contentlayer/generated';
 
-const articles = [
-  'agreeableness',
-  'conscientiousness',
-  'extraversion',
-  'neuroticism',
-  'openness_to_experience',
-  'conscientiousness_longevity',
-  'bigfive_relationships',
-  'personality_diseases',
-  'the_dark_of_personality',
-  'link_between_personality_trais_psychological_needs',
-  'personality_predicts_relationship_status'
-];
+const postUrls = allPosts.map((post) => post.url);
 const resultLanguages = getInfo().languages.map((l) => l.id);
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -79,8 +68,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${basePath}/articles`,
       lastModified: new Date()
     },
-    ...articles.map((article) => ({
-      url: `${basePath}/articles/${article}`,
+    ...postUrls.map((article) => ({
+      url: `${basePath}${article}`,
       lastModified: new Date()
     }))
   ];
