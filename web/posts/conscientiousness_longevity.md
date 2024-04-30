@@ -3,6 +3,7 @@ title: One Personality Trait Predicts Longevity More Than Others
 date: 2024-04-19
 description: High conscientiousness seems to pay off through multiple pathways.
 image: '/blog/longevity.webp'
+tags: Conscientiousness and longevity, Personality traits health benefits, Healthy lifestyle choices, Impact of conscientiousness on life span, Biological impacts of personality traits, Conscientious behavior and health, Longevity research, Personality and metabolic health, Cardiovascular health and conscientiousness, Conscientious individuals and exercise, Organized lifestyle health benefits, Discipline and health outcomes, Conscientiousness in the workplace, Social benefits of conscientiousness, Stress management and personality, Longevity studies, Personality traits and healthcare, Effects of conscientiousness on relationships, Health-supportive habits, Long-term health and personality traits
 author:
   name: 'Jonas Enge'
   username: '@maccyber'

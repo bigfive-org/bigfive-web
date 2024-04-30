@@ -3,6 +3,7 @@ title: Openness to experience
 date: 2021-12-24
 description: An article on the personality trait openness to experience.
 image: '/blog/traits/openness_2.webp'
+tags: Openness to Experience, Cognitive style, Creative personalities, Intellectual curiosity, Appreciation of art, Nonconformity in thinking, Cultural openness, Symbolic cognition, Artistic expression, Low openness traits, Resistance to change, Job performance and personality, Imagination and reality, Artistic interests, Emotional awareness, Adventurousness and new experiences, Intellectual debates, Psychological liberalism, Conservatism vs. liberalism in personality, Impact of openness on job roles, Openness in education, Intellectual vs. intellectual ability, Aesthetic sensitivity, Travel and openness, Emotionality in personality traits
 author:
   name: 'Jonas Enge'
   username: 'maccyber'

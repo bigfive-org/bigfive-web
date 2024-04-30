@@ -3,6 +3,7 @@ title: Link Between Personality Traits and Basic Psychological Needs
 date: 2024-04-22
 description: A study examines how personality traits like extraversion, conscientiousness, and agreeableness affect the satisfaction of basic psychological needs such as autonomy, competence, and relatedness.
 image: '/blog/self_care.webp'
+tags: Personality traits and psychological needs, Martina Pocrnic research, Big Five model impact, Autonomy and personality, Competence and conscientiousness, Relatedness and agreeableness, Extraversion benefits, Neuroticism drawbacks, Psychological well-being, Personality trait malleability, Mindfulness and personality change, Croatian psychological study, Social networks and extraversion, Personal growth through personality, Psychological interventions, Targeting neuroticism, Personality and mental health, University of Zagreb study, Personality assessments, Future directions in personality research
 author:
   name: 'Jonas Enge'
   username: '@maccyber'

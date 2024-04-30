@@ -3,6 +3,7 @@ title: Conscientiousness
 date: 2021-12-24
 description: An article on the personality trait Conscientiousness.
 image: '/blog/traits/conscientiousness_2.webp'
+tags: Conscientiousness and impulse control, Impulsive behavior risks, Benefits of conscientiousness, Self-discipline and success, Prudence in decision-making, Self-Efficacy and confidence, Orderliness and organization, Dutifulness and moral obligation, Achievement-Striving and excellence, Self-Discipline in productivity, Cautiousness in actions, Personality traits and life outcomes, Antisocial impulses, Long-term planning and intelligence, Compulsive perfectionism, Workaholic tendencies, Personality and reliability, Impulsivity and creativity, Personality trait impact on success, Personality scales and assessments
 author:
   name: 'Jonas Enge'
   username: 'maccyber'

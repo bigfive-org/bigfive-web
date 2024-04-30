@@ -3,6 +3,7 @@ title: Can Personality Affect What Diseases We Get?
 date: 2024-04-20
 description: Australian researchers find links between personality traits and serious diseases.
 image: '/blog/sick_link_personality.webp'
+tags: Personality traits and health, Extraversion and heart disease, Compassionate personality risks, Australian health study, Personality traits correlation with illness, Conscientiousness and health benefits, Neuroticism and psychological disorders, Longitudinal personality research, HILDA study Australia, Behavioral impacts on health, Personality and preventive health measures, International studies on personality, Openness and disease prevention, Personality traits and serious diseases, Personality science, Social Psychological and Personality Science, Personality traits and cancer risk, Impact of personality on health outcomes, Health behaviors and personality, Long-term health and personality traits
 author:
   name: 'Jonas Enge'
   username: '@maccyber'

@@ -3,6 +3,7 @@ title: Neuroticism
 date: 2021-12-24
 description: An article on the personality trait Neuroticism.
 image: '/blog/traits/neuroticism_2.webp'
+tags: Neuroticism and negative emotions, Freud's theory of neurosis, Emotional reactivity, Coping with stress, Anxiety and brain function, Anger management, Depression symptoms, Self-consciousness in social settings, Immoderation and cravings, Vulnerability under stress, Emotional regulation, Fight-or-flight response, Neuroticism impacts, Mental health and personality, Personality traits and mood, Emotional intensity, Threat perception, Neurotic behavior, Coping mechanisms for stress, Psychological resilience
 author:
   name: 'Jonas Enge'
   username: 'maccyber'

@@ -25,6 +25,7 @@ export const generateMetadata = ({
     title: post.title,
     description: post.description,
     authors: [{ name: post.author.name, url: post.author.link }],
+    keywords: post.tags,
     openGraph: {
       type: 'website',
       url: post.url,

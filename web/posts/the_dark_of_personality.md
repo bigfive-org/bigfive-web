@@ -3,6 +3,7 @@ title: The Dark Core of Personality
 date: 2024-04-21
 description: Discover the Dark Core of Personality, a study revealing how traits like narcissism and Machiavellianism are interconnected and shape unethical behaviors.
 image: '/blog/dark_core_of_personality.webp'
+tags: Dark Core of Personality, Morten Moshagen research, Dark traits in psychology, Narcissism and Machiavellianism, Psychological study of egoism, Psychopathy and societal impact, Interconnected dark traits, Predicting unethical behaviors, Historical examples of dark traits, Dark Factor "D" study, Influence of personality on behavior, Understanding antisocial behaviors, Psychological assessments in hiring, Dark traits and team dynamics, Trust issues in relationships, Psychological implications for society, Enhancing psychological understanding, Personality psychology insights, Addressing dark personality traits, Dark traits in professional settings
 author:
   name: 'Jonas Enge'
   username: '@maccyber'

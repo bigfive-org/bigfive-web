@@ -3,6 +3,7 @@ title: The Big Five Test - History and Background
 date: 2024-04-30
 description: The history and background of the Big Five Test
 image: '/blog/freud.webp'
+tags: Big Five personality model, OCEAN personality traits, Openness to experience, Conscientiousness in personality, Extraversion traits, Agreeableness factor, Neuroticism assessment, Personality testing, Psychometric assessments, History of personality theories, Gordon Allport, Henry Odbert, Lewis Goldberg, McCrae and Costa, Personality trait stability, Personality dimensions, Factor analysis in psychology, Cross-cultural personality assessment, Personality recruitment tool, Limitations of Big Five model, Personality research advancements
 author:
   name: 'Eli Marianne Huseby'
   username: '@eli_marianne'

@@ -3,6 +3,7 @@ title: Extraversion
 date: 2021-12-24
 description: An article on the personality trait extraversion.
 image: '/blog/traits/extraversion_3.webp'
+tags: Extraversion personality trait, Introvert vs Extravert, Social engagement, Friendliness in personality, Gregariousness trait, Assertiveness in leadership, High activity level, Excitement-seeking behavior, Cheerfulness and positivity, Understanding extraversion, Personality differences, Social interaction and personality, Energy levels in extraverts, Introvert independence, Personality assessment, Extraversion and happiness, Leadership qualities, Thrill-seeking traits, Positive emotions, Social dynamics in personality
 author:
   name: 'Jonas Enge'
   username: 'maccyber'
