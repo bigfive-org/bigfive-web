@@ -10,29 +10,28 @@ author:
   avatar: '/avatars/eli_marianne.webp'
 ---
 
-Since Sigmund Freud launched his personality model based on his psychodynamic theory around 1900, psychologists have continuously tried to coin lexical terms to identify personality traits. In 1936, Gordon Allport and Henry Odbert listed 4,500 terms that described personality differences. By means of factor analysis and the present emerging computer technology, other researchers tried to narrow down the terms associated with personality - to 16 - and eventually to 5. Lewis Goldberg and McCrae & Costa  along with other colleagues are credited for the Big Five model we use today. According to this model personality is measured along 5 broad dimensions which appear to be quite stable throughout life. These primary personality traits can be identified by the acronyms **OCEAN**. 
+Since Sigmund Freud launched his personality model based on his psychodynamic theory around 1900, psychologists have continuously tried to coin lexical terms to identify personality traits. In 1936, Gordon Allport and Henry Odbert listed 4,500 terms that described personality differences. By means of factor analysis and the present emerging computer technology, other researchers tried to narrow down the terms associated with personality - to 16 - and eventually to 5. Lewis Goldberg and McCrae & Costa along with other colleagues are credited for the Big Five model we use today. According to this model personality is measured along 5 broad dimensions which appear to be quite stable throughout life. These primary personality traits can be identified by the acronyms **OCEAN**.
 
-(O) Openness to experience 
+(O) Openness to experience
 
-(C) Conscientiousness 
+(C) Conscientiousness
 
-(E) Extraversion 
+(E) Extraversion
 
-(A) Agreeableness 
+(A) Agreeableness
 
-(N) Neuroticism 
+(N) Neuroticism
 
-Each primary trait contains  two opposite poles, e.g. regarding Openness to experience:  **curious versus cautious**,  and  numerous subcategories, such as **imagination** or **fantasy, adventurousness** and **curiosity in intellectual matters**. The test taker is going to rate which description or adjective is most accurate to represent their own personality on a scale from **Strongly Disagree** to **Strongly Agree**.
+Each primary trait contains two opposite poles, e.g. regarding Openness to experience: **curious versus cautious**, and numerous subcategories, such as **imagination** or **fantasy, adventurousness** and **curiosity in intellectual matters**. The test taker is going to rate which description or adjective is most accurate to represent their own personality on a scale from **Strongly Disagree** to **Strongly Agree**.
 
-The test results are compared to other test takers according to categories as e.g.  gender and cross-cultural issues. When measuring the individual’s personality the test assumes that most people are somewhere in between the two  extremes(curious - cautious).
+The test results are compared to other test takers according to categories as e.g. gender and cross-cultural issues. When measuring the individual’s personality the test assumes that most people are somewhere in between the two extremes(curious - cautious).
 
-Compared to other time consuming methods, psychometric testing, such as the Big Five, provides a quite concise view into the test taker’s personality, even if there might be some bias due to the person’s readiness to give answers that might convey what they think is a more favourable impression. 
+Compared to other time consuming methods, psychometric testing, such as the Big Five, provides a quite concise view into the test taker’s personality, even if there might be some bias due to the person’s readiness to give answers that might convey what they think is a more favourable impression.
 
-Since the 1990s the Big Five is ranked as the most recognised model of personality and the most accurate and valid psychometric test by psychologists. Today the test is used by a variety of organisations to recruit and find the skills they are looking for in employees and to understand their colleagues, students and workers better. 
+Since the 1990s the Big Five is ranked as the most recognised model of personality and the most accurate and valid psychometric test by psychologists. Today the test is used by a variety of organisations to recruit and find the skills they are looking for in employees and to understand their colleagues, students and workers better.
 However, it is important to have in mind that the Big Five has shortcomings. It does neither provide a comprehensive description of an individual’s personality nor fully account for individual differences (John & Srivastava, 1999)
 
 [The Big Five Test available here](https://bigfive-test.com) is an abridged version elaborated by John A. Johnson, Ph.D., Professor Emeritus of Psychology at the Pennsylvania State University.
-
 
 #### **Sources**
 

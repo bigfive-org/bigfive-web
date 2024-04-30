@@ -40,11 +40,11 @@ export default function ShareBar({ report }: ShareBarProps) {
   const [state, formAction] = useFormState(sendEmail, {
     message: '',
     type: 'success'
-  } as EmailState)
+  } as EmailState);
 
   useEffect(() => {
     if (state.type === 'success') {
-      console.log('asdasd')
+      console.log('asdasd');
       sleep(700).then(() => onClose());
     }
   }, [state]);
@@ -136,8 +136,8 @@ export default function ShareBar({ report }: ShareBarProps) {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    We will send the result to the email you provide. We will not
-                    spam you or use your email for any other purposes.
+                    We will send the result to the email you provide. We will
+                    not spam you or use your email for any other purposes.
                   </p>
                   <Input
                     autoFocus

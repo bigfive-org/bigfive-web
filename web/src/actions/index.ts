@@ -10,7 +10,7 @@ import generateResult, {
   Domain
 } from '@bigfive-org/results';
 
-import sendgrid from '@sendgrid/mail'
+import sendgrid from '@sendgrid/mail';
 
 const sendGridApiKey = process.env.SENDGRID_API_KEY || '';
 
@@ -112,7 +112,7 @@ export async function saveFeedback(
 export type EmailState = {
   message: string;
   type: 'error' | 'success';
-}
+};
 
 export async function sendEmail(
   _: EmailState,
@@ -128,10 +128,10 @@ export async function sendEmail(
       to: email.to,
       from: 'hello@bigfive-test.com',
       subject: 'BigFive Test Results',
-      html: email.message,
-    }
-    sendgrid.setApiKey(sendGridApiKey)
-    await sendgrid.send(msg)
+      html: email.message
+    };
+    sendgrid.setApiKey(sendGridApiKey);
+    await sendgrid.send(msg);
     return {
       message: 'Sent successfully!',
       type: 'success'
