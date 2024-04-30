@@ -27,11 +27,11 @@ export const generateMetadata = ({
     authors: [{ name: post.author.name, url: post.author.link }],
     openGraph: {
       type: 'website',
-      url: basePath,
+      url: post.url,
       title: post.title,
       description: post.description,
       images: {
-        url: `${basePath}/${post.image}`,
+        url: `${basePath}${post.image}`,
         alt: post.title
       }
     },
@@ -42,7 +42,7 @@ export const generateMetadata = ({
       site: basePath,
       creator: post.author.link,
       images: {
-        url: `${basePath}/${post.image}`,
+        url: `${basePath}${post.image}`,
         alt: post.title
       }
     }
