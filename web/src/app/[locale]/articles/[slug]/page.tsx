@@ -8,14 +8,45 @@ import { Image } from '@nextui-org/image';
 import { calculateReadingTime } from '@/lib/helpers';
 import { ViewCounter } from '@/components/view-counter';
 import { Suspense } from 'react';
+import { basePath } from '@/config/site';
+import { Metadata } from 'next';
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
 
-export const generateMetadata = ({ params }: { params: { slug: string } }) => {
+export const generateMetadata = ({
+  params
+}: {
+  params: { slug: string };
+}): Metadata => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
-  return { title: post.title };
+  return {
+    title: post.title,
+    description: post.description,
+    authors: [{ name: post.author.name, url: post.author.link }],
+    openGraph: {
+      type: 'website',
+      url: basePath,
+      title: post.title,
+      description: post.description,
+      images: {
+        url: `${basePath}/${post.image}`,
+        alt: post.title
+      }
+    },
+    twitter: {
+      title: post.title,
+      card: 'summary_large_image',
+      description: post.description,
+      site: basePath,
+      creator: post.author.link,
+      images: {
+        url: `${basePath}/${post.image}`,
+        alt: post.title
+      }
+    }
+  };
 };
 
 const PostLayout = async ({ params }: { params: { slug: string } }) => {

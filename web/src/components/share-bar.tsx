@@ -44,8 +44,8 @@ export default function ShareBar({ report }: ShareBarProps) {
 
   useEffect(() => {
     if (state.type === 'success') {
-      console.log('asdasd');
       sleep(700).then(() => onClose());
+      setEmail('');
     }
   }, [state]);
 

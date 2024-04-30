@@ -12,15 +12,15 @@ author:
 
 Since Sigmund Freud launched his personality model based on his psychodynamic theory around 1900, psychologists have continuously tried to coin lexical terms to identify personality traits. In 1936, Gordon Allport and Henry Odbert listed 4,500 terms that described personality differences. By means of factor analysis and the present emerging computer technology, other researchers tried to narrow down the terms associated with personality - to 16 - and eventually to 5. Lewis Goldberg and McCrae & Costa along with other colleagues are credited for the Big Five model we use today. According to this model personality is measured along 5 broad dimensions which appear to be quite stable throughout life. These primary personality traits can be identified by the acronyms **OCEAN**.
 
-(O) Openness to experience
+**(O)** Openness to experience
 
-(C) Conscientiousness
+**(C)** Conscientiousness
 
-(E) Extraversion
+**(E)** Extraversion
 
-(A) Agreeableness
+**(A)** Agreeableness
 
-(N) Neuroticism
+**(N)** Neuroticism
 
 Each primary trait contains two opposite poles, e.g. regarding Openness to experience: **curious versus cautious**, and numerous subcategories, such as **imagination** or **fantasy, adventurousness** and **curiosity in intellectual matters**. The test taker is going to rate which description or adjective is most accurate to represent their own personality on a scale from **Strongly Disagree** to **Strongly Agree**.
 
