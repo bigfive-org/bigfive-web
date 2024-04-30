@@ -2,6 +2,7 @@
 
 import {
   Button,
+  Chip,
   Modal,
   ModalBody,
   ModalContent,
@@ -20,8 +21,11 @@ import {
 import { Link as NextUiLink } from '@nextui-org/link';
 import { Report } from '@/actions/index';
 import { useCopyToClipboard } from '@/hooks/use-copy-to-clipboard';
-import { Input } from '@nextui-org/input';
-import { useMemo, useState } from 'react';
+import { Input, Textarea } from '@nextui-org/input';
+import { useEffect, useMemo, useState } from 'react';
+import { EmailState, sendEmail } from '@/actions';
+import { useFormState, useFormStatus } from 'react-dom';
+import { sleep } from '@/lib/helpers';
 
 interface ShareBarProps {
   report: Report;
@@ -29,8 +33,21 @@ interface ShareBarProps {
 
 export default function ShareBar({ report }: ShareBarProps) {
   const [_, copy] = useCopyToClipboard();
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
   const [email, setEmail] = useState('');
+
+  const { pending } = useFormStatus();
+  const [state, formAction] = useFormState(sendEmail, {
+    message: '',
+    type: 'success'
+  } as EmailState)
+
+  useEffect(() => {
+    if (state.type === 'success') {
+      console.log('asdasd')
+      sleep(700).then(() => onClose());
+    }
+  }, [state]);
 
   const validateEmail = (value: string) =>
     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i);
@@ -85,9 +102,8 @@ export default function ShareBar({ report }: ShareBarProps) {
           <PDFIcon size={32} />
         </Button>
       </Tooltip>
-      <Tooltip color='secondary' content='Mail link' className='hidden'>
+      <Tooltip color='secondary' content='Mail link'>
         <Button
-          className='hidden'
           isIconOnly
           aria-label='Mail the link'
           radius='full'
@@ -111,49 +127,67 @@ export default function ShareBar({ report }: ShareBarProps) {
         </Button>
       </Tooltip>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className='flex flex-col gap-1'>
-                Send the results to mail
-              </ModalHeader>
-              <ModalBody>
-                <p>
-                  We will send the result to the email you provide. We will not
-                  spam you or use your email for any other purposes.
-                </p>
-                <Input
-                  autoFocus
-                  endContent={
-                    <MailIcon className='text-2xl text-default-400 pointer-events-none flex-shrink-0' />
-                  }
-                  label='Email'
-                  type='email'
-                  value={email}
-                  onValueChange={setEmail}
-                  isInvalid={isInvalidEmail}
-                  errorMessage={
-                    isInvalidEmail && 'Please enter a valid email address'
-                  }
-                  placeholder='Enter your email'
-                  variant='bordered'
-                />
-              </ModalBody>
-              <ModalFooter>
-                <Button color='danger' variant='light' onPress={onClose}>
-                  Close
-                </Button>
-                <Button
-                  color='primary'
-                  onPress={onClose}
-                  isDisabled={email === '' || isInvalidEmail}
-                >
-                  Send
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
+        <form action={formAction}>
+          <ModalContent>
+            {(onClose) => (
+              <>
+                <ModalHeader className='flex flex-col gap-1'>
+                  Send the results to mail
+                </ModalHeader>
+                <ModalBody>
+                  <p>
+                    We will send the result to the email you provide. We will not
+                    spam you or use your email for any other purposes.
+                  </p>
+                  <Input
+                    autoFocus
+                    endContent={
+                      <MailIcon className='text-2xl text-default-400 pointer-events-none flex-shrink-0' />
+                    }
+                    label='Email'
+                    name='to'
+                    type='email'
+                    value={email}
+                    onValueChange={setEmail}
+                    isInvalid={isInvalidEmail}
+                    errorMessage={
+                      isInvalidEmail && 'Please enter a valid email address'
+                    }
+                    placeholder='Enter your email'
+                    variant='bordered'
+                  />
+                  <Textarea
+                    name='message'
+                    className='hidden'
+                    value={`https://bigfive-test.com/result/${report.id}`}
+                  />
+                  {state.message && (
+                    <Chip
+                      color={state.type === 'success' ? 'success' : 'danger'}
+                      size='lg'
+                      className='w-fit'
+                    >
+                      <p>{state.message}</p>
+                    </Chip>
+                  )}
+                </ModalBody>
+                <ModalFooter>
+                  <Button color='danger' variant='light' onPress={onClose}>
+                    Close
+                  </Button>
+                  <Button
+                    color='primary'
+                    isDisabled={email === '' || isInvalidEmail}
+                    isLoading={pending}
+                    type='submit'
+                  >
+                    Send
+                  </Button>
+                </ModalFooter>
+              </>
+            )}
+          </ModalContent>
+        </form>
       </Modal>
     </>
   );

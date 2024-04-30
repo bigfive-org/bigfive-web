@@ -10,6 +10,10 @@ import generateResult, {
   Domain
 } from '@bigfive-org/results';
 
+import sendgrid from '@sendgrid/mail'
+
+const sendGridApiKey = process.env.SENDGRID_API_KEY || '';
+
 const collectionName = process.env.DB_COLLECTION || 'results';
 const resultLanguages = getInfo().languages;
 
@@ -100,6 +104,42 @@ export async function saveFeedback(
   } catch (error) {
     return {
       message: 'Error sending feedback!',
+      type: 'error'
+    };
+  }
+}
+
+export type EmailState = {
+  message: string;
+  type: 'error' | 'success';
+}
+
+export async function sendEmail(
+  _: EmailState,
+  formData: FormData
+): Promise<EmailState> {
+  'use server';
+  const email = {
+    to: String(formData.get('to')),
+    message: String(formData.get('message'))
+  };
+  try {
+    const msg = {
+      to: email.to,
+      from: 'hello@bigfive-test.com',
+      subject: 'BigFive Test Results',
+      html: email.message,
+    }
+    sendgrid.setApiKey(sendGridApiKey)
+    await sendgrid.send(msg)
+    return {
+      message: 'Sent successfully!',
+      type: 'success'
+    };
+  } catch (error) {
+    console.error(error);
+    return {
+      message: 'Error sending email!',
       type: 'error'
     };
   }
