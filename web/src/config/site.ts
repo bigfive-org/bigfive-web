@@ -136,7 +136,7 @@ export const siteConfig = {
     github: 'https://github.com/rubynor/bigfive-web',
     twitter: 'https://twitter.com/rubynor',
     linkedIn: 'https://www.linkedin.com/company/rubynor-as/',
-    facebook: 'https://www.facebook.com/rubynorno'
+    facebook: 'https://www.facebook.com/bigfivepersonality/'
   }
 };
 
