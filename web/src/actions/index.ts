@@ -9,8 +9,9 @@ import generateResult, {
   Language,
   Domain
 } from '@bigfive-org/results';
+import { Resend } from 'resend';
 
-import sendgrid from '@sendgrid/mail';
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const collectionName = process.env.DB_COLLECTION || 'results';
 const resultLanguages = getInfo().languages;
@@ -122,15 +123,14 @@ export async function sendEmail(
     message: String(formData.get('message'))
   };
   try {
-    const sendGridApiKey = process.env.SENDGRID_API_KEY || '';
     const msg = {
       to: email.to,
       from: 'hello@bigfive-test.com',
+      replyTo: 'hello@bigfive-test.com',
       subject: 'BigFive Test Results',
       html: email.message
     };
-    sendgrid.setApiKey(sendGridApiKey);
-    await sendgrid.send(msg);
+    await resend.emails.send(msg);
     return {
       message: 'Sent successfully!',
       type: 'success'
