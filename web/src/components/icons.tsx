@@ -687,3 +687,25 @@ export const MailIcon = ({
     />
   </svg>
 );
+
+export const DotsIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 20 20'
+    aria-hidden='true'
+    focusable='false'
+    {...props}
+  >
+    <g fill='currentColor'>
+      <circle cx='10' cy='15' r='2' />
+      <circle cx='10' cy='10' r='2' />
+      <circle cx='10' cy='5' r='2' />
+    </g>
+  </svg>
+);

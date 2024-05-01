@@ -11,6 +11,7 @@ import {
 } from '@nextui-org/table';
 import {
   DeleteIcon,
+  DotsIcon,
   EditIcon,
   PersonIcon,
   ResultIcon
@@ -28,6 +29,12 @@ import {
   ModalHeader,
   useDisclosure
 } from '@nextui-org/modal';
+import {
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  DropdownTrigger
+} from '@nextui-org/dropdown';
 
 interface CompareProps {
   addPersonText: string;
@@ -201,7 +208,38 @@ export const ComparePeople = ({
                 {(columnKey) =>
                   columnKey === 'actions' ? (
                     <TableCell className='flex justify-end'>
+                      <Dropdown>
+                        <DropdownTrigger>
+                          <Button
+                            className='md:hidden'
+                            isIconOnly
+                            variant='light'
+                            aria-label='Open Menu'
+                          >
+                            <DotsIcon />
+                          </Button>
+                        </DropdownTrigger>
+                        <DropdownMenu aria-label='Static Actions'>
+                          <DropdownItem
+                            key='edit'
+                            onPress={() => onOpenEditPerson(onOpen, item)}
+                            aria-label='Edit item'
+                          >
+                            Edit item
+                          </DropdownItem>
+                          <DropdownItem
+                            key='delete'
+                            className='text-danger'
+                            color='danger'
+                            onClick={() => deleteItem(item.id)}
+                            aria-label='Delete item'
+                          >
+                            Delete item
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </Dropdown>
                       <Button
+                        className='hidden md:block'
                         isIconOnly
                         variant='light'
                         aria-label='Edit'
@@ -210,6 +248,7 @@ export const ComparePeople = ({
                         <EditIcon />
                       </Button>
                       <Button
+                        className='hidden md:block'
                         isIconOnly
                         variant='light'
                         aria-label='Delete'

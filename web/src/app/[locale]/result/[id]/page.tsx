@@ -2,8 +2,6 @@ import { Report, getTestResult } from '@/actions';
 import { Snippet } from '@nextui-org/snippet';
 import { useTranslations } from 'next-intl';
 import { title } from '@/components/primitives';
-import { DomainPage } from './domain';
-import { Domain } from '@bigfive-org/results';
 import { getTranslations } from 'next-intl/server';
 import { BarChart } from '@/components/bar-chart';
 import { Link } from '@/navigation';
@@ -75,7 +73,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         </div>
         <Chip>{new Date(report.timestamp).toLocaleDateString()}</Chip>
       </div>
-      <div className='text-center mt-4'>
+      <div className='text-center mt-6'>
         <span className='font-bold'>{t('important')}</span> &nbsp;
         {t('saveResults')} &nbsp;
         <Link href={`/compare/?id=${report.id}`} className='underline'>
@@ -84,7 +82,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         &nbsp;
         {t('toOthers')}
       </div>
-      <div className='flex mt-4'>
+      <div className='flex mt-8'>
         <Snippet
           hideSymbol
           color='danger'
@@ -94,7 +92,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
           {report.id}
         </Snippet>
       </div>
-      <div className='flex mt-5 justify-end w-full gap-x-1 print:hidden'>
+      <div className='flex mt-8 justify-end w-full gap-x-1 print:hidden'>
         <ShareBar report={report} />
       </div>
       <div className='flex mt-10'>
