@@ -12,8 +12,6 @@ import generateResult, {
 
 import sendgrid from '@sendgrid/mail';
 
-const sendGridApiKey = process.env.SENDGRID_API_KEY || '';
-
 const collectionName = process.env.DB_COLLECTION || 'results';
 const resultLanguages = getInfo().languages;
 
@@ -124,6 +122,7 @@ export async function sendEmail(
     message: String(formData.get('message'))
   };
   try {
+    const sendGridApiKey = process.env.SENDGRID_API_KEY || '';
     const msg = {
       to: email.to,
       from: 'hello@bigfive-test.com',
