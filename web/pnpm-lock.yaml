@@ -100,9 +100,6 @@ importers:
       '@react-aria/visually-hidden':
         specifier: 3.8.10
         version: 3.8.10(react@18.3.1)
-      '@types/nodemailer':
-        specifier: 6.4.14
-        version: 6.4.14
       '@vercel/analytics':
         specifier: 1.2.2
         version: 1.2.2(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
@@ -185,6 +182,9 @@ importers:
       '@types/node':
         specifier: 20.12.7
         version: 20.12.7
+      '@types/nodemailer':
+        specifier: 6.4.14
+        version: 6.4.14
       '@types/react':
         specifier: 18.3.1
         version: 18.3.1
