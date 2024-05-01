@@ -9,9 +9,17 @@ import generateResult, {
   Language,
   Domain
 } from '@bigfive-org/results';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  host: 'smtp.zoho.eu',
+  secure: true,
+  port: 465,
+  auth: {
+    user: 'hello@bigfive-test.com',
+    pass: process.env.ZOHO_API_KEY
+  }
+});
 
 const collectionName = process.env.DB_COLLECTION || 'results';
 const resultLanguages = getInfo().languages;
@@ -130,7 +138,7 @@ export async function sendEmail(
       subject: 'BigFive Test Results',
       html: email.message
     };
-    await resend.emails.send(msg);
+    await transporter.sendMail(msg);
     return {
       message: 'Sent successfully!',
       type: 'success'
