@@ -3,7 +3,7 @@ import { allPosts } from 'contentlayer/generated';
 import { ChevronRightLinearIcon } from '@/components/icons';
 import NextLink from 'next/link';
 import { User } from '@nextui-org/user';
-import { Link } from '@nextui-org/react';
+import { Chip, Link } from '@nextui-org/react';
 import { Image } from '@nextui-org/image';
 import { calculateReadingTime } from '@/lib/helpers';
 import { ViewCounter } from '@/components/view-counter';
@@ -117,6 +117,13 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
           className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage mt-10'
           dangerouslySetInnerHTML={{ __html: post.body.html }}
         />
+        <div className='flex gap-2 flex-wrap mt-4'>
+          {post.tags.split(', ').map((tag: string, index: number) => (
+            <Chip key={index} variant='flat'>
+              {tag}
+            </Chip>
+          ))}
+        </div>
       </div>
     </article>
   );
