@@ -127,7 +127,10 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     next: 'next',
     back: 'back',
     more: 'more',
-    seeResults: 'see results'
+    seeResults: 'see results',
+    restored: 'Your answers has been restored. Click here to',
+    newTest: 'start a new test',
+    surveyLanguage: 'Survey language'
   },
   big_five: {
     title: 'What are the big five?',
@@ -177,7 +180,7 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Compare people or teams',
     description1:
       'Compare results from the bigfive personality test with multiple people.',
-    description2: 'Type in the ID you got from the test results i.e.',
+    description2: 'Enter the ID from your test results',
     description3: 'in the ID-input field',
     needToAddPeople: 'You need to add people to compare them',
     addAnother: 'Add another person',
@@ -185,7 +188,14 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     comparePeople: 'Compare people',
     nameOfPerson: 'Name of this person',
     urlOrId: 'URL or ID for comparison',
-    name: 'Name'
+    name: 'Name',
+    onlyLetters: 'Only letters allowed. Min 2 and max 30 characters.',
+    validId: 'Please enter a valid ID and not a duplicate.',
+    noRows: 'No rows to display.',
+    editPerson: 'Edit person',
+    close: 'Close',
+    save: 'Save',
+    overview: 'Overview'
   },
   results: {
     theBigFive: 'The Big Five',
@@ -194,6 +204,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     saveResults: 'Save the following ID to see the results later or ',
     compare: 'compare',
     toOthers: 'yourself to others',
+    retriveReportError: 'Could not retrieve report',
+    reportLanguage: 'Report language',
     seo: {
       title: 'My results from the BigFive personality test',
       description:
@@ -207,7 +219,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     idInput: 'in the ID-input field',
     urlOrId: 'URL or ID of your result',
     getResult: 'Get result',
-    viewPrevious: 'View Previous Result'
+    viewPrevious: 'View Previous Result',
+    validIdError: 'Please enter a valid ID'
   },
   shareLinks: {
     copyLink: 'Copy link to clipboard',
@@ -215,6 +228,16 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     shareTwitter: 'Share on Twitter',
     copiedLink: 'Copied link',
     shareResults: 'Share your results!'
+  },
+  articles: {
+    title: 'Personality articles',
+    description: 'All the latest and greatest news and articles on Personality',
+    back: 'Back to articles',
+    minRead: '{n} min read',
+    seo: {
+      title: 'Articles about personality and psychology',
+      description: 'Read articles about personality and psychology'
+    }
   }
 };
 

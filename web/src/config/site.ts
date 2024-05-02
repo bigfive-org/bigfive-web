@@ -34,6 +34,7 @@ export const languages: Language[] = [
     map: ['pt-BR', 'pt-PT']
   },
   { code: 'sv', name: 'Swedish', countryCode: 'se' },
+  { code: 'bg', name: 'Bulgarian', countryCode: 'bg' },
   { code: 'uk', name: 'Ukrainian', countryCode: 'ua' },
   { code: 'da', name: 'Danish', countryCode: 'dk' },
   { code: 'fi', name: 'Finnish', countryCode: 'fi' },
