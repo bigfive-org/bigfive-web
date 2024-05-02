@@ -58,5 +58,9 @@
   {
     "id": "ro",
     "text": "Romanian"
+  },
+  {
+    "id": "bg",
+    "text": "Bulgarian"
   }
 ]
