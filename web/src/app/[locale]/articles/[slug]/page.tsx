@@ -114,7 +114,7 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
           </time>
         </div>
         <div
-          className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage'
+          className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage mt-10'
           dangerouslySetInnerHTML={{ __html: post.body.html }}
         />
       </div>
