@@ -17,20 +17,19 @@
     return urls;
   }
 
-
   const urls = extractUrls(sitemap);
 
   console.log(urls);
 
   const data = {
     "host": "https://bigfive-test.com",
-    "key": "eab3c341d0644b1483f6ce1f88f464bc",
-    "keyLocation": "https://bigfive-test.com/eab3c341d0644b1483f6ce1f88f464bc.txt",
+    "key": "b1552373cc7640369b69b88ea37e9476",
+    "keyLocation": "https://bigfive-test.com/b1552373cc7640369b69b88ea37e9476.txt",
     "urlList": urls
   }
 
   const indexNow = await fetch(
-    'https://api.indexnow.org/IndexNow',
+    'https://bing.com/IndexNow',
     {
       method: 'POST',
       body: JSON.stringify(data),
