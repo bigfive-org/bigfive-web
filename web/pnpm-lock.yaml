@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@bigfive-org/questions':
-        specifier: 1.4.4
-        version: 1.4.4
+        specifier: 1.4.5
+        version: 1.4.5
       '@bigfive-org/results':
-        specifier: 1.4.4
-        version: 1.4.4
+        specifier: 1.4.6
+        version: 1.4.6
       '@bigfive-org/score':
         specifier: 1.4.2
         version: 1.4.2
@@ -225,11 +225,11 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@bigfive-org/questions@1.4.4':
-    resolution: {integrity: sha512-t8DoGjJD/AjKYE/A6v8TssZ0hEp96/7weCne3/eVVUCDUa5g6YjUxpuucMPDLKqY2iyLyL1TeFAWD6+a65zHzQ==}
+  '@bigfive-org/questions@1.4.5':
+    resolution: {integrity: sha512-OJm+Z4ch4e2oCQoNVe7hWDUeKuS639AE8NujaQOC2kEQ1tMGGWlyhI7+dbwJvMaArUtyx1kQRAygh1+I4U1cZw==}
 
-  '@bigfive-org/results@1.4.4':
-    resolution: {integrity: sha512-ywqzGpZj7Lm5//UlzC5VpMZZLoNMGcsxdBER9ACVLlE96wH6IyzvSKbkcLKrqtggcOMGXbYV8C/DqXO4w39qrg==}
+  '@bigfive-org/results@1.4.6':
+    resolution: {integrity: sha512-RNsvl3sxEOHN5y3p6pyzbIlNdcYXb1WH6adQr1JSCzAhYUhuFeWEl/JKpXpQK3BQZC6V436a1IYCBb1T2/dZyw==}
 
   '@bigfive-org/score@1.4.2':
     resolution: {integrity: sha512-FVaJZsRoMVmroQ8nIxS0cY0M14NiOO4cuksp3k5wiw9wT58IUJyvEGvnqGNuez6vhMffLaufzLWUK+/vmPOAxw==}
@@ -4021,9 +4021,9 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@bigfive-org/questions@1.4.4': {}
+  '@bigfive-org/questions@1.4.5': {}
 
-  '@bigfive-org/results@1.4.4': {}
+  '@bigfive-org/results@1.4.6': {}
 
   '@bigfive-org/score@1.4.2': {}
 
