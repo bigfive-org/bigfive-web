@@ -5,12 +5,27 @@ import Link from 'next/link';
 import { Facet, Domain } from '@bigfive-org/results';
 import { BarChart } from '@/components/bar-chart';
 import ReadMore from '@/components/read-more';
-import { ResultHrec1 } from '@/components/ads/ads';
+import { ResultHrec1, ResultHrec2, ResultHrec3, ResultHrec4 } from '@/components/ads/ads';
 
 interface DomainProps {
   domain: Domain;
   scoreText: string;
   showExpanded?: boolean;
+}
+
+export const Ads = (domain: string) => {
+  switch (domain) {
+    case 'O':
+      return <ResultHrec1 />;
+    case 'C':
+      return <ResultHrec2 />;
+    case 'A':
+      return <ResultHrec3 />;
+    case 'E':
+      return <ResultHrec4 />;
+    case 'N':
+      return <ResultHrec4 />;
+  }
 }
 
 export const DomainPage = ({
