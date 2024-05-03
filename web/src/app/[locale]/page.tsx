@@ -23,6 +23,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { Chip, Tooltip } from '@nextui-org/react';
 import NextLink from 'next/link';
 import { Translated } from '@/components/translated';
+import { HomeHeader } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
@@ -122,9 +123,11 @@ export default function Home({ params: { locale } }: Props) {
             </div>
           </div>
 
-          <div className='font-normal text-default-500 block max-w-full text-center underline'>
+          <div className='font-normal text-default-500 block max-w-full text-center underline mb-8'>
             {t('no_registration')}
           </div>
+
+          <HomeHeader />
         </section>
 
         <div className='mt-20 mx-2'>

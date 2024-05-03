@@ -120,6 +120,10 @@ export default async function RootLayout({
           src='https://bigfive-test.com/sw.js'
           strategy='beforeInteractive'
         />
+        <Script
+          async
+          src='https://cdn.fuseplatform.net/publift/tags/2/3645/fuse.js'
+        />
         <Analytics />
       </body>
       <GoogleAnalytics gaId={gaId} />
