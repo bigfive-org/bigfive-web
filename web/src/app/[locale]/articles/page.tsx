@@ -2,6 +2,7 @@ import { compareDesc } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
 import { PostCard } from '@/components/post-card';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import { ArticleHeader } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
@@ -15,7 +16,8 @@ export default function ArticlesPage({ params: { locale } }: Props) {
 
   return (
     <div className='w-full lg:px-16 mt-12'>
-      <div className='text-center'>
+      <ArticleHeader />
+      <div className='text-center mt-8'>
         <h1 className='mb-2 font-bold text-4xl'>Personality articles</h1>
         <h5 className='text-default-500 text-lg'>
           All the latest and greatest news and articles on Personality
