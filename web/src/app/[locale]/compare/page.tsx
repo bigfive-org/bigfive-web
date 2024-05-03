@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { ComparePeople } from './compare-people';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Suspense } from 'react';
+import { CompareHeader } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
@@ -21,6 +22,9 @@ export default function ComparePage({
       <br />
       <br />
       <span className='mt-2'>{t('description1')}</span>
+      <div className='my-4'>
+        <CompareHeader />
+      </div>
       <Suspense fallback='loading...'>
         <ComparePeople
           addPersonText={t('addPerson')}
