@@ -242,7 +242,7 @@ export default function Home({ params: { locale } }: Props) {
 
       <HomeHrec1 />
 
-      <div className='text-center mx-2'>
+      <div className='text-center mx-2 mt-8'>
         <Link href='/articles' color='foreground'>
           <h1 className={title()}>Latest posts</h1>
         </Link>
