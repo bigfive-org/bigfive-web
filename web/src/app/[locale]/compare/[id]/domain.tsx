@@ -31,7 +31,7 @@ export const Ads = (domain: string) => {
     case 'N':
       return <CompareHrec3 />;
   }
-}
+};
 
 export const DomainComparePage = ({
   title,
@@ -57,9 +57,7 @@ export const DomainComparePage = ({
           <BarChartCompare max={20} categories={categories} series={scores} />
         </div>
       </div>
-      <div className='my-4'>
-        {Ads(domainKey)}
-      </div>
+      <div className='my-4'>{Ads(domainKey)}</div>
     </>
   );
 };

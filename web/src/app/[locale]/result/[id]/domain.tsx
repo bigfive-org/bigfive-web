@@ -5,7 +5,12 @@ import Link from 'next/link';
 import { Facet, Domain } from '@bigfive-org/results';
 import { BarChart } from '@/components/bar-chart';
 import ReadMore from '@/components/read-more';
-import { ResultHrec1, ResultHrec2, ResultHrec3, ResultHrec4 } from '@/components/ads/ads';
+import {
+  ResultHrec1,
+  ResultHrec2,
+  ResultHrec3,
+  ResultHrec4
+} from '@/components/ads/ads';
 
 interface DomainProps {
   domain: Domain;
@@ -26,7 +31,7 @@ export const Ads = (domain: string) => {
     case 'N':
       return <ResultHrec4 />;
   }
-}
+};
 
 export const DomainPage = ({
   domain,

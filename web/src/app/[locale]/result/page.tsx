@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { GetResultPage } from './get-result';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { ResultHeader } from '@/components/ads/ads';
+import { AdsContainer } from '@/components/ads/ads-container';
 
 interface Props {
   params: { locale: string };
@@ -23,6 +24,7 @@ export default function ResultPage({ params: { locale } }: Props) {
         viewPreviousText={t('viewPrevious')}
         getResultsText={t('getResult')}
       />
+      <AdsContainer />
     </div>
   );
 }
