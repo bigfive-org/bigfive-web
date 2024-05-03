@@ -97,7 +97,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <head />
-      <RouteChangeListener />
       <body
         className={clsx(
           'min-h-screen bg-background font-sans antialiased',
@@ -126,6 +125,7 @@ export default async function RootLayout({
           src='https://cdn.fuseplatform.net/publift/tags/2/3645/fuse.js'
         />
         <Analytics />
+        <RouteChangeListener />
       </body>
       <GoogleAnalytics gaId={gaId} />
     </html>
