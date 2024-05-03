@@ -13,6 +13,7 @@ import { getTranslations } from 'next-intl/server';
 import { Analytics } from '@vercel/analytics/react';
 import useTextDirection from '@/hooks/use-text-direction';
 import Script from 'next/script';
+import { RouteChangeListener } from './router-change-listner';
 // import CookieBanner from '@/components/cookie-consent';
 
 export function generateStaticParams() {
@@ -96,6 +97,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <head />
+      <RouteChangeListener />
       <body
         className={clsx(
           'min-h-screen bg-background font-sans antialiased',
