@@ -10,7 +10,7 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@bigfive-org/questions": "1.4.5",
+    "@bigfive-org/questions": "1.4.6",
     "@bigfive-org/results": "1.4.8",
     "@bigfive-org/score": "1.4.2",
     "@emotion/is-prop-valid": "1.2.2",
@@ -55,7 +55,7 @@
     "mongodb": "6.5.0",
     "next": "14.2.3",
     "next-contentlayer": "0.3.4",
-    "next-intl": "3.12.1",
+    "next-intl": "3.12.2",
     "next-themes": "0.3.0",
     "nodemailer": "6.9.13",
     "postcss": "8.4.38",
@@ -65,7 +65,7 @@
     "rtl-detect": "1.1.2",
     "tailwind-variants": "0.2.1",
     "tailwindcss": "3.4.3",
-    "zod": "3.23.5"
+    "zod": "3.23.6"
   },
   "devDependencies": {
     "@types/canvas-confetti": "1.6.4",

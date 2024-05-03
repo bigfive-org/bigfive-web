@@ -65,6 +65,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date()
     },
     {
+      url: `${basePath}/translations`,
+      lastModified: new Date()
+    },
+    {
       url: `${basePath}/articles`,
       lastModified: new Date()
     },

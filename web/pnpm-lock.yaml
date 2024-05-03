@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@bigfive-org/questions':
-        specifier: 1.4.5
-        version: 1.4.5
+        specifier: 1.4.6
+        version: 1.4.6
       '@bigfive-org/results':
         specifier: 1.4.8
         version: 1.4.8
@@ -144,8 +144,8 @@ importers:
         specifier: 0.3.4
         version: 0.3.4(contentlayer@0.3.4(esbuild@0.18.20))(esbuild@0.18.20)(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-intl:
-        specifier: 3.12.1
-        version: 3.12.1(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: 3.12.2
+        version: 3.12.2(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       next-themes:
         specifier: 0.3.0
         version: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -174,8 +174,8 @@ importers:
         specifier: 3.4.3
         version: 3.4.3
       zod:
-        specifier: 3.23.5
-        version: 3.23.5
+        specifier: 3.23.6
+        version: 3.23.6
     devDependencies:
       '@types/canvas-confetti':
         specifier: 1.6.4
@@ -225,8 +225,8 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@bigfive-org/questions@1.4.5':
-    resolution: {integrity: sha512-OJm+Z4ch4e2oCQoNVe7hWDUeKuS639AE8NujaQOC2kEQ1tMGGWlyhI7+dbwJvMaArUtyx1kQRAygh1+I4U1cZw==}
+  '@bigfive-org/questions@1.4.6':
+    resolution: {integrity: sha512-+1iM4hA17oDQhowGhVVAYvYQdfJsEcrREmtbU8ey8DwPlGoyo/Qe8ybgqwAcZivuj71eq79fQw7F3Tcs/u+H+Q==}
 
   '@bigfive-org/results@1.4.8':
     resolution: {integrity: sha512-1sDQ4TiUcKHtnwL3eOV1UA7vNXrcqBThulJW9SQKrt1BS9ErLV/Vx2Ct7PNbEdhzHofDU0XAypWqDhUnAtAf3A==}
@@ -3145,8 +3145,8 @@ packages:
       react: '*'
       react-dom: '*'
 
-  next-intl@3.12.1:
-    resolution: {integrity: sha512-VoEOhSOKKdNz7oU0aiYkJOEmdGI0aR1gDelajPmYnekQZyL96xXlMEKgZPPupCR8CKZgENaKfTYRW6o4ahZ/PA==}
+  next-intl@3.12.2:
+    resolution: {integrity: sha512-KsbvKs00VcL1EIMIaRln129lR7xdpB0Lng1+8HR1MYywtRo+r4Pi7HVUZJnnO364jsZeptekYejJd0NBo3W8Fw==}
     peerDependencies:
       next: ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3883,8 +3883,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  use-intl@3.12.1:
-    resolution: {integrity: sha512-rVwlWhitnRbMzbB553JsE0u9u+a18y7TDq+5ujmF0Jg+5gwp5vnrLsTHV/HcraP2PmxG/KhUDPYo1oTjJm5SHQ==}
+  use-intl@3.12.2:
+    resolution: {integrity: sha512-pX+FQVNLoorie/AV9Y4EgeeNZG8ZLJIQu1wQALTvKo3TCQhlYikO+9xbQpgFf0bjXawQ+JUdcu0BWAhq06eMYg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
@@ -4007,8 +4007,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.23.5:
-    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
+  zod@3.23.6:
+    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -4023,7 +4023,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@bigfive-org/questions@1.4.5': {}
+  '@bigfive-org/questions@1.4.6': {}
 
   '@bigfive-org/results@1.4.8': {}
 
@@ -4082,7 +4082,7 @@ snapshots:
       ts-pattern: 4.3.0
       unified: 10.1.2
       yaml: 2.4.1
-      zod: 3.23.5
+      zod: 3.23.6
     transitivePeerDependencies:
       - '@effect-ts/otel-node'
       - esbuild
@@ -8197,13 +8197,13 @@ snapshots:
       - markdown-wasm
       - supports-color
 
-  next-intl@3.12.1(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
+  next-intl@3.12.2(next@14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
     dependencies:
       '@formatjs/intl-localematcher': 0.2.32
       negotiator: 0.6.3
       next: 14.2.3(@opentelemetry/api@1.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
-      use-intl: 3.12.1(react@18.3.1)
+      use-intl: 3.12.2(react@18.3.1)
 
   next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
@@ -9032,7 +9032,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  use-intl@3.12.1(react@18.3.1):
+  use-intl@3.12.2(react@18.3.1):
     dependencies:
       '@formatjs/ecma402-abstract': 1.18.2
       intl-messageformat: 10.5.11
@@ -9174,6 +9174,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.23.5: {}
+  zod@3.23.6: {}
 
   zwitch@2.0.4: {}
