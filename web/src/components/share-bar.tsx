@@ -177,7 +177,7 @@ export default function ShareBar({ report }: ShareBarProps) {
                   </Button>
                   <Button
                     color='primary'
-                    isDisabled={email === '' || isInvalidEmail}
+                    isDisabled={email === '' || isInvalidEmail || pending}
                     isLoading={pending}
                     type='submit'
                   >
