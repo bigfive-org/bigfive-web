@@ -1,5 +1,4 @@
 const languages = require('./data/languages.json')
-const translators = require('./translators.json')
 
 function languageSort (a, b) {
   if (a.text < b.text) {
@@ -36,8 +35,6 @@ module.exports.getInfo = () => (
     languages
   }
 )
-
-module.exports.getTranslators = () => translators
 
 module.exports.getChoices = (lang = 'en') => {
   let choices

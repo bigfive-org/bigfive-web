@@ -1,6 +1,7 @@
 export type Language = {
   id: string;
   text: string;
+  translators?: Translator[];
 };
 
 export type Question = {
@@ -36,7 +37,6 @@ export type Info = {
 
 export type Translator = {
   name: string;
-  language: string;
   githubUser?: string;
   description?: string;
 }
@@ -48,5 +48,3 @@ export function getInfo(): Info;
 export function getChoices(lang?: string): Record<string, string[]>;
 
 export function getQuestions(lang?: string): Question[];
-
-export function getTranslators(): Translator[];

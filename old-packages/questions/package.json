@@ -1,7 +1,7 @@
 {
   "name": "@bigfive-org/questions",
   "description": "Module for returning Big Five Johnson 120 IPIP-NEO-PI-R items",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -10,8 +10,7 @@
   "files": [
     "data/",
     "index.js",
-    "index.d.ts",
-    "translators.json"
+    "index.d.ts"
   ],
   "scripts": {
     "test": "standard && ava",

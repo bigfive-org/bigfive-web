@@ -1,11 +1,23 @@
 [
   {
     "id": "en",
-    "text": "English"
+    "text": "English",
+    "translators": [
+      {
+        "name": "John A. Johnson",
+        "description": "Professor Emeritus of Psychology at the Pennsylvania State University"
+      }
+    ]
   },
   {
     "id": "zh-cn",
-    "text": "Chinese (PRC)"
+    "text": "Chinese (PRC)",
+    "translators": [
+      {
+        "name": "Roy Jia",
+        "githubUser": "RoyJia"
+      }
+    ]
   },
   {
     "id": "zh-hk",
@@ -13,43 +25,97 @@
   },
   {
     "id": "hi",
-    "text": "Hindi"
+    "text": "Hindi",
+    "translators": [
+      {
+        "name": "Punit Singh",
+        "githubUser": "thepunitsingh"
+      }
+    ]
   },
   {
     "id": "es",
-    "text": "Spanish"
+    "text": "Spanish",
+    "translators": [
+      {
+        "name": "Eduardo Calle"
+      }
+    ]
   },
   {
     "id": "fr",
-    "text": "French"
+    "text": "French",
+    "translators": [
+      {
+        "name": "Mathew Gravel"
+      }
+    ]
   },
   {
     "id": "ru",
-    "text": "Russian"
+    "text": "Russian",
+    "translators": [
+      {
+        "name": "Javid Askerov",
+        "githubUser": "askeroff"
+      }
+    ]
   },
   {
     "id": "id",
-    "text": "Indonesian"
+    "text": "Indonesian",
+    "translators": [
+      {
+        "name": "David Adi Nugroho",
+        "githubUser": "lakuapik"
+      }
+    ]
   },
   {
     "id": "ur",
-    "text": "Urdu"
+    "text": "Urdu",
+    "translators": [
+      {
+        "name": "Engr. Ahmad Khan"
+      }
+    ]
   },
   {
     "id": "de",
-    "text": "Deutsch"
+    "text": "Deutsch",
+    "translators": [
+      {
+        "name": "Heinz Streib"
+      }
+    ]
   },
   {
     "id": "ja",
-    "text": "Japanese"
+    "text": "Japanese",
+    "translators": [
+      {
+        "name": "Omar Karlin"
+      }
+    ]
   },
   {
     "id": "it",
-    "text": "Italian"
+    "text": "Italian",
+    "translators": [
+      {
+        "name": "Lorenzo Carducci"
+      }
+    ]
   },
   {
     "id": "th",
-    "text": "Thai"
+    "text": "Thai",
+    "translators": [
+      {
+        "name": "Maneepailin Sriuthenchai",
+        "githubUser": "linsuri"
+      }
+    ]
   },
   {
     "id": "tr",
@@ -57,11 +123,22 @@
   },
   {
     "id": "hy",
-    "text": "Armenian"
+    "text": "Armenian",
+    "translators": [
+      {
+        "name": "Mikayel Harutyunyan"
+      }
+    ]
   },
   {
     "id": "uk",
-    "text": "Ukrainian"
+    "text": "Ukrainian",
+    "translators": [
+      {
+        "name": "Elena Kunina",
+        "githubUser": "Menolas"
+      }
+    ]
   },
   {
     "id": "da",
@@ -69,23 +146,54 @@
   },
   {
     "id": "no",
-    "text": "Norwegian"
+    "text": "Norwegian",
+    "translators": [
+      {
+        "name": "Eli Huseby"
+      }
+    ]
   },
   {
     "id": "is",
-    "text": "Icelandic"
+    "text": "Icelandic",
+    "translators": [
+      {
+        "name": "Franz Jónas Arnar Arnarson"
+      },
+      {
+        "name": "Sigurður Kári Árnason",
+        "githubUser": "sigurdurkari"
+      }
+    ]
   },
   {
     "id": "fi",
-    "text": "Finnish"
+    "text": "Finnish",
+    "translators": [
+      {
+        "name": "Anastasia Tapper",
+        "githubUser": "ankkukku"
+      }
+    ]
   },
   {
     "id": "nl",
-    "text": "Dutch"
+    "text": "Dutch",
+    "translators": [
+      {
+        "name": "Eus van Somerenk"
+      }
+    ]
   },
   {
     "id": "ro",
-    "text": "Romanian"
+    "text": "Romanian",
+    "translators": [
+      {
+        "name": "Cătălin Topală",
+        "githubUser": "catalintopala"
+      }
+    ]
   },
   {
     "id": "sq",
@@ -93,43 +201,94 @@
   },
   {
     "id": "sv",
-    "text": "Swedish"
+    "text": "Swedish",
+    "translators": [
+      {
+        "name": "Martin Bäckström",
+        "githubUser": "SwedishBarbarossa"
+      }
+    ]
   },
   {
     "id": "sr",
-    "text": "Serbian"
+    "text": "Serbian",
+    "translators": [
+      {
+        "name": "Snezana Smederevac"
+      }
+    ]
   },
   {
     "id": "sl",
-    "text": "Slovenian"
+    "text": "Slovenian",
+    "translators": [
+      {
+        "name": "Janek Musek"
+      }
+    ]
   },
   {
     "id": "hr",
-    "text": "Croatian"
+    "text": "Croatian",
+    "translators": [
+      {
+        "name": "Željko Jerneić"
+      }
+    ]
   },
   {
     "id": "et",
-    "text": "Estonian"
+    "text": "Estonian",
+    "translators": [
+      {
+        "name": "René Mõttus"
+      }
+    ]
   },
   {
     "id": "pt-br",
-    "text": "Brazilian Portuguese"
+    "text": "Brazilian Portuguese",
+    "translators": [
+      {
+        "name": "Grazziano Duarte"
+      }
+    ]
   },
   {
     "id": "ar",
-    "text": "Arabic"
+    "text": "Arabic",
+    "translators": [
+      {
+        "name": "Rayan Khan"
+      }
+    ]
   },
   {
     "id": "he",
-    "text": "Hebrew"
+    "text": "Hebrew",
+    "translators": [
+      {
+        "name": "Ben Perry"
+      }
+    ]
   },
   {
     "id": "pl",
-    "text": "Polish"
+    "text": "Polish",
+    "translators": [
+      {
+        "name": "Maryla Królikowska"
+      }
+    ]
   },
   {
     "id": "ko",
-    "text": "Korean"
+    "text": "Korean",
+    "translators": [
+      {
+        "name": "TimeTREE"
+      }
+    ]
   },
   {
     "id": "hu",
@@ -141,11 +300,24 @@
   },
   {
     "id": "ca",
-    "text": "Catalan"
+    "text": "Catalan",
+    "translators": [
+      {
+        "name": "Èric Arnau Soler"
+      }
+    ]
   },
   {
     "id": "ss",
-    "text": "Siswati"
+    "text": "Siswati",
+    "translators": [
+      {
+        "name": "Thembinkosi Dube"
+      },
+      {
+        "name": "Vit Budina"
+      }
+    ]
   },
   {
     "id": "cs",
@@ -153,6 +325,11 @@
   },
   {
     "id": "bg",
-    "text": "Bulgarian"
+    "text": "Bulgarian",
+    "translators": [
+      {
+        "name": "Lyubomir Manolov"
+      }
+    ]
   }
 ]
