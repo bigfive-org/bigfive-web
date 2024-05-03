@@ -2,6 +2,7 @@ import { title } from '@/components/primitives';
 import { useTranslations } from 'next-intl';
 import { GetResultPage } from './get-result';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import { ResultHeader } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
@@ -13,6 +14,9 @@ export default function ResultPage({ params: { locale } }: Props) {
 
   return (
     <div className='min-h-screen'>
+      <div className='my-4'>
+        <ResultHeader />
+      </div>
       <h1 className={title()}>{t('result')}</h1>
       <div className='mt-10'>{t('explanation')}</div>
       <GetResultPage
