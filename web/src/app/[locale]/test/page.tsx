@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { saveTest } from '@/actions';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { TestLanguageSwitch } from './test-language-switch';
+import { TestHeader, TestHrec1 } from '@/components/ads/ads';
 
 const questionLanguages = getInfo().languages;
 
@@ -23,6 +24,9 @@ export default function TestPage({
   const t = useTranslations('test');
   return (
     <>
+      <div className='my-4'>
+        <TestHeader />
+      </div>
       <div className='flex'>
         <TestLanguageSwitch
           availableLanguages={questionLanguages}
@@ -37,6 +41,9 @@ export default function TestPage({
         saveTest={saveTest}
         language={language}
       />
+      <div className='my-4'>
+        <TestHrec1 />
+      </div>
     </>
   );
 }
