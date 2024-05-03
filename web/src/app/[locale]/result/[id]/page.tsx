@@ -97,7 +97,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
       <div className='flex mt-8 justify-end w-full gap-x-1 print:hidden'>
         <ShareBar report={report} />
       </div>
-      <div className='flex mt-10'>
+      <div className='mt-10'>
         <ResultHeader />
         <h1 className={clsx(title(), 'mt-8')}>{t('theBigFive')}</h1>
       </div>
