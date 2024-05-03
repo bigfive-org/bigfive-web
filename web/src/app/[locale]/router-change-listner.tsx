@@ -8,7 +8,7 @@ export function RouteChangeListener() {
   const [changes, setChanges] = useState(0);
 
   useEffect(() => {
-    window.fusetag?.pageInit();
+    window.fusetag.que.push(function() { window.fusetag.pageInit() })
     setChanges((prev) => prev + 1);
   }, [pathname]);
 
