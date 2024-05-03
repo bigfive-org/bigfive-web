@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Facet, Domain } from '@bigfive-org/results';
 import { BarChart } from '@/components/bar-chart';
 import ReadMore from '@/components/read-more';
+import { ResultHrec1 } from '@/components/ads/ads';
 
 interface DomainProps {
   domain: Domain;
@@ -33,7 +34,8 @@ export const DomainPage = ({
         <br />
         <p>{domain.text}</p>
         <BarChart max={20} results={domain.facets} />
-        <div>
+        <ResultHrec1 />
+        <div className='mt-4'>
           {domain.facets.map((facet: Facet, index: number) => (
             <div key={index} className='mt-5'>
               <Link href={`#${facet.title}`}>

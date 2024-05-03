@@ -11,6 +11,8 @@ import { supportEmail } from '@/config/site';
 import ShareBar from '@/components/share-bar';
 import { DomainTabs } from './domain-tabs';
 import { Chip } from '@nextui-org/react';
+import { ResultHeader } from '@/components/ads/ads';
+import clsx from 'clsx';
 
 export async function generateMetadata({
   params: { locale }
@@ -96,7 +98,8 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         <ShareBar report={report} />
       </div>
       <div className='flex mt-10'>
-        <h1 className={title()}>{t('theBigFive')}</h1>
+        <ResultHeader />
+        <h1 className={clsx(title(), 'mt-8')}>{t('theBigFive')}</h1>
       </div>
       <BarChart max={120} results={report.results} />
       <DomainTabs
