@@ -23,7 +23,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { Chip, Tooltip } from '@nextui-org/react';
 import NextLink from 'next/link';
 import { Translated } from '@/components/translated';
-import { HomeHeader } from '@/components/ads/ads';
+import { HomeHeader, HomeHrec1 } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
@@ -239,6 +239,8 @@ export default function Home({ params: { locale } }: Props) {
           </div>
         </SonarPulse>
       </div>
+
+      <HomeHrec1 />
 
       <div className='text-center mx-2'>
         <Link href='/articles' color='foreground'>

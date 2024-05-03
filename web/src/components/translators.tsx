@@ -5,10 +5,10 @@ import { HeartFilledIcon } from './icons';
 import { Link } from '@nextui-org/link';
 
 export const Translators = () => {
-  const { languages } = getInfo()
+  const { languages } = getInfo();
   const translators = languages
     .filter((language) => language.translators)
-    .flatMap((language) => language.translators)
+    .flatMap((language) => language.translators);
 
   return (
     <div className='flex mt-4 flex-wrap mb-8'>
