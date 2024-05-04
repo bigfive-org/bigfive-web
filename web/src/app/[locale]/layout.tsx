@@ -110,7 +110,7 @@ export default async function RootLayout({
         >
           <div className='relative flex flex-col h-screen'>
             <Navbar navItems={navItems} navMenuItems={navMenuItems} />
-            <main className='container mx-auto max-w-7xl pt-16 px-6 flex-grow'>
+            <main className='container mx-auto max-w-7xl pt-6 md:pt-16 px-6 flex-grow'>
               {children}
             </main>
             <Footer footerLinks={footerLinks} />
