@@ -123,7 +123,7 @@ export default function Home({ params: { locale } }: Props) {
             </div>
           </div>
 
-          <div className='font-normal text-default-500 block max-w-full text-center underline mb-8'>
+          <div className='font-normal text-default-500 block max-w-full text-center underline md:mb-8'>
             {t('no_registration')}
           </div>
 
