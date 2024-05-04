@@ -80,7 +80,7 @@ export default function Home({ params: { locale } }: Props) {
       <div>
         <section className='flex flex-col items-center justify-center gap-4'>
           <div className='flex relative z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-10'>
-            <div className='text-center justify-center mt-10'>
+            <div className='text-center justify-center mt-4 md:mt-10'>
               <h1 className={title()}>{titleDescription}</h1>
               <br />
               <h2 className={subtitle({ class: 'mt-4' })}>
