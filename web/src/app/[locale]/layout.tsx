@@ -123,7 +123,7 @@ export default async function RootLayout({
         <Script
           async
           src='https://cdn.fuseplatform.net/publift/tags/2/3645/fuse.js'
-          strategy="lazyOnload"
+          strategy='lazyOnload'
         />
         <Analytics />
         <RouteChangeListener />

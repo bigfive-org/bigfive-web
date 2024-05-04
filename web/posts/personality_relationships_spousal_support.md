@@ -1,7 +1,7 @@
 ---
 title: Personality Synchrony and Its Impact on Spousal Support Among Older Adults
 date: 2024-03-20
-description: The study "Within-Couple Personality Concordance Over Time - The Importance of Personality Synchrony for Perceived Spousal Support" examines how similarities in personality traits among older adult couples impact perceived support, finding that couples with more synchronized personality changes over time feel more supported by each other.
+description: Examine how similarities in personality traits among older adult couples impact perceived support, finding that couples with more synchronized personality changes over time feel more supported by each other.
 image: '/blog/spousal_support.webp'
 tags: personality synchrony, spousal support, older adults, relationship dynamics, marital satisfaction, Big Five personality traits, within-couple similarity, longitudinal study, emotional support, aging couples, personality development, gerontology
 author:

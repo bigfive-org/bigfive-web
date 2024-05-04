@@ -9,13 +9,10 @@ export function RouteChangeListener() {
 
   useEffect(() => {
     const fusetag = window.fusetag || (window.fusetag = { que: [] });
-    fusetag.que.push(function() {
+    fusetag.que.push(function () {
       fusetag.pageInit({
         // Defer the first auction until FuseIds '1239469485' and '2323123233' are registered
-        blockingFuseIds: [
-          '1239469485',
-          '2323123233'
-        ],
+        blockingFuseIds: ['1239469485', '2323123233']
       });
     });
     setChanges((prev) => prev + 1);
