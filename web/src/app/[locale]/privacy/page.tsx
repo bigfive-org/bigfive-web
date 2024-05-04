@@ -51,7 +51,7 @@ export default function PrivacyPage() {
         </ul>
         <br />
         Your web browser also automatically sends information to our hosting
-        provider Zeit.
+        provider Vercel.
         <br />
         This can i.e. be information about wich browser and version you are
         using and your Internet address (IP-address). For each page that is
@@ -69,6 +69,31 @@ export default function PrivacyPage() {
         analytical purposes.
         <h2>How do we store your data?</h2>
         <h2>How to contact us?</h2>
+        {/* <br /> */}
+        {/* <br /> */}
+        {/* <p> */}
+        {/*   We and our partners store and/or access information on a device, such */}
+        {/*   as cookies and process personal data, such as unique identifiers and */}
+        {/*   standard information sent by a device for personalised advertising and */}
+        {/*   content, advertising and content measurement, audience research and */}
+        {/*   services development. */}
+        {/* </p> */}
+        {/* <p> */}
+        {/*   With your permission we and our partners may use precise geolocation */}
+        {/*   data and identification through device scanning. You may click to */}
+        {/*   consent to our and our 1430 partners’ processing as described above. */}
+        {/* </p> */}
+        {/* <p> */}
+        {/*   Alternatively you may access more detailed information and change your */}
+        {/*   preferences before consenting or to refuse consenting. */}
+        {/* </p> */}
+        {/* <p> */}
+        {/*   Please note that some processing of your personal data may not require */}
+        {/*   your consent, but you have a right to object to such processing. Your */}
+        {/*   preferences will apply to this website only. You can change your */}
+        {/*   preferences or withdraw your consent at any time by returning to this */}
+        {/*   site and clicking the "Privacy" button at the bottom of the webpage. */}
+        {/* </p> */}
         If you have any questions about this privacy policy, please{' '}
         <a
           href='mailto:support@bigfive-test.com'
