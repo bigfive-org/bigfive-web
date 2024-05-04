@@ -99,7 +99,8 @@ export default function Home({ params: { locale } }: Props) {
                     size: 'lg',
                     fullWidth: true
                   }),
-                  'md:w-auto'
+                  'md:w-auto',
+                  'animate-shadow-pulse'
                 )}
               >
                 {t('call_to_action')} <ArrowRightIcon />
