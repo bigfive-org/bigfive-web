@@ -72,7 +72,7 @@ sehen dich als zuverlässig und fleißig.`
     {
       facet: 1,
       title: 'Kompetenz',
-      text: `Kompetenz beschreibt die Selbsticherheit in die eigene Fähigkeit
+      text: `Kompetenz beschreibt die Selbstsicherheit in die eigene Fähigkeit
 Dinge zu erreichen. Menschen mit hoher Punktzahl glauben, sie haben die nötige
 Intelligenz (gesunden Menschenverstand), Trieb und Selbstkontrolle, um einen
 Erfolg zu erzielen. Menschen mit niedriger Punktzahl fühlen sich ineffektiv,
