@@ -104,7 +104,7 @@ const SubmitButton = ({ isInvalidForm }: SubmitButtonProps) => {
   const { pending } = useFormStatus();
   return (
     <Button
-      isDisabled={isInvalidForm}
+      isDisabled={isInvalidForm || pending}
       color='primary'
       isLoading={pending}
       type='submit'
