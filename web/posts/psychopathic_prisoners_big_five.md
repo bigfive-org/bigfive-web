@@ -43,7 +43,6 @@ This study not only sheds light on the complex interplay between personality tra
 
 In summary, the research documented in the Jentashapir Journal of Health Research serves as a cornerstone for ongoing discussions and developments in the field of personality psychology, offering a clearer path toward understanding and managing complex personality disorders.
 
-
 #### **Sources**
 
 - [Davod Ghaderi and others: «Comparison of Personality Traits Between Psychopathic Prisoners, Non-Psychopathic Prisoners, and Non-Prisoner Patients»](https://www.researchgate.net/publication/334609634_Comparison_of_Personality_Traits_Between_Psychopathic_Prisoners_Non-Psychopathic_Prisoners_and_Non-Prisoner_Patients)

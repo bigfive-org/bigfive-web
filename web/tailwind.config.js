@@ -22,8 +22,11 @@ module.exports = {
         },
         'shadow-pulse': {
           '0%': { transform: 'scale(1)', boxShadow: '0 0 0 0 #006FEE' },
-          '70%': { transform: 'scale(1.02)', boxShadow: '0 0 0 10px rgba(229, 62, 62, 0)' },
-          '100%': { transform: 'scale(1),' },
+          '70%': {
+            transform: 'scale(1.02)',
+            boxShadow: '0 0 0 10px rgba(229, 62, 62, 0)'
+          },
+          '100%': { transform: 'scale(1),' }
         }
       },
       animation: {

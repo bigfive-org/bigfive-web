@@ -1,16 +1,6 @@
 'use client';
 
-import {
-  Button,
-  Chip,
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  Tooltip,
-  useDisclosure
-} from '@nextui-org/react';
+import { Button, Tooltip, useDisclosure } from '@nextui-org/react';
 import {
   CopyIcon,
   FacebookIcon,
@@ -21,11 +11,7 @@ import {
 import { Link as NextUiLink } from '@nextui-org/link';
 import { Report } from '@/actions/index';
 import { useCopyToClipboard } from '@/hooks/use-copy-to-clipboard';
-import { Input, Textarea } from '@nextui-org/input';
-import { useEffect, useMemo, useState } from 'react';
-import { EmailState, sendEmail } from '@/actions';
-import { useFormState, useFormStatus } from 'react-dom';
-import { sleep } from '@/lib/helpers';
+import { EmailModal } from './email-modal';
 
 interface ShareBarProps {
   report: Report;
@@ -33,30 +19,7 @@ interface ShareBarProps {
 
 export default function ShareBar({ report }: ShareBarProps) {
   const [_, copy] = useCopyToClipboard();
-  const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
-  const [email, setEmail] = useState('');
-
-  const { pending } = useFormStatus();
-  const [state, formAction] = useFormState(sendEmail, {
-    message: '',
-    type: 'success'
-  } as EmailState);
-
-  useEffect(() => {
-    if (state.type === 'success') {
-      sleep(700).then(() => onClose());
-      setEmail('');
-    }
-  }, [state]);
-
-  const validateEmail = (value: string) =>
-    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i);
-
-  const isInvalidEmail = useMemo(() => {
-    if (email === '') return false;
-
-    return validateEmail(email) ? false : true;
-  }, [email]);
+  const disclosure = useDisclosure();
 
   const handleCopy = (text: string) => async () => await copy(text);
 
@@ -109,7 +72,7 @@ export default function ShareBar({ report }: ShareBarProps) {
           radius='full'
           size='md'
           variant='light'
-          onPress={onOpen}
+          onPress={disclosure.onOpen}
         >
           <MailIcon size={42} />
         </Button>
@@ -126,69 +89,7 @@ export default function ShareBar({ report }: ShareBarProps) {
           <CopyIcon size={42} />
         </Button>
       </Tooltip>
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-        <form action={formAction}>
-          <ModalContent>
-            {(onClose) => (
-              <>
-                <ModalHeader className='flex flex-col gap-1'>
-                  Send the results to mail
-                </ModalHeader>
-                <ModalBody>
-                  <p>
-                    We will send the result to the email you provide. We will
-                    not spam you or use your email for any other purposes.
-                  </p>
-                  <Input
-                    autoFocus
-                    endContent={
-                      <MailIcon className='text-2xl text-default-400 pointer-events-none flex-shrink-0' />
-                    }
-                    label='Email'
-                    name='to'
-                    type='email'
-                    value={email}
-                    onValueChange={setEmail}
-                    isInvalid={isInvalidEmail}
-                    errorMessage={
-                      isInvalidEmail && 'Please enter a valid email address'
-                    }
-                    placeholder='Enter your email'
-                    variant='bordered'
-                  />
-                  <Textarea
-                    name='message'
-                    className='hidden'
-                    value={`https://bigfive-test.com/result/${report.id}`}
-                  />
-                  {state.message && (
-                    <Chip
-                      color={state.type === 'success' ? 'success' : 'danger'}
-                      size='lg'
-                      className='w-fit'
-                    >
-                      <p>{state.message}</p>
-                    </Chip>
-                  )}
-                </ModalBody>
-                <ModalFooter>
-                  <Button color='danger' variant='light' onPress={onClose}>
-                    Close
-                  </Button>
-                  <Button
-                    color='primary'
-                    isDisabled={email === '' || isInvalidEmail || pending}
-                    isLoading={pending}
-                    type='submit'
-                  >
-                    Send
-                  </Button>
-                </ModalFooter>
-              </>
-            )}
-          </ModalContent>
-        </form>
-      </Modal>
+      <EmailModal disclosure={disclosure} reportId={report.id} />
     </>
   );
 }
