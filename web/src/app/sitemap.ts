@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }
     },
     {
-      url: basePath,
+      url: basePath + '/result',
       lastModified: new Date(),
       alternates: {
         languages: alternatesPageLang('/result')
