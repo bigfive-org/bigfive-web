@@ -44,6 +44,7 @@ export const languages: Language[] = [
   { code: 'pl', name: 'Polish', countryCode: 'pl' },
   { code: 'ru', name: 'Russian', countryCode: 'ru' },
   { code: 'th', name: 'Thai', countryCode: 'th' },
+  { code: 'cs', name: 'Czech', countryCode: 'cz' },
   {
     code: 'zh',
     name: 'Chinese',
