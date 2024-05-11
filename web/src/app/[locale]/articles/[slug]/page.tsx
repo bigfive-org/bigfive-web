@@ -10,6 +10,7 @@ import { ViewCounter } from '@/components/view-counter';
 import { Suspense } from 'react';
 import { basePath } from '@/config/site';
 import { Metadata } from 'next';
+import { PostCard } from '@/components/post-card';
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
@@ -51,11 +52,29 @@ export const generateMetadata = ({
 };
 
 const PostLayout = async ({ params }: { params: { slug: string } }) => {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
+  const currentPost = allPosts.find(
+    (post) => post._raw.flattenedPath === params.slug
+  );
+
+  const posts = allPosts.filter((aPost) => aPost._id !== currentPost?._id);
+
+  const currentTags = new Set(currentPost?.tags?.split(', '));
+  const relevantPosts = posts
+    .map((post) => {
+      const postTags = post.tags.split(', ');
+      let relevance = postTags.reduce(
+        (acc, tag) => acc + (currentTags.has(tag) ? 1 : 0),
+        0
+      );
+      return { ...post, relevance };
+    })
+    .sort((a, b) => b.relevance - a.relevance)
+    .slice(0, 3);
+
+  if (!currentPost) throw new Error(`Post not found for slug: ${params.slug}`);
   return (
     <article className='w-full flex flex-col justify-start items-center prose prose-neutral'>
-      <div className='w-full max-w-4xl'>
+      <div>
         <div className='flex'>
           <div className='flex grow'>
             <Link
@@ -77,20 +96,20 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
             <div className='mb-3 flex w-full flex-col items-end'>
               <User
                 // href={post.author?.link}
-                name={post.author?.name}
-                description={post.author?.username}
+                name={currentPost.author?.name}
+                description={currentPost.author?.username}
                 avatarProps={{
-                  src: post.author?.avatar
+                  src: currentPost.author?.avatar
                 }}
               />
             </div>
           </div>
         </div>
-        {post.image && (
+        {currentPost.image && (
           <div className='relative w-full'>
             <Image
-              src={post.image}
-              alt={post.title}
+              src={currentPost.image}
+              alt={currentPost.title}
               width={1200}
               height={600}
               className='mb-4 w-full object-cover'
@@ -98,32 +117,37 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
             <div className='absolute inset-0 flex md:mt-8 mt-2 mx-2 md:mx-4'>
               <div className='bg-foreground px-4 py-2 z-10 h-fit rounded'>
                 <h1 className='lg:text-5xl md:text-4xl text-xl font-bold z-20 text-background'>
-                  {post.title}
+                  {currentPost.title}
                 </h1>
               </div>
             </div>
           </div>
         )}
         <div className='flex justify-between text-small mb-2 text-default-500 w-full'>
-          <p>{calculateReadingTime(post.body.raw)} min read</p>
+          <p>{calculateReadingTime(currentPost.body.raw)} min read</p>
           <Suspense>
-            <ViewCounter postId={post._id} />
+            <ViewCounter postId={currentPost._id} />
           </Suspense>
-          <time dateTime={post.date}>
-            {format(parseISO(post.date), 'LLLL d, yyyy')}
+          <time dateTime={currentPost.date}>
+            {format(parseISO(currentPost.date), 'LLLL d, yyyy')}
           </time>
         </div>
         <div
           className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage mt-10'
-          dangerouslySetInnerHTML={{ __html: post.body.html }}
+          dangerouslySetInnerHTML={{ __html: currentPost.body.html }}
         />
         <div className='flex gap-2 flex-wrap mt-4'>
-          {post.tags.split(', ').map((tag: string, index: number) => (
+          {currentPost.tags.split(', ').map((tag: string, index: number) => (
             <Chip key={index} variant='flat'>
               {tag}
             </Chip>
           ))}
         </div>
+      </div>
+      <div className='mt-10 grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]'>
+        {relevantPosts.map((post) => (
+          <PostCard key={post._id} {...post} />
+        ))}
       </div>
     </article>
   );
