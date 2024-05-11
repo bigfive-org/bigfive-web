@@ -20,8 +20,7 @@ const czech = {
     tests_taken: 'Více než <green>{n}</green> lidí vyplnilo náš test',
     compare: {
       title: 'Porovnejte se s ostatními',
-      text1:
-        'Porovnejte se se svým partnerem, kolegy, přáteli a rodinou.',
+      text1: 'Porovnejte se se svým partnerem, kolegy, přáteli a rodinou.',
       text2: 'Zjistěte, jak selišíte odostatních v hlavních pěti doménách:',
       action: 'Vidět v akci'
     },
@@ -102,7 +101,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Informace',
-    informationText: 'Informace, které nám dáte, využíváme abychom Vám poskytli',
+    informationText:
+      'Informace, které nám dáte, využíváme abychom Vám poskytli',
     mostAccurate: 'co nejpřesnější výsledky',
     readMoreAbout: 'Přečíst si více o',
     privacy: 'soukromí',
@@ -148,8 +148,7 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Svědomitost',
     seo: {
       title: 'Přehled domény Svědomitosti',
-      description:
-        'Přečíst si více o doméně Svědomitosti v modelu b5'
+      description: 'Přečíst si více o doméně Svědomitosti v modelu b5'
     }
   },
   extraversion: {
@@ -175,9 +174,9 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   getCompare: {
     title: 'Porovnat lidi nebo týmy',
-    description1:
-      'Porovnejte výsledky testu s více lidmi.',
-    description2: 'Vložte své ID, které jste získali společně s výsledky, např. ',
+    description1: 'Porovnejte výsledky testu s více lidmi.',
+    description2:
+      'Vložte své ID, které jste získali společně s výsledky, např. ',
     description3: 'do pole ID-input',
     needToAddPeople: 'Pro porovnání lidí je musíte nejdříve přidat',
     addAnother: 'Přidat další osobu',
@@ -191,7 +190,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     theBigFive: 'Velká Pětka',
     score: 'skóre',
     important: 'Důležité!',
-    saveResults: 'Následující ID si uložte, abyste si mohli výsledky zobrazit později nebo se',
+    saveResults:
+      'Následující ID si uložte, abyste si mohli výsledky zobrazit později nebo se',
     compare: 'porovnat',
     toOthers: 's ostatními',
     seo: {

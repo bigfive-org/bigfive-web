@@ -8,7 +8,6 @@ import { useFormState, useFormStatus } from 'react-dom';
 import { Chip } from '@nextui-org/react';
 
 export default function Feedback() {
-  const { pending } = useFormStatus();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -71,15 +70,7 @@ export default function Feedback() {
           />
         </div>
       </div>
-      <Button
-        color='primary'
-        className='mt-4'
-        isLoading={pending}
-        type='submit'
-        isDisabled={isInvalidForm}
-      >
-        Submit
-      </Button>
+      <SubmitButton isInvalidForm={isInvalidForm} />
       {state.message && (
         <div className='mt-4'>
           <Chip
@@ -94,3 +85,18 @@ export default function Feedback() {
     </form>
   );
 }
+
+const SubmitButton = ({ isInvalidForm }: { isInvalidForm: boolean }) => {
+  const { pending } = useFormStatus();
+  return (
+    <Button
+      color='primary'
+      className='mt-4'
+      isLoading={pending}
+      type='submit'
+      isDisabled={isInvalidForm}
+    >
+      Submit
+    </Button>
+  );
+};

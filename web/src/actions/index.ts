@@ -91,7 +91,7 @@ export type FeebackState = {
 };
 
 export async function saveFeedback(
-  prevState: FeebackState,
+  _: FeebackState,
   formData: FormData
 ): Promise<FeebackState> {
   'use server';
