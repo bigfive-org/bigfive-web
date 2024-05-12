@@ -137,7 +137,18 @@ export default function TranslationPage() {
               </Table>
             </div>
           </Tab>
-          <Tab key='Result text' title='Result text'></Tab>
+          <Tab
+            key='Result text'
+            isDisabled
+            title={
+              <div className='flex items-center space-x-2'>
+                <span>Result text</span>
+                <Chip size='sm' variant='faded'>
+                  WIP
+                </Chip>
+              </div>
+            }
+          ></Tab>
           <Tab
             key='Web page'
             isDisabled
