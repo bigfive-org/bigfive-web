@@ -62,7 +62,7 @@ export default function TranslationPage() {
     },
     {
       key: 'edit',
-      label: 'EDIT'
+      label: 'EDIT TRANSLATION'
     }
   ];
 
