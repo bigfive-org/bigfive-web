@@ -40,7 +40,7 @@ const finnish = {
       },
       translated: {
         title: 'Käännetty',
-        text: 'Käännetty yli 20 kielelle. Auttaa <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">tässä</a>!'
+        text: 'Käännetty yli 20 kielelle. Auttaa <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">tässä</a>!'
       }
     },
     description: {

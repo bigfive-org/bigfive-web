@@ -58,7 +58,7 @@ export default function Home({ params: { locale } }: Props) {
       title: t('cards.translated.title'),
       description: t.raw('cards.translated.text'),
       icon: LanguageIcon({}),
-      href: 'https://b5.translations.alheimsins.net/'
+      href: 'https://bigfive-test.com/translations'
     }
   ];
 

@@ -41,7 +41,7 @@ const norsk = {
       },
       translated: {
         title: 'Oversettelser',
-        text: 'Testen er oversatt til mer enn 20 språk. Hjelp til på <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">oversettelsesiden</a>!'
+        text: 'Testen er oversatt til mer enn 20 språk. Hjelp til på <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">oversettelsesiden</a>!'
       }
     },
     description: {

@@ -42,7 +42,7 @@ const portuguese = {
       },
       translated: {
         title: 'Traduzido',
-        text: 'Traduzido para mais de 20 idiomas. Ajude <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aqui</a>!'
+        text: 'Traduzido para mais de 20 idiomas. Ajude <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">aqui</a>!'
       }
     },
     description: {

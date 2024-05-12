@@ -42,7 +42,7 @@ const deutsh = {
       },
       translated: {
         title: 'Übersetzung',
-        text: 'Übersetzt in über 20 Sprachen. Hilf mit <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">hier</a>!'
+        text: 'Übersetzt in über 20 Sprachen. Hilf mit <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">hier</a>!'
       }
     },
     description: {

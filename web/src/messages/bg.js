@@ -40,7 +40,7 @@ const bulgarian = {
       },
       translated: {
         title: 'Преведен',
-        text: 'Преведен на над 20 езика. Можете да помогнете на <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">тази страница за преводи</a>!'
+        text: 'Преведен на над 20 езика. Можете да помогнете на <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">тази страница за преводи</a>!'
       }
     },
     description: {

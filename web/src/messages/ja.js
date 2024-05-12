@@ -40,7 +40,7 @@ const japanese = {
       },
       translated: {
         title: '翻訳済み',
-        text: '20以上の言語に翻訳されています。 <a href="https://b5.translations.alheimsins.net/" rel="noreferrer"target="blank">こちら</a>をご覧ください。'
+        text: '20以上の言語に翻訳されています。 <a href="https://bigfive-test.com/translations" rel="noreferrer"target="blank">こちら</a>をご覧ください。'
       }
     },
     description: {

@@ -39,7 +39,7 @@ const hindi = {
       },
       translated: {
         title: 'Translated',
-        text: '20 से अधिक भाषाओं में अनुवादित. मदद करना <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">here</a>!'
+        text: '20 से अधिक भाषाओं में अनुवादित. मदद करना <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">here</a>!'
       }
     },
     description: {

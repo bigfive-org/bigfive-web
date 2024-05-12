@@ -39,7 +39,7 @@ const chinese = {
       },
       translated: {
         title: '已翻译',
-        text: '翻译成 20 多种语言。<a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">点击这里</a>帮助翻译!'
+        text: '翻译成 20 多种语言。<a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">点击这里</a>帮助翻译!'
       }
     },
     description: {

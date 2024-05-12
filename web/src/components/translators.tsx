@@ -18,7 +18,7 @@ export const Translators = () => {
           <HeartFilledIcon />
         </div>
         <div>
-          <Link isExternal href='https://b5.translations.alheimsins.net/'>
+          <Link href='https://bigfive-test.com/translations'>
             Help out here!
           </Link>
         </div>
