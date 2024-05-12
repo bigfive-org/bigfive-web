@@ -2,7 +2,7 @@
 
 import { Card, CardBody, CardHeader } from '@nextui-org/card';
 import { getItems, getInfo } from '@bigfive-org/questions';
-import { Input } from '@nextui-org/input';
+import { Input, Textarea } from '@nextui-org/input';
 import { Button } from '@nextui-org/button';
 import { TranslationState, generateTranslation } from '@/actions';
 import { subtitle, title } from '@/components/primitives';
@@ -38,14 +38,9 @@ export default function TranslatePage({
             <h1 className='text-large font-bold'>Personal information</h1>
           </CardHeader>
           <CardBody className='gap-4'>
-            <Input name='name' label='Name' />
-            <Input name='email' type='email' label='Email' />
-            <Input
-              className='hidden'
-              name='language'
-              type='hidden'
-              value={lang}
-            />
+            <Input name='name' label='Name (will be credited)' isRequired />
+            <Input name='email' type='email' label='Email' isRequired />
+            <Textarea name='notes' label='Other notes' />
           </CardBody>
         </Card>
         <Card>

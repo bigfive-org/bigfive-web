@@ -194,7 +194,7 @@ export const generateTranslation = async (
     await collection.insertOne({
       name: String(formData.get('name')),
       email: String(formData.get('email')),
-      language: String(formData.get('language')),
+      notes: String(formData.get('notes')),
       choices: translatedChoices,
       questions: translatedItems
     });
