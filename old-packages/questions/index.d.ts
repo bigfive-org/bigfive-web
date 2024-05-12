@@ -41,10 +41,16 @@ export type Translator = {
   description?: string;
 }
 
+
+export type ChoiceKeyed = {
+  plus: Choice[];
+  minus: Choice[];
+}
+
 export function getItems(lang?: string, shuffle?: boolean): Question[];
 
 export function getInfo(): Info;
 
-export function getChoices(lang?: string): Record<string, string[]>;
+export function getChoices(lang?: string): ChoiceKeyed;
 
 export function getQuestions(lang?: string): Question[];
