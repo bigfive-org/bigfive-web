@@ -10,6 +10,7 @@ import generateResult, {
   Domain
 } from '@bigfive-org/results';
 import nodemailer from 'nodemailer';
+import { getItems, getChoices } from '@bigfive-org/questions';
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.zoho.eu',
@@ -151,3 +152,60 @@ export async function sendEmail(
     };
   }
 }
+
+export type TranslationState = {
+  message: string;
+  type: 'error' | 'success';
+};
+
+export const generateTranslation = async (
+  _: TranslationState,
+  formData: FormData
+): Promise<TranslationState> => {
+  'use server';
+
+  const choices = getChoices('en');
+  const plusKeyedChoices = choices.plus.map((choice) => ({
+    ...choice,
+    text: formData.get(choice.score.toString())
+  }));
+
+  const minusKeyedChoices = choices.minus.map((choice) => ({
+    ...choice,
+    text: formData.get(choice.score.toString())
+  }));
+
+  const translatedChoices = {
+    plus: plusKeyedChoices,
+    minus: minusKeyedChoices
+  };
+
+  const translatedItems = getItems('en').map((item) => {
+    const { choices, ...rest } = item;
+    return {
+      ...rest,
+      text: formData.get(item.id) as string
+    };
+  });
+
+  try {
+    const db = await connectToDatabase();
+    const collection = db.collection('translations');
+    await collection.insertOne({
+      name: String(formData.get('name')),
+      email: String(formData.get('email')),
+      language: String(formData.get('language')),
+      choices: translatedChoices,
+      questions: translatedItems
+    });
+    return {
+      message: 'Thanks <3 Saved successfully!',
+      type: 'success'
+    };
+  } catch (error) {
+    return {
+      message: 'Error saving',
+      type: 'error'
+    };
+  }
+};

@@ -24,7 +24,8 @@ export default function TranslationPage() {
     {
       id: 'b5-costa-mccrae-300-ipip-neo-pi-r',
       name: 'b5-costa-mccrae-300-ipip-neo-pi-r',
-      description: "Big Five Costa and McCrae's 300 IPIP-NEO-PI-R items"
+      description: "Big Five Costa and McCrae's 300 IPIP-NEO-PI-R items",
+      disabled: true
     }
   ];
 
@@ -66,11 +67,14 @@ export default function TranslationPage() {
             Help us translate this to your language
           </h5>
         </div>
-        <Tabs aria-label='Options'>
+        <Tabs aria-label='Options' className='flex items-center justify-center'>
           <Tab key='Survey' title='Survey'>
             <div className='flex gap-6 mt-8'>
               {modules.map((module) => (
-                <Card key={module.id}>
+                <Card
+                  key={module.id}
+                  isDisabled={module.disabled ? true : false}
+                >
                   <CardBody>
                     <p>{module.name}</p>
                     <p className='text-small text-default-500'>

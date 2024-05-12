@@ -121,9 +121,9 @@ export default async function RootLayout({
           strategy='beforeInteractive'
         />
         <Script
-          async
           src='https://cdn.fuseplatform.net/publift/tags/2/3645/fuse.js'
           strategy='lazyOnload'
+          id='script-component-ad'
         />
         <Analytics />
         <RouteChangeListener />
