@@ -10,7 +10,7 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@bigfive-org/questions": "1.4.8",
+    "@bigfive-org/questions": "1.4.9",
     "@bigfive-org/results": "1.4.9",
     "@bigfive-org/score": "1.4.2",
     "@emotion/is-prop-valid": "1.2.2",
