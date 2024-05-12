@@ -13,8 +13,10 @@ import {
   TableCell,
   getKeyValue
 } from '@nextui-org/table';
+import { useRouter } from '@/navigation';
 
 export default function TranslationPage() {
+  const router = useRouter();
   const modules = [
     {
       id: 'b5-johnson-120-ipip-neo-pi-r',
@@ -82,7 +84,13 @@ export default function TranslationPage() {
                     </p>
                   </CardBody>
                   <CardFooter className='justify-end'>
-                    <Button color='primary'>Translate this</Button>
+                    <Button
+                      color='primary'
+                      isDisabled={module.disabled ? true : false}
+                      onPress={() => router.push(`/translations/${module.id}`)}
+                    >
+                      Translate this
+                    </Button>
                   </CardFooter>
                 </Card>
               ))}
