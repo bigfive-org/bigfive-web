@@ -119,7 +119,18 @@
   },
   {
     "id": "tr",
-    "text": "Turkish"
+    "text": "Turkish",
+    "translators": [
+      {
+        "name": "Prof. Oya Somer"
+      },
+      {
+        "name": "Mediha Korkmaz"
+      },
+      {
+        "name": "Arkun Tatar"
+      }
+    ]
   },
   {
     "id": "hy",

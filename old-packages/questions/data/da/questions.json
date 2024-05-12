@@ -1,7 +1,7 @@
 [
   {
     "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
-    "text": "Bekymrer mig om ting",
+    "text": "Bekymrer mig om mange ting",
     "keyed": "plus",
     "domain": "N",
     "facet": 1
@@ -22,21 +22,21 @@
   },
   {
     "id": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
-    "text": "Stoler på andre",
+    "text": "Stoler på, hvad andre siger",
     "keyed": "plus",
     "domain": "A",
     "facet": 1
   },
   {
     "id": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
-    "text": "Afslutter opgaver med succes",
+    "text": "Fuldfører opgaver med success",
     "keyed": "plus",
     "domain": "C",
     "facet": 1
   },
   {
     "id": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
-    "text": "Bliver nemt vred",
+    "text": "Bliver let vred",
     "keyed": "plus",
     "domain": "N",
     "facet": 2
@@ -71,21 +71,21 @@
   },
   {
     "id": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
-    "text": "Er ofte trist",
+    "text": "Er ofte nedtrykt",
     "keyed": "plus",
     "domain": "N",
     "facet": 3
   },
   {
     "id": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
-    "text": "Tager styringen",
+    "text": "Tager føringen",
     "keyed": "plus",
     "domain": "E",
     "facet": 3
   },
   {
     "id": "0727def6-3d18-4221-bf38-86b58f9f3eed",
-    "text": "Oplever mine følelser kraftigt",
+    "text": "Oplever mine følelser intenst",
     "keyed": "plus",
     "domain": "O",
     "facet": 3
@@ -99,35 +99,35 @@
   },
   {
     "id": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
-    "text": "Holder hvad jeg lover",
+    "text": "Holder mine løfter",
     "keyed": "plus",
     "domain": "C",
     "facet": 3
   },
   {
     "id": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
-    "text": "Har svært ved at henvende mig til andre",
+    "text": "Har svært ved at indlede en samtale",
     "keyed": "plus",
     "domain": "N",
     "facet": 4
   },
   {
     "id": "48a761ef-438e-409b-ae59-ea2ce8f84414",
-    "text": "Er altid travl",
+    "text": "Har altid travlt",
     "keyed": "plus",
     "domain": "E",
     "facet": 4
   },
   {
     "id": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
-    "text": "Foretrækker variation frem for rutine",
+    "text": "Foretrækker afveksling frem for rutine",
     "keyed": "plus",
     "domain": "O",
     "facet": 4
   },
   {
     "id": "e2028ad3-b128-4f76-be57-398bfe2aff22",
-    "text": "Elsker et godt skænderi",
+    "text": "Elsker en god fight",
     "keyed": "minus",
     "domain": "A",
     "facet": 4
@@ -141,7 +141,7 @@
   },
   {
     "id": "481efd08-c810-43b1-a952-f8ac9052f96b",
-    "text": "Går på drukture",
+    "text": "Går amok med mad og drikke",
     "keyed": "plus",
     "domain": "N",
     "facet": 5
@@ -155,7 +155,7 @@
   },
   {
     "id": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
-    "text": "Elsker at læse udforende materiale",
+    "text": "Elsker at læse svære tekster",
     "keyed": "plus",
     "domain": "O",
     "facet": 5
@@ -169,14 +169,14 @@
   },
   {
     "id": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
-    "text": "Er altid beredt",
+    "text": "Er altid velforberedt",
     "keyed": "plus",
     "domain": "C",
     "facet": 5
   },
   {
     "id": "2f519935-92e8-48ad-9746-4a0f8b38466a",
-    "text": "Går nemt i panik",
+    "text": "Går let i panik",
     "keyed": "plus",
     "domain": "N",
     "facet": 6
@@ -190,7 +190,7 @@
   },
   {
     "id": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
-    "text": "Har en tendens til at stemme på liberale politikere",
+    "text": "Ser mig selv som mest venstreorienteret",
     "keyed": "plus",
     "domain": "O",
     "facet": 6
@@ -204,7 +204,7 @@
   },
   {
     "id": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
-    "text": "Springer ud i tingene uden at tænke",
+    "text": "Springer ud i ting uden at tænke mig om",
     "keyed": "minus",
     "domain": "C",
     "facet": 6
