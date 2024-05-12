@@ -13,10 +13,14 @@ interface TranslatePageProps {
   params: {
     lang: string;
   };
+  searchParams: {
+    edit: boolean;
+  };
 }
 
 export default function TranslatePage({
-  params: { lang }
+  params: { lang },
+  searchParams
 }: TranslatePageProps) {
   const [state, formAction] = useFormState(generateTranslation, {
     message: '',
@@ -25,6 +29,8 @@ export default function TranslatePage({
   const items = getItems(lang);
   const choices = items[0].choices;
   const language = getInfo().languages.find((l) => l.id === lang[0]);
+
+  const edit = !!searchParams.edit;
 
   return (
     <form action={formAction}>
@@ -57,6 +63,7 @@ export default function TranslatePage({
                     id={choice.score.toString()}
                     label={`Your translation of: ${choice.text}`}
                     isRequired
+                    value={edit ? choice.text : ''}
                   />
                 </div>
               ))}
@@ -79,6 +86,7 @@ export default function TranslatePage({
                     name={item.id}
                     isRequired
                     label={`Your translation of: ${item.text}`}
+                    value={edit ? item.text : ''}
                   />
                 </div>
               ))}

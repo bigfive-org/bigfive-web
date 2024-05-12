@@ -15,6 +15,7 @@ import {
 } from '@nextui-org/table';
 import { useRouter } from '@/navigation';
 
+import { EditIcon } from '@/components/icons';
 export default function TranslationPage() {
   const router = useRouter();
   const modules = [
@@ -38,7 +39,8 @@ export default function TranslationPage() {
     status: 'VERIFIED',
     translator: language.translators
       ?.map((translator) => translator.name)
-      .join(', ')
+      .join(', '),
+    edit: true
   }));
 
   const columns = [
@@ -57,6 +59,10 @@ export default function TranslationPage() {
     {
       key: 'translator',
       label: 'TRANSLATOR'
+    },
+    {
+      key: 'edit',
+      label: 'EDIT'
     }
   ];
 
@@ -106,7 +112,24 @@ export default function TranslationPage() {
                   {(item) => (
                     <TableRow key={item.languageCode}>
                       {(columnKey) => (
-                        <TableCell>{getKeyValue(item, columnKey)}</TableCell>
+                        <TableCell>
+                          {columnKey === 'edit' ? (
+                            <Button
+                              isIconOnly
+                              variant='light'
+                              aria-label='Edit'
+                              onPress={() =>
+                                router.push(
+                                  `/translations/${modules[0].id}/${item.languageCode}?edit=true`
+                                )
+                              }
+                            >
+                              <EditIcon />
+                            </Button>
+                          ) : (
+                            getKeyValue(item, columnKey)
+                          )}
+                        </TableCell>
                       )}
                     </TableRow>
                   )}
