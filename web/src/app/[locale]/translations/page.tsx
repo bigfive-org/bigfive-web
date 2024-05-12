@@ -88,8 +88,10 @@ export default function TranslationPage() {
                     <p className='text-small text-default-500 mt-2'>
                       {module.description}.
                       <br />
-                      Help us translate to a new language here.<br />
-                      To edit an existing translation, click on Edit-icon in the table below.
+                      Help us translate to a new language here.
+                      <br />
+                      To edit an existing translation, click on Edit-icon in the
+                      table below.
                     </p>
                   </CardBody>
                   <CardFooter className='justify-end'>

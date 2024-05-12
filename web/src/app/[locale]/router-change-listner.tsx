@@ -7,7 +7,7 @@ export function RouteChangeListener() {
   const pathname = usePathname();
   const [changes, setChanges] = useState(0);
 
-  const noAds = ['/translations']
+  const noAds = ['/translations'];
 
   useEffect(() => {
     if (noAds.includes(pathname)) {

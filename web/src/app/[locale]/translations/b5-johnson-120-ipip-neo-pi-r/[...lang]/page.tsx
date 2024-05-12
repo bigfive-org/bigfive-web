@@ -63,7 +63,7 @@ export default function TranslatePage({
                     id={choice.score.toString()}
                     label={`Your translation of: ${choice.text}`}
                     isRequired
-                    value={edit ? choice.text : ''}
+                    defaultValue={edit ? choice.text : ''}
                   />
                 </div>
               ))}
@@ -86,7 +86,7 @@ export default function TranslatePage({
                     name={item.id}
                     isRequired
                     label={`Your translation of: ${item.text}`}
-                    value={edit ? item.text : ''}
+                    defaultValue={edit ? item.text : ''}
                   />
                 </div>
               ))}
