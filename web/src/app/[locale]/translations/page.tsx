@@ -58,7 +58,7 @@ export default function TranslationPage() {
     },
     {
       key: 'translator',
-      label: 'TRANSLATOR'
+      label: 'TRANSLATORS'
     },
     {
       key: 'edit',
@@ -85,8 +85,11 @@ export default function TranslationPage() {
                 >
                   <CardBody>
                     <p>{module.name}</p>
-                    <p className='text-small text-default-500'>
-                      {module.description}
+                    <p className='text-small text-default-500 mt-2'>
+                      {module.description}.
+                      <br />
+                      Help us translate to a new language here.<br />
+                      To edit an existing translation, click on 'Edit' icon in the table below.
                     </p>
                   </CardBody>
                   <CardFooter className='justify-end'>
