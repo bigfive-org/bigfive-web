@@ -89,7 +89,7 @@ export default function TranslationPage() {
                       {module.description}.
                       <br />
                       Help us translate to a new language here.<br />
-                      To edit an existing translation, click on 'Edit' icon in the table below.
+                      To edit an existing translation, click on Edit-icon in the table below.
                     </p>
                   </CardBody>
                   <CardFooter className='justify-end'>
