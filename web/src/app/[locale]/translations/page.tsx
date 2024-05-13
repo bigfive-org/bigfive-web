@@ -136,7 +136,7 @@ export default function TranslationPage() {
         <div className='text-center mb-8'>
           <h1 className='mb-2 font-bold text-4xl'>Translations</h1>
           <h5 className='text-default-500 text-lg'>
-            Help us translate this to your language
+            Help us translate this to your language. Thank you for your support!
           </h5>
         </div>
         <Tabs aria-label='Options' className='flex items-center justify-center'>

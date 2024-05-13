@@ -26,17 +26,12 @@ export default function TranslationResult({
     <form action={formAction}>
       <div className='gap-4 flex flex-col'>
         <h1 className={title()}>Translation</h1>
-        <h2 className={subtitle()}>Translation of the results page</h2>
-        <Card>
-          <CardHeader>
-            <h1 className='text-large font-bold'>Personal information</h1>
-          </CardHeader>
-          <CardBody className='gap-4'>
-            <Input name='name' label='Name (will be credited)' isRequired />
-            <Input name='email' type='email' label='Email' isRequired />
-            <Textarea name='notes' label='Other notes' />
-          </CardBody>
-        </Card>
+        <h2 className={subtitle()}>
+          Translation of the results page.
+          The translation will be saved in the database and manually reviewed. If you
+          have any questions, please contact us at <a href='mailto:bigfive-test@rubynor.com' className='underline'>bigfive-test@rubynor.com</a>
+        </h2>
+
         {template.map((item: any) => {
           return (
             <Card key={item.domain}>
