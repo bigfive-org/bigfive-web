@@ -52,6 +52,19 @@ test('validation of question ids across languages', t => {
   }, false)
 })
 
+test('validation of question ipip-ids across languages', t => {
+  const languages = getInfo().languages.map(({ ipipId }) => ipipId)
+  if (languages.length <= 1) t.pass()
+  const questions = languages.map(getItems)
+  const ids = questions.map(qs => qs.map(q => q.ipipId))
+  ids.reduce((previous, current) => {
+    if (previous !== false) {
+      t.deepEqual(previous, current, 'ids match')
+    }
+    return current
+  }, false)
+})
+
 test('it returns sorted inventory items', t =>
   t.truthy(getItems('en', false), 'sorted items ok')
 )
