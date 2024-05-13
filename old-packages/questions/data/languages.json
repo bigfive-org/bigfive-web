@@ -3,6 +3,7 @@
     "id": "en",
     "text": "English",
     "verified": true,
+    "link": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
     "translators": [
       {
         "name": "John A. Johnson",
@@ -83,6 +84,7 @@
     "id": "ur",
     "text": "Urdu",
     "verified": true,
+    "link": "https://sites.google.com/site/mailtoiftikhar/big-five-ipip-neo-short-scale-urdu-translation",
     "translators": [
       {
         "name": "Engr. Ahmad Khan"
@@ -103,6 +105,7 @@
     "id": "ja",
     "text": "Japanese",
     "verified": true,
+    "link": "https://ipip.ori.org/JapaneseIPIP-NEOFacets.htm",
     "translators": [
       {
         "name": "Omar Karlin"
@@ -113,6 +116,7 @@
     "id": "it",
     "text": "Italian",
     "verified": true,
+    "link": "https://ipip.ori.org/ItalianIPIP-NEO-120.htm",
     "translators": [
       {
         "name": "Michelangelo Vianello"
@@ -134,6 +138,7 @@
     "id": "tr",
     "text": "Turkish",
     "verified": true,
+    "link": "https://ipip.ori.org/Turkish924Items.htm",
     "translators": [
       {
         "name": "Prof. Oya Somer"
@@ -150,6 +155,7 @@
     "id": "hy",
     "text": "Armenian",
     "verified": true,
+    "link": "https://ipip.ori.org/ArmenianIPIP-NEO-120.htm",
     "translators": [
       {
         "name": "Mikayel Harutyunyan"
@@ -211,6 +217,7 @@
     "id": "nl",
     "text": "Dutch",
     "verified": true,
+    "link": "https://ipip.ori.org/DutchIPIP-NEO-120.htm",
     "translators": [
       {
         "name": "Eus van Somerenk"
@@ -248,6 +255,7 @@
     "id": "sr",
     "text": "Serbian",
     "verified": true,
+    "link": "https://ipip.ori.org/Serbian2544Items.htm",
     "translators": [
       {
         "name": "Snezana Smederevac"
@@ -267,6 +275,7 @@
     "id": "sl",
     "text": "Slovenian",
     "verified": true,
+    "link": "https://ipip.ori.org/SloveneIPIP-NEOFacets.htm",
     "translators": [
       {
         "name": "Janek Musek"
@@ -277,6 +286,7 @@
     "id": "hr",
     "text": "Croatian",
     "verified": true,
+    "link": "https://ipip.ori.org/CroatianIPIP-NEOFacets.htm",
     "translators": [
       {
         "name": "Željko Jerneić"
@@ -296,6 +306,7 @@
     "id": "et",
     "text": "Estonian",
     "verified": true,
+    "link": "https://ipip.ori.org/EstonianIPIP-NEOFacets.htm",
     "translators": [
       {
         "name": "René Mõttus"
