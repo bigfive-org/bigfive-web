@@ -168,7 +168,6 @@ export default function TranslationPage() {
             </div>
           </Tab>
           <Tab key='Result text' title='Result text'>
-            <Modules modules={modules} />
             <div className='mt-8'>
               <Table aria-label='Translations table'>
                 <TableHeader columns={columns}>
