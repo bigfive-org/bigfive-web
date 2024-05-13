@@ -3,8 +3,8 @@
 import { getInfo } from '@bigfive-org/questions';
 import { getInfo as getResultsInfo } from '@bigfive-org/results';
 import { Button } from '@nextui-org/button';
-import { Card, CardBody, CardFooter } from '@nextui-org/card';
-import { Chip, Tab, Tabs, Tooltip } from '@nextui-org/react';
+import { Card, CardBody, CardFooter, CardHeader } from '@nextui-org/card';
+import { Chip, Tab, Tabs, Tooltip, User } from '@nextui-org/react';
 import {
   Table,
   TableHeader,
@@ -35,6 +35,7 @@ export default function TranslationPage() {
   ];
 
   const { languages: surveyLanguages } = getInfo();
+
   type TranslatedLanguage = {
     language: string;
     languageCode: string;
@@ -42,6 +43,7 @@ export default function TranslationPage() {
     translator?: string;
     edit: boolean;
   };
+
   const surveyTranslators: TranslatedLanguage[] = surveyLanguages.map(
     (language) => ({
       language: language.text,
@@ -53,6 +55,10 @@ export default function TranslationPage() {
       edit: true
     })
   );
+
+  const translators = surveyLanguages
+    .filter((language) => language.translators)
+    .flatMap((language) => language.translators);
 
   const { languages: resultTextLanguages } = getResultsInfo();
 
@@ -205,6 +211,32 @@ export default function TranslationPage() {
               </div>
             }
           ></Tab>
+          <Tab key='Translators' title='Translators'>
+            <Card>
+              <CardHeader>
+                <div className='text-center w-full'>
+                  <h1 className='text-large font-medium'>Translators</h1>
+                </div>
+              </CardHeader>
+              <CardBody className='flex flex-wrap flex-row gap-3'>
+                {translators
+                  .sort((a, _) => (a?.githubUser ? -1 : 1))
+                  .map((translator) =>
+                    translator?.githubUser ? (
+                      <User
+                        key={translator?.name}
+                        name={translator?.name}
+                        avatarProps={{
+                          src: `https://avatars.githubusercontent.com/${translator?.githubUser}`
+                        }}
+                      />
+                    ) : (
+                      <User key={translator?.name} name={translator?.name} />
+                    )
+                  )}
+              </CardBody>
+            </Card>
+          </Tab>
         </Tabs>
       </div>
     </>
@@ -232,11 +264,13 @@ const Modules = ({ modules }: ModulesProps) => {
               {module.description}.
               <br />
               Help us translate to a new language here.
-              <br /><br />
+              <br />
+              <br />
               To edit an existing translation, click on Edit-icon in the table
               below.
-              <br /><br />
-              A translation may exist here: https://ipip.ori.org/newItemTranslations.htm
+              <br />
+              <br />A translation may exist here:
+              https://ipip.ori.org/newItemTranslations.htm
             </p>
           </CardBody>
           <CardFooter className='justify-end'>

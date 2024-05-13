@@ -27,9 +27,12 @@ export default function TranslationResult({
       <div className='gap-4 flex flex-col'>
         <h1 className={title()}>Translation</h1>
         <h2 className={subtitle()}>
-          Translation of the results page.
-          The translation will be saved in the database and manually reviewed. If you
-          have any questions, please contact us at <a href='mailto:bigfive-test@rubynor.com' className='underline'>bigfive-test@rubynor.com</a>
+          Translation of the results page. The translation will be saved in the
+          database and manually reviewed. If you have any questions, please
+          contact us at{' '}
+          <a href='mailto:bigfive-test@rubynor.com' className='underline'>
+            bigfive-test@rubynor.com
+          </a>
         </h2>
 
         {template.map((item: any) => {

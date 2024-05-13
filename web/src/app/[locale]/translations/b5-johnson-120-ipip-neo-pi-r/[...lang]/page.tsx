@@ -37,9 +37,12 @@ export default function TranslatePage({
       <div className='gap-4 flex flex-col'>
         <h1 className={title()}>Translation from {language?.text}</h1>
         <h2 className={subtitle()}>
-          Survey {getInfo().name} ({getInfo().questions} questions).
-          The translation will be saved in the database and manually reviewed. If you
-          have any questions, please contact us at <a href='mailto:bigfive-test@rubynor.com' className='underline'>bigfive-test@rubynor.com</a>
+          Survey {getInfo().name} ({getInfo().questions} questions). The
+          translation will be saved in the database and manually reviewed. If
+          you have any questions, please contact us at{' '}
+          <a href='mailto:bigfive-test@rubynor.com' className='underline'>
+            bigfive-test@rubynor.com
+          </a>
         </h2>
         <Card>
           <CardHeader>
