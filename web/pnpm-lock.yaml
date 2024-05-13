@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@bigfive-org/questions':
-        specifier: 1.5.1
-        version: 1.5.1
+        specifier: 1.5.2
+        version: 1.5.2
       '@bigfive-org/results':
         specifier: 1.5.1
         version: 1.5.1
@@ -225,8 +225,8 @@ packages:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
 
-  '@bigfive-org/questions@1.5.1':
-    resolution: {integrity: sha512-SL83UC/04sDVK0jZnqB20mRwqArz2knCQQCklXyV3nWYPi0uk9B/S60VD12/Fhb+2AFG/q+jSFMGp8Ln/OhhrA==}
+  '@bigfive-org/questions@1.5.2':
+    resolution: {integrity: sha512-+xXzU8BhKbezVh2uzfdcURYhxSRjkznxtyrCyjztO2q8QqZh9OnuDk74rrh02FmQYa9wqx3jDE/n9lI0eoivJA==}
 
   '@bigfive-org/results@1.5.1':
     resolution: {integrity: sha512-O/Gow5Em309TkwOAV2ZhrZzvrSEj5/4Hdj+pmR/bCJ7ZhOxBduaZROvhofAovCwbnyCDQWz/gSMPYqU48RfpHw==}
@@ -4023,7 +4023,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@bigfive-org/questions@1.5.1': {}
+  '@bigfive-org/questions@1.5.2': {}
 
   '@bigfive-org/results@1.5.1': {}
 

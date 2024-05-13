@@ -232,9 +232,11 @@ const Modules = ({ modules }: ModulesProps) => {
               {module.description}.
               <br />
               Help us translate to a new language here.
-              <br />
+              <br /><br />
               To edit an existing translation, click on Edit-icon in the table
               below.
+              <br /><br />
+              A translation may exist here: https://ipip.ori.org/newItemTranslations.htm
             </p>
           </CardBody>
           <CardFooter className='justify-end'>
