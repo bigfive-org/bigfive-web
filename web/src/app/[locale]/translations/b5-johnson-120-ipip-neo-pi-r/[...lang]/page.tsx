@@ -4,7 +4,7 @@ import { Card, CardBody, CardHeader } from '@nextui-org/card';
 import { getItems, getInfo } from '@bigfive-org/questions';
 import { Input, Textarea } from '@nextui-org/input';
 import { Button } from '@nextui-org/button';
-import { TranslationState, generateTranslation } from '@/actions';
+import { TranslationState, generateSurveyTranslation } from '@/actions';
 import { subtitle, title } from '@/components/primitives';
 import { Chip } from '@nextui-org/react';
 import { useFormState, useFormStatus } from 'react-dom';
@@ -22,7 +22,7 @@ export default function TranslatePage({
   params: { lang },
   searchParams
 }: TranslatePageProps) {
-  const [state, formAction] = useFormState(generateTranslation, {
+  const [state, formAction] = useFormState(generateSurveyTranslation, {
     message: '',
     type: 'success'
   } as TranslationState);
@@ -97,6 +97,7 @@ export default function TranslatePage({
                 <Chip
                   color={state.type === 'success' ? 'success' : 'danger'}
                   size='lg'
+                  variant='flat'
                 >
                   <p>{state.message}</p>
                 </Chip>

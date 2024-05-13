@@ -7,7 +7,8 @@ import calculateScore from '@bigfive-org/score';
 import generateResult, {
   getInfo,
   Language,
-  Domain
+  Domain,
+  getTemplate
 } from '@bigfive-org/results';
 import nodemailer from 'nodemailer';
 import { getItems, getChoices } from '@bigfive-org/questions';
@@ -158,7 +159,50 @@ export type TranslationState = {
   type: 'error' | 'success';
 };
 
-export const generateTranslation = async (
+export const generateResultTextTranslation = async (
+  _: TranslationState,
+  formData: FormData
+): Promise<TranslationState> => {
+  'use server';
+  const translatedResultText = getTemplate('en').map((domain: any) => ({
+    ...domain,
+    title: String(formData.get(`${domain.domain}.title`)),
+    shortDescription: String(formData.get(`${domain.domain}.shortDescription`)),
+    description: String(formData.get(`${domain.domain}.description`)),
+    results: domain.results.map((result: any, i: number) => ({
+      ...result,
+      text: String(formData.get(`${domain.domain}.results[${i}].text`))
+    })),
+    facets: domain.facets.map((facet: any, i: number) => ({
+      ...facet,
+      title: String(formData.get(`${domain.domain}.facets[${i}].title`)),
+      text: String(formData.get(`${domain.domain}.facets[${i}].text`))
+    }))
+  }));
+  console.log(JSON.stringify(translatedResultText, null, 2));
+
+  try {
+    const db = await connectToDatabase();
+    const collection = db.collection('translations');
+    await collection.insertOne({
+      name: String(formData.get('name')),
+      email: String(formData.get('email')),
+      notes: String(formData.get('notes')),
+      results: translatedResultText
+    });
+    return {
+      message: 'Thanks <3 Saved successfully!',
+      type: 'success'
+    };
+  } catch (error) {
+    return {
+      message: 'Error saving',
+      type: 'error'
+    };
+  }
+};
+
+export const generateSurveyTranslation = async (
   _: TranslationState,
   formData: FormData
 ): Promise<TranslationState> => {
