@@ -1,54 +1,54 @@
 module.exports = {
   plus: [
     {
-      text: 'Meget upræcist',
+      text: 'Meget unøjagtigt',
       score: 1,
       color: 1
     },
     {
-      text: 'Rimelig upræcist',
+      text: 'Lidt unøjagtigt',
       score: 2,
       color: 2
     },
     {
-      text: 'Hverken præcist eller upræcist',
+      text: 'Hverken nøjagtigt eller unøjagtigt',
       score: 3,
       color: 3
     },
     {
-      text: 'Rimelig præcist',
+      text: 'Rimelig nøjagtigt',
       score: 4,
       color: 4
     },
     {
-      text: 'Meget præcist',
+      text: 'Meget nøjagtigt',
       score: 5,
       color: 5
     }
   ],
   minus: [
     {
-      text: 'Meget upræcist',
+      text: 'Meget unøjagtigt',
       score: 5,
       color: 1
     },
     {
-      text: 'Rimelig upræcist',
+      text: 'lidt unøjagtigt',
       score: 4,
       color: 2
     },
     {
-      text: 'Hverken præcist eller upræcist',
+      text: 'Hverken nøjagtigt eller unøjagtigt',
       score: 3,
       color: 3
     },
     {
-      text: 'Rimelig præcist',
+      text: 'Rimelig nøjagtigt',
       score: 2,
       color: 4
     },
     {
-      text: 'Meget præcist',
+      text: 'Meget nøjagtigt',
       score: 1,
       color: 5
     }

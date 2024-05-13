@@ -41,6 +41,8 @@ export interface Options {
 export interface Language {
   id: string;
   text: string;
+  verified?: boolean;
+  translators?: Translator[];
 }
 
 export interface ResultsOptions {
@@ -81,5 +83,4 @@ export function generateResult(answers: Answers, template: TemplateDomain[]): Do
 export function getDomain(options: Options): Domain;
 export function getFacet(options: Options): Facet;
 export function getInfo(): { languages: Language[] };
-export function getTranslators(): Translator[];
 export default function getResults(options: ResultsOptions): Domain[];

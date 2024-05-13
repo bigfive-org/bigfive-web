@@ -2,6 +2,7 @@
   {
     "id": "en",
     "text": "English",
+    "verified": true,
     "translators": [
       {
         "name": "John A. Johnson",
@@ -12,6 +13,7 @@
   {
     "id": "zh-cn",
     "text": "Chinese (PRC)",
+    "verified": false,
     "translators": [
       {
         "name": "Jan Shirley",
@@ -21,11 +23,13 @@
   },
   {
     "id": "zh-hk",
-    "text": "Chinese (Hong Kong)"
+    "text": "Chinese (Hong Kong)",
+    "verified": false
   },
   {
     "id": "hi",
     "text": "Hindi",
+    "verified": false,
     "translators": [
       {
         "name": "Punit Singh",
@@ -36,6 +40,7 @@
   {
     "id": "es",
     "text": "Spanish",
+    "verified": false,
     "translators": [
       {
         "name": "Eduardo Calle"
@@ -45,6 +50,7 @@
   {
     "id": "fr",
     "text": "French",
+    "verified": false,
     "translators": [
       {
         "name": "Mathew Gravel"
@@ -54,6 +60,7 @@
   {
     "id": "ru",
     "text": "Russian",
+    "verified": false,
     "translators": [
       {
         "name": "Javid Askerov",
@@ -64,6 +71,7 @@
   {
     "id": "id",
     "text": "Indonesian",
+    "verified": false,
     "translators": [
       {
         "name": "David Adi Nugroho",
@@ -74,6 +82,7 @@
   {
     "id": "ur",
     "text": "Urdu",
+    "verified": true,
     "translators": [
       {
         "name": "Engr. Ahmad Khan"
@@ -83,6 +92,7 @@
   {
     "id": "de",
     "text": "Deutsch",
+    "verified": false,
     "translators": [
       {
         "name": "Heinz Streib"
@@ -92,6 +102,7 @@
   {
     "id": "ja",
     "text": "Japanese",
+    "verified": true,
     "translators": [
       {
         "name": "Omar Karlin"
@@ -101,15 +112,17 @@
   {
     "id": "it",
     "text": "Italian",
+    "verified": true,
     "translators": [
       {
-        "name": "Lorenzo Carducci"
+        "name": "Michelangelo Vianello"
       }
     ]
   },
   {
     "id": "th",
     "text": "Thai",
+    "verified": false,
     "translators": [
       {
         "name": "Maneepailin Sriuthenchai",
@@ -120,6 +133,7 @@
   {
     "id": "tr",
     "text": "Turkish",
+    "verified": true,
     "translators": [
       {
         "name": "Prof. Oya Somer"
@@ -135,6 +149,7 @@
   {
     "id": "hy",
     "text": "Armenian",
+    "verified": true,
     "translators": [
       {
         "name": "Mikayel Harutyunyan"
@@ -144,6 +159,7 @@
   {
     "id": "uk",
     "text": "Ukrainian",
+    "verified": false,
     "translators": [
       {
         "name": "Elena Kunina",
@@ -153,11 +169,13 @@
   },
   {
     "id": "da",
-    "text": "Danish"
+    "text": "Danish",
+    "verified": false
   },
   {
     "id": "no",
     "text": "Norwegian",
+    "verified": true,
     "translators": [
       {
         "name": "Eli Huseby"
@@ -167,6 +185,7 @@
   {
     "id": "is",
     "text": "Icelandic",
+    "verified": false,
     "translators": [
       {
         "name": "Franz Jónas Arnar Arnarson"
@@ -180,6 +199,7 @@
   {
     "id": "fi",
     "text": "Finnish",
+    "verified": false,
     "translators": [
       {
         "name": "Anastasia Tapper",
@@ -190,6 +210,7 @@
   {
     "id": "nl",
     "text": "Dutch",
+    "verified": true,
     "translators": [
       {
         "name": "Eus van Somerenk"
@@ -199,6 +220,7 @@
   {
     "id": "ro",
     "text": "Romanian",
+    "verified": false,
     "translators": [
       {
         "name": "Cătălin Topală",
@@ -208,11 +230,13 @@
   },
   {
     "id": "sq",
-    "text": "Albanian"
+    "text": "Albanian",
+    "verified": false
   },
   {
     "id": "sv",
     "text": "Swedish",
+    "verified": false,
     "translators": [
       {
         "name": "Martin Bäckström",
@@ -223,15 +247,26 @@
   {
     "id": "sr",
     "text": "Serbian",
+    "verified": true,
     "translators": [
       {
         "name": "Snezana Smederevac"
+      },
+      {
+        "name": "Dusanka Mitrovic"
+      },
+      {
+        "name": "Petar Colovic"
+      },
+      {
+        "name": "Milan Oljaca"
       }
     ]
   },
   {
     "id": "sl",
     "text": "Slovenian",
+    "verified": true,
     "translators": [
       {
         "name": "Janek Musek"
@@ -241,24 +276,51 @@
   {
     "id": "hr",
     "text": "Croatian",
+    "verified": true,
     "translators": [
       {
         "name": "Željko Jerneić"
+      },
+      {
+        "name": "Zvonimir Galic"
+      },
+      {
+        "name": "Maja Parmac Kovacic"
+      },
+      {
+        "name": "Masa Tonkovic"
       }
     ]
   },
   {
     "id": "et",
     "text": "Estonian",
+    "verified": true,
     "translators": [
       {
         "name": "René Mõttus"
+      },
+      {
+        "name": "Helle Pullmann"
+      },
+      {
+        "name": "Jüri Allik"
+      },
+      {
+        "name": "Liina Haring"
+      },
+      {
+        "name": "Kenn Konstabel"
+      },
+      {
+        "name": "Anu Realo"
       }
     ]
   },
   {
     "id": "pt-br",
     "text": "Brazilian Portuguese",
+    "verified": false,
     "translators": [
       {
         "name": "Grazziano Duarte"
@@ -268,6 +330,7 @@
   {
     "id": "ar",
     "text": "Arabic",
+    "verified": false,
     "translators": [
       {
         "name": "Rayan Khan"
@@ -277,6 +340,7 @@
   {
     "id": "he",
     "text": "Hebrew",
+    "verified": false,
     "translators": [
       {
         "name": "Ben Perry"
@@ -286,6 +350,7 @@
   {
     "id": "pl",
     "text": "Polish",
+    "verified": false,
     "translators": [
       {
         "name": "Maryla Królikowska"
@@ -295,6 +360,7 @@
   {
     "id": "ko",
     "text": "Korean",
+    "verified": false,
     "translators": [
       {
         "name": "TimeTREE"
@@ -303,15 +369,18 @@
   },
   {
     "id": "hu",
-    "text": "Hungarian"
+    "text": "Hungarian",
+    "verified": false
   },
   {
     "id": "fa",
-    "text": "Persian"
+    "text": "Persian",
+    "verified": false
   },
   {
     "id": "ca",
     "text": "Catalan",
+    "verified": false,
     "translators": [
       {
         "name": "Èric Arnau Soler"
@@ -321,22 +390,27 @@
   {
     "id": "ss",
     "text": "Siswati",
+    "verified": false,
     "translators": [
       {
         "name": "Thembinkosi Dube"
-      },
+      }
+    ]
+  },
+  {
+    "id": "cs",
+    "text": "Czech",
+    "verified": false,
+    "translators": [
       {
         "name": "Vit Budina"
       }
     ]
   },
   {
-    "id": "cs",
-    "text": "Czech"
-  },
-  {
     "id": "bg",
     "text": "Bulgarian",
+    "verified": false,
     "translators": [
       {
         "name": "Lyubomir Manolov"

@@ -1,14 +1,17 @@
 const test = require('ava')
-const { getInfo, getTranslators } = require('../../index')
+const { getInfo } = require('../../index')
 
 test('returns data', t => {
   t.truthy(getInfo(), 'result ok')
 })
 
 test('translators are credited', t => {
-  const translators = getTranslators()
-  translators.forEach(translator => {
-    t.truthy(translator.name !== undefined)
-    t.truthy(translator.language !== undefined)
+  const { languages } = getInfo()
+  languages.forEach(language => {
+    if (language.translators) {
+      language.translators.forEach(translator => {
+        t.truthy(translator.name !== undefined)
+      })
+    }
   })
 })

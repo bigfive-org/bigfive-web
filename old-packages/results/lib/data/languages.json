@@ -1,70 +1,124 @@
 [
   {
     "id": "de",
-    "text": "Deutsch"
+    "text": "Deutsch",
+    "verified": false
   },
   {
     "id": "da",
-    "text": "Danish"
+    "text": "Danish",
+    "verified": false
   },
   {
     "id": "el",
-    "text": "Greek"
+    "text": "Greek",
+    "verified": false
   },
   {
     "id": "en",
-    "text": "English"
+    "text": "English",
+    "verified": true,
+    "translators": [
+      {
+        "name": "John A. Johnson",
+        "description": "Professor Emeritus of Psychology at the Pennsylvania State University"
+      }
+    ]
   },
   {
     "id": "es",
-    "text": "Spanish"
+    "text": "Spanish",
+    "verified": false
   },
   {
     "id": "fr",
-    "text": "French"
+    "text": "French",
+    "verified": false
   },
   {
     "id": "he",
-    "text": "Hebrew"
+    "text": "Hebrew",
+    "verified": false
   },
   {
     "id": "is",
-    "text": "Icelandic"
+    "text": "Icelandic",
+    "verified": false,
+    "translators": [
+      {
+        "name": "Franz Jónas Arnar Arnarson"
+      },
+      {
+        "name": "Sigurður Kári Árnason",
+        "githubUser": "sigurdurkari"
+      }
+    ]
   },
   {
     "id": "it",
-    "text": "Italian"
+    "text": "Italian",
+    "verified": false
   },
   {
     "id": "nl",
-    "text": "Dutch"
+    "text": "Dutch",
+    "verified": false
   },
   {
     "id": "no",
-    "text": "Norwegian"
+    "text": "Norwegian",
+    "verified": true,
+    "translators": [
+      {
+        "name": "Eli Huseby"
+      }
+    ]
   },
   {
     "id": "ar",
-    "text": "Arabic"
+    "text": "Arabic",
+    "verified": false
   },
   {
     "id": "pt-br",
-    "text": "Portuguese Brazilian"
+    "text": "Portuguese Brazilian",
+    "verified": false,
+    "translators": [
+      {
+        "name": "Rafael Sales",
+        "githubUser": "rsales"
+      }
+    ]
   },
   {
     "id": "id",
-    "text": "Indonesian"
+    "text": "Indonesian",
+    "verified": false
   },
   {
     "id": "ro",
-    "text": "Romanian"
+    "text": "Romanian",
+    "verified": false
   },
   {
     "id": "bg",
-    "text": "Bulgarian"
+    "text": "Bulgarian",
+    "verified": false,
+    "translators": [
+      {
+        "name": "Lyubomir Manolov"
+      }
+    ]
   },
   {
     "id": "ru",
-    "text": "Russian"
+    "text": "Russian",
+    "verified": false,
+    "translators": [
+      {
+        "name": "Dagon Chernovski",
+        "githubUser": "DagonChernovski"
+      }
+    ]
   }
 ]
