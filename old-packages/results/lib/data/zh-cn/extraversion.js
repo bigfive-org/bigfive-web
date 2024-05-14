@@ -1,6 +1,4 @@
-import { type TemplateDomain } from '../../types'
-
-const extraversion: TemplateDomain = {
+module.exports = {
   domain: 'E',
   title: '外向性 Extraversion',
   shortDescription: '外向性以与外部世界接触为显著特征。',
@@ -79,5 +77,3 @@ const extraversion: TemplateDomain = {
     }
   ]
 }
-
-export default extraversion

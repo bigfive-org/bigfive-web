@@ -1,6 +1,4 @@
-import { type TemplateDomain } from '../../types'
-
-const agreeableness: TemplateDomain = {
+module.exports = {
   domain: 'A',
   title: '宜人性 Agreeableness',
   shortDescription: '宜人性反映了个体在合作和社会和谐方面的关注差异。宜人的个体重视与他人的和睦相处。',
@@ -81,5 +79,3 @@ const agreeableness: TemplateDomain = {
     }
   ]
 }
-
-export default agreeableness

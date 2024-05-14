@@ -1,6 +1,4 @@
-import { type TemplateDomain } from '../../types'
-
-const openness: TemplateDomain = {
+module.exports = {
   domain: 'O',
   title: '开放性 Openness',
   shortDescription: '开放性描述了认知风格的一个维度，它将富有想象力、创造力的人与脚踏实地、传统的人区分开来。',
@@ -98,5 +96,3 @@ const openness: TemplateDomain = {
     }
   ]
 }
-
-export default openness

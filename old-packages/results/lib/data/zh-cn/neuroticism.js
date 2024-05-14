@@ -1,6 +1,4 @@
-import { type TemplateDomain } from '../../types'
-
-const neuroticism: TemplateDomain = {
+module.exports = {
   domain: 'N',
   title: '神经性 Neuroticism',
   shortDescription: '神经性是指体验负面情绪的倾向。',
@@ -86,5 +84,3 @@ const neuroticism: TemplateDomain = {
     }
   ]
 }
-
-export default neuroticism
