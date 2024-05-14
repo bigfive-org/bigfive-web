@@ -47,7 +47,7 @@ export const languages: Language[] = [
   { code: 'cs', name: 'Czech', countryCode: 'cz' },
   {
     code: 'zh',
-    name: 'Chinese',
+    name: 'Chinese (Simplified)',
     countryCode: 'cn',
     map: ['zh-CN', 'zh-Hans', 'zh-Hant']
   }

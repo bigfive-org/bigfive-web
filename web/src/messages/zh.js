@@ -1,6 +1,6 @@
 const chinese = {
   language: {
-    label: 'Simple Chinese',
+    label: 'Chinese (Simplified)',
     locale: 'zh'
   },
   seo: {
