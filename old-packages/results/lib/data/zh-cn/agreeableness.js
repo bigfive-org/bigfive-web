@@ -17,15 +17,15 @@ module.exports = {
   results: [
     {
       score: 'low', // do not translate this line
-      text: `您的宜人性得分低，表明您关心自己的需求多于关心他人的需求。人们认为您强硬、挑剔且不妥协。`
+      text: '您的宜人性得分低，表明您关心自己的需求多于关心他人的需求。人们认为您强硬、挑剔且不妥协。'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `您的宜人性得分适中，表明您有时候关心别人的需求，但总体而言，不愿意为别人牺牲自己。`
+      text: '您的宜人性得分适中，表明您有时候关心别人的需求，但总体而言，不愿意为别人牺牲自己。'
     },
     {
       score: 'high', // do not translate this line
-      text: `您的宜人性得分高，表明您非常关心他人的需求和福祉。您性格开朗、富有同情心且乐于合作。`
+      text: '您的宜人性得分高，表明您非常关心他人的需求和福祉。您性格开朗、富有同情心且乐于合作。'
     }
   ],
   facets: [
