@@ -117,12 +117,7 @@ export default async function RootLayout({
           </div>
         </Providers>
         <Script
-          src='https://bigfive-test.com/sw.js'
-          strategy='beforeInteractive'
-        />
-        <Script
           src='https://cdn.fuseplatform.net/publift/tags/2/3645/fuse.js'
-          strategy='lazyOnload'
           id='script-component-ad'
         />
         <Analytics />

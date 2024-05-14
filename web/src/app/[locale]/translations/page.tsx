@@ -56,7 +56,7 @@ export default function TranslationPage() {
     })
   );
 
-  const translators = surveyLanguages
+  const userTranslatorsSurvey = surveyLanguages
     .filter((language) => language.translators)
     .flatMap((language) => language.translators);
 
@@ -73,6 +73,10 @@ export default function TranslationPage() {
       edit: true
     })
   );
+
+  const userTranslatorsReport = resultTextLanguages
+    .filter((language) => language.translators)
+    .flatMap((language) => language.translators);
 
   const columns = [
     {
@@ -212,30 +216,60 @@ export default function TranslationPage() {
             }
           ></Tab>
           <Tab key='Translators' title='Translators'>
-            <Card>
-              <CardHeader>
-                <div className='text-center w-full'>
-                  <h1 className='text-large font-medium'>Translators</h1>
-                </div>
-              </CardHeader>
-              <CardBody className='flex flex-wrap flex-row gap-3'>
-                {translators
-                  .sort((a, _) => (a?.githubUser ? -1 : 1))
-                  .map((translator) =>
-                    translator?.githubUser ? (
-                      <User
-                        key={translator?.name}
-                        name={translator?.name}
-                        avatarProps={{
-                          src: `https://avatars.githubusercontent.com/${translator?.githubUser}`
-                        }}
-                      />
-                    ) : (
-                      <User key={translator?.name} name={translator?.name} />
-                    )
-                  )}
-              </CardBody>
-            </Card>
+            <div className='flex flex-col gap-3'>
+              <Card>
+                <CardHeader>
+                  <div className='text-center w-full'>
+                    <h1 className='text-large font-medium'>
+                      Translators survey
+                    </h1>
+                  </div>
+                </CardHeader>
+                <CardBody className='flex flex-wrap flex-row gap-3'>
+                  {userTranslatorsSurvey
+                    .sort((a, _) => (a?.githubUser ? -1 : 1))
+                    .map((translator) =>
+                      translator?.githubUser ? (
+                        <User
+                          key={translator?.name}
+                          name={translator?.name}
+                          avatarProps={{
+                            src: `https://avatars.githubusercontent.com/${translator?.githubUser}`
+                          }}
+                        />
+                      ) : (
+                        <User key={translator?.name} name={translator?.name} />
+                      )
+                    )}
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <div className='text-center w-full'>
+                    <h1 className='text-large font-medium'>
+                      Translators report summary
+                    </h1>
+                  </div>
+                </CardHeader>
+                <CardBody className='flex flex-wrap flex-row gap-3'>
+                  {userTranslatorsReport
+                    .sort((a, _) => (a?.githubUser ? -1 : 1))
+                    .map((translator) =>
+                      translator?.githubUser ? (
+                        <User
+                          key={translator?.name}
+                          name={translator?.name}
+                          avatarProps={{
+                            src: `https://avatars.githubusercontent.com/${translator?.githubUser}`
+                          }}
+                        />
+                      ) : (
+                        <User key={translator?.name} name={translator?.name} />
+                      )
+                    )}
+                </CardBody>
+              </Card>
+            </div>
           </Tab>
         </Tabs>
       </div>
