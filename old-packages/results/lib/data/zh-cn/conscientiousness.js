@@ -41,7 +41,7 @@ module.exports = {
     },
     {
       score: 'neutral', // do not translate this line
-      text: `您的尽责性得分适中。这意味着你相当可靠、有条理、有自制力。`
+      text: '您的尽责性得分适中。这意味着你相当可靠、有条理、有自制力。'
     },
     {
       score: 'high', // do not translate this line
