@@ -121,4 +121,15 @@
       }
     ]
   }
+    {
+    "id": "zh-cn",
+    "text": "Chinese(Simplified)",
+    "verified": false,
+    "translators": [
+      {
+        "name": "Jiangxue Yi",
+        "githubUser": "janshirley"
+      }
+    ]
+  }
 ]
