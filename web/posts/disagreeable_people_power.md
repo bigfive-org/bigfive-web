@@ -1,6 +1,6 @@
 ---
 title: Are Disagreeable People More Likely to Gain Power at Work?
-date: 2024-05-01
+date: 2024-04-01
 description: A study revealing that disagreeable traits like selfishness and manipulation do not aid in gaining power at work, contrasting with the positive correlation between extraversion and career advancement.
 image: '/blog/leadership.webp'
 tags: disagreeable personalities, leadership, career development, organizational culture, extraversion, workplace behavior, power dynamics, employee relationships, leadership training, professional growth
