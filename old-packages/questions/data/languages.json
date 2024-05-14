@@ -13,7 +13,7 @@
   },
   {
     "id": "zh-cn",
-    "text": "Chinese (PRC)",
+    "text": "Chinese (Simplified)",
     "verified": false,
     "translators": [
       {
@@ -24,7 +24,7 @@
   },
   {
     "id": "zh-hk",
-    "text": "Chinese (Hong Kong)",
+    "text": "Chinese (Traditional)",
     "verified": false
   },
   {
