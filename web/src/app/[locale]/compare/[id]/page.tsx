@@ -3,6 +3,7 @@ import { getTestResult } from '@/actions';
 import { title } from '@/components/primitives';
 import { DomainComparePage } from './domain';
 import { BarChartCompare } from '@/components/bar-chart-generic';
+import ShareBar from '@/components/share-bar';
 
 interface ComparePageProps {
   params: {
@@ -60,20 +61,30 @@ export default async function ComparePage({
       };
     });
 
+  const link = `https://bigfive-test.com/compare/${id}`;
+
   return (
     <>
-      <h1 className={title()}>Overview</h1>
-      <BarChartCompare max={120} categories={categories} series={series} />
-      {reports[0].report.results.map((domain) => (
-        <DomainComparePage
-          key={domain.domain}
-          domainKey={domain.domain}
-          title={domain.title}
-          shortDescription={domain.shortDescription}
-          // @ts-ignore
-          domain={getNamedFacets(domain.domain)}
+      <div className='flex mt-8 justify-end w-full gap-x-1 print:hidden'>
+        <ShareBar
+          link={link}
+          description='Explore our detailed comparison of personality traits'
         />
-      ))}
+      </div>
+      <div className='mt-8'>
+        <h1 className={title()}>Overview</h1>
+        <BarChartCompare max={120} categories={categories} series={series} />
+        {reports[0].report.results.map((domain) => (
+          <DomainComparePage
+            key={domain.domain}
+            domainKey={domain.domain}
+            title={domain.title}
+            shortDescription={domain.shortDescription}
+            // @ts-ignore
+            domain={getNamedFacets(domain.domain)}
+          />
+        ))}
+      </div>
     </>
   );
 }

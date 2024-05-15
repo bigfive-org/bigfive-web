@@ -18,10 +18,10 @@ import { MailIcon } from './icons';
 
 interface EmailModalProps {
   disclosure: ReturnType<typeof useDisclosure>;
-  reportId: string;
+  link: string;
 }
 
-export const EmailModal = ({ disclosure, reportId }: EmailModalProps) => {
+export const EmailModal = ({ disclosure, link }: EmailModalProps) => {
   const [state, formAction] = useFormState(sendEmail, {
     message: '',
     type: 'success'
@@ -47,10 +47,10 @@ export const EmailModal = ({ disclosure, reportId }: EmailModalProps) => {
     <Modal isOpen={disclosure.isOpen} onOpenChange={disclosure.onOpenChange}>
       <ModalContent>
         <form action={formAction}>
-          <ModalHeader>Send the results to mail</ModalHeader>
+          <ModalHeader>Send the link to mail</ModalHeader>
           <ModalBody>
             <p>
-              We will send the result to the email you provide. We will not spam
+              We will send the link to the email you provide. We will not spam
               you or use your email for any other purposes.
             </p>
 
@@ -69,11 +69,7 @@ export const EmailModal = ({ disclosure, reportId }: EmailModalProps) => {
               placeholder='Enter your email'
               variant='bordered'
             />
-            <Textarea
-              name='message'
-              className='hidden'
-              value={`https://bigfive-test.com/result/${reportId}`}
-            />
+            <Textarea name='message' className='hidden' value={link} />
             {state.message && (
               <Chip color={state.type === 'success' ? 'success' : 'danger'}>
                 {state.message}

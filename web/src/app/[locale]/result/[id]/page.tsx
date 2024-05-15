@@ -62,6 +62,7 @@ interface ResultsProps {
 
 const Results = ({ report, showExpanded }: ResultsProps) => {
   const t = useTranslations('results');
+  const link = `https://bigfive-test.com/result/${report.id}`;
 
   return (
     <>
@@ -94,7 +95,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         </Snippet>
       </div>
       <div className='flex mt-8 justify-end w-full gap-x-1 print:hidden'>
-        <ShareBar report={report} />
+        <ShareBar link={link} description='Explore my personality traits' />
       </div>
       <div className='mt-8'>
         <ResultHeader />
