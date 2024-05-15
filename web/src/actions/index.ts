@@ -137,7 +137,7 @@ export async function sendEmail(
       to: email.to,
       from: 'hello@bigfive-test.com',
       replyTo: 'hello@bigfive-test.com',
-      subject: 'BigFive Test Results',
+      subject: 'BigFive-test.com',
       html: email.message
     };
     await transporter.sendMail(msg);
