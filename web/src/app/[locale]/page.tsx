@@ -211,10 +211,12 @@ export default function Home({ params: { locale } }: Props) {
                 <Button
                   key={idx}
                   name={e.name}
+                  color='secondary'
                   style={e.style}
-                  className='absolute hidden md:inline-flex hover:bg-secondary'
-                  variant='bordered'
+                  className='absolute hidden md:inline-flex'
                   as={Link}
+                  variant='flat'
+                  radius='full'
                   href={e.href}
                   aria-label={e.name}
                 >
