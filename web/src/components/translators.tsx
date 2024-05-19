@@ -3,6 +3,7 @@ import { Avatar, AvatarGroup } from '@nextui-org/avatar';
 import { Tooltip } from '@nextui-org/react';
 import { HeartFilledIcon } from './icons';
 import { Link } from '@nextui-org/link';
+import { basePath } from '@/config/site';
 
 export const Translators = () => {
   const { languages } = getInfo();
@@ -18,9 +19,7 @@ export const Translators = () => {
           <HeartFilledIcon />
         </div>
         <div>
-          <Link href='https://bigfive-test.com/translations'>
-            Help out here!
-          </Link>
+          <Link href={`${basePath}/translations`}>Help out here!</Link>
         </div>
       </div>
       <AvatarGroup isBordered total={translators.length}>

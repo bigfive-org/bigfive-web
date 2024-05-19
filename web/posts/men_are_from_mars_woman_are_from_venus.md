@@ -37,7 +37,7 @@ Kindness and cooperation. People high in agreeableness are empathetic and cooper
 
 Emotional instability. Those high in neuroticism often experience mood swings and anxiety.
 
-You can test your scores in these traits in our [Big Five Test freely available here](https://bigfive-test.com)
+You can test your scores in these domains in our [Big Five Test freely available here](https://bigfive-test.com).
 
 ### Gender Differences in Personality Traits
 
