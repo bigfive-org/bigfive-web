@@ -195,7 +195,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     editPerson: 'Edit person',
     close: 'Close',
     save: 'Save',
-    overview: 'Overview'
+    overview: 'Overview',
+    editComparison: 'Edit Comparison'
   },
   results: {
     theBigFive: 'The Big Five',
