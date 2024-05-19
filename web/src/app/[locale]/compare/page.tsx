@@ -7,12 +7,12 @@ import { CompareHeader } from '@/components/ads/ads';
 
 interface Props {
   params: { locale: string };
-  searchParams: { id: string };
+  searchParams: { id: string; edit: string };
 }
 
 export default function ComparePage({
   params: { locale },
-  searchParams: { id }
+  searchParams: { id, edit }
 }: Props) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('getCompare');
@@ -30,6 +30,7 @@ export default function ComparePage({
           addPersonText={t('addPerson')}
           comparePeopleText={t('comparePeople')}
           paramId={id}
+          edit={edit}
         />
       </Suspense>
     </div>

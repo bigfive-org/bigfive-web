@@ -19,7 +19,7 @@ import {
 import { Button } from '@nextui-org/button';
 import { Input } from '@nextui-org/input';
 import React, { useState } from 'react';
-import { formatId, validId } from '@/lib/helpers';
+import { base64url, formatId, validId } from '@/lib/helpers';
 import { useRouter } from '@/navigation';
 import {
   Modal,
@@ -40,12 +40,14 @@ interface CompareProps {
   addPersonText: string;
   comparePeopleText: string;
   paramId?: string;
+  edit?: string;
 }
 
 export const ComparePeople = ({
   addPersonText,
   comparePeopleText,
-  paramId
+  paramId,
+  edit
 }: CompareProps) => {
   const router = useRouter();
   const columns = [
@@ -67,7 +69,22 @@ export const ComparePeople = ({
     id: string;
     name: string;
   };
-  const [rows, setRows] = useState<Row[]>([]);
+
+  let initialRows: Row[] = [];
+  if (edit) {
+    if (edit.includes('_')) {
+      // new format for compare
+      initialRows = edit.split('_').map((person) => {
+        const [name, id] = person.split('-');
+        return { name: decodeURI(name), id };
+      });
+    } else {
+      // old format for compare
+      initialRows = base64url.decode(edit);
+    }
+  }
+
+  const [rows, setRows] = useState<Row[]>(initialRows);
   const [name, setName] = useState<string>('');
   const [id, setId] = useState(paramId ?? '');
 

@@ -4,7 +4,7 @@ import { title } from '@/components/primitives';
 import { DomainComparePage } from './domain';
 import { BarChartCompare } from '@/components/bar-chart-generic';
 import ShareBar from '@/components/share-bar';
-import CompareAdd from './compare-add';
+import CompareEdit from './compare-edit';
 
 interface ComparePageProps {
   params: {
@@ -67,7 +67,7 @@ export default async function ComparePage({
   return (
     <>
       <div className='flex mt-8 w-full'>
-        <CompareAdd people={people} />
+        <CompareEdit id={id} />
         <div className='flex justify-end w-full gap-x-1 print:hidden'>
           <ShareBar
             link={link}
