@@ -6,7 +6,10 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import { TestLanguageSwitch } from './test-language-switch';
 import { TestHeader, TestHrec1 } from '@/components/ads/ads';
 
-const questionLanguages = getInfo().languages;
+const questionLanguages = getInfo()
+  .languages
+  .filter(({ complete }) => complete)
+;
 
 interface Props {
   params: { locale: string };

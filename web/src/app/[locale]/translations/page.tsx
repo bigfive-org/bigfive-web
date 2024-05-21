@@ -39,6 +39,7 @@ export default function TranslationPage() {
   type TranslatedLanguage = {
     language: string;
     languageCode: string;
+    complete: boolean;
     verified: boolean;
     translator?: string;
     edit: boolean;
@@ -48,6 +49,7 @@ export default function TranslationPage() {
     (language) => ({
       language: language.text,
       languageCode: language.id,
+      complete: language.complete,
       verified: language.verified,
       translator: language.translators
         ?.map((translator) => translator.name)
@@ -66,6 +68,7 @@ export default function TranslationPage() {
     (language) => ({
       language: language.text,
       languageCode: language.id,
+      complete: language.complete,
       verified: language.verified,
       translator: language.translators
         ?.map((translator) => translator.name)
@@ -86,6 +89,10 @@ export default function TranslationPage() {
     {
       key: 'languageCode',
       label: 'LANGUAGE CODE'
+    },
+    {
+      key: 'complete',
+      label: 'COMPLETE'
     },
     {
       key: 'verified',
@@ -117,6 +124,16 @@ export default function TranslationPage() {
           );
         case 'verified':
           return item.verified ? (
+            <Chip color='success' size='sm' variant='flat'>
+              Yes
+            </Chip>
+          ) : (
+            <Chip color='warning' size='sm' variant='flat'>
+              No
+            </Chip>
+          );
+        case 'complete':
+          return item.complete ? (
             <Chip color='success' size='sm' variant='flat'>
               Yes
             </Chip>
