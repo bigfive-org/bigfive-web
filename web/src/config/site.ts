@@ -32,6 +32,7 @@ export const languages: Language[] = [
   { code: 'sv', name: 'Swedish', countryCode: 'se' },
   { code: 'bg', name: 'Bulgarian', countryCode: 'bg' },
   { code: 'uk', name: 'Ukrainian', countryCode: 'ua' },
+  { code: 'nl', name: 'Dutch', countryCode: 'nl' },
   { code: 'da', name: 'Danish', countryCode: 'dk' },
   { code: 'fi', name: 'Finnish', countryCode: 'fi' },
   { code: 'hi', name: 'Hindi', countryCode: 'in' },
