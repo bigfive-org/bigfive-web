@@ -27,12 +27,8 @@ export const languages: Language[] = [
   { code: 'id', name: 'Indonesian', countryCode: 'id' },
   { code: 'it', name: 'Italian', countryCode: 'it', map: ['it-IT'] },
   { code: 'no', name: 'Norwegian', countryCode: 'no', map: ['nb', 'nn'] },
-  {
-    code: 'pt',
-    name: 'Portuguese',
-    countryCode: 'pt',
-    map: ['pt-BR', 'pt-PT']
-  },
+  { code: 'pt-br', name: 'Brazilian Portuguese', countryCode: 'br' },
+  { code: 'pt', name: 'Portuguese', countryCode: 'pt' },
   { code: 'sv', name: 'Swedish', countryCode: 'se' },
   { code: 'bg', name: 'Bulgarian', countryCode: 'bg' },
   { code: 'uk', name: 'Ukrainian', countryCode: 'ua' },

@@ -1,32 +1,31 @@
-const portuguese = {
+const portugues = {
   language: {
-    label: 'Brazilian Portuguese',
+    label: 'Português',
     locale: 'pt'
   },
   seo: {
     keywords:
-      'teste de personalidade big five, teste de personalidade big 5, teste b5, teste bigfive, traços de personalidade, bigfive, comparar, gratuito, jordan peterson'
+      'teste de personalidade dos cinco grandes, teste de personalidade big 5, teste b5, teste bigfive, traços de personalidade, bigfive, comparar, gratuito, jordan peterson'
   },
   frontpage: {
     seo: {
-      title:
-        'Teste BigFive de traços de personalidade gratuito e de código aberto',
+      title: 'Teste de personalidade dos Cinco Grandes gratuito e de código aberto',
       description:
-        'Faça gratuitamente um teste de personalidade Big Five de código aberto. Aprenda a conhecer seus traços de personalidade e compare-se com seu parceiro ou parceira, colegas, amigos ou família.'
+        'Faça um teste de personalidade dos Cinco Grandes gratuito e de código aberto. Conheça seus traços de personalidade e compare-se com seu parceiro, colegas, amigos ou familiares.'
     },
-    title: 'Teste de Personalidade Big Five',
-    call_to_action: 'Faça um teste gratuito agora',
-    no_registration: '* Não precisa se registrar',
-    tests_taken: 'Mais de <green>{n}</green> pessoas fizeram o teste',
+    title: 'Teste de Personalidade dos Cinco Grandes',
+    call_to_action: 'Faça o teste gratuito agora',
+    no_registration: '* Não é necessário registro',
+    // do not translate <green>, {n}, and </green> tags
+    tests_taken: 'Mais de <green>{n}</green> pessoas já fizeram o teste',
     compare: {
-      title: 'Compare-se com outros',
+      title: 'Compare-se com os outros',
       text1:
-        'Compare-se com o seu parceiro ou parceira, colegas, amigos ou família.',
-      text2: 'Saiba como você difere de outras pessoas em cinco domínios:',
+        'Compare-se com seu parceiro, colegas, amigos ou familiares.',
+      text2: 'Descubra como você se diferencia das outras pessoas nos cinco domínios:',
       action: 'Veja ao vivo em ação'
     },
-    share:
-      'Compartilhe com seus amigos e descubra o quão compatíveis vocês são',
+    share: 'Compartilhe com seus amigos e descubra o quão compatíveis vocês são',
     cards: {
       open: {
         title: 'Aberto',
@@ -34,52 +33,52 @@ const portuguese = {
       },
       free: {
         title: 'Gratuito',
-        text: 'O teste é totalmente gratuito'
+        text: 'O teste é completamente gratuito'
       },
       scientific: {
         title: 'Científico',
-        text: 'Big Five é um modelo psicológico cientificamente validado e confiável.'
+        text: 'O BigFive é um modelo psicológico cientificamente validado e confiável.'
       },
       translated: {
         title: 'Traduzido',
-        text: 'Traduzido para mais de 20 idiomas. Ajude <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">aqui</a>!'
+        text: 'Traduzido para mais de 20 idiomas. Ajude na <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">página de tradução</a>!'
       }
     },
     description: {
-      top: 'Aprenda a se conhecer melhor com um teste de personalidade <violet>gratuito</violet> e de código aberto.',
+      top: 'Conheça-se melhor com um teste de personalidade <violet>gratuito</violet> e de código aberto.',
       subtop: 'O',
       subtop2:
-        ' é o modelo psicológico mais validado cientificamente e confiável para medir a personalidade.',
-      reference: `Os testes e a avaliação deste site são coletados de
+        ' é o modelo psicológico mais cientificamente validado e confiável para medir a personalidade.',
+      reference: `Testes e avaliações para este site são recolhidos de
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'O teste a seguir contém 120 questões que levam cerca de 10 minutos para serem concluídas.',
+o inventário é do <i>IPIP NEO-PI-R de 120 itens de Johnson (2014)</i>.`,
+      info: 'O teste a seguir contém 120 perguntas e estima-se que levará cerca de 10 minutos para ser concluído.',
       result:
-        'Depois de concluir o teste, você receberá um relatório de personalidade detalhado nos seguintes domínios:',
-      tests_taken: 'testes feitos até agora'
+        'Após concluir o teste, você receberá um relatório detalhado de personalidade nos seguintes domínios:',
+      tests_taken: 'testes realizados até agora'
     }
   },
   about: {
     seo: {
-      title: 'Sobre a equipe BigFive',
+      title: 'Sobre e a equipe dos Cinco Grandes',
       description:
-        'BigFive tem uma equipe muito ativa e engajada que está constantemente se esforçando para levar o BigFive adiante.'
+        'O BigFive tem uma equipe muito ativa e engajada que está constantemente se esforçando para impulsionar o BigFive.'
     }
   },
   toolbar: {
     home: 'Início',
     result: 'Resultado',
-    compare: 'Compare',
+    compare: 'Comparar',
     articles: 'Artigos',
     privacy: 'Privacidade',
     about: 'Sobre',
     see_results: 'Veja seus resultados',
     compare_with: 'Compare com outros',
-    faq: 'FAQ'
+    faq: 'Perguntas Frequentes'
   },
   facets: {
     openness_to_experience: {
-      title: 'Abertura à Experiência'
+      title: 'Abertura à experiência'
     },
     conscientiousness: {
       title: 'Conscienciosidade'
@@ -88,7 +87,7 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       title: 'Extroversão'
     },
     agreeableness: {
-      title: 'Afabilidade'
+      title: 'Amabilidade'
     },
     neuroticism: {
       title: 'Neuroticismo'
@@ -98,44 +97,46 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     and: 'e',
     pages: 'páginas',
     languages: 'idiomas',
-    save: 'Save',
-    close: 'Close'
+    save: 'Salvar',
+    close: 'Fechar'
   },
   form: {
     information: 'Informação',
-    informationText:
-      'Usamos as informações que você fornece para proporcionar o',
+    informationText: 'Usamos as informações que você fornece para lhe oferecer o',
     mostAccurate: 'resultado mais preciso possível',
     readMoreAbout: 'Leia mais sobre',
     privacy: 'privacidade',
     nextButton: 'Ok, próxima pergunta',
-    declineButton: 'continue sem compartilhar',
+    declineButton: 'continuar sem compartilhar',
     prefferedLanguage: 'Meu idioma preferido é',
     selectLanguage: 'Selecione um idioma',
-    iama: 'Eu sou',
-    male: 'Homem',
-    female: 'Mulher',
+    iama: 'Eu sou um(a)',
+    male: 'Masculino',
+    female: 'Feminino',
     age: 'Idade',
-    iam: 'Eu sou',
-    yearsOld: 'anos de idade',
+    iam: 'Eu tenho',
+    yearsOld: 'anos',
     ageWarning: 'Você deve ter 16 anos ou mais',
     language: 'Idioma',
     gender: 'Gênero',
-    confirmInfo: 'Confirme a informação',
-    confirm: 'Confirme',
-    toTestButton: 'Tudo certo, leve-me para o teste'
+    confirmInfo: 'Confirmar informações',
+    confirm: 'Confirmar',
+    toTestButton: 'Tudo bem, me leve ao teste'
   },
   test: {
-    next: 'avançar',
+    next: 'próximo',
     back: 'voltar',
     more: 'mais',
-    seeResults: 'ver resultados'
+    seeResults: 'ver resultados',
+    restored: 'Suas respostas foram restauradas. Clique aqui para',
+    newTest: 'iniciar um novo teste',
+    surveyLanguage: 'Idioma da pesquisa'
   },
   big_five: {
-    title: 'Quais são os cinco grandes?',
+    title: 'O que são os Cinco Grandes?',
     seo: {
-      title: 'Quais são os cinco grandes?',
-      description: 'Leia mais sobre os cinco grandes'
+      title: 'O que são os Cinco Grandes?',
+      description: 'Leia mais sobre os Cinco Grandes'
     }
   },
   openness_to_experience: {
@@ -150,7 +151,8 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Conscienciosidade',
     seo: {
       title: 'Visão geral do domínio Conscienciosidade',
-      description: 'Leia mais sobre o domínio Conscienciosidade no modelo b5'
+      description:
+        'Leia mais sobre o domínio Conscienciosidade no modelo b5'
     }
   },
   extraversion: {
@@ -161,10 +163,10 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     }
   },
   agreeableness: {
-    title: 'Afabilidade',
+    title: 'Amabilidade',
     seo: {
-      title: 'Visão geral do domínio Afabilidade',
-      description: 'Leia mais sobre o domínio afabilidade no modelo b5'
+      title: 'Visão geral do domínio Amabilidade',
+      description: 'Leia mais sobre o domínio Amabilidade no modelo b5'
     }
   },
   neuroticism: {
@@ -177,47 +179,67 @@ inventário é de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   getCompare: {
     title: 'Compare pessoas ou equipes',
     description1:
-      'Compare os resultados do teste de personalidade bigfive com várias pessoas.',
-    description2:
-      'Digite a ID que você obteve dos resultados do teste, ou seja,',
-    description3: 'no campo ID',
+      'Compare resultados do teste de personalidade dos Cinco Grandes com várias pessoas.',
+    description2: 'Digite o ID dos seus resultados do teste',
+    description3: 'no campo de entrada de ID',
     needToAddPeople: 'Você precisa adicionar pessoas para compará-las',
     addAnother: 'Adicionar outra pessoa',
-    addPerson: 'Adicionar pessoa',
-    comparePeople: 'comparar pessoas',
+    addPerson: 'Adicionar Pessoa',
+    comparePeople: 'Comparar pessoas',
     nameOfPerson: 'Nome desta pessoa',
     urlOrId: 'URL ou ID para comparação',
-    name: 'Nome'
+    name: 'Nome',
+    onlyLetters: 'Somente letras são permitidas. Mínimo de 2 e máximo de 30 caracteres.',
+    validId: 'Por favor, insira um ID válido e não duplicado.',
+    noRows: 'Nenhuma linha para exibir.',
+    editPerson: 'Editar pessoa',
+    close: 'Fechar',
+    save: 'Salvar',
+    overview: 'Visão geral',
+    editComparison: 'Editar Comparação'
   },
   results: {
     theBigFive: 'Os Cinco Grandes',
     score: 'pontuação',
     important: 'Importante!',
-    saveResults: 'Salve a seguinte ID para ver os resultados depois ou ',
-    compare: 'compare-se',
-    toOthers: 'com ou outros',
+    saveResults: 'Salve o seguinte ID para ver os resultados depois ou ',
+    compare: 'compare',
+    toOthers: 'você com outros',
+    retriveReportError: 'Não foi possível recuperar o relatório',
+    reportLanguage: 'Idioma do relatório',
     seo: {
-      title: 'Meus resultados do teste de personalidade BigFive',
+      title: 'Meus resultados do teste de personalidade dos Cinco Grandes',
       description:
-        'Veja minha personalidade e compare-se nos cinco domínios seguintes: Neuroticismo, Abertura à Experiência, Consciência, Extroversão, Afabilidade'
+        'Veja minha personalidade e compare-se nos seguintes cinco domínios: Neuroticismo, Abertura à Experiência, Conscienciosidade, Extroversão, Amabilidade'
     }
   },
   getResult: {
     result: 'Resultado',
     explanation:
-      'Se você fez o teste e salvou sua ID, pode ver os resultados aqui digitando a ID que obteve, ou seja, ',
-    idInput: 'no campo ID',
+      'Se você fez o teste e salvou seu ID, pode ver os resultados aqui digitando o ID que você recebeu, ou seja, ',
+    idInput: 'no campo de entrada de ID',
     urlOrId: 'URL ou ID do seu resultado',
     getResult: 'Obter resultado',
-    viewPrevious: 'Ver Resultado Anterior'
+    viewPrevious: 'Ver Resultado Anterior',
+    validIdError: 'Por favor, insira um ID válido'
   },
   shareLinks: {
     copyLink: 'Copiar link para a área de transferência',
     shareFacebook: 'Compartilhar no Facebook',
     shareTwitter: 'Compartilhar no Twitter',
-    copiedLink: 'Copiado',
+    copiedLink: 'Link copiado',
     shareResults: 'Compartilhe seus resultados!'
+  },
+  articles: {
+    title: 'Artigos sobre Personalidade',
+    description: 'Todas as últimas e melhores notícias e artigos sobre Personalidade',
+    back: 'Voltar para artigos',
+    minRead: '{n} min de leitura',
+    seo: {
+      title: 'Artigos sobre personalidade e psicologia',
+      description: 'Leia artigos sobre personalidade e psicologia'
+    }
   }
 };
 
-export default portuguese;
+export default portugues;
