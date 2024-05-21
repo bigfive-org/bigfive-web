@@ -368,6 +368,17 @@
     ]
   },
   {
+    "id": "pt",
+    "text": "Portoguese",
+    "complete": false,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Keila Brockveld"
+      }
+    ]
+  },
+  {
     "id": "ar",
     "text": "Arabic",
     "complete": true,
