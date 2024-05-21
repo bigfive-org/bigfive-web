@@ -34,6 +34,7 @@ export const languages: Language[] = [
   { code: 'uk', name: 'Ukrainian', countryCode: 'ua' },
   { code: 'nl', name: 'Dutch', countryCode: 'nl' },
   { code: 'da', name: 'Danish', countryCode: 'dk' },
+  { code: 'ko', name: 'Korean', countryCode: 'kr' },
   { code: 'fi', name: 'Finnish', countryCode: 'fi' },
   { code: 'hi', name: 'Hindi', countryCode: 'in' },
   { code: 'is', name: 'Icelandic', countryCode: 'is' },
