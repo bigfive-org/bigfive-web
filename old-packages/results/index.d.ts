@@ -41,6 +41,7 @@ export interface Options {
 export interface Language {
   id: string;
   text: string;
+  complete: boolean;
   verified: boolean;
   translators?: Translator[];
 }

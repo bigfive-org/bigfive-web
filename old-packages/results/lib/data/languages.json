@@ -2,21 +2,25 @@
   {
     "id": "de",
     "text": "Deutsch",
+    "complete": true,
     "verified": false
   },
   {
     "id": "da",
     "text": "Danish",
+    "complete": true,
     "verified": false
   },
   {
     "id": "el",
     "text": "Greek",
+    "complete": true,
     "verified": false
   },
   {
     "id": "en",
     "text": "English",
+    "complete": true,
     "verified": true,
     "translators": [
       {
@@ -28,21 +32,25 @@
   {
     "id": "es",
     "text": "Spanish",
+    "complete": true,
     "verified": false
   },
   {
     "id": "fr",
     "text": "French",
+    "complete": true,
     "verified": false
   },
   {
     "id": "he",
     "text": "Hebrew",
+    "complete": true,
     "verified": false
   },
   {
     "id": "is",
     "text": "Icelandic",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -57,16 +65,19 @@
   {
     "id": "it",
     "text": "Italian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "nl",
     "text": "Dutch",
+    "complete": true,
     "verified": false
   },
   {
     "id": "no",
     "text": "Norwegian",
+    "complete": true,
     "verified": true,
     "translators": [
       {
@@ -77,11 +88,13 @@
   {
     "id": "ar",
     "text": "Arabic",
+    "complete": true,
     "verified": false
   },
   {
     "id": "pt-br",
     "text": "Portuguese Brazilian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -93,16 +106,19 @@
   {
     "id": "id",
     "text": "Indonesian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "ro",
     "text": "Romanian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "bg",
     "text": "Bulgarian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -113,6 +129,7 @@
   {
     "id": "ru",
     "text": "Russian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -124,6 +141,7 @@
   {
     "id": "zh-cn",
     "text": "Chinese (Simplified)",
+    "complete": true,
     "verified": false,
     "translators": [
       {
