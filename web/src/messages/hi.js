@@ -5,13 +5,13 @@ const hindi = {
   },
   seo: {
     keywords:
-      'big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson'
+      'बिग फाइव पर्सनैलिटी टेस्ट, बिग 5 पर्सनैलिटी टेस्ट, बी5 टेस्ट, बिगफाइव टेस्ट, पर्सनैलिटी ट्रेट्स, बिगफाइव, तुलना, फ्री, जॉर्डन पीटरसन'
   },
   frontpage: {
     seo: {
-      title: 'Free open-source BigFive personality traits test',
+      title: 'नि: शुल्क ओपन-सोर्स बिगफाइव पर्सनैलिटी ट्रेट्स टेस्ट',
       description:
-        'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family.'
+        'नि: शुल्क, ओपन-सोर्स बिग फाइव पर्सनैलिटी टेस्ट लें। अपने पर्सनैलिटी ट्रेट्स को जानें और अपने साथी, सहकर्मी, दोस्त या परिवार के साथ तुलना करें।'
     },
     title: 'बिग फाइव पर्सनैलिटी टेस्ट',
     call_to_action: 'अब फ्री टेस्ट लें',
@@ -38,41 +38,41 @@ const hindi = {
         text: 'BigFive एक वैज्ञानिक रूप से मान्य और विश्वसनीय मनोवैज्ञानिक मॉडल है।'
       },
       translated: {
-        title: 'Translated',
-        text: '20 से अधिक भाषाओं में अनुवादित. मदद करना <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">here</a>!'
+        title: 'अनुवादित',
+        text: '20 से अधिक भाषाओं में अनुवादित. मदद करना <a href="https://bigfive-test.com/translations" rel="noreferrer" target="blank">यहाँ</a>!'
       }
     },
     description: {
       top: 'एक मुक्त, मुक्त-स्रोत व्यक्तित्व परीक्षण के साथ खुद को बेहतर जानना सीखें।',
       subtop: 'The',
       subtop2:
-        ' is the most scientifically validated and reliable psychological model to measure personality.',
-      reference: `Tests and evaluation for this site is gathered from
-  <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-  inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
+        ' सबसे वैज्ञानिक रूप से मान्य और विश्वसनीय मनोवैज्ञानिक मॉडल है जो व्यक्तित्व को मापने के लिए है।',
+      reference: `इस साइट के परीक्षण और मूल्यांकन को 
+  <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a> से संकलित किया गया है,
+  इन्वेंट्री <i>जॉनसन (2014) के 120-आइटम IPIP NEO-PI-R</i> से है।`,
       info: 'निम्नलिखित परीक्षण में 120 प्रश्न शामिल हैं जिन्हें पूरा करने में आपको लगभग 10 मिनट लगने का अनुमान है।',
       result:
-        'After you have completed the test you will receive a detailed personality report in the following domains:',
-      tests_taken: 'tests taken so far'
+        'परीक्षण पूरा करने के बाद, आपको निम्नलिखित डोमेन में एक विस्तृत व्यक्तित्व रिपोर्ट प्राप्त होगी:',
+      tests_taken: 'अब तक लिए गए परीक्षण'
     }
   },
   about: {
     seo: {
-      title: 'About and the big five team',
+      title: 'के बारे में और बिग फाइव टीम',
       description:
-        'BigFive has a very active and engaged team that is constantly striving to push BigFive forward.'
+        'बिगफाइव के पास एक बहुत ही सक्रिय और प्रतिबद्ध टीम है जो लगातार बिगफाइव को आगे बढ़ाने का प्रयास कर रही है।'
     }
   },
   toolbar: {
-    home: 'Home',
+    home: 'मुख पृष्ठ',
     result: 'परिणाम',
     compare: 'तुलना',
-    articles: 'सामग्री',
-    privacy: 'एकांत',
+    articles: 'लेख',
+    privacy: 'गोपनीयता',
     about: 'के बारे में',
     see_results: 'अपना परिणाम देखें',
     compare_with: 'दूसरों के साथ तुलना करें',
-    faq: 'FAQ'
+    faq: 'सामान्य प्रश्न'
   },
   facets: {
     openness_to_experience: {
@@ -95,31 +95,31 @@ const hindi = {
     and: 'तथा',
     pages: 'पृष्ठों',
     languages: 'भाषाओं',
-    save: 'Save',
-    close: 'Close'
+    save: 'सहेजें',
+    close: 'बंद करें'
   },
   form: {
-    information: 'Information',
-    informationText: 'We use the information you provide to serve you the',
-    mostAccurate: 'most accurate result possible',
-    readMoreAbout: 'Read more about',
-    privacy: 'privacy',
-    nextButton: 'Okey, next question',
-    declineButton: 'continue without sharing',
+    information: 'जानकारी',
+    informationText: 'हम आपके द्वारा प्रदान की गई जानकारी का उपयोग करते हैं ताकि आपको सबसे सटीक परिणाम दे सकें',
+    mostAccurate: 'संभव परिणाम',
+    readMoreAbout: 'के बारे में और पढ़ें',
+    privacy: 'गोपनीयता',
+    nextButton: 'ठीक है, अगला प्रश्न',
+    declineButton: 'साझा किए बिना जारी रखें',
     prefferedLanguage: 'मेरी पसंदीदा भाषा है',
     selectLanguage: 'भाषा चुनें',
-    iama: 'I am a',
-    male: 'Male',
-    female: 'Female',
-    age: 'Age',
-    iam: 'I am',
-    yearsOld: 'years old',
-    ageWarning: 'You must be 16 or older',
-    language: 'Language',
-    gender: 'Gender',
-    confirmInfo: 'Confirm information',
-    confirm: 'Confirm',
-    toTestButton: 'Alrighty, take me to the test'
+    iama: 'मैं हूं',
+    male: 'पुरुष',
+    female: 'महिला',
+    age: 'आयु',
+    iam: 'मैं हूँ',
+    yearsOld: 'साल का/की',
+    ageWarning: 'आपकी आयु 16 या उससे अधिक होनी चाहिए',
+    language: 'भाषा',
+    gender: 'लिंग',
+    confirmInfo: 'जानकारी की पुष्टि करें',
+    confirm: 'पुष्टि करें',
+    toTestButton: 'ठीक है, मुझे परीक्षण पर ले चलें'
   },
   test: {
     next: 'आगे',
@@ -128,47 +128,47 @@ const hindi = {
     seeResults: 'परिणाम देखें'
   },
   big_five: {
-    title: 'What are the big five?',
+    title: 'बिग फाइव क्या हैं?',
     seo: {
-      title: 'What are the big five?',
-      description: 'Read more about the big five'
+      title: 'बिग फाइव क्या हैं?',
+      description: 'बिग फाइव के बारे में और पढ़ें'
     }
   },
   openness_to_experience: {
     title: 'अनुभव के लिए खुलापन',
     seo: {
-      title: 'Overview of the domain Openness To Experience.',
+      title: 'अनुभव के लिए खुलापन डोमेन का अवलोकन।',
       description:
-        'Read more about the Openness To Experience domain in the b5 model'
+        'बी5 मॉडल में अनुभव के लिए खुलापन डोमेन के बारे में और पढ़ें'
     }
   },
   conscientiousness: {
     title: 'कर्त्तव्य निष्ठां',
     seo: {
-      title: 'Overview of the domain Conscientiousness',
+      title: 'कर्त्तव्य निष्ठां डोमेन का अवलोकन',
       description:
-        'Read more about the Conscientiousness domain in the b5 model'
+        'बी5 मॉडल में कर्त्तव्य निष्ठां डोमेन के बारे में और पढ़ें'
     }
   },
   extraversion: {
     title: 'बहिर्मुखता',
     seo: {
-      title: 'Overview of the domain Extraversion',
-      description: 'Read more about the Extraversion domain in the b5 model'
+      title: 'बहिर्मुखता डोमेन का अवलोकन',
+      description: 'बी5 मॉडल में बहिर्मुखता डोमेन के बारे में और पढ़ें'
     }
   },
   agreeableness: {
     title: 'सहमतता',
     seo: {
-      title: 'Overview of the domain Agreeableness',
-      description: 'Read more about the agreeableness domain in the b5 model'
+      title: 'सहमतता डोमेन का अवलोकन',
+      description: 'बी5 मॉडल में सहमतता डोमेन के बारे में और पढ़ें'
     }
   },
   neuroticism: {
     title: 'मनोविक्षुब्धता',
     seo: {
-      title: 'Overview of the domain Neuroticism',
-      description: 'Read more about the Neuroticism domain in the b5 model'
+      title: 'मनोविक्षुब्धता डोमेन का अवलोकन',
+      description: 'बी5 मॉडल में मनोविक्षुब्धता डोमेन के बारे में और पढ़ें'
     }
   },
   getCompare: {
@@ -193,9 +193,9 @@ const hindi = {
     compare: 'तुलना',
     toOthers: 'खुद दूसरों के लिए',
     seo: {
-      title: 'My results from the BigFive personality test',
+      title: 'बिगफाइव पर्सनैलिटी टेस्ट से मेरे परिणाम',
       description:
-        'See my personality and compare yourself in the following five domains: Neuroticism, Openness To Experience, Conscientiousness, Extraversion, Agreeableness'
+        'मेरा व्यक्तित्व देखें और निम्नलिखित पाँच डोमेन में खुद की तुलना करें: मनोविक्षुब्धता, अनुभव के लिए खुलापन, कर्त्तव्य निष्ठां, बहिर्मुखता, सहमतता'
     }
   },
   getResult: {
@@ -208,8 +208,8 @@ const hindi = {
     viewPrevious: 'पिछला परिणाम देखें'
   },
   shareLinks: {
-    copyLink: 'क्लिपबोर्ड पर लिंक कॉपी करें',
-    shareFacebook: 'फेसबुक पर सांझा करें',
+    copyLink: 'लिंक को क्लिपबोर्ड पर कॉपी करें',
+    shareFacebook: 'फेसबुक पर साझा करें',
     shareTwitter: 'ट्विटर पर साझा करें',
     copiedLink: 'लिंक को कॉपी किया गया',
     shareResults: 'अपने परिणाम साझा करें!'
