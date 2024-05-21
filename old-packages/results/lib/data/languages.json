@@ -104,6 +104,17 @@
     ]
   },
   {
+    "id": "pt",
+    "text": "Portuguese",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
     "id": "id",
     "text": "Indonesian",
     "complete": true,
