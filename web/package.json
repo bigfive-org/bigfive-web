@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@bigfive-org/questions": "1.5.6",
-    "@bigfive-org/results": "1.5.8",
+    "@bigfive-org/results": "1.6.0",
     "@bigfive-org/score": "1.4.2",
     "@emotion/is-prop-valid": "1.2.2",
     "@next/third-parties": "14.2.3",
