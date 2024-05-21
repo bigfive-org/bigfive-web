@@ -160,5 +160,247 @@
         "githubUser": "janshirley"
       }
     ]
+  },
+  {
+    "id": "zh-hant",
+    "text": "Chinese (Traditional)",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "sq",
+    "text": "Albanian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "hy",
+    "text": "Armenian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "ca",
+    "text": "Catalan",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "text": "Croatian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "cs",
+    "text": "Czech",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "et",
+    "text": "Estonian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "fi",
+    "text": "Finnish",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "hi",
+    "text": "Hindi",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "hu",
+    "text": "Hungarian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "ja",
+    "text": "Japanese",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "ko",
+    "text": "Korean",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "fa",
+    "text": "Persian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "pl",
+    "text": "Polish",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "sr",
+    "text": "Serbian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "ss",
+    "text": "Siswati",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "sl",
+    "text": "Slovenian",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "sv",
+    "text": "Swedish",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "th",
+    "text": "Thai",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "text": "Turkish",
+    "complete": false,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "uk",
+    "text": "Ukrainian",
+    "complete": false,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
+  },
+  {
+    "id": "ur",
+    "text": "Urdu",
+    "complete": false,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
   }
 ]
