@@ -2,6 +2,7 @@
   {
     "id": "en",
     "text": "English",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
     "translators": [
@@ -14,6 +15,7 @@
   {
     "id": "zh-cn",
     "text": "Chinese (Simplified)",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -25,11 +27,13 @@
   {
     "id": "zh-hk",
     "text": "Chinese (Traditional)",
+    "complete": true,
     "verified": false
   },
   {
     "id": "hi",
     "text": "Hindi",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -41,6 +45,7 @@
   {
     "id": "es",
     "text": "Spanish",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -51,6 +56,7 @@
   {
     "id": "fr",
     "text": "French",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -61,6 +67,7 @@
   {
     "id": "ru",
     "text": "Russian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -72,6 +79,7 @@
   {
     "id": "id",
     "text": "Indonesian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -83,6 +91,7 @@
   {
     "id": "ur",
     "text": "Urdu",
+    "complete": true,
     "verified": true,
     "link": "https://sites.google.com/site/mailtoiftikhar/big-five-ipip-neo-short-scale-urdu-translation",
     "translators": [
@@ -94,6 +103,7 @@
   {
     "id": "de",
     "text": "Deutsch",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -104,6 +114,7 @@
   {
     "id": "ja",
     "text": "Japanese",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/JapaneseIPIP-NEOFacets.htm",
     "translators": [
@@ -115,6 +126,7 @@
   {
     "id": "it",
     "text": "Italian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/ItalianIPIP-NEO-120.htm",
     "translators": [
@@ -126,6 +138,7 @@
   {
     "id": "th",
     "text": "Thai",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -137,6 +150,7 @@
   {
     "id": "tr",
     "text": "Turkish",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/Turkish924Items.htm",
     "translators": [
@@ -154,6 +168,7 @@
   {
     "id": "hy",
     "text": "Armenian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/ArmenianIPIP-NEO-120.htm",
     "translators": [
@@ -165,6 +180,7 @@
   {
     "id": "uk",
     "text": "Ukrainian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -176,11 +192,13 @@
   {
     "id": "da",
     "text": "Danish",
+    "complete": true,
     "verified": false
   },
   {
     "id": "no",
     "text": "Norwegian",
+    "complete": true,
     "verified": true,
     "translators": [
       {
@@ -191,6 +209,7 @@
   {
     "id": "is",
     "text": "Icelandic",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -205,6 +224,7 @@
   {
     "id": "fi",
     "text": "Finnish",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -216,6 +236,7 @@
   {
     "id": "nl",
     "text": "Dutch",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/DutchIPIP-NEO-120.htm",
     "translators": [
@@ -227,6 +248,7 @@
   {
     "id": "ro",
     "text": "Romanian",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -238,11 +260,13 @@
   {
     "id": "sq",
     "text": "Albanian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "sv",
     "text": "Swedish",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -254,6 +278,7 @@
   {
     "id": "sr",
     "text": "Serbian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/Serbian2544Items.htm",
     "translators": [
@@ -274,6 +299,7 @@
   {
     "id": "sl",
     "text": "Slovenian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/SloveneIPIP-NEOFacets.htm",
     "translators": [
@@ -285,6 +311,7 @@
   {
     "id": "hr",
     "text": "Croatian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/CroatianIPIP-NEOFacets.htm",
     "translators": [
@@ -305,6 +332,7 @@
   {
     "id": "et",
     "text": "Estonian",
+    "complete": true,
     "verified": true,
     "link": "https://ipip.ori.org/EstonianIPIP-NEOFacets.htm",
     "translators": [
@@ -331,6 +359,7 @@
   {
     "id": "pt-br",
     "text": "Brazilian Portuguese",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -341,6 +370,7 @@
   {
     "id": "ar",
     "text": "Arabic",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -351,6 +381,7 @@
   {
     "id": "he",
     "text": "Hebrew",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -361,6 +392,7 @@
   {
     "id": "pl",
     "text": "Polish",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -371,6 +403,7 @@
   {
     "id": "ko",
     "text": "Korean",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -381,16 +414,19 @@
   {
     "id": "hu",
     "text": "Hungarian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "fa",
     "text": "Persian",
+    "complete": true,
     "verified": false
   },
   {
     "id": "ca",
     "text": "Catalan",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -401,6 +437,7 @@
   {
     "id": "ss",
     "text": "Siswati",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -411,6 +448,7 @@
   {
     "id": "cs",
     "text": "Czech",
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -421,6 +459,7 @@
   {
     "id": "bg",
     "text": "Bulgarian",
+    "complete": true,
     "verified": false,
     "translators": [
       {

@@ -32,7 +32,7 @@ module.exports.getInfo = () => (
     time: 10,
     questions: 120,
     note: 'Recommended',
-    languages
+    languages: languages.filter(lang => lang.complete)
   }
 )
 

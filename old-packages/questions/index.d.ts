@@ -1,6 +1,7 @@
 export type Language = {
   id: string;
   text: string;
+  complete: boolean;
   verified: boolean;
   translators?: Translator[];
 };
