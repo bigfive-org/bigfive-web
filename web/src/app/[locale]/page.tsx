@@ -13,7 +13,7 @@ import {
   PlusLinearIcon
 } from '@/components/icons';
 import { ArrowRightIcon } from '@/components/icons';
-import { siteConfig } from '@/config/site';
+import { locales, siteConfig } from '@/config/site';
 import { compareDesc } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
 import { PostCard } from '@/components/post-card';
@@ -24,12 +24,20 @@ import { Chip, Tooltip } from '@nextui-org/react';
 import NextLink from 'next/link';
 import { Translated } from '@/components/translated';
 import { HomeHeader, HomeHrec1 } from '@/components/ads/ads';
+import { basePath } from '@/config/site';
 
-interface Props {
+export const metadata = {
+  alternates: {
+    canonical: basePath,
+    languages: locales.reduce((a, v) => ({ ...a, [v]: `${basePath}/${v}` }), {})
+  }
+}
+
+interface HomeProps {
   params: { locale: string };
 }
 
-export default function Home({ params: { locale } }: Props) {
+export default function Home({ params: { locale } }: HomeProps) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('frontpage');
   const f = useTranslations('facets');
