@@ -1,133 +1,119 @@
 module.exports = {
   domain: 'C', // do not change this line
-  title: 'Conscientiousness',
-  shortDescription: 'Conscientiousness concerns the way in which we control, regulate, and direct our impulses.',
-  description: `Impulses are not inherently bad;
-occasionally time constraints require a snap decision, and acting on
-our first impulse can be an effective response. Also, in times of
-play rather than work, acting spontaneously and impulsively can be
-fun. Impulsive individuals can be seen by others as colorful,
-fun-to-be-with, and zany.
+  title: 'Сумлінність (Conscientiousness)',
+  shortDescription: 'Сумлінність стосується того, як ми контролюємо, регулюємо та спрямовуємо свої імпульси.',
+  description: `Імпульси не є поганими за своєю суттю;
+іноді обмеження часу вимагають швидкого рішення, і діяти за
+першим імпульсом може бути ефективною відповіддю. Також, у часи
+відпочинку, а не роботи, діяти спонтанно та імпульсивно може бути
+весело. Імпульсивні люди можуть сприйматися іншими як яскраві,
+веселі у спілкуванні та незвичайні.
 <br /><br />
-Nonetheless, acting on impulse can lead to trouble in a number of
-ways. Some impulses are antisocial. Uncontrolled antisocial acts
-not only harm other members of society, but also can result in
-retribution toward the perpetrator of such impulsive acts. Another
-problem with impulsive acts is that they often produce immediate
-rewards but undesirable, long-term consequences. Examples include
-excessive socializing that leads to being fired from one's job,
-hurling an insult that causes the breakup of an important
-relationship, or using pleasure-inducing drugs that eventually
-destroy one's health.
+Тим не менш, діяти імпульсивно може призвести до проблем у ряді
+випадків. Деякі імпульси є антисоціальними. Неконтрольовані антисоціальні дії
+не тільки шкодять іншим членам суспільства, але й можуть призвести до
+помсти щодо виконавця таких імпульсивних дій. Іншою
+проблемою імпульсивних дій є те, що вони часто приносять негайні
+нагороди, але небажані довгострокові наслідки. Прикладами є
+надмірне соціальне життя, що призводить до звільнення з роботи,
+кидання образи, що призводить до розриву важливих
+відносин, або використання наркотиків, що приносять задоволення, але згодом
+руйнують здоров'я.
 <br /><br />
-Impulsive behavior, even when not seriously destructive, diminishes
-a person's effectiveness in significant ways. Acting impulsively
-disallows contemplating alternative courses of action, some of which
-would have been wiser than the impulsive choice. Impulsivity also
-sidetracks people during projects that require organized sequences
-of steps or stages. Accomplishments of an impulsive person are
-therefore small, scattered, and inconsistent.
+Імпульсивна поведінка, навіть коли вона не є серйозно руйнівною, зменшує
+ефективність людини у значний спосіб. Діяти імпульсивно
+означає не мати можливості розглянути альтернативні варіанти дій, деякі з яких
+могли б бути розумнішими за імпульсивний вибір. Імпульсивність також
+відволікає людей під час виконання проектів, які вимагають організованих послідовностей
+етапів. Досягнення імпульсивної людини тому є невеликими, розкиданими та непослідовними.
 <br /><br />
-A hallmark of intelligence, what potentially separates human beings
-from earlier life forms, is the ability to think about future
-consequences before acting on an impulse. Intelligent activity
-involves contemplation of long-range goals, organizing and planning
-routes to these goals, and persisting toward one's goals in the face
-of short-lived impulses to the contrary. The idea that intelligence
-involves impulse control is nicely captured by the term prudence, an
-alternative label for the Conscientiousness domain. Prudent means
-both wise and cautious.
+Ознакою інтелекту, що потенційно відрізняє людей від попередніх форм життя, є здатність думати про майбутні наслідки перед тим, як діяти за імпульсом. Інтелектуальна діяльність включає розгляд довгострокових цілей, організацію та планування шляхів до цих цілей і наполегливість у досягненні своїх цілей, незважаючи на короткострокові імпульси, що суперечать цьому. Ідея, що інтелект включає контроль імпульсів, добре передається терміном обачність, альтернативною назвою для сфери сумлінності. Обачний означає як мудрий, так і обережний.
 <br /><br/>
-Persons who score high on the
-Conscientiousness scale are, in fact, perceived by others as intelligent.
-The benefits of high conscientiousness are obvious. Conscientious
-individuals avoid trouble and achieve high levels of success through
-purposeful planning and persistence. They are also positively
-regarded by others as intelligent and reliable. On the negative
-side, they can be compulsive perfectionists and workaholics.
-Furthermore, extremely conscientious individuals might be regarded
-as stuffy and boring.
+Особи, які отримують високі бали за шкалою сумлінності, дійсно сприймаються іншими як інтелектуальні.
+Переваги високої сумлінності очевидні. Сумлінні
+особи уникають неприємностей і досягають високих рівнів успіху завдяки
+цілеспрямованому плануванню та наполегливості. Вони також позитивно
+сприймаються іншими як розумні та надійні. З негативного боку, вони можуть бути нав'язливими перфекціоністами та трудоголіками.
+Крім того, надмірно сумлінні особи можуть сприйматися
+іншими як нудні.
 <br /><br />
-Unconscientious people may be criticized for
-their unreliability, lack of ambition, and failure to stay within
-the lines, but they will experience many short-lived pleasures and
-they will never be called stuffy.`,
+Несумлінні люди можуть критикуватися за
+ненадійність, відсутність амбіцій і невміння дотримуватися правил, але вони отримують багато короткочасних задоволень і їх ніколи не назвуть нудними.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Conscientiousness is low, indicating you like to live
-for the moment and do what feels good now. Your work tends to be
-careless and disorganized.`
+      text: `Ваш результат за шкалою Сумлінності низький, що вказує на те, що ви любите жити
+моментом і робити те, що зараз приносить задоволення. Ваша робота, як правило,
+недбала і неорганізована.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Conscientiousness is average. This means you are
-reasonably reliable, organized, and self-controlled.`
+      text: `Ваш результат за шкалою Сумлінності середній. Це означає, що ви
+досить надійні, організовані та самоконтрольовані.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Conscientiousness is high. This means you set clear
-goals and pursue them with determination. People regard you as
-reliable and hard-working.`
+      text: `Ваш результат за шкалою Сумлінності високий. Це означає, що ви ставите чіткі
+цілі та переслідуєте їх з рішучістю. Люди сприймають вас як
+надійну та працелюбну людину.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Self-Efficacy',
-      text: `Self-Efficacy describes confidence in one's ability
-to accomplish things. High scorers believe they have the intelligence
-(common sense), drive, and self-control necessary for achieving success.
-Low scorers do not feel effective, and may have a sense that they are not
-in control of their lives.`
+      title: 'Самоефективність',
+      text: `Самоефективність описує впевненість у своїй здатності
+досягати цілей. Люди з високими балами вірять, що мають інтелект
+(загальний здоровий глузд), наполегливість і самоконтроль, необхідні для досягнення успіху.
+Люди з низькими балами не відчувають себе ефективними і можуть мати відчуття, що вони не
+контролюють своє життя.`
     },
     {
       facet: 2,
-      title: 'Orderliness',
-      text: `Persons with high scores on orderliness are
-well-organized. They like to live according to routines and schedules. They
-keep lists and make plans. Low scorers tend to be disorganized and
-scattered.`
+      title: 'Організованість',
+      text: `Люди з високими балами за шкалою організованості
+добре організовані. Вони люблять жити за розкладом та розпорядком. Вони
+ведуть списки та складають плани. Люди з низькими балами схильні до неорганізованості та
+розкиданості.`
     },
     {
       facet: 3,
-      title: 'Dutifulness',
-      text: `This scale reflects the strength of a person's sense
- of duty and obligation. Those who score high on this scale have a strong
- sense of moral obligation. Low scorers find contracts, rules, and
- regulations overly confining. They are likely to be seen as unreliable or
- even irresponsible.`
+      title: 'Відповідальність',
+      text: `Ця шкала відображає силу відчуття обов'язку
+та зобов'язань. Люди з високими балами за цією шкалою мають сильне
+відчуття морального обов'язку. Люди з низькими балами вважають контракти, правила та
+регуляції надмірно обмежувальними. Їх можуть вважати ненадійними або
+навіть безвідповідальними.`
     },
     {
       facet: 4,
-      title: 'Achievement-Striving',
-      text: `Individuals who score high on this
-scale strive hard to achieve excellence. Their drive to be recognized as
-successful keeps them on track toward their lofty goals. They often have
-a strong sense of direction in life, but extremely high scores may
-be too single-minded and obsessed with their work. Low scorers are content
-to get by with a minimal amount of work, and might be seen by others
-as lazy.`
+      title: 'Прагнення до досягнень',
+      text: `Люди з високими балами за цією шкалою
+прагнуть досягти досконалості. Їхнє прагнення бути визнаними як
+успішні тримає їх на шляху до їх високих цілей. Вони часто мають
+сильне відчуття напряму в житті, але надто високі бали можуть свідчити
+про надмірну одержимість роботою. Люди з низькими балами задоволені
+досягненням мінімального рівня роботи і можуть сприйматися іншими
+як ледачі.`
     },
     {
       facet: 5,
-      title: 'Self-Discipline',
-      text: `Self-discipline-what many people call
-will-power-refers to the ability to persist at difficult or unpleasant
-tasks until they are completed. People who possess high self-discipline
-are able to overcome reluctance to begin tasks and stay on track despite
-distractions. Those with low self-discipline procrastinate and show poor
-follow-through, often failing to complete tasks-even tasks they want very
-much to complete.`
+      title: 'Самодисципліна',
+      text: `Самодисципліна - те, що багато людей називають
+силою волі - це здатність наполегливо працювати над складними або неприємними
+завданнями до їх завершення. Люди з високою самодисципліною
+здатні подолати небажання почати завдання і залишатися на шляху, незважаючи на
+відволікання. Люди з низькою самодисципліною схильні до прокрастинації та показують слабку
+послідовність, часто не виконуючи завдання, навіть ті, які дуже хочуть завершити.`
     },
     {
       facet: 6,
-      title: 'Cautiousness',
-      text: `Cautiousness describes the disposition to
-think through possibilities before acting. High scorers on the Cautiousness
-scale take their time when making decisions. Low scorers often say or do
-first thing that comes to mind without deliberating alternatives and the
-probable consequences of those alternatives.`
+      title: 'Обачність',
+      text: `Обачність описує схильність
+обдумувати можливості перед дією. Люди з високими балами за шкалою обачності
+не поспішають у прийнятті рішень. Люди з низькими балами часто говорять або роблять
+перше, що спадає на думку, не розглядаючи альтернативи та
+ймовірні наслідки цих альтернатив.`
     }
   ]
 }

@@ -1,118 +1,76 @@
 module.exports = {
   domain: 'O', // do not change this line
-  title: 'Openness To Experience',
-  shortDescription: 'Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.',
-  description: `Open people are intellectually curious,
-appreciative of art, and sensitive to beauty. They tend to be,
-compared to closed people, more aware of their feelings. They tend to
-think and act in individualistic and nonconforming
-ways. Intellectuals typically score high on Openness to Experience;
-consequently, this factor has also been called Culture or
-Intellect. <br /><br />Nonetheless, Intellect is probably best regarded as one aspect of openness
-to experience. Scores on Openness to Experience are only modestly
-related to years of education and scores on standard intelligent tests.
+  title: 'Deneyime Açıklık (Openness to Experience)',
+  shortDescription: 'Deneyime Açıklık, hayal gücü yüksek, yaratıcı insanları gerçekçi ve geleneksel insanlardan ayıran bir bilişsel stil boyutunu tanımlar.',
+  description: `Açık insanlar entelektüel olarak meraklı,
+sanata değer veren ve güzellikten etkilenen kişilerdir. Kapalı insanlara kıyasla,
+duygularının daha fazla farkında olma eğilimindedirler. Bireysel ve uyumsuz
+şekillerde düşünme ve hareket etme eğilimindedirler. Entelektüeller genellikle Deneyime Açıklık'ta yüksek puan alırlar;
+bu nedenle, bu faktör Kültür veya
+Entelekt olarak da adlandırılmıştır. <br /><br />Yine de, Entelekt muhtemelen deneyime açıklığın bir yönü olarak en iyi şekilde değerlendirilir.
+Deneyime Açıklık puanları, eğitim yılı ve standart zeka testlerinde alınan puanlarla yalnızca mütevazı bir şekilde ilişkilidir.
 <br /><br />
-Another characteristic of the open cognitive style is a facility for thinking
-in symbols and abstractions far removed from concrete experience. Depending on
-the individual's specific intellectual abilities, this symbolic cognition may
-take the form of mathematical, logical, or geometric thinking, artistic and
-metaphorical use of language, music composition or performance, or one of the
-many visual or performing arts.
+Açık bilişsel stilin bir diğer özelliği, somut deneyimden oldukça uzak semboller ve soyut düşüncelerle düşünme yeteneğidir. Bireyin belirli entelektüel yeteneklerine bağlı olarak, bu sembolik biliş,
+matematiksel, mantıksal veya geometrik düşünce, sanatsal ve mecazi dil kullanımı, müzik bestesi veya icrası ya da birçok görsel veya performans sanatından biri şeklinde olabilir.
 <br /><br />
-People with low scores on openness to experience tend to have narrow, common
-interests. They prefer the plain, straightforward, and obvious over the
-complex, ambiguous, and subtle. They may regard the arts and sciences with
-suspicion, regarding these endeavors as abstruse or of no practical use.
-Closed people prefer familiarity over novelty; they are conservative and
-resistant to change.
+Deneyime açıklıkta düşük puan alan insanlar dar, sıradan
+ilgilere sahiptir. Karmaşık, belirsiz ve ince olanın yerine basit, doğrudan ve bariz olanı tercih ederler. Sanat ve bilimlere kuşkuyla bakabilirler, bu uğraşları soyut veya pratik bir yararı olmayan olarak görebilirler.
+Kapalı insanlar tanıdıklığı yeniliğe tercih ederler; muhafazakar ve değişime dirençlidirler.
 <br /><br />
-Openness is often presented as healthier or more mature by psychologists, who
-are often themselves open to experience. However, open and closed styles of
-thinking are useful in different environments. The intellectual style of the
-open person may serve a professor well, but research has shown that closed
-thinking is related to superior job performance in police work, sales, and
-a number of service occupations.`,
+Deneyime açıklık, psikologlar tarafından genellikle daha sağlıklı veya daha olgun olarak sunulur,
+bu da genellikle deneyime açık olmalarından kaynaklanır. Ancak, açık ve kapalı düşünce stilleri farklı ortamlarda faydalıdır. Açık kişinin entelektüel stili bir profesöre iyi hizmet edebilir, ancak araştırmalar kapalı düşüncenin polislik, satış ve
+bir dizi hizmet mesleğinde üstün iş performansı ile ilişkili olduğunu göstermiştir.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Openness to Experience is low, indicating you like to think in
-plain and simple terms. Others describe you as down-to-earth, practical,
-and conservative.`
+      text: 'Deneyime Açıklık puanınız düşük, bu da basit ve anlaşılır terimlerle düşünmeyi sevdiğinizi gösteriyor. Başkaları sizi gerçekçi, pratik ve muhafazakar olarak tanımlar.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Openness to Experience is average, indicating you enjoy
-tradition but are willing to try new things. Your thinking is neither
-simple nor complex. To others you appear to be a well-educated person
-but not an intellectual.`
+      text: 'Deneyime Açıklık puanınız ortalama, bu da geleneği sevdiğinizi ancak yeni şeyler denemeye istekli olduğunuzu gösterir. Düşünceleriniz ne basit ne de karmaşıktır. Başkalarına göre iyi eğitimli biri gibi görünürsünüz, ancak entelektüel değilsiniz.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Openness to Experience is high, indicating you enjoy novelty,
-variety, and change. You are curious, imaginative, and creative.`
+      text: 'Deneyime Açıklık puanınız yüksek, bu da yenilik, çeşitlilik ve değişiklikten hoşlandığınızı gösterir. Meraklı, hayal gücü yüksek ve yaratıcı birisiniz.'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Imagination',
-      text: `To imaginative individuals, the real world is
-often too plain and ordinary. High scorers on this scale use fantasy as a
-way of creating a richer, more interesting world. Low scorers are on this
-scale are more oriented to facts than fantasy.`
+      title: 'Hayal Gücü',
+      text: 'Hayal gücü yüksek bireyler için gerçek dünya genellikle çok sade ve sıradandır. Bu ölçekte yüksek puan alanlar, daha zengin, daha ilginç bir dünya yaratmanın bir yolu olarak fanteziyi kullanırlar. Bu ölçekte düşük puan alanlar, gerçeklere hayalden daha fazla yönelmişlerdir.'
     },
     {
       facet: 2,
-      title: 'Artistic Interests',
-      text: `High scorers on this scale love beauty, both in
-art and in nature. They become easily involved and absorbed in artistic
-and natural events. They are not necessarily artistically trained nor
-talented, although many will be. The defining features of this scale are
-interest in, and appreciation of natural and
-artificial beauty. Low scorers lack aesthetic sensitivity and interest in
-the arts.`
+      title: 'Sanatsal İlgi',
+      text: `Bu ölçekte yüksek puan alanlar, hem
+sanatta hem de doğada güzelliği severler. Sanatsal
+ve doğal olaylara kolayca dahil olurlar ve kendilerini kaptırırlar. Sanatsal eğitim almış veya yetenekli olmaları gerekmez, ancak birçoğu öyle olacaktır. Bu ölçeğin tanımlayıcı özellikleri, doğal ve yapay güzelliğe olan ilgi ve takdirdir.
+Düşük puan alanlar estetik duyarlılıktan ve sanata ilgiden yoksundur.`
     },
     {
       facet: 3,
-      title: 'Emotionality',
-      text: `Persons high on Emotionality have good access
-to and awareness of their own feelings. Low scorers are less aware of
-their feelings and tend not to express their emotions openly.`
+      title: 'Duygusallık',
+      text: 'Duygusallıkta yüksek puan alan kişiler, kendi duygularına iyi erişim sağlarlar ve bu duyguların farkındadırlar. Düşük puan alanlar duygularının farkında değillerdir ve duygularını açıkça ifade etme eğiliminde değillerdir.'
     },
     {
       facet: 4,
-      title: 'Adventurousness',
-      text: `High scorers on adventurousness are eager to
-try new activities, travel to foreign lands, and experience different
-things. They find familiarity and routine boring, and will take a new
-route home just because it is different. Low scorers tend to feel
-uncomfortable with change and prefer familiar routines.`
+      title: 'Maceraperestlik',
+      text: 'Maceraperestlikte yüksek puan alanlar, yeni aktiviteleri denemek, yabancı ülkelere seyahat etmek ve farklı şeyler deneyimlemek için heveslidirler. Tanıdık ve rutin olanı sıkıcı bulurlar ve sadece farklı olduğu için eve farklı bir yoldan dönerler. Düşük puan alanlar, değişiklikle rahatsızlık duyarlar ve tanıdık rutinleri tercih ederler.'
     },
     {
       facet: 5,
-      title: 'Intellect',
-      text: `Intellect and artistic interests are the two most
-important, central aspects of openness to experience. High scorers on
-Intellect love to play with ideas. They are open-minded to new and unusual
-ideas, and like to debate intellectual issues. They enjoy riddles, puzzles,
-and brain teasers. Low scorers on Intellect prefer dealing with either
-people or things rather than ideas. They regard intellectual exercises as a
-waste of time. Intellect should not be equated with intelligence.
-Intellect is an intellectual style, not an intellectual ability, although
-high scorers on Intellect score slightly higher than low-Intellect
-individuals on standardized intelligence tests.`
+      title: 'Entelekt',
+      text: `Entelekt ve sanatsal ilgi, deneyime açıklığın en önemli ve merkezi yönleridir. Entelektte yüksek puan alanlar fikirlerle oynamayı severler. Yeni ve alışılmadık fikirlere açık fikirlidirler ve entelektüel konuları tartışmaktan hoşlanırlar. Bulmacalar, bilmeceler ve beyin jimnastikleri yapmaktan hoşlanırlar. Entelektte düşük puan alanlar ise insanlarla veya şeylerle ilgilenmeyi fikirlerden daha fazla tercih ederler. Entelektüel egzersizleri zaman kaybı olarak görürler. Entelekt zeka ile eş anlamlı olmamalıdır.
+Entelekt bir entelektüel stil olup, entelektüel bir yetenek değildir, ancak
+Entelektte yüksek puan alanlar standart zeka testlerinde düşük Entelekt bireylerinden biraz daha yüksek puan alırlar.`
     },
     {
       facet: 6,
-      title: 'Liberalism',
-      text: `Psychological liberalism refers to a readiness to
-challenge authority, convention, and traditional values. In its most
-extreme form, psychological liberalism can even represent outright
-hostility toward rules, sympathy for law-breakers, and love of ambiguity,
-chaos, and disorder. Psychological conservatives prefer the security and
-stability brought by conformity to tradition. Psychological liberalism
-and conservatism are not identical to political affiliation, but certainly
-incline individuals toward certain political parties.`
+      title: 'Liberalizm',
+      text: `Psikolojik liberalizm, otoriteye, geleneğe ve geleneksel değerlere meydan okuma istekliliğini ifade eder. En aşırı biçiminde, psikolojik liberalizm kurallara karşı açık bir düşmanlığı, yasa dışı olanlara sempatiyi ve belirsizlik, kaos ve düzensizlik sevgisini temsil edebilir.
+Psikolojik muhafazakârlar ise geleneğe uyum sağlamanın getirdiği güvenlik ve istikrarı tercih ederler. Psikolojik liberalizm
+ve muhafazakârlık, siyasi bağlantılarla özdeş değildir, ancak bireyleri belirli siyasi partilere yönlendirebilir.`
     }
   ]
 }

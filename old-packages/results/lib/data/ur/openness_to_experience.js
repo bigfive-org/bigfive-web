@@ -1,118 +1,58 @@
 module.exports = {
   domain: 'O', // do not change this line
-  title: 'Openness To Experience',
-  shortDescription: 'Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.',
-  description: `Open people are intellectually curious,
-appreciative of art, and sensitive to beauty. They tend to be,
-compared to closed people, more aware of their feelings. They tend to
-think and act in individualistic and nonconforming
-ways. Intellectuals typically score high on Openness to Experience;
-consequently, this factor has also been called Culture or
-Intellect. <br /><br />Nonetheless, Intellect is probably best regarded as one aspect of openness
-to experience. Scores on Openness to Experience are only modestly
-related to years of education and scores on standard intelligent tests.
+  title: 'تجربے کے لئے کھلا پن (Openness to Experience)',
+  shortDescription: 'تجربے کے لئے کھلا پن ایک ادراکی انداز کی جہت کی وضاحت کرتا ہے جو تخیلی، تخلیقی لوگوں کو زمین سے جڑے، روایتی لوگوں سے ممتاز کرتا ہے۔',
+  description: `کھلے لوگ ذہنی تجسس رکھتے ہیں، فن کی قدر کرتے ہیں، اور حسن کے حساس ہوتے ہیں۔ وہ بند لوگوں کے مقابلے میں اپنے جذبات سے زیادہ آگاہ ہوتے ہیں۔ وہ انفرادی اور غیر مطابقت پذیر طریقوں سے سوچتے اور عمل کرتے ہیں۔ ذہنی طور پر بلند افراد عموماً تجربے کے لئے کھلے پن پر زیادہ اسکور کرتے ہیں؛ اس وجہ سے، اس عنصر کو ثقافت یا ذہنیت بھی کہا گیا ہے۔ <br /><br />پھر بھی، ذہنیت کو شاید تجربے کے لئے کھلے پن کا ایک پہلو سمجھنا بہترین ہے۔ تجربے کے لئے کھلے پن پر اسکورز تعلیمی سالوں اور معیاری ذہانت کے ٹیسٹوں پر اسکورز سے صرف معمولی حد تک متعلق ہیں۔
 <br /><br />
-Another characteristic of the open cognitive style is a facility for thinking
-in symbols and abstractions far removed from concrete experience. Depending on
-the individual's specific intellectual abilities, this symbolic cognition may
-take the form of mathematical, logical, or geometric thinking, artistic and
-metaphorical use of language, music composition or performance, or one of the
-many visual or performing arts.
+کھلے ادراکی انداز کی ایک اور خصوصیت یہ ہے کہ علامتوں اور تجریدات میں سوچنے کی سہولت جو ٹھوس تجربے سے بہت دور ہوتی ہے۔ انفرادی ذہنی صلاحیتوں کے مطابق، یہ علامتی ادراک ریاضی، منطق، یا جیومیٹری کی شکل میں ہو سکتا ہے، زبان کے فنکارانہ اور استعارے کے استعمال میں، موسیقی کی تشکیل یا کارکردگی میں، یا بصری یا کارکردگی کے فنون میں سے کسی ایک میں۔
 <br /><br />
-People with low scores on openness to experience tend to have narrow, common
-interests. They prefer the plain, straightforward, and obvious over the
-complex, ambiguous, and subtle. They may regard the arts and sciences with
-suspicion, regarding these endeavors as abstruse or of no practical use.
-Closed people prefer familiarity over novelty; they are conservative and
-resistant to change.
+تجربے کے لئے کھلے پن پر کم اسکور کرنے والے لوگ عام اور محدود دلچسپیاں رکھتے ہیں۔ وہ پیچیدہ، مبہم، اور لطیف کے مقابلے میں سادہ، براہ راست، اور واضح کو ترجیح دیتے ہیں۔ وہ فنون اور سائنس کو شبہے سے دیکھ سکتے ہیں، ان کوششوں کو غیر عملی یا بے فائدہ سمجھ سکتے ہیں۔ بند لوگ نئے پن پر پرانے پن کو ترجیح دیتے ہیں؛ وہ قدامت پسند ہوتے ہیں اور تبدیلی کی مخالفت کرتے ہیں۔
 <br /><br />
-Openness is often presented as healthier or more mature by psychologists, who
-are often themselves open to experience. However, open and closed styles of
-thinking are useful in different environments. The intellectual style of the
-open person may serve a professor well, but research has shown that closed
-thinking is related to superior job performance in police work, sales, and
-a number of service occupations.`,
+ماہرین نفسیات، جو عموماً خود تجربے کے لئے کھلے ہوتے ہیں، کھلے پن کو زیادہ صحت مند یا زیادہ بالغ کے طور پر پیش کرتے ہیں۔ تاہم، کھلے اور بند سوچنے کے انداز مختلف ماحول میں مفید ہوتے ہیں۔ کھلے شخص کا ذہنی انداز پروفیسر کے لئے مفید ہو سکتا ہے، لیکن تحقیق سے معلوم ہوا ہے کہ بند سوچنے کا انداز پولیس کے کام، فروخت، اور کئی خدماتی پیشوں میں اعلیٰ کارکردگی سے منسلک ہے۔`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Openness to Experience is low, indicating you like to think in
-plain and simple terms. Others describe you as down-to-earth, practical,
-and conservative.`
+      text: 'آپ کا تجربے کے لئے کھلا پن پر اسکور کم ہے، جو اشارہ کرتا ہے کہ آپ سادہ اور سیدھے سادے انداز میں سوچنا پسند کرتے ہیں۔ دوسرے آپ کو زمین سے جڑا، عملی، اور قدامت پسند سمجھتے ہیں۔'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Openness to Experience is average, indicating you enjoy
-tradition but are willing to try new things. Your thinking is neither
-simple nor complex. To others you appear to be a well-educated person
-but not an intellectual.`
+      text: 'آپ کا تجربے کے لئے کھلا پن پر اسکور اوسط ہے، جو اشارہ کرتا ہے کہ آپ روایت کو پسند کرتے ہیں لیکن نئی چیزوں کو آزمانے کے لئے تیار ہیں۔ آپ کی سوچ نہ سادہ ہے نہ پیچیدہ۔ دوسروں کے لئے آپ ایک تعلیم یافتہ شخص نظر آتے ہیں لیکن ذہنی طور پر نہیں۔'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Openness to Experience is high, indicating you enjoy novelty,
-variety, and change. You are curious, imaginative, and creative.`
+      text: 'آپ کا تجربے کے لئے کھلا پن پر اسکور زیادہ ہے، جو اشارہ کرتا ہے کہ آپ نئے پن، تنوع، اور تبدیلی سے لطف اندوز ہوتے ہیں۔ آپ متجسس، تخیلاتی، اور تخلیقی ہیں۔'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Imagination',
-      text: `To imaginative individuals, the real world is
-often too plain and ordinary. High scorers on this scale use fantasy as a
-way of creating a richer, more interesting world. Low scorers are on this
-scale are more oriented to facts than fantasy.`
+      title: 'تخیلات',
+      text: 'تخیلاتی افراد کے لئے، حقیقی دنیا اکثر بہت سادہ اور معمولی ہوتی ہے۔ اس پیمانے پر زیادہ اسکور کرنے والے لوگ فنتاسی کو ایک زیادہ دلچسپ دنیا بنانے کے طریقے کے طور پر استعمال کرتے ہیں۔ اس پیمانے پر کم اسکور کرنے والے لوگ حقائق کی طرف زیادہ مائل ہوتے ہیں بجائے فنتاسی کے۔'
     },
     {
       facet: 2,
-      title: 'Artistic Interests',
-      text: `High scorers on this scale love beauty, both in
-art and in nature. They become easily involved and absorbed in artistic
-and natural events. They are not necessarily artistically trained nor
-talented, although many will be. The defining features of this scale are
-interest in, and appreciation of natural and
-artificial beauty. Low scorers lack aesthetic sensitivity and interest in
-the arts.`
+      title: 'فنی دلچسپیاں',
+      text: 'اس پیمانے پر زیادہ اسکور کرنے والے لوگ حسن کو پسند کرتے ہیں، خواہ وہ فن میں ہو یا قدرت میں۔ وہ فنکارانہ اور قدرتی واقعات میں آسانی سے مگن اور ملوث ہو جاتے ہیں۔ وہ لازمی طور پر فنکارانہ تربیت یافتہ یا ہنرمند نہیں ہوتے، اگرچہ بہت سے ایسے ہوں گے۔ اس پیمانے کی تعریفی خصوصیات قدرتی اور مصنوعی حسن میں دلچسپی اور قدر ہیں۔ کم اسکور کرنے والے لوگ جمالیاتی حساسیت اور فنون میں دلچسپی کی کمی رکھتے ہیں۔'
     },
     {
       facet: 3,
-      title: 'Emotionality',
-      text: `Persons high on Emotionality have good access
-to and awareness of their own feelings. Low scorers are less aware of
-their feelings and tend not to express their emotions openly.`
+      title: 'جذباتیت',
+      text: 'جذباتیت پر زیادہ اسکور کرنے والے افراد کو اپنے جذبات تک اچھی رسائی اور آگاہی ہوتی ہے۔ کم اسکور کرنے والے اپنے جذبات سے کم آگاہ ہوتے ہیں اور عموماً اپنے جذبات کا کھلے عام اظہار نہیں کرتے۔'
     },
     {
       facet: 4,
-      title: 'Adventurousness',
-      text: `High scorers on adventurousness are eager to
-try new activities, travel to foreign lands, and experience different
-things. They find familiarity and routine boring, and will take a new
-route home just because it is different. Low scorers tend to feel
-uncomfortable with change and prefer familiar routines.`
+      title: 'مہم جوئی',
+      text: 'مہم جوئی پر زیادہ اسکور کرنے والے نئے سرگرمیوں کو آزمانے، غیر ملکی مقامات پر جانے، اور مختلف چیزوں کا تجربہ کرنے کے لئے بے تاب ہوتے ہیں۔ انہیں مانوسیت اور معمولات بورنگ لگتی ہیں، اور وہ صرف اس لئے ایک نیا راستہ اختیار کر لیں گے کہ یہ مختلف ہے۔ کم اسکور کرنے والے لوگ تبدیلی کے ساتھ بے چینی محسوس کرتے ہیں اور مانوس معمولات کو ترجیح دیتے ہیں۔'
     },
     {
       facet: 5,
-      title: 'Intellect',
-      text: `Intellect and artistic interests are the two most
-important, central aspects of openness to experience. High scorers on
-Intellect love to play with ideas. They are open-minded to new and unusual
-ideas, and like to debate intellectual issues. They enjoy riddles, puzzles,
-and brain teasers. Low scorers on Intellect prefer dealing with either
-people or things rather than ideas. They regard intellectual exercises as a
-waste of time. Intellect should not be equated with intelligence.
-Intellect is an intellectual style, not an intellectual ability, although
-high scorers on Intellect score slightly higher than low-Intellect
-individuals on standardized intelligence tests.`
+      title: 'ذہنیت',
+      text: 'ذہنیت اور فنی دلچسپیاں تجربے کے لئے کھلا پن کے دو سب سے اہم، مرکزی پہلو ہیں۔ ذہنیت پر زیادہ اسکور کرنے والے افراد خیالات سے کھیلنا پسند کرتے ہیں۔ وہ نئے اور غیر معمولی خیالات کے لئے کھلے ہوتے ہیں، اور ذہنی مسائل پر بحث کرنا پسند کرتے ہیں۔ انہیں پہیلیاں، معمے، اور دماغی مشقیں پسند ہوتی ہیں۔ ذہنیت پر کم اسکور کرنے والے لوگ لوگوں یا چیزوں سے نمٹنے کو خیالات کے مقابلے میں ترجیح دیتے ہیں۔ وہ ذہنی مشقوں کو وقت کا ضیاع سمجھتے ہیں۔ ذہنیت کو ذہانت کے ساتھ مساوی نہیں کیا جانا چاہئے۔ ذہنیت ایک ذہنی انداز ہے، نہ کہ ایک ذہنی صلاحیت، اگرچہ ذہنیت پر زیادہ اسکور کرنے والے افراد معیاری ذہانت کے ٹیسٹوں میں کم-ذہنیت والے افراد سے تھوڑا زیادہ اسکور کرتے ہیں۔'
     },
     {
       facet: 6,
-      title: 'Liberalism',
-      text: `Psychological liberalism refers to a readiness to
-challenge authority, convention, and traditional values. In its most
-extreme form, psychological liberalism can even represent outright
-hostility toward rules, sympathy for law-breakers, and love of ambiguity,
-chaos, and disorder. Psychological conservatives prefer the security and
-stability brought by conformity to tradition. Psychological liberalism
-and conservatism are not identical to political affiliation, but certainly
-incline individuals toward certain political parties.`
+      title: 'آزاد خیالی',
+      text: 'نفسیاتی آزاد خیالی اتھارٹی، روایت، اور روایتی اقدار کو چیلنج کرنے کی تیاری کا حوالہ دیتی ہے۔ اس کی انتہائی شکل میں، نفسیاتی آزاد خیالی قوانین کی صریح مخالفت، قانون شکنوں کے لئے ہمدردی، اور ابہام، انتشار، اور بدنظمی کی محبت کی نمائندگی بھی کر سکتی ہے۔ نفسیاتی قدامت پسند روایت سے ہم آہنگی کے ذریعہ لائے جانے والے سکیورٹی اور استحکام کو ترجیح دیتے ہیں۔ نفسیاتی آزاد خیالی اور قدامت پسندی سیاسی وابستگی سے ایک جیسی نہیں ہیں، لیکن یقیناً افراد کو مخصوص سیاسی جماعتوں کی طرف مائل کرتی ہیں۔'
     }
   ]
 }

@@ -1,118 +1,115 @@
 module.exports = {
   domain: 'O', // do not change this line
-  title: 'Openness To Experience',
-  shortDescription: 'Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.',
-  description: `Open people are intellectually curious,
-appreciative of art, and sensitive to beauty. They tend to be,
-compared to closed people, more aware of their feelings. They tend to
-think and act in individualistic and nonconforming
-ways. Intellectuals typically score high on Openness to Experience;
-consequently, this factor has also been called Culture or
-Intellect. <br /><br />Nonetheless, Intellect is probably best regarded as one aspect of openness
-to experience. Scores on Openness to Experience are only modestly
-related to years of education and scores on standard intelligent tests.
+  title: 'Відкритість до досвіду (Openness to Experience)',
+  shortDescription: 'Відкритість до досвіду описує вимір когнітивного стилю, який відрізняє уявних, творчих людей від приземлених, традиційних людей.',
+  description: `Відкриті люди є інтелектуально цікавими,
+цінують мистецтво і чутливі до краси. Вони схильні, порівняно з закритими людьми, більше усвідомлювати свої почуття. Вони схильні
+думати і діяти індивідуалістично та неконформістськи.
+Інтелектуали зазвичай мають високі показники відкритості до досвіду;
+отже, цей фактор також називають Культурою або
+Інтелектом. <br /><br />Проте інтелект, ймовірно, найкраще розглядати як один з аспектів відкритості
+до досвіду. Показники відкритості до досвіду лише помірно
+пов'язані з роками освіти і результатами стандартних тестів на інтелект.
 <br /><br />
-Another characteristic of the open cognitive style is a facility for thinking
-in symbols and abstractions far removed from concrete experience. Depending on
-the individual's specific intellectual abilities, this symbolic cognition may
-take the form of mathematical, logical, or geometric thinking, artistic and
-metaphorical use of language, music composition or performance, or one of the
-many visual or performing arts.
+Іншою характеристикою відкритого когнітивного стилю є здатність мислити
+символами та абстракціями, далекими від конкретного досвіду. Залежно від
+конкретних інтелектуальних здібностей індивіда, це символічне мислення може
+набувати форми математичного, логічного чи геометричного мислення, художнього та
+метафоричного використання мови, музичної композиції або виконання, або одного з
+багатьох візуальних чи виконавських мистецтв.
 <br /><br />
-People with low scores on openness to experience tend to have narrow, common
-interests. They prefer the plain, straightforward, and obvious over the
-complex, ambiguous, and subtle. They may regard the arts and sciences with
-suspicion, regarding these endeavors as abstruse or of no practical use.
-Closed people prefer familiarity over novelty; they are conservative and
-resistant to change.
+Люди з низькими показниками відкритості до досвіду схильні мати вузькі, загальні
+інтереси. Вони віддають перевагу простому, прямолінійному та очевидному над
+складним, неоднозначним і тонким. Вони можуть сприймати мистецтво і науки з
+підозрою, вважаючи ці заняття абстрактними або непрактичними.
+Закриті люди надають перевагу знайомому над новим; вони консервативні та
+стійкі до змін.
 <br /><br />
-Openness is often presented as healthier or more mature by psychologists, who
-are often themselves open to experience. However, open and closed styles of
-thinking are useful in different environments. The intellectual style of the
-open person may serve a professor well, but research has shown that closed
-thinking is related to superior job performance in police work, sales, and
-a number of service occupations.`,
+Відкритість часто представляється як здоровіша або зріліша психологами, які
+самі зазвичай відкриті до досвіду. Однак відкриті та закриті стилі
+мислення корисні в різних середовищах. Інтелектуальний стиль відкритої людини може бути корисним для професора, але дослідження показали, що закрите
+мислення пов'язане з кращими робочими показниками у поліцейській службі, продажах та
+ряді сервісних професій.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Openness to Experience is low, indicating you like to think in
-plain and simple terms. Others describe you as down-to-earth, practical,
-and conservative.`
+      text: `Ваш результат за шкалою відкритості до досвіду низький, що вказує на те, що ви любите мислити
+простими і зрозумілими категоріями. Інші описують вас як приземлену, практичну,
+і консервативну людину.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Openness to Experience is average, indicating you enjoy
-tradition but are willing to try new things. Your thinking is neither
-simple nor complex. To others you appear to be a well-educated person
-but not an intellectual.`
+      text: `Ваш результат за шкалою відкритості до досвіду середній, що вказує на те, що ви насолоджуєтеся
+традиціями, але готові спробувати щось нове. Ваше мислення не є
+простим чи складним. Для інших ви виглядаєте добре освіченою людиною,
+але не інтелектуалом.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Openness to Experience is high, indicating you enjoy novelty,
-variety, and change. You are curious, imaginative, and creative.`
+      text: `Ваш результат за шкалою відкритості до досвіду високий, що вказує на те, що ви насолоджуєтеся новизною,
+різноманітністю і змінами. Ви цікаві, уявні та творчі.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Imagination',
-      text: `To imaginative individuals, the real world is
-often too plain and ordinary. High scorers on this scale use fantasy as a
-way of creating a richer, more interesting world. Low scorers are on this
-scale are more oriented to facts than fantasy.`
+      title: 'Уява',
+      text: `Для уявних людей реальний світ часто занадто простий і звичайний. Люди з високими балами за цією шкалою використовують фантазію як
+спосіб створити багатший, цікавіший світ. Люди з низькими балами за цією шкалою
+більше орієнтовані на факти, ніж на фантазії.`
     },
     {
       facet: 2,
-      title: 'Artistic Interests',
-      text: `High scorers on this scale love beauty, both in
-art and in nature. They become easily involved and absorbed in artistic
-and natural events. They are not necessarily artistically trained nor
-talented, although many will be. The defining features of this scale are
-interest in, and appreciation of natural and
-artificial beauty. Low scorers lack aesthetic sensitivity and interest in
-the arts.`
+      title: 'Художні інтереси',
+      text: `Люди з високими балами за цією шкалою люблять красу, як у
+мистецтві, так і в природі. Вони легко захоплюються і поглинаються художніми
+та природними подіями. Вони не обов'язково художньо підготовлені або
+талановиті, хоча багато з них є такими. Визначальними рисами цієї шкали є
+інтерес і захоплення природною та
+штучною красою. Люди з низькими балами не мають естетичної чутливості і інтересу до
+мистецтва.`
     },
     {
       facet: 3,
-      title: 'Emotionality',
-      text: `Persons high on Emotionality have good access
-to and awareness of their own feelings. Low scorers are less aware of
-their feelings and tend not to express their emotions openly.`
+      title: 'Емоційність',
+      text: `Люди з високими показниками емоційності мають хороший доступ
+до своїх власних почуттів і усвідомлення їх. Люди з низькими показниками менш усвідомлюють
+свої почуття і схильні не виражати свої емоції відкрито.`
     },
     {
       facet: 4,
-      title: 'Adventurousness',
-      text: `High scorers on adventurousness are eager to
-try new activities, travel to foreign lands, and experience different
-things. They find familiarity and routine boring, and will take a new
-route home just because it is different. Low scorers tend to feel
-uncomfortable with change and prefer familiar routines.`
+      title: 'Пригодницькість',
+      text: `Люди з високими балами за цією шкалою пригодницькості прагнуть
+спробувати нові види діяльності, подорожувати до далеких країн і випробовувати різні
+речі. Вони знаходять знайоме і рутинне нудним і готові піти новим
+шляхом додому просто тому, що він інший. Люди з низькими балами схильні відчувати себе
+незручно зі змінами і віддають перевагу знайомим рутинам.`
     },
     {
       facet: 5,
-      title: 'Intellect',
-      text: `Intellect and artistic interests are the two most
-important, central aspects of openness to experience. High scorers on
-Intellect love to play with ideas. They are open-minded to new and unusual
-ideas, and like to debate intellectual issues. They enjoy riddles, puzzles,
-and brain teasers. Low scorers on Intellect prefer dealing with either
-people or things rather than ideas. They regard intellectual exercises as a
-waste of time. Intellect should not be equated with intelligence.
-Intellect is an intellectual style, not an intellectual ability, although
-high scorers on Intellect score slightly higher than low-Intellect
-individuals on standardized intelligence tests.`
+      title: 'Інтелект',
+      text: `Інтелект і художні інтереси є двома найважливішими,
+центральними аспектами відкритості до досвіду. Люди з високими балами за цією шкалою
+люблять грати з ідеями. Вони відкриті до нових і незвичайних
+ідей і люблять обговорювати інтелектуальні питання. Вони насолоджуються головоломками, ребусами
+та інтелектуальними завданнями. Люди з низькими балами за цією шкалою віддають перевагу спілкуванню з людьми або
+речами, а не з ідеями. Вони вважають інтелектуальні вправи
+марною тратою часу. Інтелект не слід ототожнювати з інтелектом.
+Інтелект - це інтелектуальний стиль, а не інтелектуальна здатність, хоча
+люди з високими балами за цією шкалою набирають трохи більше балів, ніж люди з низькими балами за
+стандартними тестами на інтелект.`
     },
     {
       facet: 6,
-      title: 'Liberalism',
-      text: `Psychological liberalism refers to a readiness to
-challenge authority, convention, and traditional values. In its most
-extreme form, psychological liberalism can even represent outright
-hostility toward rules, sympathy for law-breakers, and love of ambiguity,
-chaos, and disorder. Psychological conservatives prefer the security and
-stability brought by conformity to tradition. Psychological liberalism
-and conservatism are not identical to political affiliation, but certainly
-incline individuals toward certain political parties.`
+      title: 'Лібералізм',
+      text: `Психологічний лібералізм стосується готовності
+кинути виклик авторитету, конвенціям і традиційним цінностям. У своїй найбільш
+крайньої формі психологічний лібералізм може навіть представляти явну
+ворожість до правил, співчуття до порушників законів і любов до неоднозначності,
+хаосу і безладу. Психологічні консерватори надають перевагу безпеці та
+стабільності, які приносить дотримання традицій. Психологічний лібералізм
+і консерватизм не є тотожними політичній приналежності, але, безумовно,
+схиляють людей до певних політичних партій.`
     }
   ]
 }

@@ -1,6 +1,6 @@
 module.exports = {
   domain: 'A', // do not change this line
-  title: 'Uyumluluk',
+  title: 'Uyumluluk (Agreeableness)',
   shortDescription: 'Uyumluluk, işbirliği ve sosyal uyum konusundaki bireysel farklılıkları yansıtır. Uyumluluk gösteren bireyler, başkalarıyla iyi geçinmeye değer verir.',
   description: `Bu nedenle, düşünceli, arkadaş canlısı,
 cömert, yardımseverdirler ve çıkarlarını başkalarıyla uzlaştırmaya isteklidirler. Uyumluluk gösteren insanlar ayrıca insan doğası hakkında iyimser bir görüşe sahiptirler. İnsanların temelde dürüst, düzgün ve güvenilir olduğuna inanırlar. <br /><br />

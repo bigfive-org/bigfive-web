@@ -1,98 +1,55 @@
 module.exports = {
   domain: 'E', // do not change this line
-  title: 'Extraversion',
-  shortDescription: 'Extraversion is marked by pronounced engagement with the external world.',
-  description: `Extraverts enjoy being with people, are full of energy, and
-often experience positive emotions. They tend to be enthusiastic,
-action-oriented, individuals who are likely to say "Yes!" or "Let's
-go!" to opportunities for excitement. In groups they like to talk,
-assert themselves, and draw attention to themselves.
+  title: 'بیرونی پن (Extraversion)',
+  shortDescription: 'بیرونی پن خارجی دنیا کے ساتھ نمایاں مشغولیت سے نشان زد ہوتا ہے۔',
+  description: `بیرونی پن رکھنے والے لوگوں کو لوگوں کے ساتھ رہنا پسند ہوتا ہے، وہ توانائی سے بھرپور ہوتے ہیں، اور اکثر مثبت جذبات کا تجربہ کرتے ہیں۔ وہ پرجوش، عمل پر مبنی افراد ہوتے ہیں جو مواقع کے لئے "ہاں!" یا "چلو!" کہنے کا امکان رکھتے ہیں۔ گروپوں میں وہ بات کرنا، خود کو منوانا، اور توجہ اپنی طرف مبذول کرنا پسند کرتے ہیں۔
 <br /><br />
-Introverts lack the exuberance, energy, and activity levels of
-extraverts. They tend to be quiet, low-key, deliberate, and
-disengaged from the social world. Their lack of social involvement
-should not be interpreted as shyness or depression; the
-introvert simply needs less stimulation than an extravert and prefers
-to be alone. <br /><br />The independence and reserve of the introvert is
-sometimes mistaken as unfriendliness or arrogance. In reality, an
-introvert who scores high on the agreeableness dimension will not
-seek others out but will be quite pleasant when approached.`,
+اندرونی پن رکھنے والے افراد بیرونی پن رکھنے والوں کی طرح جوش، توانائی، اور سرگرمی کی سطح نہیں رکھتے۔ وہ خاموش، کم کلیدی، محتاط، اور سماجی دنیا سے غیر مشغول ہوتے ہیں۔ ان کی سماجی شمولیت کی کمی کو شرمندگی یا افسردگی کے طور پر نہیں سمجھنا چاہئے؛ اندرونی پن رکھنے والا شخص بیرونی پن رکھنے والے سے کم تحریک کی ضرورت رکھتا ہے اور تنہا رہنے کو ترجیح دیتا ہے۔ <br /><br />اندرونی پن رکھنے والے کی آزادی اور الگ رہنے کی عادت کو کبھی کبھار غیر دوستی یا تکبر کے طور پر غلط سمجھا جاتا ہے۔ حقیقت میں، ایک اندرونی پن رکھنے والا جو رضامندی کے جہت پر زیادہ اسکور کرتا ہے وہ دوسروں کی تلاش نہیں کرے گا لیکن جب اس سے رجوع کیا جائے گا تو وہ بہت خوشگوار ہوگا۔`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Extraversion is low, indicating you are
-introverted, reserved, and quiet. You enjoy solitude and solitary
-activities. Your socialization tends to be restricted to a few close friends.`
+      text: 'آپ کا بیرونی پن پر اسکور کم ہے، جو اشارہ کرتا ہے کہ آپ اندرونی پن رکھنے والے، محتاط، اور خاموش ہیں۔ آپ تنہائی اور انفرادی سرگرمیوں سے لطف اندوز ہوتے ہیں۔ آپ کی سماجی زندگی چند قریبی دوستوں تک محدود ہوتی ہے۔'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Extraversion is average, indicating you are
-neither a subdued loner nor a jovial chatterbox. You enjoy time with
-others but also time alone.`
+      text: 'آپ کا بیرونی پن پر اسکور اوسط ہے، جو اشارہ کرتا ہے کہ آپ نہ تو مکمل طور پر تنہائی پسند ہیں اور نہ ہی مکمل طور پر باتونی۔ آپ دوسروں کے ساتھ وقت گزارنے سے بھی لطف اندوز ہوتے ہیں اور تنہائی سے بھی۔'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Extraversion is high, indicating you are
-sociable, outgoing, energetic, and lively. You prefer to be around
-people much of the time.`
+      text: 'آپ کا بیرونی پن پر اسکور زیادہ ہے، جو اشارہ کرتا ہے کہ آپ سماجی، باہر جانے والے، توانائی سے بھرپور، اور زندہ دل ہیں۔ آپ زیادہ تر وقت لوگوں کے ارد گرد رہنا پسند کرتے ہیں۔'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Friendliness',
-      text: `Friendly people genuinely like other people
-and openly demonstrate positive feelings toward others. They make
-friends quickly and it is easy for them to form close, intimate
-relationships. Low scorers on Friendliness are not necessarily cold
-and hostile, but they do not reach out to others and are perceived
-as distant and reserved.`
+      title: 'دوستی',
+      text: `دوستانہ لوگ واقعی میں دوسرے لوگوں کو پسند کرتے ہیں
+اور دوسروں کے لئے کھلے عام مثبت جذبات کا مظاہرہ کرتے ہیں۔ وہ جلدی دوست بناتے ہیں اور ان کے لئے قریبی، گہرے تعلقات بنانا آسان ہوتا ہے۔ دوستی میں کم اسکور کرنے والے افراد لازمی طور پر سرد اور دشمنی رکھنے والے نہیں ہوتے، لیکن وہ دوسروں کی طرف نہیں بڑھتے اور دور اور محتاط سمجھے جاتے ہیں۔`
     },
     {
       facet: 2,
-      title: 'Gregariousness',
-      text: `Gregarious people find the company of
-others pleasantly stimulating and rewarding. They enjoy the
-excitement of crowds. Low scorers tend to feel overwhelmed by, and
-therefore actively avoid, large crowds. They do not necessarily
-dislike being with people sometimes, but their need for privacy and
-time to themselves is much greater than for individuals who score
-high on this scale.`
+      title: 'ملنساری',
+      text: 'ملنسار لوگ دوسروں کی کمپنی کو خوشگوار اور فائدہ مند سمجھتے ہیں۔ انہیں ہجوم کی گہما گہمی کا لطف آتا ہے۔ کم اسکور کرنے والے لوگ بڑے ہجوم سے مغلوب محسوس کرتے ہیں اور اس لئے فعال طور پر بڑے ہجوم سے بچتے ہیں۔ وہ کبھی کبھار لوگوں کے ساتھ رہنے کو ناپسند نہیں کرتے، لیکن ان کی پرائیویسی اور خود کے لئے وقت کی ضرورت ان لوگوں سے کہیں زیادہ ہوتی ہے جو اس پیمانے پر زیادہ اسکور کرتے ہیں۔'
     },
     {
       facet: 3,
-      title: 'Assertiveness',
-      text: `High scorers Assertiveness like to speak
- out, take charge, and direct the activities of others. They tend to
- be leaders in groups. Low scorers tend not to talk much and let
- others control the activities of groups.`
+      title: 'تحکم',
+      text: 'تحکم میں زیادہ اسکور کرنے والے لوگ بولنا پسند کرتے ہیں، چارج لینا، اور دوسروں کی سرگرمیوں کی رہنمائی کرنا پسند کرتے ہیں۔ وہ گروپوں میں عموماً رہنما ہوتے ہیں۔ کم اسکور کرنے والے لوگ زیادہ بات نہیں کرتے اور دوسروں کو گروپوں کی سرگرمیوں کو کنٹرول کرنے دیتے ہیں۔'
     },
     {
       facet: 4,
-      title: 'Activity Level',
-      text: `Active individuals lead fast-paced, busy
- lives. They move about quickly, energetically, and vigorously, and
- they are involved in many activities. People who score low on this
- scale follow a slower and more leisurely, relaxed pace.`
+      title: 'سرگرمی کی سطح',
+      text: 'سرگرم افراد تیز رفتار، مصروف زندگی گزارتے ہیں۔ وہ تیزی سے، توانائی کے ساتھ، اور متحرک انداز میں حرکت کرتے ہیں، اور وہ کئی سرگرمیوں میں ملوث ہوتے ہیں۔ اس پیمانے پر کم اسکور کرنے والے افراد ایک سست اور زیادہ پرسکون، آرام دہ رفتار کی پیروی کرتے ہیں۔'
     },
     {
       facet: 5,
-      title: 'Excitement-Seeking',
-      text: `High scorers on this scale are easily
-bored without high levels of stimulation. They love bright lights
-and hustle and bustle. They are likely to take risks and seek
-thrills. Low scorers are overwhelmed by noise and commotion and are
-adverse to thrill-seeking.`
+      title: 'جوش و خروش کی تلاش',
+      text: 'اس پیمانے پر زیادہ اسکور کرنے والے افراد بغیر زیادہ تحریک کے آسانی سے بور ہو جاتے ہیں۔ انہیں چمکدار روشنیوں اور گہما گہمی کا شوق ہوتا ہے۔ وہ خطرے مول لینے اور جوش کی تلاش میں رہنے کا امکان رکھتے ہیں۔ کم اسکور کرنے والے لوگ شور اور ہنگامے سے مغلوب ہوتے ہیں اور جوش کی تلاش سے دور ہوتے ہیں۔'
     },
     {
       facet: 6,
-      title: 'Cheerfulness',
-      text: `This scale measures positive mood and
-feelings, not negative emotions (which are a part of the
-Neuroticism domain). Persons who score high on this scale typically
-experience a range of positive feelings, including happiness,
-enthusiasm, optimism, and joy. Low scorers are not as prone to such
-energetic, high spirits.`
+      title: 'خوش مزاجی',
+      text: 'یہ پیمانہ مثبت موڈ اور جذبات کی پیمائش کرتا ہے، نہ کہ منفی جذبات (جو عصبی پن کے دائرہ کا حصہ ہیں)۔ اس پیمانے پر زیادہ اسکور کرنے والے افراد عموماً مثبت جذبات کا ایک سلسلہ تجربہ کرتے ہیں، جن میں خوشی، جوش، امید، اور خوشی شامل ہیں۔ کم اسکور کرنے والے افراد اتنے پرجوش اور خوش مزاج نہیں ہوتے۔'
     }
   ]
 }

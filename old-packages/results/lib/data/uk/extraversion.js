@@ -1,98 +1,95 @@
 module.exports = {
   domain: 'E', // do not change this line
-  title: 'Extraversion',
-  shortDescription: 'Extraversion is marked by pronounced engagement with the external world.',
-  description: `Extraverts enjoy being with people, are full of energy, and
-often experience positive emotions. They tend to be enthusiastic,
-action-oriented, individuals who are likely to say "Yes!" or "Let's
-go!" to opportunities for excitement. In groups they like to talk,
-assert themselves, and draw attention to themselves.
+  title: 'Екстраверсія (Extraversion)',
+  shortDescription: 'Екстраверсія характеризується вираженою залученістю до зовнішнього світу.',
+  description: `Екстраверти насолоджуються компанією людей, сповнені енергії і
+часто відчувають позитивні емоції. Вони схильні бути ентузіастичними,
+орієнтованими на дії людьми, які ймовірно скажуть "Так!" або "Поїхали!"
+на можливості для захоплення. У групах вони люблять говорити,
+затверджувати свою позицію та привертати до себе увагу.
 <br /><br />
-Introverts lack the exuberance, energy, and activity levels of
-extraverts. They tend to be quiet, low-key, deliberate, and
-disengaged from the social world. Their lack of social involvement
-should not be interpreted as shyness or depression; the
-introvert simply needs less stimulation than an extravert and prefers
-to be alone. <br /><br />The independence and reserve of the introvert is
-sometimes mistaken as unfriendliness or arrogance. In reality, an
-introvert who scores high on the agreeableness dimension will not
-seek others out but will be quite pleasant when approached.`,
+Інтроверти не мають тієї ж жвавості, енергії та рівнів активності, як
+екстраверти. Вони схильні бути тихими, стриманими, обдуманими і
+віддаленими від соціального світу. Їхня відсутність соціальної залученості
+не слід трактувати як сором'язливість або депресію; 
+інтроверт просто потребує менше стимуляції, ніж екстраверт, і надає перевагу бути на самоті. <br /><br />Незалежність і стриманість інтроверта іноді
+помилково приймають за непривітність або зарозумілість. Насправді
+інтроверт з високим рівнем доброзичливості не буде шукати інших, але буде досить приємним при наближенні.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Extraversion is low, indicating you are
-introverted, reserved, and quiet. You enjoy solitude and solitary
-activities. Your socialization tends to be restricted to a few close friends.`
+      text: `Ваш результат за шкалою Екстраверсії низький, що вказує на те, що ви
+інтроверт, стриманий і тихий. Ви насолоджуєтеся самотою і самотніми
+заняттями. Ваша соціалізація, як правило, обмежується кількома близькими друзями.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Extraversion is average, indicating you are
-neither a subdued loner nor a jovial chatterbox. You enjoy time with
-others but also time alone.`
+      text: `Ваш результат за шкалою Екстраверсії середній, що вказує на те, що ви
+ні мовчазний одинак, ні весела балакуха. Ви насолоджуєтеся часом з
+іншими, але також любите час на самоті.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Extraversion is high, indicating you are
-sociable, outgoing, energetic, and lively. You prefer to be around
-people much of the time.`
+      text: `Ваш результат за шкалою Екстраверсії високий, що вказує на те, що ви
+соціальний, відкритий, енергійний і жвавий. Ви віддаєте перевагу бути серед
+людей більшу частину часу.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Friendliness',
-      text: `Friendly people genuinely like other people
-and openly demonstrate positive feelings toward others. They make
-friends quickly and it is easy for them to form close, intimate
-relationships. Low scorers on Friendliness are not necessarily cold
-and hostile, but they do not reach out to others and are perceived
-as distant and reserved.`
+      title: 'Дружелюбність',
+      text: `Дружелюбні люди щиро люблять інших людей
+і відкрито демонструють позитивні почуття до інших. Вони швидко знаходять
+друзів і їм легко створювати близькі, інтимні
+відносини. Люди з низькими балами за шкалою дружелюбності не обов'язково холодні
+і ворожі, але вони не прагнуть до інших і сприймаються
+як віддалені і стримані.`
     },
     {
       facet: 2,
-      title: 'Gregariousness',
-      text: `Gregarious people find the company of
-others pleasantly stimulating and rewarding. They enjoy the
-excitement of crowds. Low scorers tend to feel overwhelmed by, and
-therefore actively avoid, large crowds. They do not necessarily
-dislike being with people sometimes, but their need for privacy and
-time to themselves is much greater than for individuals who score
-high on this scale.`
+      title: 'Компанійськість',
+      text: `Компанійські люди знаходять товариство
+інших приємно стимулюючим і винагороджуючим. Вони насолоджуються
+захопленням натовпу. Люди з низькими балами схильні відчувати себе пригніченими великими групами і
+тому активно уникають великих натовпів. Вони не обов'язково
+не люблять бути серед людей іноді, але їх потреба в приватності та
+часу на самоті значно більша, ніж у людей з високими балами за цією шкалою.`
     },
     {
       facet: 3,
-      title: 'Assertiveness',
-      text: `High scorers Assertiveness like to speak
- out, take charge, and direct the activities of others. They tend to
- be leaders in groups. Low scorers tend not to talk much and let
- others control the activities of groups.`
+      title: 'Наполегливість',
+      text: `Люди з високими балами за шкалою наполегливості люблять говорити
+відкрито, брати на себе відповідальність і керувати діяльністю інших. Вони схильні
+бути лідерами в групах. Люди з низькими балами зазвичай не говорять багато і дозволяють
+іншим контролювати діяльність груп.`
     },
     {
       facet: 4,
-      title: 'Activity Level',
-      text: `Active individuals lead fast-paced, busy
- lives. They move about quickly, energetically, and vigorously, and
- they are involved in many activities. People who score low on this
- scale follow a slower and more leisurely, relaxed pace.`
+      title: 'Рівень активності',
+      text: `Активні люди ведуть швидкий, зайнятий
+спосіб життя. Вони рухаються швидко, енергійно і жваво, і
+втягнуті в багато видів діяльності. Люди з низькими балами за цією
+шкалою дотримуються повільнішого і більш розслабленого темпу.`
     },
     {
       facet: 5,
-      title: 'Excitement-Seeking',
-      text: `High scorers on this scale are easily
-bored without high levels of stimulation. They love bright lights
-and hustle and bustle. They are likely to take risks and seek
-thrills. Low scorers are overwhelmed by noise and commotion and are
-adverse to thrill-seeking.`
+      title: 'Пошук збуджень',
+      text: `Люди з високими балами за цією шкалою легко
+нудьгують без високого рівня стимуляції. Вони люблять яскраві вогні
+і метушню. Вони, ймовірно, ризикують і шукають
+гострих відчуттів. Люди з низькими балами відчувають себе пригніченими шумом і суєтою і
+уникають ризику та пошуку гострих відчуттів.`
     },
     {
       facet: 6,
-      title: 'Cheerfulness',
-      text: `This scale measures positive mood and
-feelings, not negative emotions (which are a part of the
-Neuroticism domain). Persons who score high on this scale typically
-experience a range of positive feelings, including happiness,
-enthusiasm, optimism, and joy. Low scorers are not as prone to such
-energetic, high spirits.`
+      title: 'Життєрадісність',
+      text: `Ця шкала вимірює позитивний настрій і
+почуття, а не негативні емоції (які є частиною сфери
+Нейротизму). Люди з високими балами за цією шкалою зазвичай
+відчувають ряд позитивних почуттів, включаючи щастя,
+ентузіазм, оптимізм і радість. Люди з низькими балами не схильні до таких
+енергійних, піднесених настроїв.`
     }
   ]
 }

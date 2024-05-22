@@ -1,98 +1,56 @@
 module.exports = {
   domain: 'E', // do not change this line
-  title: 'Extraversion',
-  shortDescription: 'Extraversion is marked by pronounced engagement with the external world.',
-  description: `Extraverts enjoy being with people, are full of energy, and
-often experience positive emotions. They tend to be enthusiastic,
-action-oriented, individuals who are likely to say "Yes!" or "Let's
-go!" to opportunities for excitement. In groups they like to talk,
-assert themselves, and draw attention to themselves.
+  title: 'Dışadönüklük (Extraversion)',
+  shortDescription: 'Dışadönüklük, dış dünya ile belirgin bir etkileşim ile işaretlenir.',
+  description: `Dışadönükler insanlarla birlikte olmaktan hoşlanır, enerjik olurlar ve
+genellikle olumlu duygular yaşarlar. Heyecan verici fırsatlar için "Evet!" veya "Hadi gidelim!" deme eğiliminde olan, coşkulu,
+eylem odaklı bireylerdir. Gruplarda konuşmayı, kendilerini ifade etmeyi ve dikkat çekmeyi severler.
 <br /><br />
-Introverts lack the exuberance, energy, and activity levels of
-extraverts. They tend to be quiet, low-key, deliberate, and
-disengaged from the social world. Their lack of social involvement
-should not be interpreted as shyness or depression; the
-introvert simply needs less stimulation than an extravert and prefers
-to be alone. <br /><br />The independence and reserve of the introvert is
-sometimes mistaken as unfriendliness or arrogance. In reality, an
-introvert who scores high on the agreeableness dimension will not
-seek others out but will be quite pleasant when approached.`,
+İçedönükler, dışadönüklerin coşkusuna, enerjisine ve aktivite düzeyine sahip değildirler. Genellikle sessiz, düşük anahtarlı, dikkatli ve sosyal dünyadan uzak olurlar. Sosyal katılımlarının eksikliği, utangaçlık veya depresyon olarak yorumlanmamalıdır; içedönük, sadece dışadönükten daha az uyarılmaya ihtiyaç duyar ve yalnız olmayı tercih eder. <br /><br />İçedönüğün bağımsızlığı ve çekingenliği bazen dostane olmamak veya kibir olarak yanlış anlaşılır. Gerçekte, uyumluluk boyutunda yüksek puan alan bir içedönük başkalarını aramaz, ancak yaklaşıldığında oldukça hoş olur.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Extraversion is low, indicating you are
-introverted, reserved, and quiet. You enjoy solitude and solitary
-activities. Your socialization tends to be restricted to a few close friends.`
+      text: 'Dışadönüklük puanınız düşük, bu da içedönük, çekingen ve sessiz olduğunuzu gösteriyor. Yalnızlık ve tek başına yapılan aktivitelerden hoşlanıyorsunuz. Sosyalleşmeniz genellikle birkaç yakın arkadaşla sınırlıdır.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Extraversion is average, indicating you are
-neither a subdued loner nor a jovial chatterbox. You enjoy time with
-others but also time alone.`
+      text: 'Dışadönüklük puanınız ortalama, bu da ne sakin bir yalnız ne de neşeli bir geveze olduğunuzu gösterir. Başkalarıyla vakit geçirmekten hoşlanıyorsunuz, ama aynı zamanda yalnız kalmayı da seviyorsunuz.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Extraversion is high, indicating you are
-sociable, outgoing, energetic, and lively. You prefer to be around
-people much of the time.`
+      text: 'Dışadönüklük puanınız yüksek, bu da sosyal, dışa dönük, enerjik ve canlı olduğunuzu gösteriyor. Çoğu zaman insanlarla birlikte olmayı tercih ediyorsunuz.'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Friendliness',
-      text: `Friendly people genuinely like other people
-and openly demonstrate positive feelings toward others. They make
-friends quickly and it is easy for them to form close, intimate
-relationships. Low scorers on Friendliness are not necessarily cold
-and hostile, but they do not reach out to others and are perceived
-as distant and reserved.`
+      title: 'Arkadaşlık',
+      text: 'Arkadaş canlısı insanlar gerçekten diğer insanları sever ve başkalarına karşı olumlu duygularını açıkça gösterirler. Hızla arkadaş edinirler ve yakın, samimi ilişkiler kurmak onlar için kolaydır. Arkadaşlıkta düşük puan alanlar mutlaka soğuk ve düşmanca değildir, ancak başkalarına ulaşmazlar ve uzak ve çekingen olarak algılanırlar.'
     },
     {
       facet: 2,
-      title: 'Gregariousness',
-      text: `Gregarious people find the company of
-others pleasantly stimulating and rewarding. They enjoy the
-excitement of crowds. Low scorers tend to feel overwhelmed by, and
-therefore actively avoid, large crowds. They do not necessarily
-dislike being with people sometimes, but their need for privacy and
-time to themselves is much greater than for individuals who score
-high on this scale.`
+      title: 'Sosyallik',
+      text: 'Sosyal insanlar başkalarının varlığını hoş bir şekilde uyarıcı ve ödüllendirici bulurlar. Kalabalıkların heyecanından hoşlanırlar. Düşük puan alanlar büyük kalabalıklar tarafından bunalmış hissederler ve bu nedenle aktif olarak kalabalıklardan kaçınırlar. Bazen insanlarla birlikte olmaktan hoşlanmadıkları anlamına gelmez, ancak mahremiyete ve kendilerine zamana olan ihtiyaçları, bu ölçekte yüksek puan alan bireylerden çok daha fazladır.'
     },
     {
       facet: 3,
-      title: 'Assertiveness',
-      text: `High scorers Assertiveness like to speak
- out, take charge, and direct the activities of others. They tend to
- be leaders in groups. Low scorers tend not to talk much and let
- others control the activities of groups.`
+      title: 'Girişkenlik',
+      text: 'Girişkenlikte yüksek puan alanlar konuşmayı sever, kontrolü ele alır ve başkalarının faaliyetlerini yönlendirirler. Gruplarda lider olma eğilimindedirler. Düşük puan alanlar genellikle fazla konuşmaz ve grupların faaliyetlerini başkalarına bırakırlar.'
     },
     {
       facet: 4,
-      title: 'Activity Level',
-      text: `Active individuals lead fast-paced, busy
- lives. They move about quickly, energetically, and vigorously, and
- they are involved in many activities. People who score low on this
- scale follow a slower and more leisurely, relaxed pace.`
+      title: 'Aktivite Düzeyi',
+      text: 'Aktif bireyler hızlı tempolu, meşgul hayatlar sürerler. Hızlı, enerjik ve canlı hareket ederler ve birçok aktiviteye katılırlar. Bu ölçekte düşük puan alanlar daha yavaş ve daha rahat bir tempo izlerler.'
     },
     {
       facet: 5,
-      title: 'Excitement-Seeking',
-      text: `High scorers on this scale are easily
-bored without high levels of stimulation. They love bright lights
-and hustle and bustle. They are likely to take risks and seek
-thrills. Low scorers are overwhelmed by noise and commotion and are
-adverse to thrill-seeking.`
+      title: 'Heyecan Arayışı',
+      text: 'Bu ölçekte yüksek puan alanlar, yüksek düzeyde uyarılma olmadan kolayca sıkılırlar. Parlak ışıkları ve koşuşturmayı severler. Risk almayı ve heyecan aramayı tercih ederler. Düşük puan alanlar gürültü ve karmaşadan bunalmış hissederler ve heyecan arayışına karşıdırlar.'
     },
     {
       facet: 6,
-      title: 'Cheerfulness',
-      text: `This scale measures positive mood and
-feelings, not negative emotions (which are a part of the
-Neuroticism domain). Persons who score high on this scale typically
-experience a range of positive feelings, including happiness,
-enthusiasm, optimism, and joy. Low scorers are not as prone to such
-energetic, high spirits.`
+      title: 'Neşelilik',
+      text: 'Bu ölçek, olumlu ruh hali ve duyguları ölçer, olumsuz duyguları değil (bunlar Nörotisizm alanının bir parçasıdır). Bu ölçekte yüksek puan alan kişiler tipik olarak mutluluk, coşku, iyimserlik ve sevinç gibi bir dizi olumlu duyguyu yaşarlar. Düşük puan alanlar bu tür enerjik, yüksek ruh haline o kadar yatkın değildirler.'
     }
   ]
 }

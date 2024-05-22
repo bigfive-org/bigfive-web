@@ -1,105 +1,52 @@
 module.exports = {
   domain: 'N', // do not change this line
-  title: 'Neuroticism',
-  shortDescription: 'Neuroticism refers to the tendency to experience negative feelings.',
-  description: `Freud originally used the term neurosis to describe a
-condition marked by mental distress, emotional suffering, and an
-inability to cope effectively with the normal demands of life. He
-suggested that everyone shows some signs of neurosis, but that we
-differ in our degree of suffering and our specific symptoms of
-distress. Today neuroticism refers to the tendency to experience
-negative feelings. <br /><br />Those who score high on Neuroticism may
-experience primarily one specific negative feeling such as anxiety,
-anger, or depression, but are likely to experience several of these
-emotions. <br /><br />People high in neuroticism are emotionally reactive. They
-respond emotionally to events that would not affect most people, and
-their reactions tend to be more intense than normal. They are more
-likely to interpret ordinary situations as threatening, and minor
-frustrations as hopelessly difficult. <br /><br />Their negative emotional
-reactions tend to persist for unusually long periods of time, which
-means they are often in a bad mood. These problems in emotional
-regulation can diminish a neurotic's ability to think clearly, make
-decisions, and cope effectively with stress.`,
+  title: 'عصبی پن (Neuroticism)',
+  shortDescription: 'عصبی پن منفی جذبات کا تجربہ کرنے کے رجحان کی طرف اشارہ کرتا ہے۔',
+  description: 'فرائیڈ نے اصل میں نیوروسس کی اصطلاح کا استعمال ایک حالت کی وضاحت کے لئے کیا تھا جو ذہنی پریشانی، جذباتی تکلیف، اور زندگی کی عام تقاضوں کے ساتھ مؤثر طریقے سے نمٹنے کی صلاحیت کی کمی سے نشان زد ہوتی ہے۔ انہوں نے تجویز کیا کہ ہر شخص کچھ علامات نیوروسس کی ظاہر کرتا ہے، لیکن ہم اپنی تکلیف کی ڈگری اور اپنی مخصوص علامات میں مختلف ہوتے ہیں۔ آج کل عصبی پن کا مطلب منفی جذبات کا تجربہ کرنے کے رجحان ہے۔ <br /><br />جو لوگ عصبی پن پر زیادہ اسکور کرتے ہیں وہ ایک مخصوص منفی احساس جیسے کہ بے چینی، غصہ، یا افسردگی کا تجربہ کر سکتے ہیں، لیکن انہیں کئی ان جذبات کا تجربہ ہونے کا امکان ہوتا ہے۔ <br /><br />عصبی پن میں زیادہ اسکور کرنے والے افراد جذباتی طور پر رد عمل ظاہر کرتے ہیں۔ وہ ان واقعات پر جذباتی ردعمل دیتے ہیں جو زیادہ تر لوگوں کو متاثر نہ کریں، اور ان کے ردعمل عام سے زیادہ شدید ہوتے ہیں۔ وہ عام حالات کو دھمکی آمیز اور معمولی مایوسیوں کو ناقابل برداشت مشکل سمجھنے کا زیادہ امکان رکھتے ہیں۔ <br /><br />ان کے منفی جذباتی ردعمل غیر معمولی طور پر طویل عرصے تک برقرار رہتے ہیں، جس کا مطلب ہے کہ وہ اکثر بدمزاج رہتے ہیں۔ ان کے جذباتی ضابطہ کے مسائل عصبی افراد کی صاف طور پر سوچنے، فیصلے کرنے، اور مؤثر طریقے سے دباؤ سے نمٹنے کی صلاحیت کو کم کر سکتے ہیں۔',
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Neuroticism is low, indicating that you are
-exceptionally calm, composed and unflappable. You do not react with
-intense emotions, even to situations that most people would describe
-as stressful.`
+      text: 'آپ کا عصبی پن پر اسکور کم ہے، جو اشارہ کرتا ہے کہ آپ غیر معمولی طور پر پرسکون، متوازن اور بغیر گھبراہٹ کے ہیں۔ آپ شدید جذبات کے ساتھ ردعمل ظاہر نہیں کرتے، یہاں تک کہ ان حالات میں بھی جو زیادہ تر لوگ دباؤ والے قرار دیتے ہیں۔'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Neuroticism is average, indicating that your level of
-emotional reactivity is typical of the general population.
-Stressful and frustrating situations are somewhat upsetting to you,
-but you are generally able to get over these feelings and cope with
-these situations.`
+      text: 'آپ کا عصبی پن پر اسکور اوسط ہے، جو اشارہ کرتا ہے کہ آپ کی جذباتی ردعمل کی سطح عام آبادی کی نمائندہ ہے۔ دباؤ اور مایوس کن حالات آپ کو کچھ حد تک پریشان کرتے ہیں، لیکن آپ عموماً ان جذبات سے نجات پانے اور ان حالات سے نمٹنے کے قابل ہوتے ہیں۔'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Neuroticism is high, indicating that you are easily
-upset, even by what most people consider the normal demands of
-living. People consider you to be sensitive and emotional.`
+      text: 'آپ کا عصبی پن پر اسکور زیادہ ہے، جو اشارہ کرتا ہے کہ آپ آسانی سے پریشان ہو جاتے ہیں، یہاں تک کہ ان حالات میں بھی جو زیادہ تر لوگ زندگی کی معمولی تقاضے سمجھتے ہیں۔ لوگ آپ کو حساس اور جذباتی سمجھتے ہیں۔'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Anxiety',
-      text: `The "fight-or-flight" system of the brain of anxious
-individuals is too easily and too often engaged. Therefore, people who
-are high in anxiety often feel like something dangerous is about to happen.
-They may be afraid of specific situations or be just generally fearful.
-They feel tense, jittery, and nervous. Persons low in Anxiety are generally
-calm and fearless.`
+      title: 'بے چینی',
+      text: 'بے چینی کرنے والے افراد کے دماغ کا "لڑائی یا پرواز" نظام بہت آسانی سے اور بہت زیادہ متحرک ہو جاتا ہے۔ لہذا، جو لوگ بے چینی میں زیادہ اسکور کرتے ہیں وہ اکثر محسوس کرتے ہیں کہ کچھ خطرناک ہونے والا ہے۔ انہیں مخصوص حالات کا خوف ہو سکتا ہے یا وہ عمومی طور پر خوفزدہ ہو سکتے ہیں۔ وہ تناؤ، بے چینی، اور پریشان محسوس کرتے ہیں۔ بے چینی میں کم اسکور کرنے والے عموماً پرسکون اور بے خوف ہوتے ہیں۔'
     },
     {
       facet: 2,
-      title: 'Anger',
-      text: `Persons who score high in Anger feel enraged when
-things do not go their way. They are sensitive about being treated fairly
-and feel resentful and bitter when they feel they are being cheated.
-This scale measures the tendency to feel angry; whether or not the
-person expresses annoyance and hostility depends on the individual's
-level on Agreeableness. Low scorers do not get angry often or easily.`
+      title: 'غصہ',
+      text: 'غصے میں زیادہ اسکور کرنے والے افراد اس وقت غصہ محسوس کرتے ہیں جب چیزیں ان کے مطابق نہیں ہوتیں۔ وہ منصفانہ سلوک کے بارے میں حساس ہوتے ہیں اور جب انہیں لگتا ہے کہ ان کے ساتھ دھوکہ ہو رہا ہے تو ناراض اور تلخ محسوس کرتے ہیں۔ یہ پیمانہ غصہ محسوس کرنے کے رجحان کی پیمائش کرتا ہے؛ چاہے فرد ناراضگی اور دشمنی کا اظہار کرے یا نہ کرے یہ ان کے رضامندی کی سطح پر منحصر ہے۔ کم اسکور کرنے والے افراد اکثر یا آسانی سے غصہ نہیں کرتے۔'
     },
     {
       facet: 3,
-      title: 'Depression',
-      text: `This scale measures the tendency to feel sad, dejected,
-and discouraged. High scorers lack energy and have difficulty initiating
-activities. Low scorers tend to be free from these depressive feelings.`
+      title: 'افسردگی',
+      text: 'یہ پیمانہ اداسی، مایوسی، اور حوصلہ شکنی محسوس کرنے کے رجحان کی پیمائش کرتا ہے۔ زیادہ اسکور کرنے والے افراد میں توانائی کی کمی ہوتی ہے اور انہیں سرگرمیاں شروع کرنے میں دشواری ہوتی ہے۔ کم اسکور کرنے والے افراد عموماً ان افسردگی کے جذبات سے آزاد ہوتے ہیں۔'
     },
     {
       facet: 4,
-      title: 'Self-Consciousness',
-      text: `Self-conscious individuals are sensitive
-about what others think of them. Their concern about rejection and
-ridicule cause them to feel shy and uncomfortable around others. They
-are easily embarrassed and often feel ashamed. Their fears that others
-will criticize or make fun of them are exaggerated and unrealistic, but
-their awkwardness and discomfort may make these fears a self-fulfilling
-prophecy. Low scorers, in contrast, do not suffer from the mistaken
-impression that everyone is watching and judging them. They do not feel
-nervous in social situations.`
+      title: 'خود شعوری',
+      text: 'خود شعوری رکھنے والے افراد اس بارے میں حساس ہوتے ہیں کہ دوسرے ان کے بارے میں کیا سوچتے ہیں۔ رد اور مذاق اڑانے کی فکر انہیں دوسروں کے ارد گرد شرمندہ اور بے چینی محسوس کرنے کا باعث بنتی ہے۔ وہ آسانی سے شرمندہ ہوتے ہیں اور اکثر شرمندگی محسوس کرتے ہیں۔ ان کے خیالات کہ دوسرے انہیں تنقید کریں گے یا ان کا مذاق اڑائیں گے مبالغہ آمیز اور غیر حقیقی ہوتے ہیں، لیکن ان کی بے چینی اور بے آرامی ان خدشات کو خود پورا کرنے والی پیشگوئی بنا سکتے ہیں۔ اس کے برعکس، کم اسکور کرنے والے افراد اس غلط تاثر سے متاثر نہیں ہوتے کہ سب انہیں دیکھ رہے ہیں اور ان کا جائزہ لے رہے ہیں۔ وہ سماجی حالات میں بے چینی محسوس نہیں کرتے۔'
     },
     {
       facet: 5,
-      title: 'Immoderation',
-      text: `Immoderate individuals feel strong cravings and
-urges that they have have difficulty resisting. They tend to be
-oriented toward short-term pleasures and rewards rather than long-
-term consequences. Low scorers do not experience strong, irresistible
-cravings and consequently do not find themselves tempted to overindulge.`
+      title: 'غیر اعتدال پسندی',
+      text: 'غیر اعتدال پسند افراد شدید خواہشات اور جذبات محسوس کرتے ہیں جنہیں مزاحمت کرنے میں انہیں دشواری ہوتی ہے۔ وہ مختصر مدت کی خوشیوں اور انعامات کی طرف مائل ہوتے ہیں بجائے طویل مدتی نتائج کے۔ کم اسکور کرنے والے افراد شدید، ناقابل مزاحمت خواہشات کا تجربہ نہیں کرتے اور نتیجتاً انہیں زیادہ لطف اندوز ہونے کا امکان نہیں ہوتا۔'
     },
     {
       facet: 6,
-      title: 'Vulnerability',
-      text: `High scorers on Vulnerability experience
-panic, confusion, and helplessness when under pressure or stress.
-Low scorers feel more poised, confident, and clear-thinking when
-stressed.`
+      title: 'نرمی',
+      text: 'نرمی میں زیادہ اسکور کرنے والے افراد دباؤ یا تناؤ کے تحت گھبراہٹ، الجھن، اور بے بسی کا تجربہ کرتے ہیں۔ کم اسکور کرنے والے افراد دباؤ کے وقت زیادہ پراعتماد، متوازن، اور صاف گو محسوس کرتے ہیں۔'
     }
   ]
 }

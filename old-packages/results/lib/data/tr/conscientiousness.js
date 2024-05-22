@@ -1,133 +1,64 @@
 module.exports = {
   domain: 'C', // do not change this line
-  title: 'Conscientiousness',
-  shortDescription: 'Conscientiousness concerns the way in which we control, regulate, and direct our impulses.',
-  description: `Impulses are not inherently bad;
-occasionally time constraints require a snap decision, and acting on
-our first impulse can be an effective response. Also, in times of
-play rather than work, acting spontaneously and impulsively can be
-fun. Impulsive individuals can be seen by others as colorful,
-fun-to-be-with, and zany.
+  title: 'Sorumluluk (Conscientiousness)',
+  shortDescription: 'Sorumluluk, dürtülerimizi nasıl kontrol ettiğimiz, düzenlediğimiz ve yönlendirdiğimizle ilgilidir.',
+  description: `Dürtüler doğası gereği kötü değildir;
+bazen zaman kısıtlamaları ani bir karar gerektirir ve ilk dürtümüzle hareket etmek etkili bir yanıt olabilir. Ayrıca, işten ziyade eğlence zamanlarında, kendiliğinden ve dürtüsel olarak hareket etmek eğlenceli olabilir. Dürtüsel bireyler, başkaları tarafından renkli, birlikte vakit geçirmesi eğlenceli ve çılgın olarak görülebilir.
 <br /><br />
-Nonetheless, acting on impulse can lead to trouble in a number of
-ways. Some impulses are antisocial. Uncontrolled antisocial acts
-not only harm other members of society, but also can result in
-retribution toward the perpetrator of such impulsive acts. Another
-problem with impulsive acts is that they often produce immediate
-rewards but undesirable, long-term consequences. Examples include
-excessive socializing that leads to being fired from one's job,
-hurling an insult that causes the breakup of an important
-relationship, or using pleasure-inducing drugs that eventually
-destroy one's health.
+Bununla birlikte, dürtüyle hareket etmek birçok şekilde sorunlara yol açabilir. Bazı dürtüler antisosyaldir. Kontrolsüz antisosyal davranışlar sadece toplumun diğer üyelerine zarar vermekle kalmaz, aynı zamanda bu tür dürtüsel davranışların faili hakkında misillemeye yol açabilir. Dürtüsel davranışların bir başka sorunu, genellikle hemen ödüller üretmeleridir, ancak istenmeyen uzun vadeli sonuçlar doğururlar. Örnekler arasında işinden kovulmaya yol açan aşırı sosyalleşme, önemli bir ilişkinin sona ermesine neden olan bir hakaret atmak veya nihayetinde sağlığı yok eden zevk veren uyuşturucuları kullanmak yer alır.
 <br /><br />
-Impulsive behavior, even when not seriously destructive, diminishes
-a person's effectiveness in significant ways. Acting impulsively
-disallows contemplating alternative courses of action, some of which
-would have been wiser than the impulsive choice. Impulsivity also
-sidetracks people during projects that require organized sequences
-of steps or stages. Accomplishments of an impulsive person are
-therefore small, scattered, and inconsistent.
+Ciddi derecede yıkıcı olmasa bile, dürtüsel davranış bir kişinin etkinliğini önemli şekillerde azaltır. Dürtüsel olarak hareket etmek, bazıları dürtüsel seçimden daha akıllıca olan alternatif eylem yollarını düşünmeyi engeller. Dürtüsellik, aynı zamanda, adım veya aşamalardan oluşan organize projeler sırasında insanları yoldan çıkarır. Bu nedenle, dürtüsel bir kişinin başarıları küçük, dağınık ve tutarsızdır.
 <br /><br />
-A hallmark of intelligence, what potentially separates human beings
-from earlier life forms, is the ability to think about future
-consequences before acting on an impulse. Intelligent activity
-involves contemplation of long-range goals, organizing and planning
-routes to these goals, and persisting toward one's goals in the face
-of short-lived impulses to the contrary. The idea that intelligence
-involves impulse control is nicely captured by the term prudence, an
-alternative label for the Conscientiousness domain. Prudent means
-both wise and cautious.
+Zekanın bir alameti, insanları önceki yaşam formlarından potansiyel olarak ayıran şey, bir dürtüyle hareket etmeden önce gelecekteki sonuçları düşünebilme yeteneğidir. Zeki faaliyet, uzun vadeli hedeflerin düşünülmesini, bu hedeflere ulaşmak için yolların organize edilmesini ve planlanmasını ve kısa süreli dürtülere karşı hedeflere ulaşmada ısrar etmeyi içerir. Zekanın dürtü kontrolünü içerdiği fikri, Sorumluluk alanı için alternatif bir etiket olan "ihtiyat" terimiyle güzel bir şekilde yakalanmıştır. İhtiyat hem akıllı hem de temkinli anlamına gelir.
 <br /><br/>
-Persons who score high on the
-Conscientiousness scale are, in fact, perceived by others as intelligent.
-The benefits of high conscientiousness are obvious. Conscientious
-individuals avoid trouble and achieve high levels of success through
-purposeful planning and persistence. They are also positively
-regarded by others as intelligent and reliable. On the negative
-side, they can be compulsive perfectionists and workaholics.
-Furthermore, extremely conscientious individuals might be regarded
-as stuffy and boring.
+Sorumluluk ölçeğinde yüksek puan alan kişiler, aslında, başkaları tarafından zeki olarak algılanır.
+Yüksek sorumluluğun faydaları açıktır. Sorumlu bireyler, amaçlı planlama ve sebat yoluyla sorunlardan kaçınır ve yüksek düzeyde başarı elde ederler. Ayrıca, başkaları tarafından zeki ve güvenilir olarak olumlu bir şekilde değerlendirilirler. Olumsuz tarafı, aşırı sorumlu kişiler mükemmeliyetçi ve işkolik olabilirler. Ayrıca, aşırı derecede sorumlu bireyler, sıkıcı ve katı olarak görülebilirler.
 <br /><br />
-Unconscientious people may be criticized for
-their unreliability, lack of ambition, and failure to stay within
-the lines, but they will experience many short-lived pleasures and
-they will never be called stuffy.`,
+Sorumluluk sahibi olmayan insanlar, güvenilmezlikleri, hırs eksiklikleri ve kurallara uymamaları nedeniyle eleştirilebilirler, ancak birçok kısa süreli zevk yaşarlar ve asla sıkıcı olarak adlandırılmazlar.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Conscientiousness is low, indicating you like to live
-for the moment and do what feels good now. Your work tends to be
-careless and disorganized.`
+      text: 'Sorumluluk konusunda puanınız düşük, bu da anı yaşamak ve şu anda iyi hissettiren şeyleri yapmak istediğinizi gösteriyor. İşleriniz genellikle dikkatsiz ve dağınık oluyor.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Conscientiousness is average. This means you are
-reasonably reliable, organized, and self-controlled.`
+      text: 'Sorumluluk konusunda puanınız ortalama. Bu, makul derecede güvenilir, organize ve öz kontrollü olduğunuz anlamına gelir.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Conscientiousness is high. This means you set clear
-goals and pursue them with determination. People regard you as
-reliable and hard-working.`
+      text: 'Sorumluluk konusunda puanınız yüksek. Bu, net hedefler belirlediğiniz ve onları kararlılıkla takip ettiğiniz anlamına gelir. İnsanlar sizi güvenilir ve çalışkan biri olarak değerlendirir.'
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Self-Efficacy',
-      text: `Self-Efficacy describes confidence in one's ability
-to accomplish things. High scorers believe they have the intelligence
-(common sense), drive, and self-control necessary for achieving success.
-Low scorers do not feel effective, and may have a sense that they are not
-in control of their lives.`
+      title: 'Öz-Yeterlik',
+      text: 'Öz-yeterlik, bir şeyleri başarma konusundaki güveni tanımlar. Yüksek puan alanlar, başarı için gerekli zeka (sağduyu), itici güç ve öz kontrol sahibi olduklarına inanırlar. Düşük puan alanlar ise kendilerini etkili hissetmezler ve hayatlarının kontrolünde olmadıklarına dair bir hisse sahip olabilirler.'
     },
     {
       facet: 2,
-      title: 'Orderliness',
-      text: `Persons with high scores on orderliness are
-well-organized. They like to live according to routines and schedules. They
-keep lists and make plans. Low scorers tend to be disorganized and
-scattered.`
+      title: 'Düzenlilik',
+      text: 'Düzenlilikte yüksek puan alan kişiler iyi organize olurlar. Rutinler ve programlara göre yaşamayı severler. Listeler yapar ve planlar yaparlar. Düşük puan alanlar ise genellikle dağınık ve düzensizdirler.'
     },
     {
       facet: 3,
-      title: 'Dutifulness',
-      text: `This scale reflects the strength of a person's sense
- of duty and obligation. Those who score high on this scale have a strong
- sense of moral obligation. Low scorers find contracts, rules, and
- regulations overly confining. They are likely to be seen as unreliable or
- even irresponsible.`
+      title: 'Görev Bilinci',
+      text: 'Bu ölçek, bir kişinin görev ve sorumluluk duygusunun gücünü yansıtır. Bu ölçekten yüksek puan alanlar, güçlü bir ahlaki yükümlülük duygusuna sahiptir. Düşük puan alanlar, sözleşmeleri, kuralları ve düzenlemeleri aşırı kısıtlayıcı bulurlar. Güvenilmez veya hatta sorumsuz olarak görülebilirler.'
     },
     {
       facet: 4,
-      title: 'Achievement-Striving',
-      text: `Individuals who score high on this
-scale strive hard to achieve excellence. Their drive to be recognized as
-successful keeps them on track toward their lofty goals. They often have
-a strong sense of direction in life, but extremely high scores may
-be too single-minded and obsessed with their work. Low scorers are content
-to get by with a minimal amount of work, and might be seen by others
-as lazy.`
+      title: 'Başarı İçin Çabalamak',
+      text: 'Bu ölçekten yüksek puan alan bireyler, mükemmellik için çabalarlar. Başarılı olarak tanınma arzuları, onları yüksek hedeflerine doğru yolda tutar. Genellikle yaşamda güçlü bir yön duygusuna sahiptirler, ancak aşırı yüksek puanlar, çok tek odaklı ve işlerine takıntılı olabilir. Düşük puan alanlar, minimal bir çabayla yetinmeye razıdırlar ve başkaları tarafından tembel olarak görülebilirler.'
     },
     {
       facet: 5,
-      title: 'Self-Discipline',
-      text: `Self-discipline-what many people call
-will-power-refers to the ability to persist at difficult or unpleasant
-tasks until they are completed. People who possess high self-discipline
-are able to overcome reluctance to begin tasks and stay on track despite
-distractions. Those with low self-discipline procrastinate and show poor
-follow-through, often failing to complete tasks-even tasks they want very
-much to complete.`
+      title: 'Öz Disiplin',
+      text: 'Öz disiplin - birçok insanın irade gücü dediği şey - zor veya hoş olmayan görevleri tamamlanana kadar sürdürme yeteneğini ifade eder. Yüksek öz disiplin sahibi kişiler, görevlere başlamadaki isteksizliği yenebilir ve dikkat dağıtıcı unsurlara rağmen yolda kalabilirler. Düşük öz disiplin sahibi olanlar ise ertelemeye meyillidirler ve genellikle çok istedikleri görevleri bile tamamlayamazlar.'
     },
     {
       facet: 6,
-      title: 'Cautiousness',
-      text: `Cautiousness describes the disposition to
-think through possibilities before acting. High scorers on the Cautiousness
-scale take their time when making decisions. Low scorers often say or do
-first thing that comes to mind without deliberating alternatives and the
-probable consequences of those alternatives.`
+      title: 'İhtiyatlılık',
+      text: 'İhtiyatlılık, hareket etmeden önce olasılıkları düşünme eğilimini tanımlar. İhtiyatlılık ölçeğinde yüksek puan alanlar karar verirken zamanlarını alırlar. Düşük puan alanlar ise genellikle alternatifleri ve bu alternatiflerin olası sonuçlarını düşünmeden akıllarına ilk geleni söyler veya yaparlar.'
     }
   ]
 }

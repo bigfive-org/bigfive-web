@@ -1,105 +1,105 @@
 module.exports = {
   domain: 'N', // do not change this line
-  title: 'Neuroticism',
-  shortDescription: 'Neuroticism refers to the tendency to experience negative feelings.',
-  description: `Freud originally used the term neurosis to describe a
-condition marked by mental distress, emotional suffering, and an
-inability to cope effectively with the normal demands of life. He
-suggested that everyone shows some signs of neurosis, but that we
-differ in our degree of suffering and our specific symptoms of
-distress. Today neuroticism refers to the tendency to experience
-negative feelings. <br /><br />Those who score high on Neuroticism may
-experience primarily one specific negative feeling such as anxiety,
-anger, or depression, but are likely to experience several of these
-emotions. <br /><br />People high in neuroticism are emotionally reactive. They
-respond emotionally to events that would not affect most people, and
-their reactions tend to be more intense than normal. They are more
-likely to interpret ordinary situations as threatening, and minor
-frustrations as hopelessly difficult. <br /><br />Their negative emotional
-reactions tend to persist for unusually long periods of time, which
-means they are often in a bad mood. These problems in emotional
-regulation can diminish a neurotic's ability to think clearly, make
-decisions, and cope effectively with stress.`,
+  title: 'Нейротизм (Neuroticism)',
+  shortDescription: 'Нейротизм стосується схильності відчувати негативні емоції.',
+  description: `Фрейд спочатку використовував термін невроз для опису стану,
+що характеризується психічними стражданнями, емоційними муками та
+нездатністю ефективно справлятися з нормальними вимогами життя. Він
+припустив, що кожен виявляє певні ознаки неврозу, але ми
+відрізняємося за ступенем страждань і конкретними симптомами
+дистресу. Сьогодні нейротизм стосується схильності відчувати
+негативні емоції. <br /><br />Люди з високими показниками нейротизму можуть
+відчувати переважно одну конкретну негативну емоцію, таку як тривога,
+злість або депресія, але, ймовірно, вони відчувають декілька з цих
+емоцій. <br /><br />Люди з високим рівнем нейротизму емоційно реактивні. Вони
+реагують емоційно на події, які не вплинули б на більшість людей, і
+їхні реакції, як правило, більш інтенсивні, ніж зазвичай. Вони частіше
+інтерпретують звичайні ситуації як загрозливі, а незначні
+розчарування як безнадійно складні. <br /><br />Їхні негативні емоційні
+реакції мають тенденцію тривати незвично довго, що
+означає, що вони часто перебувають у поганому настрої. Ці проблеми з
+емоційною регуляцією можуть зменшити здатність нейротика чітко мислити,
+приймати рішення і ефективно справлятися зі стресом.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Neuroticism is low, indicating that you are
-exceptionally calm, composed and unflappable. You do not react with
-intense emotions, even to situations that most people would describe
-as stressful.`
+      text: `Ваш результат за шкалою нейротизму низький, що вказує на те, що ви
+винятково спокійні, урівноважені та незворушні. Ви не реагуєте
+інтенсивними емоціями навіть на ситуації, які більшість людей описали б
+як стресові.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your score on Neuroticism is average, indicating that your level of
-emotional reactivity is typical of the general population.
-Stressful and frustrating situations are somewhat upsetting to you,
-but you are generally able to get over these feelings and cope with
-these situations.`
+      text: `Ваш результат за шкалою нейротизму середній, що вказує на те, що рівень
+вашої емоційної реактивності типовий для загальної популяції.
+Стресові та розчаровуючі ситуації дещо засмучують вас,
+але ви зазвичай здатні подолати ці почуття і справитися з
+цими ситуаціями.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Your score on Neuroticism is high, indicating that you are easily
-upset, even by what most people consider the normal demands of
-living. People consider you to be sensitive and emotional.`
+      text: `Ваш результат за шкалою нейротизму високий, що вказує на те, що ви легко
+засмучуєтесь навіть від того, що більшість людей вважають нормальними вимогами
+життя. Люди вважають вас чутливим і емоційним.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Anxiety',
-      text: `The "fight-or-flight" system of the brain of anxious
-individuals is too easily and too often engaged. Therefore, people who
-are high in anxiety often feel like something dangerous is about to happen.
-They may be afraid of specific situations or be just generally fearful.
-They feel tense, jittery, and nervous. Persons low in Anxiety are generally
-calm and fearless.`
+      title: 'Тривога',
+      text: `Система "боротьби або втечі" мозку тривожних
+людей занадто легко і занадто часто активується. Тому люди, які
+мають високий рівень тривоги, часто відчувають, що щось небезпечне ось-ось станеться.
+Вони можуть боятися конкретних ситуацій або просто загалом боятися.
+Вони відчувають напруження, нервозність і тривогу. Люди з низькими балами за шкалою тривоги зазвичай
+спокійні та безстрашні.`
     },
     {
       facet: 2,
-      title: 'Anger',
-      text: `Persons who score high in Anger feel enraged when
-things do not go their way. They are sensitive about being treated fairly
-and feel resentful and bitter when they feel they are being cheated.
-This scale measures the tendency to feel angry; whether or not the
-person expresses annoyance and hostility depends on the individual's
-level on Agreeableness. Low scorers do not get angry often or easily.`
+      title: 'Злість',
+      text: `Люди з високими показниками злості відчувають лють, коли
+щось іде не так, як їм хочеться. Вони чутливі до справедливого ставлення до себе
+і відчувають образу і гіркоту, коли вважають, що їх обманюють.
+Ця шкала вимірює схильність до відчуття злості; чи
+виражає людина роздратування та ворожість, залежить від її
+рівня за шкалою доброзичливості. Люди з низькими показниками злості рідко або ніколи не сердяться.`
     },
     {
       facet: 3,
-      title: 'Depression',
-      text: `This scale measures the tendency to feel sad, dejected,
-and discouraged. High scorers lack energy and have difficulty initiating
-activities. Low scorers tend to be free from these depressive feelings.`
+      title: 'Депресія',
+      text: `Ця шкала вимірює схильність до відчуття смутку,
+пригніченості та зневіри. Люди з високими показниками мають недостатню енергію і їм важко почати
+діяльність. Люди з низькими показниками зазвичай не відчувають цих депресивних почуттів.`
     },
     {
       facet: 4,
-      title: 'Self-Consciousness',
-      text: `Self-conscious individuals are sensitive
-about what others think of them. Their concern about rejection and
-ridicule cause them to feel shy and uncomfortable around others. They
-are easily embarrassed and often feel ashamed. Their fears that others
-will criticize or make fun of them are exaggerated and unrealistic, but
-their awkwardness and discomfort may make these fears a self-fulfilling
-prophecy. Low scorers, in contrast, do not suffer from the mistaken
-impression that everyone is watching and judging them. They do not feel
-nervous in social situations.`
+      title: 'Сором’язливість',
+      text: `Сором’язливі люди чутливі до того,
+що про них думають інші. Їхня стурбованість відкиданням і
+глузуванням змушує їх відчувати сором'язливість і дискомфорт у присутності інших. Вони
+легко бентежаться і часто відчувають сором. Їхні страхи, що інші
+будуть їх критикувати або глузувати з них, перебільшені і нереалістичні, але
+їхня незграбність і дискомфорт можуть зробити ці страхи самовиконуваним
+пророцтвом. Люди з низькими показниками, навпаки, не страждають від хибного
+враження, що всі спостерігають за ними і судять їх. Вони не відчувають
+нервовості в соціальних ситуаціях.`
     },
     {
       facet: 5,
-      title: 'Immoderation',
-      text: `Immoderate individuals feel strong cravings and
-urges that they have have difficulty resisting. They tend to be
-oriented toward short-term pleasures and rewards rather than long-
-term consequences. Low scorers do not experience strong, irresistible
-cravings and consequently do not find themselves tempted to overindulge.`
+      title: 'Невгамовність',
+      text: `Невгамовні люди відчувають сильні бажання і
+позиви, яким їм важко протистояти. Вони схильні до
+орієнтації на короткострокові задоволення і винагороди, а не на довгострокові
+наслідки. Люди з низькими показниками не відчувають сильних, нездоланних
+бажань і, відповідно, не відчувають спокуси надмірно потурати своїм слабкостям.`
     },
     {
       facet: 6,
-      title: 'Vulnerability',
-      text: `High scorers on Vulnerability experience
-panic, confusion, and helplessness when under pressure or stress.
-Low scorers feel more poised, confident, and clear-thinking when
-stressed.`
+      title: 'Вразливість',
+      text: `Люди з високими показниками за шкалою вразливості відчувають
+паніку, замішання і безпорадність під тиском або стресом.
+Люди з низькими показниками відчувають себе більш урівноваженими, впевненими і ясно мислячими під
+час стресу.`
     }
   ]
 }

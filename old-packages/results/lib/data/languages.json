@@ -373,7 +373,7 @@
   {
     "id": "tr",
     "text": "Turkish",
-    "complete": false,
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -384,7 +384,7 @@
   {
     "id": "uk",
     "text": "Ukrainian",
-    "complete": false,
+    "complete": true,
     "verified": false,
     "translators": [
       {
@@ -395,7 +395,7 @@
   {
     "id": "ur",
     "text": "Urdu",
-    "complete": false,
+    "complete": true,
     "verified": false,
     "translators": [
       {

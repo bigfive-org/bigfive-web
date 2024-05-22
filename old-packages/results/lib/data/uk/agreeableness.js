@@ -1,104 +1,100 @@
 module.exports = {
   domain: 'A', // do not change this line
-  title: 'Agreeableness',
-  shortDescription: 'Agreeableness reflects individual differences in concern with cooperation and social harmony. Agreeable individuals value getting along with others.',
-  description: `They are therefore considerate, friendly,
-generous, helpful, and willing to compromise their interests with
-others'. Agreeable people also have an optimistic view of human
-nature. They believe people are basically honest, decent, and
-trustworthy. <br /><br />
-Disagreeable individuals place self-interest above getting along with
-others.  They are generally unconcerned with others' well-being, and
-therefore are unlikely to extend themselves for other people.
-Sometimes their skepticism about others' motives causes them to be
-suspicious, unfriendly, and uncooperative.
+  title: 'Доброзичливість (Agreeableness)',
+  shortDescription: 'Доброзичливість відображає індивідуальні відмінності в турботі про співпрацю та соціальну гармонію. Доброзичливі люди цінують гармонію у відносинах з іншими.',
+  description: `Вони тому уважні, дружелюбні,
+щедрі, готові допомогти та готові йти на компроміс зі своїми інтересами
+з іншими. Доброзичливі люди також мають оптимістичний погляд на людську
+натуру. Вони вірять, що люди в основному чесні, порядні та
+надійні. <br /><br />
+Недоброзичливі люди ставлять власні інтереси вище, ніж гармонійні відносини з іншими.
+Вони зазвичай не переймаються благополуччям інших і
+тому навряд чи будуть віддавати себе іншим людям.
+Іноді їхній скептицизм щодо мотивів інших змушує їх бути
+підозрілими, недружелюбними та некооперативними.
 <br /><br />
-Agreeableness is obviously advantageous for attaining and maintaining
-popularity. Agreeable people are better liked than disagreeable
-people. On the other hand, agreeableness is not useful in situations
-that require tough or absolute objective decisions. Disagreeable
-people can make excellent scientists, critics, or soldiers.`,
+Доброзичливість явно вигідна для досягнення і підтримання
+популярності. Доброзичливих людей більше люблять, ніж недоброзичливих.
+З іншого боку, доброзичливість не є корисною в ситуаціях,
+що вимагають жорстких або абсолютно об'єктивних рішень. Недоброзичливі
+люди можуть бути відмінними науковцями, критиками або солдатами.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Your score on Agreeableness is low, indicating less concern
-with others' needs than with your own. People see you as tough,
-critical, and uncompromising.`
+      text: `Ваш результат за шкалою Доброзичливості низький, що вказує на меншу турботу
+про потреби інших, ніж про власні. Люди бачать вас як жорстку,
+критичну та безкомпромісну людину.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Your level of Agreeableness is average, indicating some concern
-with others' Needs, but, generally, unwillingness to sacrifice
-yourself for others.`
+      text: `Ваш рівень Доброзичливості середній, що вказує на певну турботу
+про потреби інших, але загалом ви не готові жертвувати
+собою заради інших.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Your high level of Agreeableness indicates a strong interest in
-others' needs and well-being. You are pleasant, sympathetic, and
-cooperative.`
+      text: `Ваш високий рівень Доброзичливості свідчить про сильний інтерес до
+потреб та благополуччя інших. Ви приємна, співчутлива та
+кооперативна людина.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Trust',
-      text: `A person with high trust assumes that most people
-are fair, honest, and have good intentions. Persons low in trust
-see others as selfish, devious, and potentially dangerous.`
+      title: 'Довіра',
+      text: `Людина з високим рівнем довіри вважає, що більшість людей
+чесні, порядні та мають добрі наміри. Люди з низьким рівнем довіри
+вважають інших егоїстичними, підступними та потенційно небезпечними.`
     },
     {
       facet: 2,
-      title: 'Morality',
-      text: `High scorers on this scale see no need for
-pretense or manipulation when dealing with others and are therefore
-candid, frank, and sincere. Low scorers believe that a certain
-amount of deception in social relationships is necessary. People
-find it relatively easy to relate to the straightforward
-high-scorers on this scale. They generally find it more difficult
-to relate to the unstraightforward low-scorers on this scale. It
-should be made clear that low scorers are not unprincipled
-or immoral; they are simply more guarded and less willing to openly
-reveal the whole truth.`
+      title: 'Моральність',
+      text: `Люди з високими балами за цією шкалою не бачать необхідності в
+прикиданні чи маніпуляціях у відносинах з іншими, тому вони
+щирі, відверті та відверті. Люди з низькими балами вважають, що певна
+кількість обману в соціальних відносинах необхідна. Люди
+легко знаходять спільну мову з прямолінійними
+людьми з високими балами за цією шкалою. Вони зазвичай вважають більш важким
+спілкування з непрямолінійними людьми з низькими балами. 
+Слід зазначити, що низькі бали не означають відсутність принципів 
+чи аморальність; вони просто більш обережні та менш схильні відкрито
+розкривати всю правду.`
     },
     {
       facet: 3,
-      title: 'Altruism',
-      text: `Altruistic people find helping other people
-genuinely rewarding. Consequently, they are generally willing to
-assist those who are in need. Altruistic people find that doing
-things for others is a form of self-fulfillment rather than
-self-sacrifice. Low scorers on this scale do not particularly like
-helping those in need. Requests for help feel like an imposition
-rather than an opportunity for self-fulfillment.`
+      title: 'Альтруїзм',
+      text: `Альтруїстичні люди знаходять задоволення в допомозі іншим людям.
+Отже, вони зазвичай готові допомагати тим, хто цього потребує. Альтруїстичні люди вважають, що допомога іншим є формою самозадоволення, а не самопожертви. Люди з низькими балами за цією шкалою не особливо люблять
+допомагати тим, хто цього потребує. Запити про допомогу здаються їм обтяжливими,
+а не можливістю для самозадоволення.`
     },
     {
       facet: 4,
-      title: 'Cooperation',
-      text: `Individuals who score high on this scale
-dislike confrontations. They are perfectly willing to compromise or
-to deny their own needs in order to get along with others. Those
-who score low on this scale are more likely to intimidate others to
-get their way.`
+      title: 'Співпраця',
+      text: `Люди з високими балами за цією шкалою
+не люблять конфронтацій. Вони готові йти на компроміс або
+відмовлятися від своїх потреб задля гармонії з іншими. Люди з низькими балами за цією шкалою частіше залякують інших, щоб
+досягти свого.`
     },
     {
       facet: 5,
-      title: 'Modesty',
-      text: `High scorers on this scale do not like to claim
-that they are better than other people. In some cases this attitude
-may derive from low self-confidence or self-esteem. Nonetheless,
-some people with high self-esteem find immodesty unseemly. Those
-who are willing to describe themselves as superior tend to
-be seen as disagreeably arrogant by other people.`
+      title: 'Скромність',
+      text: `Люди з високими балами за цією шкалою не люблять стверджувати,
+що вони кращі за інших. У деяких випадках ця установка
+може випливати з низької впевненості в собі чи самоповаги. Тим не менш,
+деякі люди з високою самоповагою вважають нескромність недоречною. Ті,
+хто готовий описувати себе як кращих, зазвичай сприймаються іншими як
+неприємно зарозумілі.`
     },
     {
       facet: 6,
-      title: 'Sympathy',
-      text: `People who score high on this scale are
-tenderhearted and compassionate. They feel the pain of others
-vicariously and are easily moved to pity. Low scorers are not
-affected strongly by human suffering. They pride themselves on
-making objective judgments based on reason. They are more concerned
-with truth and impartial justice than with mercy.`
+      title: 'Співчуття',
+      text: `Люди, які мають високі бали за цією шкалою, є
+співчутливими та чуйними. Вони співпереживають біль інших
+і легко відчувають жалість. Люди з низькими балами
+не сильно реагують на людські страждання. Вони пишаються тим,
+що приймають об'єктивні рішення на основі розуму. Вони більше турбуються
+про правду та неупереджене правосуддя, ніж про милосердя.`
     }
   ]
 }
