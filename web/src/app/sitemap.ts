@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     locales.reduce((a, v) => ({ ...a, [v]: basePath + `/${v}${path}` }), {});
   const alternatesParamsLang = (path: string = '') =>
     resultLanguages.reduce(
-      (a, v) => ({ ...a, [v]: basePath + `${path}&amp;lang=${v}` }),
+      (a, v) => ({ ...a, [v]: basePath + `/${v}${path}&amp;lang=${v}` }),
       {}
     );
   return [
