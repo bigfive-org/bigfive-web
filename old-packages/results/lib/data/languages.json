@@ -402,5 +402,16 @@
         "name": "Machine translation"
       }
     ]
+  },
+  {
+    "id": "bn",
+    "text": "Bengali",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Shad Iqbal"
+      }
+    ]
   }
 ]
