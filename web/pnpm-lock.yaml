@@ -12,8 +12,8 @@ importers:
         specifier: 1.6.0
         version: 1.6.0
       '@bigfive-org/results':
-        specifier: 1.6.0
-        version: 1.6.0
+        specifier: 1.6.1
+        version: 1.6.1
       '@bigfive-org/score':
         specifier: 1.4.2
         version: 1.4.2
@@ -228,8 +228,8 @@ packages:
   '@bigfive-org/questions@1.6.0':
     resolution: {integrity: sha512-pRc3FukIFodj9IErjuqeTPKHMYLObgHXc5n9cLTFSHDNTalhj22QkRtZShJjvHURuSUrlvtejyZgiQ990KIWTQ==}
 
-  '@bigfive-org/results@1.6.0':
-    resolution: {integrity: sha512-INKOY5II/Mxli+TKRZa9wL9+87/CkG4zRTvJpJJSAdyxkGUA5U0BKWtVGEEUgubH5HMG0haOW2MciCg9k8lGAA==}
+  '@bigfive-org/results@1.6.1':
+    resolution: {integrity: sha512-vzIh5kCVuskfpv0JsATVBW++sHWwq0S125fvagkXphrd0p9g5XGnmH/zApnxK43wRUpKdcopQQtRgugSHVlWEw==}
 
   '@bigfive-org/score@1.4.2':
     resolution: {integrity: sha512-FVaJZsRoMVmroQ8nIxS0cY0M14NiOO4cuksp3k5wiw9wT58IUJyvEGvnqGNuez6vhMffLaufzLWUK+/vmPOAxw==}
@@ -4025,7 +4025,7 @@ snapshots:
 
   '@bigfive-org/questions@1.6.0': {}
 
-  '@bigfive-org/results@1.6.0': {}
+  '@bigfive-org/results@1.6.1': {}
 
   '@bigfive-org/score@1.4.2': {}
 
