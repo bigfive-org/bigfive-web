@@ -16,11 +16,26 @@
     "id": "zh-cn",
     "text": "Chinese (Simplified)",
     "complete": true,
-    "verified": false,
+    "verified": true,
     "translators": [
       {
         "name": "Jiangxue Yi",
         "githubUser": "janshirley"
+      },
+      {
+        "name": "Zhongyang Xu"
+      },
+      {
+        "name": "Jing Qian"
+      },
+      {
+        "name": "Kunning Chen"
+      },
+      {
+        "name": "Lianxin Zhu"
+      },
+      {
+        "name": "Jianlong Ao"
       }
     ]
   },

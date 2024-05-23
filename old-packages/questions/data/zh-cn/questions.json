@@ -180,7 +180,7 @@
   },
   {
     "id": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
-    "text": "相比墨守成规，我更喜欢有变化",
+    "text": " 相比墨守成规，我更喜欢有变化。",
     "keyed": "plus",
     "domain": "O",
     "facet": 4,
@@ -242,7 +242,7 @@
   },
   {
     "id": "71029381-3908-4c68-91e1-e41fb45542a2",
-    "text": "相信自己比别人更好",
+    "text": " 相信自己比别人更好",
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
@@ -295,7 +295,7 @@
   },
   {
     "id": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
-    "text": "同情无家可归之人(同情流浪汉 xu,2014)",
+    "text": "同情流浪汉",
     "keyed": "plus",
     "domain": "A",
     "facet": 6,
@@ -376,7 +376,7 @@
   },
   {
     "id": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
-    "text": "在聚会上会和很多不同的人交谈",
+    "text": "在聚会上，我会和很多不同的人交谈",
     "keyed": "plus",
     "domain": "E",
     "facet": 2,
@@ -386,7 +386,7 @@
   },
   {
     "id": "b5919f2f-cded-4745-a9ce-c02703cee807",
-    "text": "从别人可能不会注意到的事物中看到美",
+    "text": "我能发现别人看不到的美",
     "keyed": "plus",
     "domain": "O",
     "facet": 2,
@@ -396,7 +396,7 @@
   },
   {
     "id": "5a5fa975-d024-4ac8-8845-2823f957c21b",
-    "text": "为了成功不择手段",
+    "text": "为了领先别人，我会采用作弊的方式",
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
@@ -406,7 +406,7 @@
   },
   {
     "id": "adf33f9f-45bd-43e3-af25-4c491176d97f",
-    "text": "经常忘记把东西放回原处",
+    "text": " 经常忘记把东西放回原处",
     "keyed": "minus",
     "domain": "C",
     "facet": 2,
@@ -426,7 +426,7 @@
   },
   {
     "id": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
-    "text": "尝试去领导他人",
+    "text": "我会尝试去领导他人",
     "keyed": "plus",
     "domain": "E",
     "facet": 3,
@@ -467,7 +467,7 @@
   },
   {
     "id": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
-    "text": "害怕引起别人的注意",
+    "text": "害怕引起他人的注意",
     "keyed": "plus",
     "domain": "N",
     "facet": 4,
@@ -477,7 +477,7 @@
   },
   {
     "id": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
-    "text": "总是忙个不停",
+    "text": "总是在奔波",
     "keyed": "plus",
     "domain": "E",
     "facet": 4,
@@ -488,7 +488,7 @@
   },
   {
     "id": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
-    "text": "喜欢做自己熟悉的事情",
+    "text": "我更喜欢做自己熟悉的事情",
     "keyed": "minus",
     "domain": "O",
     "facet": 4,
@@ -508,7 +508,7 @@
   },
   {
     "id": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
-    "text": "会超出预期地完成任务或工作",
+    "text": "我会超出预期地完成任务或工作",
     "keyed": "plus",
     "domain": "C",
     "facet": 4,
@@ -518,7 +518,7 @@
   },
   {
     "id": "9891b7ba-a494-4307-aafe-301d8db506c6",
-    "text": "很少过度放纵",
+    "text": "很少过度放纵自己",
     "keyed": "minus",
     "domain": "N",
     "facet": 5,
@@ -528,7 +528,7 @@
   },
   {
     "id": "f1675af6-88bf-4376-a946-0281e762b39c",
-    "text": "寻求冒险",
+    "text": "喜欢冒险",
     "keyed": "plus",
     "domain": "E",
     "facet": 5,
@@ -538,7 +538,7 @@
   },
   {
     "id": "95a3f20c-f933-4d19-a2c1-a7dbdf63c562",
-    "text": "避免参与关于哲学的讨论",
+    "text": "会避免参与关于哲学的讨论",
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
@@ -548,7 +548,7 @@
   },
   {
     "id": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
-    "text": "自我感觉良好",
+    "text": "觉得自己很了不起",
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
@@ -698,7 +698,7 @@
   },
   {
     "id": "982e83c2-d34e-48da-9c71-78494ab05c85",
-    "text": "利用他人",
+    "text": "占别人的便宜",
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
@@ -720,7 +720,7 @@
   },
   {
     "id": "743d8973-1de1-4485-91b4-8a5cf63e7d44",
-    "text": "我经常情绪低落",
+    "text": "经常情绪低落",
     "keyed": "plus",
     "domain": "N",
     "facet": 3,
@@ -841,7 +841,7 @@
   },
   {
     "id": "fecc35f7-681e-4889-a404-4a973a3dfef0",
-    "text": "理解抽象概念有些困难",
+    "text": "理解抽象概念对我来说有些困难",
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
@@ -923,7 +923,7 @@
   },
   {
     "id": "43b03992-3f32-4ed1-a6f8-5d6d3e7ed246",
-    "text": "容易感受到压力",
+    "text": "我很容易觉得压力大",
     "keyed": "plus",
     "domain": "N",
     "facet": 1,
@@ -953,7 +953,7 @@
   },
   {
     "id": "432dbde8-8756-4ff0-80d5-f47018235139",
-    "text": "不相信他人",
+    "text": "不相信别人",
     "keyed": "minus",
     "domain": "A",
     "facet": 1,
@@ -964,7 +964,7 @@
   },
   {
     "id": "5727c93f-317b-4af1-a686-77fc9fbc5033",
-    "text": "知道如何完成任务",
+    "text": " 知道如何完成任务",
     "keyed": "plus",
     "domain": "C",
     "facet": 1,
@@ -1005,7 +1005,7 @@
   },
   {
     "id": "11b20adb-abed-4363-894c-3dd823ae0540",
-    "text": "阻碍别人的计划",
+    "text": "给别人使坏",
     "keyed": "minus",
     "domain": "A",
     "facet": 2,
@@ -1107,7 +1107,7 @@
   },
   {
     "id": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
-    "text": "以牙还牙",
+    "text": "报复别人",
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "10f90fa9-649c-4631-ac4c-3dd3f751597d",
-    "text": "行为狂放不羁",
+    "text": "我的行为狂放不羁",
     "keyed": "plus",
     "domain": "E",
     "facet": 5,
@@ -1147,7 +1147,7 @@
   },
   {
     "id": "b86de003-c3c4-4cc8-9385-5ac8a0142c34",
-    "text": "不对理论性的讨论不感兴趣",
+    "text": "对理论性的讨论不感兴趣",
     "keyed": "minus",
     "domain": "O",
     "facet": 5,
@@ -1167,7 +1167,7 @@
   },
   {
     "id": "51403620-968c-42fa-a772-65ba5ad8396f",
-    "text": "很难开始一件事情",
+    "text": "拖很久才开始做一件事",
     "keyed": "minus",
     "domain": "C",
     "facet": 5,
@@ -1187,7 +1187,7 @@
   },
   {
     "id": "e7b31bdc-5f6b-40ec-ba91-f5919b0f170e",
-    "text": "对生活充满希望，看到生活中好的一面",
+    "text": "看到生活中好的一面",
     "keyed": "plus",
     "domain": "E",
     "facet": 6,
@@ -1197,7 +1197,7 @@
   },
   {
     "id": "580b08d1-3c94-46e9-9d07-d6d80c698127",
-    "text": "相信我们应该严厉打击犯罪",
+    "text": "认为我们应该严惩犯罪",
     "keyed": "minus",
     "domain": "O",
     "facet": 6,
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "48bee420-60c0-45cd-be43-3893dbc1969a",
-    "text": "尽量不去想那些需要帮助的人",
+    "text": "我尽量不去想那些需要帮助的人",
     "keyed": "minus",
     "domain": "A",
     "facet": 6,
