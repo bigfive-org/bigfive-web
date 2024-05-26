@@ -6,21 +6,25 @@ import { getTranslations } from 'next-intl/server';
 import { BarChart } from '@/components/bar-chart';
 import { Link } from '@/navigation';
 import { Alert } from '@/components/alert';
-import { supportEmail } from '@/config/site';
+import { basePath, locales, supportEmail } from '@/config/site';
 import ShareBar from '@/components/share-bar';
 import { DomainTabs } from './domain-tabs';
 import { Chip } from '@nextui-org/react';
 import { ResultHeader } from '@/components/ads/ads';
 
 export async function generateMetadata({
-  params: { locale }
+  params: { locale, id }
 }: {
-  params: { locale: string };
+  params: { locale: string; id: string };
 }) {
   const t = await getTranslations({ locale, namespace: 'results' });
   return {
     title: t('seo.title'),
-    description: t('seo.description')
+    description: t('seo.description'),
+    alternates: {
+      canonical: basePath + `/result/${id}`,
+      languages: locales.reduce((a, v) => ({ ...a, [v]: `${v}/result/${id}` }), {})
+    }
   };
 }
 

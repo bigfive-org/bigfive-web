@@ -5,6 +5,24 @@ import { DomainComparePage } from './domain';
 import { BarChartCompare } from '@/components/bar-chart-generic';
 import ShareBar from '@/components/share-bar';
 import CompareEdit from './compare-edit';
+import { getTranslations } from 'next-intl/server';
+import { basePath, locales } from '@/config/site';
+
+export async function generateMetadata({
+  params: { locale, id }
+}: {
+  params: { locale: string; id: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'getCompare' });
+  return {
+    title: t('title'),
+    description: t('description1'),
+    alternates: {
+      canonical: basePath + `/result/${id}`,
+      languages: locales.reduce((a, v) => ({ ...a, [v]: `${v}/compare/${id}` }), {})
+    }
+  };
+}
 
 interface ComparePageProps {
   params: {
