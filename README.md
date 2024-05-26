@@ -10,7 +10,7 @@ See it live @ [bigfive-test.com](https://bigfive-test.com)
 
 ## Help wanted
 
-If you want to help by translating the items to other languages look [here](https://b5.translations.alheimsins.net/).
+If you want to help by translating the items to other languages look [here](https://bigfive-test.com/translations).
 
 ## License
 

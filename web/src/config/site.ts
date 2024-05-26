@@ -66,7 +66,8 @@ export const languages: Language[] = [
     code: 'zh-hant',
     name: 'Chinese (Traditional)',
     countryCode: 'cn'
-  }
+  },
+  { code: 'bn', name: 'Bengali', countryCode: 'bd' }
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 export const locales = languages.map((lang) => lang.code) as string[];

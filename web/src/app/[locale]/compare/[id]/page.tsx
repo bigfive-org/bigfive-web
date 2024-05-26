@@ -9,6 +9,7 @@ import CompareEdit from './compare-edit';
 interface ComparePageProps {
   params: {
     id: string;
+    locale: string;
   };
 }
 
@@ -18,7 +19,7 @@ type Person = {
 };
 
 export default async function ComparePage({
-  params: { id }
+  params: { id, locale }
 }: ComparePageProps) {
   let people: Person[];
 
@@ -34,7 +35,7 @@ export default async function ComparePage({
   }
   const reports = await Promise.all(
     people.map(async (person) => {
-      const report = await getTestResult(person.id);
+      const report = await getTestResult(person.id, locale);
       if (!report) throw new Error('No report found');
       return {
         name: person.name,

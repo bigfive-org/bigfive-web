@@ -21,7 +21,7 @@ interface SurveyProps {
   prevText: string;
   resultsText: string;
   saveTest: Function;
-  language: string;
+  locale: string;
 }
 
 export const Survey = ({
@@ -30,7 +30,7 @@ export const Survey = ({
   prevText,
   resultsText,
   saveTest,
-  language
+  locale: language
 }: SurveyProps) => {
   const router = useRouter();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

@@ -1,4 +1,5 @@
 'use client';
+
 import { ChangeEvent } from 'react';
 import { useLocale } from 'next-intl';
 import { languages } from '../config/site';

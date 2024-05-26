@@ -5,7 +5,6 @@ import { title } from '@/components/primitives';
 import { getTranslations } from 'next-intl/server';
 import { BarChart } from '@/components/bar-chart';
 import { Link } from '@/navigation';
-import { ReportLanguageSwitch } from './report-language-switch';
 import { Alert } from '@/components/alert';
 import { supportEmail } from '@/config/site';
 import ShareBar from '@/components/share-bar';
@@ -26,8 +25,8 @@ export async function generateMetadata({
 }
 
 interface ResultPageParams {
-  params: { id: string };
-  searchParams: { lang: string; showExpanded?: boolean };
+  params: { id: string, locale: string }
+  searchParams: { showExpanded?: boolean };
 }
 
 export default async function ResultPage({
@@ -37,7 +36,7 @@ export default async function ResultPage({
   let report;
 
   try {
-    report = await getTestResult(params.id.substring(0, 24), searchParams.lang);
+    report = await getTestResult(params.id.substring(0, 24), params.locale);
   } catch (error) {
     throw new Error('Could not retrieve report');
   }
@@ -66,13 +65,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
 
   return (
     <>
-      <div className='flex'>
-        <div className='flex-grow'>
-          <ReportLanguageSwitch
-            language={report.language}
-            availableLanguages={report.availableLanguages}
-          />
-        </div>
+      <div className='flex justify-end'>
         <Chip>{new Date(report.timestamp).toLocaleDateString()}</Chip>
       </div>
       <div className='text-center mt-6'>

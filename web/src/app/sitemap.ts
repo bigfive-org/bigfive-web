@@ -9,6 +9,8 @@ const resultLanguages = getInfo().languages.map((l) => l.id);
 export default function sitemap(): MetadataRoute.Sitemap {
   const alternatesPageLang = (path: string = '') =>
     locales.reduce((a, v) => ({ ...a, [v]: basePath + `/${v}${path}` }), {});
+  const alternatesPageLangAfter = (path: string = '') =>
+    locales.reduce((a, v) => ({ ...a, [v]: basePath + `/${path}${v}` }), {});
   const alternatesParamsLang = (path: string = '') =>
     resultLanguages.reduce(
       (a, v) => ({ ...a, [v]: basePath + `/${v}${path}&amp;lang=${v}` }),
@@ -67,6 +69,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${basePath}/translations`,
       lastModified: new Date()
+    },
+    {
+      url: `${basePath}/translations/b5-johnson-120-ipip-neo-pi-r`,
+      lastModified: new Date(),
+      alternates: {
+        languages: alternatesPageLangAfter(
+          'translations/b5-johnson-120-ipip-neo-pi-r/'
+        )
+      }
+    },
+    {
+      url: `${basePath}/result/`,
+      lastModified: new Date(),
+      alternates: {
+        languages: alternatesPageLangAfter(
+          'translations/result/'
+        )
+      }
     },
     {
       url: `${basePath}/articles`,
