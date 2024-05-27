@@ -18,7 +18,7 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description1'),
     alternates: {
-      canonical: basePath + `/result/${id}`,
+      canonical: basePath + `/compare/${id}`,
       languages: locales.reduce((a, v) => ({ ...a, [v]: `${v}/compare/${id}` }), {})
     }
   };
