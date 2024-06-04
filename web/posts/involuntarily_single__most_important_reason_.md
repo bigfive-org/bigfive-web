@@ -15,9 +15,13 @@ Involuntary singlehood, a state where individuals are single despite their desir
 
 ### The Study's Findings
 
-The research by Apostolou and Michaelidou involved 1,432 Greek-speaking participants and examined 17 potential predictors of involuntary singlehood. The study found that poor flirting capacity was consistently associated with a higher probability of being involuntarily single for both men and women. In particular, the study highlighted that individuals with lower flirting skills were more likely to remain single for extended periods.
+The research by Apostolou and Michaelidou involved 1,432 Greek-speaking participants and examined 17 potential predictors of involuntary singlehood. The study found that **poor flirting capacity** was consistently associated with a higher probability of being involuntarily single for both men and women. In particular, the study highlighted that individuals with lower flirting skills were more likely to remain single for extended periods.
 
-For women, additional factors such as poor sexual functioning, high choosiness, and low agreeableness were linked to involuntary singlehood. Men, on the other hand, faced higher chances of being involuntarily single if they had higher neuroticism, lower self-perceived mate value, and lower self-esteem. However, across both genders, flirting capacity emerged as a critical skill influencing their relationship status.
+**For women**, additional factors such as **poor sexual functioning, high choosiness, and low agreeableness** were linked to involuntary singlehood.
+
+**Men**, on the other hand, faced higher chances of being involuntarily single if they had **higher neuroticism, lower self-perceived mate value, and lower self-esteem**.
+
+However, across both genders, flirting capacity emerged as a critical skill influencing their relationship status.
 
 ### Why Flirting Capacity Matters
 
