@@ -1,101 +1,52 @@
 module.exports = {
-  domain: 'N', // do not change this line
+  domain: 'N',
   title: 'Neuroticismus',
-  shortDescription: 'Neuroticismus označuje tendenci prožívat negativní pocity.',
-  description: `Freud původně použil termín neuróza k popisu stavu
-charakterizovaného duševním utrpením, emocionální bolestí a
-neschopností efektivně zvládat normální požadavky života. Navrhl,
-že každý vykazuje určité známky neurózy, ale že se lišíme v míře utrpení
-a specifických symptomech utrpení. Dnes neuroticismus označuje tendenci
-prožívat negativní pocity. <br /><br />Ti, kdo dosahují vysokého skóre v neuroticismu, mohou
-převážně prožívat jeden specifický negativní pocit, jako je úzkost,
-hněv nebo deprese, ale pravděpodobně budou prožívat několik těchto
-emocí. <br /><br />Lidé s vysokým skóre v neuroticismu jsou emocionálně reaktivní.
-Reagují emocionálně na události, které by většinu lidí neovlivnily, a
-jejich reakce bývají intenzivnější než je obvyklé. Pravděpodobněji
-interpretují běžné situace jako ohrožující a drobné frustrace jako
-beznadějně obtížné. <br /><br />Jejich negativní emocionální reakce mají tendenci přetrvávat
-neobvykle dlouhou dobu, což znamená, že často bývají ve špatné náladě. Tyto
-problémy s regulací emocí mohou snižovat schopnost neurotika jasně myslet,
-rozhodovat se a efektivně zvládat stres.`,
+  shortDescription: 'Neuroticismus popisuje tendenci pociťovat negativní emoce.',
+  description: 'Freud původně používal termín neuróza pro popis stavu vyznačujícího se duševním strádáním, emocionálním utrpením a neschopností efektivně se vyrovnávat s běžnými životními obtížemi. Naznačoval, že všichni máme nějaké příznaky neurózy, ale že se lišíme mírou našeho utrpení a našimi specifickými symptomy strádání. V dnešní době neuroticismus popisuje tendenci prožívat negativní emoce. <br /><br />Ti, kdo mají vysoké skóre Neuroticismu, mohou prožívat především jednu specifickou negativní emoci, jako například úzkost, hněv nebo depresi, ale pravděpodobně prožívají několik těchto emocí. <br /><br />Lidé s vysokou mírou Neuroticismu jsou emocionálně reaktivní. Emocionálně reagují na události, které by většinu lidí nijak neovlivnily, a jejich reakce bývají intenzivnější než je běžné. Často si mohou vykládat obyčejné situace jako nebezpečné a drobné frustrace jako beznadějně obtížné a nepřekonatelné. <br /><br />Jejich negativní emocionální reakce mohou přetrvávat po neobvykle dlouhou dobu, což znamená, že mívají často špatnou náladu. Tyto problémy s emoční regulací mohou nabourat neurotikovu schopnost přemýšlet jasně a logicky, činit rozhodnutí a efektivně se vyrovnávat sestresem.',
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Vaše skóre v neuroticismu je nízké, což naznačuje, že jste
-mimořádně klidní, vyrovnaní a nerozhoditelní. Nezareagujete
-intenzivními emocemi, ani na situace, které by většina lidí popsala
-jako stresující.`
+      text: 'Vaše skóre Neuroticismu je nízké, což naznačuje, že jste nebývale klidní, vyrovnaní a neochvějní. Intenzivními emocemi nereagujete ani v situacích ,které by většina lidí popsala jako stresující.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Vaše skóre v neuroticismu je průměrné, což naznačuje, že vaše úroveň
-emocionální reaktivity je typická pro běžnou populaci.
-Stresující a frustrující situace vás poněkud rozruší,
-ale obvykle se z těchto pocitů dostanete a zvládnete
-tyto situace.`
+      text: 'Vaše skóre Neuroticismu je průměrné, což indikuje, že vaše úroveň emoční reaktivity je srovnatelná s většinou populace. Stresující a rozčilující situace vás mohou rozhodit, ale obecně se s těmito situacemi a pocity, které vyvolávají, dokážete vyrovnat a překonat je.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Vaše skóre v neuroticismu je vysoké, což naznačuje, že jste snadno
-rozrušitelní, i běžnými požadavky života. Lidé vás považují za citlivé a emocionální.`
+      text: 'Vaše skóre Neuroticismu je vysoké, což naznačuje, že jste snadno rozhozeni, dokonce věcmi, které by většina lidí popsala jako běžné životní nároky. Lidé vás vidí jako citlivé a emocionální.'
     }
   ],
   facets: [
     {
       facet: 1,
       title: 'Úzkost',
-      text: `Systém "bojuj nebo uteč" v mozku úzkostných
-jedinců se příliš snadno a příliš často aktivuje. Proto lidé s
-vysokou úzkostí často mají pocit, že se něco nebezpečného chystá.
-Mohou mít strach ze specifických situací nebo být jen obecně bázliví.
-Cítí se napjatí, nervózní a neklidní. Osoby s nízkou úzkostí jsou obecně
-klidné a nebojácné.`
+      text: 'U jednotlivců s úzkostí dochází k přehnané aktivaci režimu "bojuj nebo uteč". Lidé prožívající úzkost mají proto velmi často pocit, že se stane něco nebezpečného nebo špatného. Mohou se obávat specifických situací, nebo mohou být obecně bázliví. Cítí se napjatě, rozechvěle a nervózně. Osoby s nízkým skóre Úzkosti jsou obecně klidné a nebojácné.'
     },
     {
       facet: 2,
       title: 'Hněv',
-      text: `Osoby, které dosahují vysokého skóre v hněvu, se cítí rozzuřené, když
-věci nejdou podle jejich představ. Jsou citliví na to, aby s nimi bylo jednáno spravedlivě
-a cítí se dotčeni a zahořklí, když mají pocit, že jsou podvedeni.
-Tato škála měří tendenci cítit hněv; zda osoba vyjadřuje podráždění a nepřátelství, závisí na úrovni
-jejich přívětivosti. Osoby s nízkým skóre se nerozčílí často ani snadno.`
+      text: 'Osoby s vysokým sóre Hněvu se snadno rozčílí když se jim nedaří podle jejich představ. Jsou citliví na rovnoprávné zacházení a cítí se zahořkle, pokud mají pocit, že je něco nefér. Tato škála měří tendenci k pocitům hněvu. To, zda jednotlivec vyjádří svůj hněv nepřátelskostí a otráveným chováním záleží na jejich výsledcích v doméně Přívětivosti. Lidé s nízkým skóre se nerozčilí tak snadno a tak často.'
     },
     {
       facet: 3,
       title: 'Deprese',
-      text: `Tato škála měří tendenci cítit smutek, sklíčenost,
-a beznaděj. Osoby s vysokým skóre postrádají energii a mají potíže s iniciováním
-aktivit. Osoby s nízkým skóre obvykle nemají tyto depresivní pocity.`
+      text: 'Tato škála měří tendenci k pocitům smutku, sklíčenosti a odrazení. Osoby s vysokým skóre pociťují nedostatek energie a je pro ně obtížné inciovat aktivity. Osoby s nízkým skóre tyto depresivní pocity většinou nepociťují.'
     },
     {
       facet: 4,
-      title: 'Sebevědomí',
-      text: `Sebevědomí jedinci jsou citliví
-na to, co si o nich myslí ostatní. Jejich obavy z odmítnutí a
-zesměšnění způsobují, že se cítí stydliví a nepohodlní mezi ostatními. Často se
-snadno ztrapní a cítí se často provinile. Jejich obavy, že je ostatní
-budou kritizovat nebo zesměšňovat, jsou přehnané a nereálné, ale
-jejich nemotornost a nepohodlí mohou tyto obavy učinit sebenaplňující
-předpovědí. Osoby s nízkým skóre naopak netrpí mylným
-přesvědčením, že je všichni sledují a soudí. Necítí se
-nervózně v sociálních situacích.`
+      title: 'Ostýchavost',
+      text: 'Ostýchaví jednotlivci (neplést si se sebevědomím) jsou citliví na to, co si o nich myslí okolí. Jejich obavy z odmítnutí a zesměšnění je činí stydlivými a budí v nich pocit nepohodlí, jsou-li v přítomnosti ostatních. Snadno se cítí trapně a často pociťují stud. Jejich strach, že je budou ostatní kritizovat nebo zesměšňovat jsou často přehnané a nerealistické, ale jejich sociální nešikovnost a nepohodlí mohou tyto obavy proměnit v sebenaplňující proroctví. Na druhou stranu osoby s nízkým skóre Ostýchavosti nepociťují, že by je všichni okolo odsuzovali a sledovali. V sociálních situacích se necítí nervózně.'
     },
     {
       facet: 5,
-      title: 'Umírněnost',
-      text: `Neumírnění jedinci cítí silné touhy a
-chtíče, kterým mají potíže odolat. Mají tendenci se
-zaměřovat na krátkodobé potěšení a odměny spíše než na
-dlouhodobé důsledky. Osoby s nízkým skóre necítí silné, neodolatelné
-chtíče a tudíž nejsou v pokušení se přejídat.`
+      title: 'Nestřídmost',
+      text: 'Nestřídmí jednotlivci pociťují silná nutkání a choutky, kterým obtížně odolávají. Bývají zaměření na krátkodobé příjemné pocity a odměny namísto dlouhodobých dopadů jejich činů. Osoby s nízkým skóre nepociťují tato nutkání hýřit a odolávají jim.'
     },
     {
       facet: 6,
       title: 'Zranitelnost',
-      text: `Osoby s vysokým skóre v zranitelnosti zažívají
-paniku, zmatení a bezmocnost při tlaku nebo stresu.
-Osoby s nízkým skóre se cítí vyrovnanější, sebevědomější a jasněji myslící při
-stresu.`
+      text: 'Zranitelní jednotlivci pocitují pod tlakem a stresem paniku, zmatení a beznaděj. Osoby s nízkým skóre se cítí připraveněji, jistěji a podtlakem zachovávají chladnou hlavu.'
     }
   ]
 }

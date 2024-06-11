@@ -1,98 +1,54 @@
 module.exports = {
-  domain: 'E', // do not change this line
-  title: 'Extraversion',
-  shortDescription: 'Extraversion je charakterizována výrazným zapojením do vnějšího světa.',
-  description: `Extraverti si užívají být s lidmi, jsou plní energie a
-často prožívají pozitivní emoce. Mají tendenci být nadšení,
-akčně orientovaní jedinci, kteří pravděpodobně řeknou "Ano!" nebo "Pojďme!"
-příležitostem k vzrušení. Ve skupinách rádi mluví,
-prosazují se a přitahují pozornost k sobě.
+  domain: 'E',
+  title: 'Extrovertnost',
+  shortDescription: 'Extrovertnost se vyznačuje výraznou angažovaností s externím světem.',
+  description: `Extroverti si užívají přítomnost ve společnosti, jsou plní energie, a často prožívají pozitivní emoce. Bývají to entuziastičtí, na činy orientovaní lidé kterí pravděpodobně odpoví "Jasně!" nebo "Jdem na to!" na jak´koli vzrušující příležitosti. Ve skupinách si rádi povídají, prosazují se a přitahují na sebe pozornost.
 <br /><br />
-Introverti postrádají nadšení, energii a aktivitu
-extravertů. Mají tendenci být tichí, klidní, rozvážní a
-nezapojení do sociálního světa. Jejich nedostatek sociálního zapojení
-by neměl být vykládán jako plachost nebo deprese; 
-introvert jednoduše potřebuje méně stimulace než extravert a dává přednost
-být sám. <br /><br />Nezávislost a zdrženlivost introverta je
-někdy zaměňována za nepřátelství nebo aroganci. Ve skutečnosti,
-introvert, který dosahuje vysokého skóre v dimenzi přívětivosti, nebude
-aktivně vyhledávat ostatní, ale bude velmi příjemný, když k němu někdo přijde.`,
+Introverti nesdílejí stejnou bujarost, energii a aktivnost jako extroverti. Bývají tiší, nenápadní, rozvážní a odpojení od sociálního světa. Jejich nedostatek sociálního zapojení by však neměl být chápán jako stydlivost nebo depresivnost. Introverti pouze vyžadují méně externí stimulace než extroverti a preferují samotu. <br /><br />Nezávislost a rezervovanost introvertů může být občas špatně interpretována jako nepřátelskost nebo arogance. Ve skutečnosti však introverti s vysokým skóre v oblasti Přívětivosti nebudou vyhledávat interakce s ostatními, ale při oslovení budou poměrně příjemní.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Vaše skóre v extraverzi je nízké, což naznačuje, že jste
-introvertní, rezervovaní a tichí. Užíváte si samotu a samotářské
-aktivity. Vaše socializace je obvykle omezena na několik blízkých přátel.`
+      text: 'Vaše skóre v Extrovertnosti je nízké, což indikuje, že jste introvertní, rezervovaný a tichý. Užíváte si samotu a samostatné aktivity. Vaše socializace je pravděpodobně omezená na pár blízkých přátel.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Vaše skóre v extraverzi je průměrné, což naznačuje, že nejste
-ani zamlklý samotář, ani veselý klábosil. Užíváte si čas s
-ostatními, ale také čas o samotě.`
+      text: 'Vaše skóre Extrovertnosti je průměrné, což naznačuje, že nejste ani zamlklý samotář, ani žoviální žvanil. Užíváte si čas o samotě ale i s ostatními.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Vaše skóre v extraverzi je vysoké, což naznačuje, že jste
-společenští, otevření, energičtí a živí. Preferujete být většinu času mezi
-lidmi.`
+      text: 'Vaše skóre Extrovertnosti je vysoké, což naznačuje, že jste sociální, společenští, energetičtí a živí. Většinu času raději trávíte mezi lidmi.'
     }
   ],
   facets: [
     {
       facet: 1,
       title: 'Přátelskost',
-      text: `Přátelští lidé skutečně mají rádi ostatní a
-otevřeně projevují pozitivní pocity vůči ostatním. Rychle navazují
-přátelství a snadno si vytvářejí blízké, intimní
-vztahy. Nízké skóre v přátelskosti nemusí nutně znamenat chlad
-a nepřátelství, ale takoví lidé se neobracejí k ostatním a jsou vnímáni
-jako vzdálení a rezervovaní.`
+      text: 'Přátělští lidé mají upřímně rádi ostatní a otevřeně demonstují své pozitivní pocity vůči ostatním. Rychle si dělají kamarády a je pro ně jednoduché tvořit blízké, intimní vztahy. Lidé s nízkým skóre v této oblasti nemusí být nutně chladní nebo nepřátelští, pouze nemají potřebu oslovovat ostatní a mohou být vnímaní jako vzdálení a rezervovaní.'
     },
     {
       facet: 2,
-      title: 'Společenskost',
-      text: `Společenští lidé považují společnost ostatních za
-příjemně stimulující a odměňující. Užívají si
-vzrušení z davu. Nízké skóre znamená, že se lidé cítí být přemoženi
-davem a proto se mu aktivně vyhýbají. Nemusí nutně
-nemít rádi být občas s lidmi, ale jejich potřeba soukromí a
-času pro sebe je mnohem větší než u jedinců s vysokým skóre
-v této škále.`
+      title: 'Družnost',
+      text: 'Družní lidé si užívají přítomnost ostatních, je pro ně příjemně stimulující a odměnující. Užívají si vzrušení davů. Lidé s nízkým skóre se velkými davy mohou cítit přehlceni, a proto se jim aktivně vyhýbat. Nemusí nutně nemít rádi přítomnost lidí, ale jejich potřeba pro soukromí a čas pro sebe je výrazně vyšší než těch, kdo mají v této oblasti vyšší skóre.'
     },
     {
       facet: 3,
       title: 'Asertivita',
-      text: `Lidé s vysokým skóre v asertivitě rádi mluví,
-ujímají se vedení a řídí činnosti ostatních. Mají tendenci
-být vedoucími ve skupinách. Lidé s nízkým skóre nemluví tolik a nechávají
-ostatní řídit činnosti skupiny.`
+      text: 'Asertivní lidé rádi mluví k ostatním, berou iniciativu do svých rukou a směřují činy ostatních. Bývají vůdčí osobou ve skupinách. Lidé s nízkým skóre raději nemluví a rádi přenechají kontrolu nad skupinou někomu jinému.'
     },
     {
       facet: 4,
-      title: 'Úroveň aktivity',
-      text: `Aktivní jedinci vedou rychlý, rušný
-život. Pohybují se rychle, energicky a intenzivně a
-jsou zapojeni do mnoha aktivit. Lidé s nízkým skóre v této
-škále následují pomalejší a uvolněnější, odpočinkové tempo.`
+      title: 'Aktivnost',
+      text: 'Aktivní jednotlivci žijí rychlé, zaneprázdněné životy. Pohybují se rychle, energicky a rázně a účastní se mnoha aktivit. Méně aktivní lidé si užívají pomalejší a odpočinkovější tempo.'
     },
     {
       facet: 5,
       title: 'Vyhledávání vzrušení',
-      text: `Lidé s vysokým skóre v této škále se snadno
-nudí bez vysoké úrovně stimulace. Milují jasná světla
-a ruch a shon. Pravděpodobně riskují a hledají
-vzrušení. Lidé s nízkým skóre jsou přemoženi hlukem a ruchem a
-jsou odpůrci vyhledávání vzrušení.`
+      text: 'Lidé s vysokým skóre v této oblasti se bez silné stimulace začnou lehce nudit. Mají rádi jasná světla a shon. Jsou ochotní podstupovat rizika a vyhledávat vzrušující aktivity. Osoby s nízkým skóre jsou náchylní na přehlcení hlukem a rozruchem a silně stimulujícím aktivitám se raději vyhýbají.'
     },
     {
       facet: 6,
       title: 'Veselost',
-      text: `Tato škála měří pozitivní náladu a
-pocity, ne negativní emoce (které jsou součástí
-dimenze neuroticismu). Osoby s vysokým skóre v této škále obvykle
-zažívají širokou škálu pozitivních pocitů, včetně štěstí,
-nadšení, optimismu a radosti. Osoby s nízkým skóre nejsou
-tak náchylné k těmto energetickým, vysokým náladám.`
+      text: 'Tato škála měří pozitivní náladu a pocity, narozdíl od negativních emocí (které patří do domény Neuroticismu). Lidé s vysokým skóre typicky často prožívají širokou škálu pozitivních emocí, včetně radosti, entusiasmu, optimismu a štěstí. Lidé s nížkým skóre tyto emoce naopak neprožívají tak často a tak výrazně.'
     }
   ]
 }

@@ -1,116 +1,116 @@
 module.exports = {
-  domain: 'O', // do not change this line
-  title: 'Otevřenost vůči zkušenosti',
-  shortDescription: 'Otevřenost vůči zkušenosti popisuje dimenzi kognitivního stylu, která odlišuje imaginativní, kreativní lidi od realistických, konvenčních lidí.',
-  description: `Otevření lidé jsou intelektuálně zvědaví,
-ocení umění a jsou citliví na krásu. Ve srovnání s uzavřenými lidmi mají
-tendenci být více si vědomi svých pocitů. Mají sklon
-myslet a jednat individualisticky a nekonformně.
-Intelektuálové obvykle dosahují vysokých skóre v otevřenosti vůči zkušenosti;
-proto se tento faktor také nazývá Kultura nebo
-Intelekt. <br /><br />Nicméně, Intelekt je pravděpodobně nejlépe považován za jeden aspekt otevřenosti
-vůči zkušenosti. Skóre v otevřenosti vůči zkušenosti je pouze mírně
-spojeno s počtem let vzdělání a skóremi na standardních inteligenčních testech.
+  domain: 'O',
+  title: 'Otevřenost novým zážitkům',
+  shortDescription: 'Otevřenost novým zážitkům popisuje rozměr kognitivního stylu který rozlišuje imaginativní, kreativní lidi od přízemních, konvenčních lidí.',
+  description: `Otevření lidé jsou intelektuálně zvídaví,
+oceňují umění, a jsou citliví na krásu. V porovnání s uzavřenými lidmi
+si bývají více vědomí svých emocí. Často se chovají a uvažují
+individualisticky a nepodvolně.
+Intelektuálové mívají vysoké skóre v oblasti Otevřenosti novým zážitkům;
+V závislosti na tom bývá tento faktor někdy nazýván Kultura nebo
+Intelekt. <br /><br />Tak či onak, Intelekt je nejčastěji označován
+za aspekt Otevřenosti novým zážitkům. Vztah mezi skóre v Otevřenosti
+novým zážitkům a lety studia nebo výsledky na standartních
+inteligenčních testech jsou spíše malé.
 <br /><br />
-Další charakteristikou otevřeného kognitivního stylu je schopnost myslet
-v symbolech a abstrakcích, které jsou daleko od konkrétní zkušenosti. V závislosti na
-specifických intelektuálních schopnostech jednotlivce může tato symbolická kognice
-mít podobu matematického, logického nebo geometrického myšlení, uměleckého a
-metaforického použití jazyka, hudební kompozice nebo performance, nebo jednoho z
-mnoha vizuálních nebo performativních umění.
+Další charakteristika otevřeného kognitivního stylu je snadné uvažování
+v symbolech a abstraktních ideách, vzdálených od konkrétních zážitků. V závislosti na
+specifických intelektuálních schopnostech daného jednotlivce se toto abstraktní uvažování
+může projevit jako matematické, geometrické nebo logické uvažování, umělecké
+a metaforické použití jazyka, skladba a přednes hudby, nebo jakákoli jiná
+forma umění.
 <br /><br />
-Lidé s nízkým skóre v otevřenosti vůči zkušenosti mají tendenci mít úzké, běžné
-zájmy. Upřednostňují jednoduché, přímočaré a zjevné před
-složitým, nejasným a subtilním. Mohou na umění a vědy pohlížet s
-podezřením, považovat tyto aktivity za abstraktní nebo nepraktické.
-Uzavření lidé dávají přednost známosti před novotou; jsou konzervativní a
-odolní vůči změnám.
+Lidé s nízkým skóre v otevřenosti novým zážitkům mívají přízemní, běžné zájmy.
+Preferují prosté, jednoznačné a očividné místo komplexního, nejednoznačného
+a konotačně složitého. Můžou být podezíraví vůči umění a vědeckým oddílům,
+a jejich cíle označovat za nesrozumitelné, bezvýznamné a nepraktické.
+Uzavření lidé preferují povědomost před novostí, bývají konzervativní
+a averzní vůči změnám.
 <br /><br />
-Otevřenost je často prezentována jako zdravější nebo zralejší psychologové, kteří
-jsou často sami otevření zkušenosti. Nicméně otevřené a uzavřené styly
-myšlení jsou užitečné v různých prostředích. Intelektuální styl otevřeného člověka může dobře posloužit profesorovi, ale výzkum ukázal, že uzavřené
-myšlení je spojeno s lepší pracovní výkonností v policejní práci, prodeji a
-řadě servisních profesí.`,
+Otevřenost je často psychology prezentována jako zdravější a vyspělejší.
+Psychologové samotní často praktikují otevřenost. Nicméně, otevřené i uzavřené způsoby
+uvažování jsou oba užitečné v závislosti na prostředí a situaci.
+Intelektuální styl otevřených lidí může sloužit dobře profesorům a psychologům,
+ale výzkumy prokázaly, že uzavřené myšlení má návaznost na výborné výsledky např.
+v práci policejních složek, v oblasti obchodü a mnoha zaměstnáních v oblasti služeb.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Vaše skóre v otevřenosti vůči zkušenosti je nízké, což naznačuje, že máte rádi
-myslet v jednoduchých a přímočarých pojmech. Ostatní vás popisují jako realistické,
-praktické a konzervativní.`
+      text: `Vaše skóre v otevřenosti novým zážitkům je nízké, což naznačuje že rádi
+uvažujete jednoduše a prostě.Ostatní Vás popisují jako konzervativního, praktického
+člověka, který se drží při zemi.`
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Vaše skóre v otevřenosti vůči zkušenosti je průměrné, což naznačuje, že si užíváte
-tradice, ale jste ochotni vyzkoušet nové věci. Vaše myšlení není ani
-jednoduché, ani složité. Pro ostatní vypadáte jako vzdělaný člověk,
-ale ne intelektuál.`
+      text: `Vaše skóre v otevřenosti novým zážitkům je průměrné, což indikuje že máte rádi tradice,
+ale jste otevřený zkoušení nových věcí. Vaše myšlení není ani jednoduché, ani komplexní.
+Ostatní Vás vidí jako člověka vzdělaného, avšak nikoli intelektuála.`
     },
     {
       score: 'high', // do not translate this line
-      text: `Vaše skóre v otevřenosti vůči zkušenosti je vysoké, což naznačuje, že si užíváte novoty,
-různorodost a změny. Jste zvědaví, imaginativní a kreativní.`
+      text: `Vaše skóre v otevřenosti novým zážitkům je vysoké, což naznačuje že máte
+rádi novost, variaci a změnu. Jste zvídaví, nápadití a kreativní.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Imaginace',
-      text: `Pro imaginativní jedince je reálný svět
-často příliš jednoduchý a obyčejný. Lidé s vysokým skóre na této škále používají fantazii jako
-způsob, jak vytvořit bohatší a zajímavější svět. Lidé s nízkým skóre na této
-škále jsou více orientováni na fakta než na fantazii.`
+      title: 'Představivost',
+      text: `Pro jednotlivce s bujnou představivostí bývá skutečný svět příliš
+planý a obyčejný. Osoby s vysokým skóre Představivosti využívají fantazii jako nástroj
+k vytvoření bohatšího, zajímavějšího světa. Lidé s nízkým skóre dávají před fantazií
+přednost faktům.`
     },
     {
       facet: 2,
       title: 'Umělecké zájmy',
-      text: `Lidé s vysokým skóre na této škále milují krásu, jak v
-umění, tak v přírodě. Snadno se zapojí a pohltí umělecké
-a přírodní události. Nemusejí být nutně umělecky vyškoleni nebo
-talentovaní, i když mnozí budou. Definujícími rysy této škály jsou
-zájem o a ocenění přírodní a
-umělé krásy. Lidé s nízkým skóre postrádají estetickou citlivost a zájem o
-umění.`
+      text: `Osoby s vysokým skóre v této oblasti milují krásu, jak v umění,
+tak i v přírodě. Snadno se nechají zaplést a pohltit uměleckými a přírodními událostmi.
+Nemají nutně umělecký talent ani školení, ačkoli mnoho z nich může být.
+Hlavními definujícími prvky této kategorie je zájem o přirozenou i umělou krásu
+a schopnost ji ocenit. Lidem s nízkým skóre v této oblasti chybí estetická citlivost
+a zájem o umění.`
     },
     {
       facet: 3,
-      title: 'Emocionalita',
-      text: `Lidé s vysokým skóre v emocionalitě mají dobrý přístup
-k a povědomí o svých vlastních pocitech. Lidé s nízkým skóre jsou méně si vědomi
-svých pocitů a nemají tendenci své emoce otevřeně vyjadřovat.`
+      title: 'Citovost',
+      text: `Osoby vysoko na škále Citovosti mají dobrý přístup a povědomí o svých
+emocích. Jednotlivci s nízkým skóre Citovosti jsou méně vědomí svých emocí
+a své emoce raději nevystavují na odiv.`
     },
     {
       facet: 4,
       title: 'Dobrodružnost',
-      text: `Lidé s vysokým skóre v dobrodružnosti jsou dychtiví
-zkoušet nové aktivity, cestovat do cizích zemí a zažívat různé
-věci. Najdou známé a rutinní věci nudné a vezmou novou
-cestu domů jen proto, že je jiná. Lidé s nízkým skóre mají tendenci se cítit
-nepříjemně se změnou a dávají přednost známým rutinám.`
+      text: `Dobrodružní lidé vyhledávají nové aktivity, rádi cestují
+do zahraničí a rádi zkoušejí nové věci. Známé a rutinní věci jim připadají nudné.
+Například si raději vyberou novou cestu domů jen proto, že je jiná než ta, kterou
+běžně cestují. Lidé s nízkým skóre v kategorii Dobrodružnosti nemají příliš v lásce
+změny a preferují známé rutiny.`
     },
     {
       facet: 5,
       title: 'Intelekt',
-      text: `Intelekt a umělecké zájmy jsou dva nejdůležitější,
-centrální aspekty otevřenosti vůči zkušenosti. Lidé s vysokým skóre v
-intelektu rádi hrají s myšlenkami. Jsou otevřeni novým a neobvyklým
-myšlenkám a rádi diskutují intelektuální otázky. Užívají si hádanek, rébusů
-a mozkových her. Lidé s nízkým skóre v intelektu dávají přednost jednání buď
-s lidmi, nebo věcmi spíše než s myšlenkami. Považují intelektuální cvičení za
-ztrátu času. Intelekt by neměl být zaměňován s inteligencí.
-Intelekt je intelektuální styl, nikoli intelektuální schopnost, ačkoli
-lidé s vysokým skóre v intelektu dosahují mírně vyšších skóre než lidé s nízkým skóre
-v intelektu na standardizovaných inteligenčních testech.`
+      text: `Intelekt a umělecké zájmy jsou dva nejdůležitější ústřední aspekty
+otevřenosti novým zážitkům. Lidé s vysokým skóre v oblasti Intelektu milují
+nové nápady. Jsou otevření novým a neobvyklým nápadům a rádi diskutují
+o intelektuálních problémech. Mají rádi hádanky a hlavolamy.
+Lidé s nízým skóre v oblasti Intelektu raději pracují s lidmi nebo věcmi namísto nápadů.
+Intelektuální problémy jsou podle nich ztrátou času. Intelekt však neodpovídá inteligenci.
+Intelekt je způsob projevu inteligence, nikoli schopnost inteligenci využívat, ačkoli
+jednotlivci s vysokým skóre v této kategorii mívají nepatrně lepší výsledky ve
+standartních inteligenčních testech.`
     },
     {
       facet: 6,
       title: 'Liberalismus',
-      text: `Psychologický liberalismus se vztahuje na připravenost
-zpochybňovat autoritu, konvenci a tradiční hodnoty. V nejextrémnější formě může psychologický liberalismus dokonce znamenat otevřenou
-nepřátelství vůči pravidlům, sympatie k pachatelům a lásku k nejasnosti,
-chaosu a nepořádku. Psychologičtí konzervativci dávají přednost bezpečnosti a
-stabilitě, kterou přináší konformita k tradici. Psychologický liberalismus
-a konzervatismus nejsou totožné s politickou příslušností, ale jistě
-sklony jednotlivce k určitým politickým stranám.`
+      text: `Psychologický liberalismus znamená odhodlanost vyzývat
+autoritu, konvence a tradiční hodnoty. Ve své nejextrémnější formě může
+psychologický liberalismus reprezentovat i otevřené nepřátelstvní vůči
+pravidlům, simpatizování s osobami porušujícími zákon a lásku k nejednoznačnosti,
+chaosu a nepořádku. Psychologičtí kozervativci preferují bezpečí a stabilitu,
+kterou přináší podrobení se tradicím. Psychologický liberalismus a konzervatismus
+neodpovídají politické příslušnosti, avšak jejich členové nepopiratelně inklinují
+k jistým politickým stranám.`
     }
   ]
 }

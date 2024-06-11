@@ -1,104 +1,55 @@
 module.exports = {
-  domain: 'A', // do not change this line
+  domain: 'A',
   title: 'Přívětivost',
-  shortDescription: 'Přívětivost odráží individuální rozdíly v zájmu o spolupráci a sociální harmonii. Přívětiví jedinci si cení dobrých vztahů s ostatními.',
-  description: `Jsou proto ohleduplní, přátelští,
-štědří, ochotní pomáhat a ochotní kompromitovat své zájmy s
-ostatními. Přívětiví lidé mají také optimistický pohled na lidskou
-povahu. Věří, že lidé jsou v zásadě poctiví, slušní a
-důvěryhodní. <br /><br />
-Nepřívětiví jedinci kladou vlastní zájmy nad dobré vztahy s
-ostatními. Obecně se nezajímají o blaho ostatních a
-proto je nepravděpodobné, že by se věnovali jiným lidem.
-Někdy jejich skepse ohledně motivů ostatních způsobuje, že jsou
-podezřívaví, nepřátelští a nespolupracující.
+  shortDescription: 'Přívětivost reflektuje individuální rozdíly v zájmu o spolupráci a sociální soulad. Přívětiví jednotlivci si váží shody s ostatními.',
+  description: `Jsou tedy ohleduplní, přátelští, štědří, nápomocní a ochotní dělat kompromisy ve prospěch ostatních. Přívětiví lidé mívají také optimistický pohled na lidskou povahu. Věří, že lidé jsou přirozeně upřímní, slušní a důvěryhodní. <br /><br />
+Lidé na druhém konci tohoto spektra preferují vlastní zájmy nad shodu s ostatními. Obecně je nezajímá blahobyt ostatních, je tedy nepravděpodobné, že by obětovali svou pohodu pro dobro ostatních. Kvůli skepticismu vůči úmyslům ostatních mohou někdy být podezřívaví, nepřátelští nebo neochotní spolupracovat.
 <br /><br />
-Přívětivost je zjevně výhodná pro získání a udržení
-popularity. Přívětiví lidé jsou oblíbenější než nepřívětiví
-lidé. Na druhou stranu, přívětivost není užitečná v situacích,
-které vyžadují tvrdá nebo naprosto objektivní rozhodnutí. Nepřívětiví
-lidé mohou být vynikajícími vědci, kritiky nebo vojáky.`,
+Přívětivost je přirozeně výhodná pro získání a udržení popularity. Přívětiví (lidově řečeno 'příjemní') lidé bývají více oblíbení než nepřívětiví. Na druhou stranu přívětivost není ideální pro osoby, které musí činit obtížná nebo objektivní rozhodnutí. 'Nepříjemní' lidé mohou proto excelentně plnit funkce vědců, kritiků nebo vojáků.`,
   results: [
     {
       score: 'low', // do not translate this line
-      text: `Vaše skóre přívětivosti je nízké, což naznačuje menší zájem
-o potřeby ostatních než o vlastní. Lidé vás vnímají jako tvrdé,
-kritické a nekompromisní.`
+      text: 'Vaše skóre v oblasti Přívětivosti je nízké, což indikuje menší zájem o potřeby ostatních než o ty Vaše. Na lidi působíte tvrdě, kriticky a nekompromisně.'
     },
     {
       score: 'neutral', // do not translate this line
-      text: `Vaše úroveň přívětivosti je průměrná, což naznačuje určitý zájem
-o potřeby ostatních, ale obecně neochotu obětovat se
-pro ostatní.`
+      text: 'Vaše úroveň Přívětivosti je průměrná, což indikuje jistou míru zájmu o potřeby ostatních, nicméně obecnou neochotu sebeobětovaní.'
     },
     {
       score: 'high', // do not translate this line
-      text: `Vaše vysoká úroveň přívětivosti naznačuje silný zájem
-o potřeby a blaho ostatních. Jste příjemní, soucitní a
-spolupracující.`
+      text: 'Vaše vysoká míra Přívetivosti nasvědčuje silnému zájmu o potřeby ostatních a o jejich pohodlí. Jste příjemný, empatický a kooperativní.'
     }
   ],
   facets: [
     {
       facet: 1,
       title: 'Důvěra',
-      text: `Osoba s vysokou důvěrou předpokládá, že většina lidí
-je spravedlivá, poctivá a má dobré úmysly. Osoby s nízkou důvěrou
-vidí ostatní jako sobecké, záludné a potenciálně nebezpečné.`
+      text: 'Důvěřiví lidé předpokládají, že většina lidí je férová, upřímná a má dobré úmysly. Nedůvěřiví lidé mohou ostatní vidět jako sobecké, nevyzpytatelné a potenciálně nebezpečné.'
     },
     {
       facet: 2,
       title: 'Moralita',
-      text: `Vysoké skóre na této škále znamená, že člověk nevidí potřebu
-předstírání nebo manipulace při jednání s ostatními, a proto je
-otevřený, upřímný a upřímný. Nízké skóre znamená, že člověk věří, že určité
-množství klamání v sociálních vztazích je nutné. Lidé
-nacházejí relativně snadné se vztahovat k otevřeným
-osobám s vysokým skóre na této škále. Obecně nacházejí obtížnější
-vztahovat se k neotevřeným osobám s nízkým skóre na této škále. Je
-třeba zdůraznit, že osoby s nízkým skóre nejsou bez zásad
-nebo nemorální; jsou jednoduše opatrnější a méně ochotní otevřeně
-odhalit celou pravdu.`
+      text: 'Osoby s vysokým skóre v této kategorii nevidí důvod se při komunikaci s ostatními přetvařovat nebo je manipulovat, a jsou tedy upřímní, přímí a otevření. Lidé s nízkým skóre veří, že v sociálních vztazích je jistá míra klamu nutná. Vetšina lidí se stotožňuje spíše s horní hranicí této škály, která reprezentuje přímočarost. Je však nutné podotknout, že lidé na spodní hranici této kategorie nejsou nijak bezzásadoví nebo nemorální. Pouze jsou méně ochotní otevřeně odhalit celou pravdu.'
     },
     {
       facet: 3,
       title: 'Altruismus',
-      text: `Altruisté považují pomoc ostatním za
-opravdu odměňující. Proto jsou obecně ochotni
-pomáhat těm, kteří to potřebují. Altruisté považují dělání věcí
-pro ostatní za formu sebepotvrzení spíše než
-sebeobětování. Nízké skóre na této škále znamená, že člověk nemá
-obzvlášť rád pomoc těm, kteří to potřebují. Žádosti o pomoc pociťují
-jako obtěžování spíše než jako příležitost k sebepotvrzení.`
+      text: 'Altruisté vidí pomoc druhým upřímně odměňující. Z tohoto důvodu jsou obecně ochotní asistovat potřebným. Podle altrustů je pomoc ostatním formou sebenaplňování namísto sebeobětování. Lidé s nízkým skóre Altruismu nesdílejí toto nadšení. Žádosti o pomoc je spíše obtěžují.'
     },
     {
       facet: 4,
       title: 'Spolupráce',
-      text: `Jedinci, kteří dosahují vysokého skóre na této škále,
-nemají rádi konfrontace. Jsou dokonale ochotni ke kompromisu nebo
-k popření vlastních potřeb, aby se dostali dobře s ostatními. Ti,
-kteří dosahují nízkého skóre na této škále, jsou spíše ochotni zastrašovat ostatní, aby
-dostali svou cestu.`
+      text: 'Jednotlivci s vysokým skóre v této kategorii nemají rádi konfrontaci. Jsou velmi ochotní shodnout se na kompromisu nebo dokonce zapřít své vlastní potřeby aby vycházeli s ostatními. Lidé na opačném konci tohoto spektra pravděpodobně raději zastraší ostatní aby dosáhli svých zájmů.'
     },
     {
       facet: 5,
       title: 'Skromnost',
-      text: `Vysoké skóre na této škále znamená, že člověk nerad tvrdí,
-že je lepší než ostatní. V některých případech tento postoj
-může vyplývat z nízké sebejistoty nebo sebeúcty. Nicméně,
-někteří lidé s vysokou sebeúctou považují neskromnost za neslušnou. Ti,
-kteří jsou ochotni se popsat jako superiorní, bývají
-ostatními vnímáni jako nepříjemně arogantní.`
+      text: 'Lidé vysoko na této škále neradi prohlašují, že jsou lepší než ostatní. V některých případech může tato vlastnost pramenit z nízkého sebevědomí a nedostatku sebejistoty. Někteří lidé s vysokým sebevědomím však také považují neskromnost za neslušnou. Lidé, kteří jsou ochotní se popisovat jako nadřazené bývají společensky považováni za nepříjemně arogantní.'
     },
     {
       facet: 6,
       title: 'Soucit',
-      text: `Lidé, kteří dosahují vysokého skóre na této škále, jsou
-citliví a soucitní. Cítí bolest ostatních
-zprostředkovaně a snadno se pohnou k soucitu. Osoby s nízkým skóre
-nejsou silně ovlivněny lidským utrpením. Pýchají se na
-činění objektivních úsudků založených na rozumu. Jsou více znepokojeni
-pravdou a nestrannou spravedlností než soucitem.`
+      text: 'Lidé bodující v této kategorii jsou něžní a soucitní. Zprostředkovaně cítí bolest druhých a je snadné je přivést k lítosti. Lidé na spodním konci tohoto měřítka nejsou příliš citliví k lidskému utrpení. Jsou hrdí, že dokáží činit objektivní rozhodnutí založené na rozumu. Je pro ně důležitější pravda a nestranná spravedlnost oproti milosti.'
     }
   ]
 }
