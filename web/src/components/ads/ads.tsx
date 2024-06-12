@@ -4,7 +4,7 @@ export const HomeHeader = () => (
     <div
       data-fuse='23134341201'
       id='home_header'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -15,7 +15,7 @@ export const HomeHrec1 = () => (
     <div
       data-fuse='23134341207'
       id='home_hrec_1'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -26,7 +26,7 @@ export const TestHeader = () => (
     <div
       data-fuse='23134341210'
       id='test_header'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -37,7 +37,7 @@ export const TestHrec1 = () => (
     <div
       data-fuse='23134341213'
       id='test_hrec_1'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -48,7 +48,7 @@ export const ResultHeader = () => (
     <div
       data-fuse='23134341216'
       id='result_header'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -59,7 +59,7 @@ export const ResultHrec1 = () => (
     <div
       data-fuse='23134341219'
       id='result_hrec_1'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -70,7 +70,7 @@ export const ResultHrec2 = () => (
     <div
       data-fuse='23134682794'
       id='result_hrec_2'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -81,7 +81,7 @@ export const ResultHrec3 = () => (
     <div
       data-fuse='23134341222'
       id='result_hrec_3'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -92,7 +92,7 @@ export const ResultHrec4 = () => (
     <div
       data-fuse='23134341225'
       id='result_hrec_4'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -103,7 +103,7 @@ export const CompareHeader = () => (
     <div
       data-fuse='23134341228'
       id='compare_header'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -114,7 +114,7 @@ export const CompareHrec1 = () => (
     <div
       data-fuse='23134341231'
       id='compare_hrec_1'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -125,7 +125,7 @@ export const CompareHrec2 = () => (
     <div
       data-fuse='23134341234'
       id='compare_hrec_2'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -136,7 +136,7 @@ export const CompareHrec3 = () => (
     <div
       data-fuse='23134341237'
       id='compare_hrec_3'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
@@ -147,7 +147,7 @@ export const ArticleHeader = () => (
     <div
       data-fuse='23134341240'
       id='article_header'
-      className='flex min-h-[280px] w-full justify-center print:hidden'
+      className='flex min-h-[90px] w-full justify-center print:hidden'
     />
   </>
 );
