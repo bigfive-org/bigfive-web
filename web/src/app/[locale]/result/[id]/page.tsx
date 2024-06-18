@@ -11,6 +11,7 @@ import ShareBar from '@/components/share-bar';
 import { DomainTabs } from './domain-tabs';
 import { Chip } from '@nextui-org/react';
 import { ResultHeader } from '@/components/ads/ads';
+import Mbti from './mbti';
 
 export async function generateMetadata({
   params: { locale, id }
@@ -106,6 +107,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         showExpanded={!!showExpanded}
         scoreText={t('score')}
       />
+      <Mbti results={report.results} />
     </>
   );
 };
