@@ -39,7 +39,7 @@ export default function Mbti({ results }: MbtiProps) {
   return (
     <div className='text-center mt-10'>
       <h2 className={heading()} />
-      <Code className='text-2xl' color='secondary'>
+      <Code className='text-2xl w-full' color='secondary'>
         <Tooltip
           color='secondary'
           content={
@@ -48,7 +48,7 @@ export default function Mbti({ results }: MbtiProps) {
             </>
           }
         >
-          <div className='text-sm flex'>
+          <div className='text-sm flex justify-center'>
             Myers–Briggs Type Indicator (MBTI)&nbsp; <InfoIcon size={14} />
           </div>
         </Tooltip>
