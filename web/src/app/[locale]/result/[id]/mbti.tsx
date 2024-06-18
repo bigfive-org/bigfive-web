@@ -1,6 +1,9 @@
+import { InfoIcon } from '@/components/icons';
 import { heading } from '@/components/primitives';
 import { Domain } from '@bigfive-org/results';
 import { Code } from '@nextui-org/code';
+import { Tooltip } from '@nextui-org/react';
+import Link from 'next/link';
 
 interface MbtiProps {
   results: Domain[];
@@ -35,11 +38,22 @@ function bigFiveToMBTI(results: Domain[]) {
 export default function Mbti({ results }: MbtiProps) {
   return (
     <div className='text-center mt-10'>
-      <h2 className={heading()}></h2>
+      <h2 className={heading()} />
       <Code className='text-2xl' color='secondary'>
-        <div className='text-sm'>Myers–Briggs Type Indicator (MBTI)</div>
+        <Tooltip
+          color='secondary'
+          content={
+            <>
+              The Myers–Briggs Type Indicator (MBTI) is a pseudoscientific self-report questionnaire. Due to numerous requests, this has been added. <Link className='underline' href='/articles/mbti_pseudoscience'>Read more.</Link>
+            </>
+          }
+        >
+          <div className='text-sm flex'>
+            Myers–Briggs Type Indicator (MBTI)&nbsp; <InfoIcon size={14} />
+          </div>
+        </Tooltip>
         {bigFiveToMBTI(results)}
       </Code>
-    </div>
+    </div >
   );
 }
