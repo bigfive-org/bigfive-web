@@ -1,5 +1,5 @@
 ---
-title: The Myers-Briggs Type Indicator - Why It's Considered Pseudoscience
+title: "The Myers-Briggs Type Indicator: Why It's Considered Pseudoscience"
 date: 2024-06-18
 description: Why the Myers-Briggs Type Indicator (MBTI), despite its popularity, is considered pseudoscience due to its lack of scientific validity, reliability, and its outdated theoretical basis.
 image: '/blog/carl_jung.webp'

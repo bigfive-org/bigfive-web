@@ -1,5 +1,5 @@
 ---
-title: Involuntarily Single - The Most Important Reason
+title: 'Involuntarily Single: The Most Important Reason'
 date: 2024-04-30
 description: Involuntarily single people lack one important characteristic, a study shows. But it can be learned.
 image: '/blog/involuntarily_single.webp'
