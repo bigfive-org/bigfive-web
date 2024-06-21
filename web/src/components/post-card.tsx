@@ -24,7 +24,7 @@ export function PostCard(post: Post) {
           />
           <div className='absolute inset-0'></div>
           <h3 className='z-10 mt-3 text-3xl font-bold'>{post.title}</h3>
-          <p className='font-normal w-full text-default-600'>
+          <p className='font-normal w-full text-default-600 mt-3'>
             {post.description}
           </p>
         </CardBody>
