@@ -20,17 +20,17 @@ Conscientiousness	J / P	Judging (J)	        Perceiving (P)
 function bigFiveToMBTI(results: Domain[]) {
   let mbti = '';
 
-  const extraversion = results.find(trait => trait.domain === 'E')?.scoreText === 'High';
-  mbti += (extraversion) ? 'E' : 'I';
+  const extraversionHigh = results.find(trait => trait.domain === 'E')?.scoreText === 'High';
+  mbti += (extraversionHigh) ? 'E' : 'I';
 
-  const openness = results.find(trait => trait.domain === 'O')?.scoreText === 'High';
-  mbti += (openness) ? 'N' : 'S';
+  const opennessHigh = results.find(trait => trait.domain === 'O')?.scoreText === 'High';
+  mbti += (opennessHigh) ? 'N' : 'S';
 
-  const agreeableness = results.find(trait => trait.domain === 'A')?.scoreText === 'High';
-  mbti += (agreeableness) ? 'F' : 'T';
+  const agreeablenessHigh = results.find(trait => trait.domain === 'A')?.scoreText === 'High';
+  mbti += (agreeablenessHigh) ? 'F' : 'T';
 
-  const conscientiousness = results.find(trait => trait.domain === 'C')?.scoreText === 'High';
-  mbti += (conscientiousness) ? 'J' : 'P';
+  const conscientiousnessHigh = results.find(trait => trait.domain === 'C')?.scoreText === 'High';
+  mbti += (conscientiousnessHigh) ? 'J' : 'P';
 
   return mbti;
 }
