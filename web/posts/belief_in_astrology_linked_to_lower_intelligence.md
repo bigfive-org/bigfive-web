@@ -36,4 +36,4 @@ As always, more research is needed to fully understand these relationships and t
 
 #### **Sources**
 
-- [Andersson, I. M., Persson, J., & Kajonius, P. J. (2021). Even the stars think that I am superior: Personality, intelligence and belief in astrology. Personality and Individual Differences, 179, 110923.](https://doi.org/10.1016/j.paid.2021.110923)
+- [Andersson, I. M., Persson, J., & Kajonius, P. J. (2021). Even the stars think that I am superior: Personality, intelligence and belief in astrology. Personality and Individual Differences, 179, 110923.](https://www.sciencedirect.com/science/article/pii/S0191886921007686?via%3Dihub)
