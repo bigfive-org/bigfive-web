@@ -9,9 +9,7 @@ interface Props {
   params: { locale: string };
 }
 
-export default function TestPage({
-  params: { locale }
-}: Props) {
+export default function TestPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const questions = getItems(locale);
   const t = useTranslations('test');

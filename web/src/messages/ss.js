@@ -16,12 +16,13 @@ const siswati = {
     title: 'Big Five Personality Test',
     call_to_action: 'Thatha umlingo emahhala manje',
     no_registration: '* Akusiko kubhalisa lokudingekile',
-    tests_taken: 'Bangaphezu kwe-<green>{n}</green> labantu baye bathatha umlingo',
+    tests_taken:
+      'Bangaphezu kwe-<green>{n}</green> labantu baye bathatha umlingo',
     compare: {
       title: 'Cebana nemanye',
-      text1:
-        'Cebana nawe kubangani, bahlangani, bangani nome umndeni wakho.',
-      text2: 'Funda kutsi uhluke kanjani kubanye bantfu kumasehlakalo lamahlanu:',
+      text1: 'Cebana nawe kubangani, bahlangani, bangani nome umndeni wakho.',
+      text2:
+        'Funda kutsi uhluke kanjani kubanye bantfu kumasehlakalo lamahlanu:',
       action: 'Buka ngendlela lokusebentako'
     },
     share: 'Yabelana nabangani bakho bese ubona kutsi nihambelana kangakanani',
@@ -158,21 +159,24 @@ lokuhlelwa kuvela ku <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Kubuka ngaphandle',
     seo: {
       title: 'Buka mayelana neluphawu lweKubuka ngaphandle',
-      description: 'Funda kakhulu mayelana neluphawu lweKubuka ngaphandle kuluhlobo lwe b5'
+      description:
+        'Funda kakhulu mayelana neluphawu lweKubuka ngaphandle kuluhlobo lwe b5'
     }
   },
   agreeableness: {
     title: 'Kuvumelana',
     seo: {
       title: 'Buka mayelana neluphawu lweKuvumelana',
-      description: 'Funda kakhulu mayelana neluphawu lweKuvumelana kuluhlobo lwe b5'
+      description:
+        'Funda kakhulu mayelana neluphawu lweKuvumelana kuluhlobo lwe b5'
     }
   },
   neuroticism: {
     title: 'Neuroticism',
     seo: {
       title: 'Buka mayelana neluphawu lweNeuroticism',
-      description: 'Funda kakhulu mayelana neluphawu lweNeuroticism kuluhlobo lwe b5'
+      description:
+        'Funda kakhulu mayelana neluphawu lweNeuroticism kuluhlobo lwe b5'
     }
   },
   getCompare: {

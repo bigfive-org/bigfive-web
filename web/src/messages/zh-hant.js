@@ -20,8 +20,7 @@ const chineseTraditional = {
     tests_taken: '超過 <green>{n}</green> 人已參加測試',
     compare: {
       title: '將你自己與他人比較',
-      text1:
-        '與你的伴侶、同事、朋友或家人比較。',
+      text1: '與你的伴侶、同事、朋友或家人比較。',
       text2: '了解你在五個領域中與他人有何不同：',
       action: '觀看實際操作'
     },
@@ -47,22 +46,19 @@ const chineseTraditional = {
     description: {
       top: '通過一個 <violet>免費</violet>、開源的人格測試更好地了解你自己。',
       subtop: '這',
-      subtop2:
-        '是最具科學驗證和可靠性的人格測量心理模型。',
+      subtop2: '是最具科學驗證和可靠性的人格測量心理模型。',
       reference: `該網站的測試和評估來自
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 題庫來自 <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>。`,
       info: '以下測試包含120道題目，估計需要約10分鐘完成。',
-      result:
-        '完成測試後，你將收到以下領域的詳細人格報告：',
+      result: '完成測試後，你將收到以下領域的詳細人格報告：',
       tests_taken: '到目前為止已完成的測試'
     }
   },
   about: {
     seo: {
       title: '關於我們和大五團隊',
-      description:
-        '大五擁有一個非常活躍且投入的團隊，不斷努力推動大五前進。'
+      description: '大五擁有一個非常活躍且投入的團隊，不斷努力推動大五前進。'
     }
   },
   toolbar: {
@@ -143,16 +139,14 @@ const chineseTraditional = {
     title: '經驗的開放性',
     seo: {
       title: '經驗的開放性領域概述。',
-      description:
-        '了解更多關於大五模型中的經驗的開放性領域'
+      description: '了解更多關於大五模型中的經驗的開放性領域'
     }
   },
   conscientiousness: {
     title: '盡責性',
     seo: {
       title: '盡責性領域概述',
-      description:
-        '了解更多關於大五模型中的盡責性領域'
+      description: '了解更多關於大五模型中的盡責性領域'
     }
   },
   extraversion: {
@@ -178,8 +172,7 @@ const chineseTraditional = {
   },
   getCompare: {
     title: '比較個人或團隊',
-    description1:
-      '將多人的大五人格測試結果進行比較。',
+    description1: '將多人的大五人格測試結果進行比較。',
     description2: '在ID輸入框中輸入你的測試結果ID',
     description3: '在ID輸入框中',
     needToAddPeople: '你需要添加人來比較他們',

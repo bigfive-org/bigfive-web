@@ -9,7 +9,8 @@ const catalan = {
   },
   frontpage: {
     seo: {
-      title: 'Test gratuït i de codi obert dels trets de personalitat dels Cinc Grans',
+      title:
+        'Test gratuït i de codi obert dels trets de personalitat dels Cinc Grans',
       description:
         'Fes un test de personalitat dels Cinc Grans gratuït i de codi obert. Aprèn a conèixer els teus trets de personalitat i compara’t amb la teva parella, companys, amics o família.'
     },
@@ -20,8 +21,7 @@ const catalan = {
     tests_taken: 'Més de <green>{n}</green> persones han fet el test',
     compare: {
       title: 'Compara’t amb altres',
-      text1:
-        'Compara’t amb la teva parella, companys, amics o família.',
+      text1: 'Compara’t amb la teva parella, companys, amics o família.',
       text2: 'Aprèn com et diferencies dels altres en els cinc dominis:',
       action: 'Mira-ho en acció en directe'
     },
@@ -102,7 +102,8 @@ l'inventari és de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Informació',
-    informationText: 'Utilitzem la informació que proporciones per oferir-te el',
+    informationText:
+      'Utilitzem la informació que proporciones per oferir-te el',
     mostAccurate: 'resultat més precís possible',
     readMoreAbout: 'Llegir més sobre',
     privacy: 'privacitat',
@@ -151,8 +152,7 @@ l'inventari és de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Consciència',
     seo: {
       title: 'Visió general del domini Consciència',
-      description:
-        'Llegeix més sobre el domini Consciència en el model b5'
+      description: 'Llegeix més sobre el domini Consciència en el model b5'
     }
   },
   extraversion: {

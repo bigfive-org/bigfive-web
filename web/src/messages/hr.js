@@ -20,8 +20,7 @@ const croatian = {
     tests_taken: 'Više od <green>{n}</green> ljudi je provelo test',
     compare: {
       title: 'Usporedite se s drugima',
-      text1:
-        'Usporedite se s partnerom, kolegama, prijateljima ili obitelji.',
+      text1: 'Usporedite se s partnerom, kolegama, prijateljima ili obitelji.',
       text2: 'Saznajte kako se razlikujete od drugih u pet domena:',
       action: 'Pogledajte uživo u akciji'
     },
@@ -102,7 +101,8 @@ inventar je iz <i>Johnsonovih (2014) 120 stavki IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Informacije',
-    informationText: 'Koristimo informacije koje pružate kako bismo vam pružili',
+    informationText:
+      'Koristimo informacije koje pružate kako bismo vam pružili',
     mostAccurate: 'najtočniji mogući rezultat',
     readMoreAbout: 'Saznajte više o',
     privacy: 'privatnosti',
@@ -143,16 +143,14 @@ inventar je iz <i>Johnsonovih (2014) 120 stavki IPIP NEO-PI-R</i>.`,
     title: 'Otvorenost za Iskustvo',
     seo: {
       title: 'Pregled domene Otvorenost za Iskustvo.',
-      description:
-        'Saznajte više o domeni Otvorenost za Iskustvo u b5 modelu'
+      description: 'Saznajte više o domeni Otvorenost za Iskustvo u b5 modelu'
     }
   },
   conscientiousness: {
     title: 'Savjesnost',
     seo: {
       title: 'Pregled domene Savjesnost',
-      description:
-        'Saznajte više o domeni Savjesnost u b5 modelu'
+      description: 'Saznajte više o domeni Savjesnost u b5 modelu'
     }
   },
   extraversion: {
@@ -202,7 +200,8 @@ inventar je iz <i>Johnsonovih (2014) 120 stavki IPIP NEO-PI-R</i>.`,
     theBigFive: 'Velikih Pet',
     score: 'rezultat',
     important: 'Važno!',
-    saveResults: 'Spremite sljedeći ID kako biste kasnije vidjeli rezultate ili ',
+    saveResults:
+      'Spremite sljedeći ID kako biste kasnije vidjeli rezultate ili ',
     compare: 'usporedite',
     toOthers: 'sebe s drugima',
     retriveReportError: 'Nije moguće dohvatiti izvješće',

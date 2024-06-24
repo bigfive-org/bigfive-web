@@ -99,7 +99,8 @@ const hungarian = {
   },
   form: {
     information: 'Információ',
-    informationText: 'Az Ön által megadott információkat arra használjuk, hogy a lehető legpontosabb eredményt biztosítsuk',
+    informationText:
+      'Az Ön által megadott információkat arra használjuk, hogy a lehető legpontosabb eredményt biztosítsuk',
     mostAccurate: 'a lehető legpontosabb eredmény érdekében',
     readMoreAbout: 'További információk a',
     privacy: 'adatvédelemről',
@@ -156,21 +157,24 @@ const hungarian = {
     title: 'Extravertáltság',
     seo: {
       title: 'Áttekintés az Extravertáltság területről',
-      description: 'További információ az Extravertáltság területről a b5 modellben'
+      description:
+        'További információ az Extravertáltság területről a b5 modellben'
     }
   },
   agreeableness: {
     title: 'Barátságosság',
     seo: {
       title: 'Áttekintés a Barátságosság területről',
-      description: 'További információ a barátságosság területről a b5 modellben'
+      description:
+        'További információ a barátságosság területről a b5 modellben'
     }
   },
   neuroticism: {
     title: 'Neuroticizmus',
     seo: {
       title: 'Áttekintés a Neuroticizmus területről',
-      description: 'További információ a Neuroticizmus területről a b5 modellben'
+      description:
+        'További információ a Neuroticizmus területről a b5 modellben'
     }
   },
   getCompare: {
@@ -199,7 +203,8 @@ const hungarian = {
     theBigFive: 'A Nagy Öt',
     score: 'pontszám',
     important: 'Fontos!',
-    saveResults: 'Mentsd el a következő azonosítót, hogy később megtekinthesd az eredményeket, vagy ',
+    saveResults:
+      'Mentsd el a következő azonosítót, hogy később megtekinthesd az eredményeket, vagy ',
     compare: 'hasonlítsd össze',
     toOthers: 'magad másokkal',
     retriveReportError: 'Nem sikerült lekérni a jelentést',

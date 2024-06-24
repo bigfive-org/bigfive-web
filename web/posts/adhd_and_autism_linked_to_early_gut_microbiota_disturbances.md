@@ -1,5 +1,5 @@
 ---
-title: 'ADHD and Autism Linked to Early Gut Microbiota Disturbances: New Insights' 
+title: 'ADHD and Autism Linked to Early Gut Microbiota Disturbances: New Insights'
 date: 2024-06-24
 description: A recent study links disturbances in the gut microbiota of infants to the development of ADHD and autism later in life, highlighting the potential impact of gut health on neurodevelopment.
 image: '/blog/microbiota.webp'

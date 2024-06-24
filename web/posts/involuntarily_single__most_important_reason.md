@@ -37,7 +37,7 @@ The good news is that flirting, like many social skills, can be developed and re
 - **Practice Active Listening**: Show genuine interest in the other person by listening attentively and responding thoughtfully.
 - **Use Humor**: Light-hearted humor can break the ice and make interactions more enjoyable.
 - **Be Observant**: Pay attention to body language and social cues to gauge the other person's interest and comfort level.
-- **Improve Communication Skills**:  Practice clear and engaging conversation techniques, including asking open-ended questions and sharing interesting stories.
+- **Improve Communication Skills**: Practice clear and engaging conversation techniques, including asking open-ended questions and sharing interesting stories.
 
 ### Factors That Can Influence Involuntary Single Status
 

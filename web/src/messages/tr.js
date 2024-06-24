@@ -47,8 +47,7 @@ const turkish = {
     description: {
       top: 'Kendinizi daha iyi tanıyın <violet>ücretsiz</violet>, açık kaynaklı kişilik testi ile.',
       subtop: 'En',
-      subtop2:
-        ' bilimsel olarak doğrulanmış ve güvenilir kişilik modelidir.',
+      subtop2: ' bilimsel olarak doğrulanmış ve güvenilir kişilik modelidir.',
       reference: `Bu site için testler ve değerlendirme 
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a> adresinden toplanmıştır,
 envanter <i>Johnson'un (2014) 120 maddelik IPIP NEO-PI-R</i>.'den alınmıştır.`,
@@ -61,8 +60,7 @@ envanter <i>Johnson'un (2014) 120 maddelik IPIP NEO-PI-R</i>.'den alınmıştır
   about: {
     seo: {
       title: 'Hakkında ve beş büyük takım',
-      description:
-        `BigFive, sürekli olarak BigFive'ı ileriye taşımaya çalışan çok aktif ve ilgili bir ekibe sahiptir.`
+      description: `BigFive, sürekli olarak BigFive'ı ileriye taşımaya çalışan çok aktif ve ilgili bir ekibe sahiptir.`
     }
   },
   toolbar: {
@@ -159,21 +157,24 @@ envanter <i>Johnson'un (2014) 120 maddelik IPIP NEO-PI-R</i>.'den alınmıştır
     title: 'Dışadönüklük',
     seo: {
       title: 'Dışadönüklük alanının genel görünümü',
-      description: 'B5 modelinde Dışadönüklük alanı hakkında daha fazla bilgi edinin'
+      description:
+        'B5 modelinde Dışadönüklük alanı hakkında daha fazla bilgi edinin'
     }
   },
   agreeableness: {
     title: 'Uyumluluk',
     seo: {
       title: 'Uyumluluk alanının genel görünümü',
-      description: 'B5 modelinde uyumluluk alanı hakkında daha fazla bilgi edinin'
+      description:
+        'B5 modelinde uyumluluk alanı hakkında daha fazla bilgi edinin'
     }
   },
   neuroticism: {
     title: 'Duygusal Dengesizlik',
     seo: {
       title: 'Duygusal Dengesizlik alanının genel görünümü',
-      description: 'B5 modelinde Duygusal Dengesizlik alanı hakkında daha fazla bilgi edinin'
+      description:
+        'B5 modelinde Duygusal Dengesizlik alanı hakkında daha fazla bilgi edinin'
     }
   },
   getCompare: {
@@ -215,8 +216,7 @@ envanter <i>Johnson'un (2014) 120 maddelik IPIP NEO-PI-R</i>.'den alınmıştır
   },
   getResult: {
     result: 'Sonuç',
-    explanation:
-      `Eğer testi tamamladıysanız ve ID'nizi kaydettiyseniz, sonuçları burada görmek için aldığınız ID'yi girerek görebilirsiniz`,
+    explanation: `Eğer testi tamamladıysanız ve ID'nizi kaydettiyseniz, sonuçları burada görmek için aldığınız ID'yi girerek görebilirsiniz`,
     idInput: 'ID giriş alanına',
     urlOrId: `Sonucunuzun URL'si veya ID'si`,
     getResult: 'Sonucu al',

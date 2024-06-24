@@ -33,7 +33,7 @@ Understanding whether your negotiation is in a high or low ERRO context can help
 
 - **High ERRO Contexts**: Focus on building a positive relationship. Collaborative tactics and fostering goodwill can lead to better long-term outcomes.
 - **Low ERRO Contexts**: Competitive tactics may be more effective here. Aim for the best deal terms without overemphasizing the relationship.
-By considering your personality traits and the context of the negotiation, you can adapt your strategy to achieve the best possible outcomes. Whether it's being more open and creative, or leveraging your extraversion to build trust, knowing yourself is key to successful negotiations.
+  By considering your personality traits and the context of the negotiation, you can adapt your strategy to achieve the best possible outcomes. Whether it's being more open and creative, or leveraging your extraversion to build trust, knowing yourself is key to successful negotiations.
 
 #### **Sources**
 

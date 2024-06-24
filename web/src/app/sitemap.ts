@@ -83,9 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${basePath}/result/`,
       lastModified: new Date(),
       alternates: {
-        languages: alternatesPageLangAfter(
-          'translations/result/'
-        )
+        languages: alternatesPageLangAfter('translations/result/')
       }
     },
     {

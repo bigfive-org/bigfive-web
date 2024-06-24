@@ -9,7 +9,8 @@ const portugues = {
   },
   frontpage: {
     seo: {
-      title: 'Teste de personalidade dos Cinco Grandes gratuito e de código aberto',
+      title:
+        'Teste de personalidade dos Cinco Grandes gratuito e de código aberto',
       description:
         'Faça um teste de personalidade dos Cinco Grandes gratuito e de código aberto. Conheça seus traços de personalidade e compare-se com seu parceiro, colegas, amigos ou familiares.'
     },
@@ -20,12 +21,13 @@ const portugues = {
     tests_taken: 'Mais de <green>{n}</green> pessoas já fizeram o teste',
     compare: {
       title: 'Compare-se com os outros',
-      text1:
-        'Compare-se com seu parceiro, colegas, amigos ou familiares.',
-      text2: 'Descubra como você se diferencia das outras pessoas nos cinco domínios:',
+      text1: 'Compare-se com seu parceiro, colegas, amigos ou familiares.',
+      text2:
+        'Descubra como você se diferencia das outras pessoas nos cinco domínios:',
       action: 'Veja ao vivo em ação'
     },
-    share: 'Compartilhe com seus amigos e descubra o quão compatíveis vocês são',
+    share:
+      'Compartilhe com seus amigos e descubra o quão compatíveis vocês são',
     cards: {
       open: {
         title: 'Aberto',
@@ -102,7 +104,8 @@ o inventário é do <i>IPIP NEO-PI-R de 120 itens de Johnson (2014)</i>.`,
   },
   form: {
     information: 'Informação',
-    informationText: 'Usamos as informações que você fornece para lhe oferecer o',
+    informationText:
+      'Usamos as informações que você fornece para lhe oferecer o',
     mostAccurate: 'resultado mais preciso possível',
     readMoreAbout: 'Leia mais sobre',
     privacy: 'privacidade',
@@ -151,8 +154,7 @@ o inventário é do <i>IPIP NEO-PI-R de 120 itens de Johnson (2014)</i>.`,
     title: 'Conscienciosidade',
     seo: {
       title: 'Visão geral do domínio Conscienciosidade',
-      description:
-        'Leia mais sobre o domínio Conscienciosidade no modelo b5'
+      description: 'Leia mais sobre o domínio Conscienciosidade no modelo b5'
     }
   },
   extraversion: {
@@ -189,7 +191,8 @@ o inventário é do <i>IPIP NEO-PI-R de 120 itens de Johnson (2014)</i>.`,
     nameOfPerson: 'Nome desta pessoa',
     urlOrId: 'URL ou ID para comparação',
     name: 'Nome',
-    onlyLetters: 'Somente letras são permitidas. Mínimo de 2 e máximo de 30 caracteres.',
+    onlyLetters:
+      'Somente letras são permitidas. Mínimo de 2 e máximo de 30 caracteres.',
     validId: 'Por favor, insira um ID válido e não duplicado.',
     noRows: 'Nenhuma linha para exibir.',
     editPerson: 'Editar pessoa',
@@ -232,7 +235,8 @@ o inventário é do <i>IPIP NEO-PI-R de 120 itens de Johnson (2014)</i>.`,
   },
   articles: {
     title: 'Artigos sobre Personalidade',
-    description: 'Todas as últimas e melhores notícias e artigos sobre Personalidade',
+    description:
+      'Todas as últimas e melhores notícias e artigos sobre Personalidade',
     back: 'Voltar para artigos',
     minRead: '{n} min de leitura',
     seo: {

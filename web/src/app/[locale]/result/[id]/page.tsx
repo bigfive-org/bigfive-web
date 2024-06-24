@@ -24,13 +24,16 @@ export async function generateMetadata({
     description: t('seo.description'),
     alternates: {
       canonical: basePath + `/result/${id}`,
-      languages: locales.reduce((a, v) => ({ ...a, [v]: `${v}/result/${id}` }), {})
+      languages: locales.reduce(
+        (a, v) => ({ ...a, [v]: `${v}/result/${id}` }),
+        {}
+      )
     }
   };
 }
 
 interface ResultPageParams {
-  params: { id: string, locale: string }
+  params: { id: string; locale: string };
   searchParams: { showExpanded?: boolean };
 }
 

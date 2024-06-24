@@ -19,8 +19,7 @@ const romanian = {
     tests_taken: 'Peste <green>{n}</green> persoane au făcut testul',
     compare: {
       title: 'Compară-te cu alții',
-      text1:
-        'Compară-te cu partenerul, colegii, prietenii sau familia ta.',
+      text1: 'Compară-te cu partenerul, colegii, prietenii sau familia ta.',
       text2: 'Află cum te deosebești de alte persoane în cele cinci domenii:',
       action: 'Vezi cum funcționează în direct'
     },
@@ -101,7 +100,8 @@ inventarul este de la <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Informații',
-    informationText: 'Folosim informațiile pe care le oferi pentru a-ți oferi cel mai',
+    informationText:
+      'Folosim informațiile pe care le oferi pentru a-ți oferi cel mai',
     mostAccurate: 'rezultat precis posibil',
     readMoreAbout: 'Citește mai multe despre',
     privacy: 'confidențialitate',
@@ -158,14 +158,16 @@ inventarul este de la <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Extraversiune',
     seo: {
       title: 'Prezentare generală a domeniului Extraversiune',
-      description: 'Citește mai multe despre domeniul Extraversiune în modelul b5'
+      description:
+        'Citește mai multe despre domeniul Extraversiune în modelul b5'
     }
   },
   agreeableness: {
     title: 'Agradabilitate',
     seo: {
       title: 'Prezentare generală a domeniului Agradabilitate',
-      description: 'Citește mai multe despre domeniul Agradabilitate în modelul b5'
+      description:
+        'Citește mai multe despre domeniul Agradabilitate în modelul b5'
     }
   },
   neuroticism: {
@@ -201,7 +203,8 @@ inventarul este de la <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     theBigFive: 'Cele Cinci Mari',
     score: 'scor',
     important: 'Important!',
-    saveResults: 'Salvează următorul ID pentru a vedea rezultatele mai târziu sau ',
+    saveResults:
+      'Salvează următorul ID pentru a vedea rezultatele mai târziu sau ',
     compare: 'compară',
     toOthers: 'te cu alții',
     retriveReportError: 'Nu s-a putut recupera raportul',

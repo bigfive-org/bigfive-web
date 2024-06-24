@@ -20,8 +20,7 @@ const slovenian = {
     tests_taken: 'Več kot <green>{n}</green> ljudi je opravilo test',
     compare: {
       title: 'Primerjajte se z drugimi',
-      text1:
-        'Primerjajte se s partnerjem, sodelavci, prijatelji ali družino.',
+      text1: 'Primerjajte se s partnerjem, sodelavci, prijatelji ali družino.',
       text2: 'Spoznajte, kako se razlikujete od drugih v petih domenah:',
       action: 'Poglejte si v živo'
     },
@@ -143,16 +142,14 @@ inventar je iz <i>Johnsonovega (2014) 120-členskega IPIP NEO-PI-R</i>.`,
     title: 'Odprtost za izkušnje',
     seo: {
       title: 'Pregled domene Odprtost za izkušnje.',
-      description:
-        'Preberite več o domeni Odprtost za izkušnje v modelu b5'
+      description: 'Preberite več o domeni Odprtost za izkušnje v modelu b5'
     }
   },
   conscientiousness: {
     title: 'Vestnost',
     seo: {
       title: 'Pregled domene Vestnost',
-      description:
-        'Preberite več o domeni Vestnost v modelu b5'
+      description: 'Preberite več o domeni Vestnost v modelu b5'
     }
   },
   extraversion: {
@@ -178,8 +175,7 @@ inventar je iz <i>Johnsonovega (2014) 120-členskega IPIP NEO-PI-R</i>.`,
   },
   getCompare: {
     title: 'Primerjaj ljudi ali ekipe',
-    description1:
-      'Primerjajte rezultate testa osebnosti bigfive z več ljudmi.',
+    description1: 'Primerjajte rezultate testa osebnosti bigfive z več ljudmi.',
     description2: 'Vnesite ID svojih rezultatov testa',
     description3: 'v polje za vnos ID',
     needToAddPeople: 'Za primerjavo morate dodati ljudi',

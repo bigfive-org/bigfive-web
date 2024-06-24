@@ -20,8 +20,7 @@ const estonian = {
     tests_taken: 'Rohkem kui <green>{n}</green> inimest on testi teinud',
     compare: {
       title: 'Võrdle end teistega',
-      text1:
-        'Võrdle end oma partneri, kolleegide, sõprade või perega.',
+      text1: 'Võrdle end oma partneri, kolleegide, sõprade või perega.',
       text2: 'Uuri, kuidas sa erinevad teistest viies valdkonnas:',
       action: 'Vaata seda reaalajas'
     },
@@ -159,7 +158,8 @@ inventar on pärit <i>Johnsoni (2014) 120-item IPIP NEO-PI-R</i> küsimustikust.
     title: 'Ekstravertsus',
     seo: {
       title: 'Ekstravertsuse valdkonna ülevaade',
-      description: 'Loe lähemalt Suur Viisik mudeli Ekstravertsuse valdkonna kohta'
+      description:
+        'Loe lähemalt Suur Viisik mudeli Ekstravertsuse valdkonna kohta'
     }
   },
   agreeableness: {
@@ -173,13 +173,13 @@ inventar on pärit <i>Johnsoni (2014) 120-item IPIP NEO-PI-R</i> küsimustikust.
     title: 'Neurootilisus',
     seo: {
       title: 'Neurootilisuse valdkonna ülevaade',
-      description: 'Loe lähemalt Suur Viisik mudeli Neurootilisuse valdkonna kohta'
+      description:
+        'Loe lähemalt Suur Viisik mudeli Neurootilisuse valdkonna kohta'
     }
   },
   getCompare: {
     title: 'Võrdle inimesi või meeskondi',
-    description1:
-      'Võrdle Suur Viisik isiksusetesti tulemusi mitme inimesega.',
+    description1: 'Võrdle Suur Viisik isiksusetesti tulemusi mitme inimesega.',
     description2: 'Sisestage oma testi tulemuste ID',
     description3: 'ID-sisestusvälja',
     needToAddPeople: 'Peate lisama inimesi, et neid võrrelda',
@@ -189,7 +189,8 @@ inventar on pärit <i>Johnsoni (2014) 120-item IPIP NEO-PI-R</i> küsimustikust.
     nameOfPerson: 'Selle inimese nimi',
     urlOrId: 'Võrdluse URL või ID',
     name: 'Nimi',
-    onlyLetters: 'Lubatud on ainult tähed. Min 2 ja maksimaalselt 30 tähemärki.',
+    onlyLetters:
+      'Lubatud on ainult tähed. Min 2 ja maksimaalselt 30 tähemärki.',
     validId: 'Sisestage kehtiv ID ja mitte duplikaat.',
     noRows: 'Kuvamiseks pole ridu.',
     editPerson: 'Muuda isikut',

@@ -31,7 +31,7 @@ export const metadata = {
     canonical: basePath,
     languages: locales.reduce((a, v) => ({ ...a, [v]: `${basePath}/${v}` }), {})
   }
-}
+};
 
 interface HomeProps {
   params: { locale: string };

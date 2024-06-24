@@ -19,8 +19,7 @@ const albanian = {
     tests_taken: 'Mbi <green>{n}</green> njerëz e kanë marrë testin',
     compare: {
       title: 'Krahaso veten me të tjerët',
-      text1:
-        'Krahaso veten me partnerin, kolegët, miqtë ose familjen tuaj.',
+      text1: 'Krahaso veten me partnerin, kolegët, miqtë ose familjen tuaj.',
       text2: 'Mëso se si ndryshon nga të tjerët në pesë fusha:',
       action: 'Shiko në veprim'
     },
@@ -101,7 +100,8 @@ inventari është nga <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Informacion',
-    informationText: 'Ne përdorim informacionin që ju jepni për t’ju ofruar rezultatin',
+    informationText:
+      'Ne përdorim informacionin që ju jepni për t’ju ofruar rezultatin',
     mostAccurate: 'më të saktë të mundshëm',
     readMoreAbout: 'Lexoni më shumë rreth',
     privacy: 'privatësisë',
@@ -150,8 +150,7 @@ inventari është nga <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Ndërgjegjshmëria',
     seo: {
       title: 'Përmbledhje e fushës Ndërgjegjshmëria',
-      description:
-        'Lexoni më shumë rreth fushës Ndërgjegjshmëria në modelin b5'
+      description: 'Lexoni më shumë rreth fushës Ndërgjegjshmëria në modelin b5'
     }
   },
   extraversion: {
@@ -231,7 +230,8 @@ inventari është nga <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   articles: {
     title: 'Artikuj mbi personalitetin',
-    description: 'Të gjitha lajmet dhe artikujt më të fundit dhe më të mëdha mbi personalitetin',
+    description:
+      'Të gjitha lajmet dhe artikujt më të fundit dhe më të mëdha mbi personalitetin',
     back: 'Kthehu te artikujt',
     minRead: '{n} min për të lexuar',
     seo: {

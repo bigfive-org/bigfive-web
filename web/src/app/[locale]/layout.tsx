@@ -122,10 +122,7 @@ export default async function RootLayout({
         />
         <Analytics />
         <RouteChangeListener />
-        <Script
-          src='/sw.js'
-          strategy='beforeInteractive'
-        />
+        <Script src='/sw.js' strategy='beforeInteractive' />
       </body>
       <GoogleAnalytics gaId={gaId} />
     </html>

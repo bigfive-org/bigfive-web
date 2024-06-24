@@ -142,16 +142,14 @@ const korean = {
     title: '경험에 대한 개방성',
     seo: {
       title: '경험에 대한 개방성 영역 개요',
-      description:
-        'b5 모델의 경험에 대한 개방성 영역에 대해 자세히 알아보세요'
+      description: 'b5 모델의 경험에 대한 개방성 영역에 대해 자세히 알아보세요'
     }
   },
   conscientiousness: {
     title: '성실성',
     seo: {
       title: '성실성 영역 개요',
-      description:
-        'b5 모델의 성실성 영역에 대해 자세히 알아보세요'
+      description: 'b5 모델의 성실성 영역에 대해 자세히 알아보세요'
     }
   },
   extraversion: {
@@ -177,8 +175,7 @@ const korean = {
   },
   getCompare: {
     title: '사람 또는 팀 비교',
-    description1:
-      '빅파이브 성격 테스트 결과를 여러 사람과 비교하세요.',
+    description1: '빅파이브 성격 테스트 결과를 여러 사람과 비교하세요.',
     description2: '테스트 결과의 ID를 입력하세요',
     description3: 'ID 입력 필드에',
     needToAddPeople: '비교하려면 사람을 추가해야 합니다',

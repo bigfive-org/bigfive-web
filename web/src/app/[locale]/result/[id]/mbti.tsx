@@ -20,17 +20,21 @@ Conscientiousness	J / P	Judging (J)	        Perceiving (P)
 function bigFiveToMBTI(results: Domain[]) {
   let mbti = '';
 
-  const extraversionHigh = results.find(trait => trait.domain === 'E')?.scoreText === 'High';
-  mbti += (extraversionHigh) ? 'E' : 'I';
+  const extraversionHigh =
+    results.find((trait) => trait.domain === 'E')?.scoreText === 'High';
+  mbti += extraversionHigh ? 'E' : 'I';
 
-  const opennessHigh = results.find(trait => trait.domain === 'O')?.scoreText === 'High';
-  mbti += (opennessHigh) ? 'N' : 'S';
+  const opennessHigh =
+    results.find((trait) => trait.domain === 'O')?.scoreText === 'High';
+  mbti += opennessHigh ? 'N' : 'S';
 
-  const agreeablenessHigh = results.find(trait => trait.domain === 'A')?.scoreText === 'High';
-  mbti += (agreeablenessHigh) ? 'F' : 'T';
+  const agreeablenessHigh =
+    results.find((trait) => trait.domain === 'A')?.scoreText === 'High';
+  mbti += agreeablenessHigh ? 'F' : 'T';
 
-  const conscientiousnessHigh = results.find(trait => trait.domain === 'C')?.scoreText === 'High';
-  mbti += (conscientiousnessHigh) ? 'J' : 'P';
+  const conscientiousnessHigh =
+    results.find((trait) => trait.domain === 'C')?.scoreText === 'High';
+  mbti += conscientiousnessHigh ? 'J' : 'P';
 
   return mbti;
 }
@@ -44,7 +48,12 @@ export default function Mbti({ results }: MbtiProps) {
           color='secondary'
           content={
             <>
-              The Myers–Briggs Type Indicator (MBTI) is a pseudoscientific self-report questionnaire. Due to numerous requests, this has been added. <Link className='underline' href='/articles/mbti_pseudoscience'>Read more.</Link>
+              The Myers–Briggs Type Indicator (MBTI) is a pseudoscientific
+              self-report questionnaire. Due to numerous requests, this has been
+              added.{' '}
+              <Link className='underline' href='/articles/mbti_pseudoscience'>
+                Read more.
+              </Link>
             </>
           }
         >
@@ -54,6 +63,6 @@ export default function Mbti({ results }: MbtiProps) {
         </Tooltip>
         {bigFiveToMBTI(results)}
       </Code>
-    </div >
+    </div>
   );
 }

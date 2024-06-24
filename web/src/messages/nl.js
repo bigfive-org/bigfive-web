@@ -11,7 +11,7 @@ const dutch = {
     seo: {
       title: 'Gratis open-source BigFive persoonlijkheidstrekken test',
       description:
-        'Doe een gratis, open-source Big Five persoonlijkheidstest. Leer je persoonlijkheidstrekken kennen en vergelijk jezelf met je partner, collega\'s, vrienden of familie.'
+        "Doe een gratis, open-source Big Five persoonlijkheidstest. Leer je persoonlijkheidstrekken kennen en vergelijk jezelf met je partner, collega's, vrienden of familie."
     },
     title: 'Big Five Persoonlijkheidstest',
     call_to_action: 'Doe de gratis test nu',
@@ -20,8 +20,7 @@ const dutch = {
     tests_taken: 'Meer dan <green>{n}</green> mensen hebben de test gedaan',
     compare: {
       title: 'Vergelijk jezelf met anderen',
-      text1:
-        'Vergelijk jezelf met je partner, collega\'s, vrienden of familie.',
+      text1: "Vergelijk jezelf met je partner, collega's, vrienden of familie.",
       text2: 'Leer hoe je verschilt van andere mensen in de vijf domeinen:',
       action: 'Bekijk het live in actie'
     },
@@ -95,7 +94,7 @@ de inventaris is van <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   common: {
     and: 'en',
-    pages: 'pagina\'s',
+    pages: "pagina's",
     languages: 'talen',
     save: 'Opslaan',
     close: 'Sluiten'
@@ -151,8 +150,7 @@ de inventaris is van <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Consciëntieusheid',
     seo: {
       title: 'Overzicht van het domein Consciëntieusheid',
-      description:
-        'Lees meer over het domein Consciëntieusheid in het b5 model'
+      description: 'Lees meer over het domein Consciëntieusheid in het b5 model'
     }
   },
   extraversion: {
@@ -232,7 +230,8 @@ de inventaris is van <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   articles: {
     title: 'Persoonlijkheidsartikelen',
-    description: 'Het laatste nieuws en de beste artikelen over persoonlijkheid',
+    description:
+      'Het laatste nieuws en de beste artikelen over persoonlijkheid',
     back: 'Terug naar artikelen',
     minRead: '{n} min lezen',
     seo: {

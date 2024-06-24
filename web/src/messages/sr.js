@@ -20,8 +20,7 @@ const serbian = {
     tests_taken: 'Preko <green>{n}</green> ljudi je uradilo test',
     compare: {
       title: 'Uporedi se sa drugima',
-      text1:
-        'Uporedi se sa partnerom, kolegama, prijateljima ili porodicom.',
+      text1: 'Uporedi se sa partnerom, kolegama, prijateljima ili porodicom.',
       text2: 'Saznaj kako se razlikuješ od drugih ljudi u pet domena:',
       action: 'Vidi uživo u akciji'
     },
@@ -143,16 +142,14 @@ inventar je iz <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Otvorenost za Iskustva',
     seo: {
       title: 'Pregled domena Otvorenost za Iskustva',
-      description:
-        'Pročitajte više o domeni Otvorenost za Iskustva u b5 modelu'
+      description: 'Pročitajte više o domeni Otvorenost za Iskustva u b5 modelu'
     }
   },
   conscientiousness: {
     title: 'Savesnost',
     seo: {
       title: 'Pregled domena Savesnost',
-      description:
-        'Pročitajte više o domeni Savesnost u b5 modelu'
+      description: 'Pročitajte više o domeni Savesnost u b5 modelu'
     }
   },
   extraversion: {
@@ -178,8 +175,7 @@ inventar je iz <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   getCompare: {
     title: 'Uporedi ljude ili timove',
-    description1:
-      'Uporedite rezultate bigfive testa ličnosti sa više ljudi.',
+    description1: 'Uporedite rezultate bigfive testa ličnosti sa više ljudi.',
     description2: 'Unesite ID iz vaših rezultata testa',
     description3: 'u polje za unos ID-a',
     needToAddPeople: 'Morate dodati ljude da biste ih uporedili',
