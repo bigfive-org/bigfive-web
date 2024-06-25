@@ -6,7 +6,8 @@ import {
   GithubIcon,
   LinkedInIcon,
   FacebookIcon,
-  Logo
+  Logo,
+  MastadonIcon
 } from '@/components/icons';
 import { siteConfig } from '@/config/site';
 
@@ -55,6 +56,13 @@ export default function Footer({ footerLinks }: FooterProps) {
             aria-label='Facebook'
           >
             <FacebookIcon size={48} className='text-default-500' />
+          </NextUILink>
+          <NextUILink
+            isExternal
+            href={siteConfig.links.mastadon}
+            aria-label='Mastadon'
+          >
+            <MastadonIcon size={48} className='text-default-500' />
           </NextUILink>
         </div>
       </div>
