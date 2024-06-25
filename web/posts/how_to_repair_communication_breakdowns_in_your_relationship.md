@@ -2,7 +2,7 @@
 title: How to Repair Communication Breakdowns in Your Relationship
 date: 2024-06-25
 description: Learn practical strategies to repair and improve communication in your relationship, addressing negative styles, managing emotions, and fostering collaboration for a healthier connection.
-image: '/blog/job_performence.webp'
+image: '/blog/bad_communication.webp'
 tags: relationship communication, improve relationship communication, fix bad communication, communication in relationships, relationship advice, manage relationship conflict, healthy communication, communication patterns, emotional regulation in relationships, active listening, validation in relationships, collaborative problem-solving, nonverbal communication, relationship dynamics, relationship counseling, effective communication strategies, relationship tips, conflict resolution, assertive communication, relationship improvement
 author:
   name: 'Jonas Enge'
