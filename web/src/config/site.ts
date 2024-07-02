@@ -57,6 +57,7 @@ export const languages: Language[] = [
   { code: 'ru', name: 'Russian', countryCode: 'ru' },
   { code: 'th', name: 'Thai', countryCode: 'th' },
   { code: 'cs', name: 'Czech', countryCode: 'cz' },
+  { code: 'vi', name: 'Vietnamese', countryCode: 'vn' },
   {
     code: 'zh-cn',
     name: 'Chinese (Simplified)',
