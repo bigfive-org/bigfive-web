@@ -506,5 +506,16 @@
         "name": "Shah Moazzem"
       }
     ]
+  },
+  {
+    "id": "vi",
+    "text": "Vietnamese",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Nguyễn Hữu Trung"
+      }
+    ]
   }
 ]
