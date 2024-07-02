@@ -1,7 +1,7 @@
 [
   {
     "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
-    "text": "Je m'inquiète à propos de choses",
+    "text": "Je m'inquiète à propos des choses",
     "keyed": "plus",
     "domain": "N",
     "facet": 1,
@@ -43,7 +43,7 @@
   },
   {
     "id": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
-    "text": "Je complète les tâches avec succès",
+    "text": "J'accomplis mes tâches avec succès",
     "keyed": "plus",
     "domain": "C",
     "facet": 1,
@@ -117,7 +117,7 @@
   },
   {
     "id": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
-    "text": "J'aime prendre en charge",
+    "text": "J'aime prendre les choses en main",
     "keyed": "plus",
     "domain": "E",
     "facet": 3,
@@ -190,7 +190,7 @@
   },
   {
     "id": "e2028ad3-b128-4f76-be57-398bfe2aff22",
-    "text": "J'adore une bonne bagarre",
+    "text": "J'adore une bonne dispute",
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
@@ -211,7 +211,7 @@
   },
   {
     "id": "481efd08-c810-43b1-a952-f8ac9052f96b",
-    "text": "Je fais des excès",
+    "text": "Je fais des folies",
     "keyed": "plus",
     "domain": "N",
     "facet": 5,
@@ -232,7 +232,7 @@
   },
   {
     "id": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
-    "text": "J'adore lire des documents stimulants",
+    "text": "J'adore lire des documents exigeants",
     "keyed": "plus",
     "domain": "O",
     "facet": 5,
@@ -274,7 +274,7 @@
   },
   {
     "id": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
-    "text": "Je respire la joie",
+    "text": "Je rayonne de joie",
     "keyed": "plus",
     "domain": "E",
     "facet": 6,
@@ -285,7 +285,7 @@
   },
   {
     "id": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
-    "text": "J’ai tendance à promouvoir des valeurs sociales traditionnelles",
+    "text": "J’ai tendance voter pour des candidats libéraux",
     "keyed": "plus",
     "domain": "O",
     "facet": 6,
@@ -295,7 +295,7 @@
   },
   {
     "id": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
-    "text": "Je sympathise avec les sans-abri",
+    "text": "Je compatis avec les sans-abri",
     "keyed": "plus",
     "domain": "A",
     "facet": 6,
@@ -386,7 +386,7 @@
   },
   {
     "id": "b5919f2f-cded-4745-a9ce-c02703cee807",
-    "text": "Je vois une beauté dans les choses que d'autres pourraient ne pas remarquer",
+    "text": "Je perçois de la beauté dans les choses que d'autres pourraient ne pas remarquer",
     "keyed": "plus",
     "domain": "O",
     "facet": 2,
@@ -488,7 +488,7 @@
   },
   {
     "id": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
-    "text": "Je préfère m'en tenir aux choses connues",
+    "text": "Je préfère m'en tenir à ce que je connais",
     "keyed": "minus",
     "domain": "O",
     "facet": 4,
@@ -498,7 +498,7 @@
   },
   {
     "id": "d9a9a180-29c9-4ec5-8621-2256d411def7",
-    "text": "Je crie après les gens",
+    "text": "Je crie sur les gens",
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
@@ -518,7 +518,7 @@
   },
   {
     "id": "9891b7ba-a494-4307-aafe-301d8db506c6",
-    "text": "Je fais rarement des excès",
+    "text": "Je cède rarement à la tentation",
     "keyed": "minus",
     "domain": "N",
     "facet": 5,
@@ -548,7 +548,7 @@
   },
   {
     "id": "7df44711-4cd4-4b05-8830-73fcc3ebdab5",
-    "text": "J'ai une très grande estime de moi-même",
+    "text": "J'ai une haute estime de moi-même",
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
@@ -558,7 +558,7 @@
   },
   {
     "id": "9d3cb5c7-955c-43a4-b6c7-b07ed01dcbd9",
-    "text": "Je réalise mes objectifs",
+    "text": "Je réalise mes projets",
     "keyed": "plus",
     "domain": "C",
     "facet": 5,
@@ -568,7 +568,7 @@
   },
   {
     "id": "13c58810-3864-42ba-aa87-d4166f858756",
-    "text": "Je me sens dépassé par les événements",
+    "text": "Je peux être dépassé par les événements",
     "keyed": "plus",
     "domain": "N",
     "facet": 6,
@@ -588,7 +588,7 @@
   },
   {
     "id": "f08e1b27-3673-4898-9cae-896482d0d9f9",
-    "text": "Je crois qu'il n'y a pas de bon ou de mauvais absolu",
+    "text": "Je crois qu'il n'y a pas de bien ou de mal absolu",
     "keyed": "plus",
     "domain": "O",
     "facet": 6,
@@ -598,7 +598,7 @@
   },
   {
     "id": "c2038c12-7a37-47a8-9983-831bd6692aab",
-    "text": "J'ai de la sympathie pour les gens plus démunis que moi",
+    "text": "Je compatis avec les gens plus démunis que moi",
     "keyed": "plus",
     "domain": "A",
     "facet": 6,
@@ -730,7 +730,7 @@
   },
   {
     "id": "2452f034-8273-4f71-9122-a40f5ead31ba",
-    "text": "Je prends le contrôle des choses",
+    "text": "Je prends les choses en main",
     "keyed": "plus",
     "domain": "E",
     "facet": 3,
@@ -740,7 +740,7 @@
   },
   {
     "id": "2a300001-6e05-4c79-b8b5-2ccae4c3d463",
-    "text": "Je suis rarement sensible à mes réactions émotives",
+    "text": "Je suis rarement sensible à mes réactions émotionnelles",
     "keyed": "minus",
     "domain": "O",
     "facet": 3,
@@ -831,7 +831,7 @@
   },
   {
     "id": "7dd6cf2d-5c14-48c2-8ae5-633a7a596c71",
-    "text": "J'agis de manière effrénée",
+    "text": "J'aime être téméraire",
     "keyed": "plus",
     "domain": "E",
     "facet": 5,
@@ -892,7 +892,7 @@
   },
   {
     "id": "96ba77b2-1a44-4dfd-95f9-ae4d1f714460",
-    "text": "J’ai tendance à promouvoir des valeurs sociales libérales",
+    "text": "J’ai tendance à voter pour des candidats conservateurs",
     "keyed": "minus",
     "domain": "O",
     "facet": 6,
@@ -1035,7 +1035,7 @@
   },
   {
     "id": "8791f37b-686f-47c3-9db7-74c009951321",
-    "text": "J'attends que les autres prennent les devants",
+    "text": "J'attends que les autres prennent les choses en main",
     "keyed": "minus",
     "domain": "E",
     "facet": 3,
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "4fd25155-9cc2-4cd6-8852-3e0ca2d5e95d",
-    "text": "Je ne comprends pas les gens émotifs",
+    "text": "Je ne comprends pas les gens qui ont des réactions émotionnelles fortes",
     "keyed": "minus",
     "domain": "O",
     "facet": 3,
@@ -1107,7 +1107,7 @@
   },
   {
     "id": "17910a55-a64a-4ed0-8b46-293e2fa2fe03",
-    "text": "Je m'en prends aux autres",
+    "text": "Je me venge",
     "keyed": "minus",
     "domain": "A",
     "facet": 4,
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "80c1d149-7050-481a-9953-aefb441642e7",
-    "text": "Je me vante de mes vertus",
+    "text": "Je me vante de mes qualités",
     "keyed": "minus",
     "domain": "A",
     "facet": 5,
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "88a3c2fe-3aa4-4f46-9322-da656332268a",
-    "text": "Je demeure calme sous pression",
+    "text": "Je reste calme sous pression",
     "keyed": "minus",
     "domain": "N",
     "facet": 6,
