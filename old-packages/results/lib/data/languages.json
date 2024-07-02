@@ -416,5 +416,16 @@
         "name": "Shah Moazzem"
       }
     ]
+  },
+  {
+    "id": "vi",
+    "text": "Vietnamese",
+    "complete": true,
+    "verified": false,
+    "translators": [
+      {
+        "name": "Machine translation"
+      }
+    ]
   }
 ]
