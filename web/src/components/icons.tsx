@@ -782,7 +782,7 @@ export const SortIcon = ({
     focusable='false'
     {...props}
   >
-    <g fill='currentColor' fill-rule='evenodd' clip-rule='evenodd'>
+    <g fill='currentColor' fillRule='evenodd' clipRule='evenodd'>
       <path d='M10.293 7.707a1 1 0 0 1 0-1.414l3-3a1 1 0 1 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0' />
       <path d='M17.707 7.707a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414' />
       <path d='M14 5a1 1 0 0 1 1 1v8a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1m-4.293 7.293a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414l3-3a1 1 0 0 1 1.414 0' />
