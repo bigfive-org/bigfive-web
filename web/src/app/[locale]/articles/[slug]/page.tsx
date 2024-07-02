@@ -11,6 +11,7 @@ import { Suspense } from 'react';
 import { basePath } from '@/config/site';
 import { Metadata } from 'next';
 import { PostCard } from '@/components/post-card';
+import { ShareArticle } from '@/components/share-article';
 
 export const generateStaticParams = async () =>
   allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
@@ -132,6 +133,7 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
             {format(parseISO(currentPost.date), 'LLLL d, yyyy')}
           </time>
         </div>
+        <ShareArticle slug={params.slug} />
         <div
           className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage mt-10'
           dangerouslySetInnerHTML={{ __html: currentPost.body.html }}
