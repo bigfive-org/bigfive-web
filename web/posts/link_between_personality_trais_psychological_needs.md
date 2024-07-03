@@ -25,9 +25,9 @@ The study involved 668 Croatian adults who assessed their personality and the ex
 
 Using the Big Five model of personality, the study measured these traits and their impact on need satisfaction. The results revealed that:
 
-- [**Extraversion**](articles/extraversion) and [**neuroticism**](articles/neuroticism) had the most significant impact across all three needs. Extraversion positively influenced need satisfaction, while neuroticism had a negative effect.
-- [**Conscientiousness**](articles/conscientiousness) was crucial for satisfying the need for competence, suggesting that disciplined and organized individuals are more likely to feel effective in their endeavors.
-- [**Agreeableness**](articles/agreeableness) was essential for meeting the needs for autonomy and relatedness, indicating that cooperative and compassionate individuals find it easier to connect with others and make autonomous decisions.
+- [**Extraversion**](/articles/extraversion) and [**neuroticism**](/articles/neuroticism) had the most significant impact across all three needs. Extraversion positively influenced need satisfaction, while neuroticism had a negative effect.
+- [**Conscientiousness**](/articles/conscientiousness) was crucial for satisfying the need for competence, suggesting that disciplined and organized individuals are more likely to feel effective in their endeavors.
+- [**Agreeableness**](/articles/agreeableness) was essential for meeting the needs for autonomy and relatedness, indicating that cooperative and compassionate individuals find it easier to connect with others and make autonomous decisions.
 
 ### Personality's Role in Need Satisfaction
 

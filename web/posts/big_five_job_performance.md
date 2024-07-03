@@ -15,7 +15,7 @@ In the dynamic world of industrial psychology, understanding the link between pe
 
 1. **The Importance of the Big Five Personality Traits**
 
-The study revolves around the famous "Big Five" personality dimensions: [Neuroticism](articles/neuroticism), [Extraversion](articles/extraversion), [Openness](articles/openness_to_experience), [Agreeableness](articles/agreeableness), and [Conscientiousness](articles/conscientiousness). Each trait offers unique insights into employee behaviors and their implications for job performance.
+The study revolves around the famous "Big Five" personality dimensions: [Neuroticism](/articles/neuroticism), [Extraversion](/articles/extraversion), [Openness](/articles/openness_to_experience), [Agreeableness](/articles/agreeableness), and [Conscientiousness](/articles/conscientiousness). Each trait offers unique insights into employee behaviors and their implications for job performance.
 
 2. **Neuroticism vs. Emotional Stability**
 

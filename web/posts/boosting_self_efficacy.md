@@ -48,7 +48,7 @@ According to Psychology Today, here are five more tips to enhance self-efficacy:
 
 ### Insights from Research on Self-Control and Personality Traits
 
-A study published in Frontiers in Psychology explored the relationship between the Big Five personality traits and self-control among boxers, highlighting the mediating role of self-efficacy. The research found that personality traits such as [conscientiousness](articles/conscientiousness) and [extraversion](articles/extraversion) positively influenced self-control through enhanced self-efficacy. [Neuroticism](articles/neuroticism), on the other hand, negatively impacted self-control. This study underscores the importance of self-efficacy in mediating the effects of personality on self-control, further demonstrating its critical role in achieving optimal performane.
+A study published in Frontiers in Psychology explored the relationship between the Big Five personality traits and self-control among boxers, highlighting the mediating role of self-efficacy. The research found that personality traits such as [conscientiousness](/articles/conscientiousness) and [extraversion](/articles/extraversion) positively influenced self-control through enhanced self-efficacy. [Neuroticism](/articles/neuroticism), on the other hand, negatively impacted self-control. This study underscores the importance of self-efficacy in mediating the effects of personality on self-control, further demonstrating its critical role in achieving optimal performane.
 
 ### Conclusion
 

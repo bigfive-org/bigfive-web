@@ -17,7 +17,7 @@ When it comes to school performance, we often focus on measurable skills like re
 
 ### The Big Five and School Performance
 
-The research focused on the "Big Five" personality traits: [Neuroticism](articles/neuroticism), [Extraversion](articles/extraversion), [Openness](articles/openness_to_experience), [Agreeableness](articles/agreeableness), and [Conscientiousness](articles/conscientiousness). These traits are inherent to some degree in every individual and can influence behavior, emotions, and even academic outcomes.
+The research focused on the "Big Five" personality traits: [Neuroticism](/articles/neuroticism), [Extraversion](/articles/extraversion), [Openness](/articles/openness_to_experience), [Agreeableness](/articles/agreeableness), and [Conscientiousness](/articles/conscientiousness). These traits are inherent to some degree in every individual and can influence behavior, emotions, and even academic outcomes.
 
 ### Openness and Conscientiousness: The Stars of School Success
 

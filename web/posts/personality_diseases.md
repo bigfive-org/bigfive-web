@@ -43,7 +43,7 @@ Despite the uncertainties that still pervade this area of research, several rese
 
 The Australian researchers utilized data from the large-scale Australian population study HILDA, which tracks the same individuals over many years.
 
-Participants in HILDA completed a form that asked how well 36 different words described them, allowing researchers to score them on the five personality traits: [extraversion](articles/extraversion), [agreeableness](articles/agreeableness), [openness](articles/openness_to_experience), [conscientiousness](articles/conscientiousness), and [neuroticism](articles/neuroticism).
+Participants in HILDA completed a form that asked how well 36 different words described them, allowing researchers to score them on the five personality traits: [extraversion](/articles/extraversion), [agreeableness](/articles/agreeableness), [openness](/articles/openness_to_experience), [conscientiousness](/articles/conscientiousness), and [neuroticism](/articles/neuroticism).
 
 ### Behavior Matters
 
