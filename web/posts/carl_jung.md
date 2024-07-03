@@ -13,6 +13,8 @@ author:
 
 Carl Gustav Jung, a pioneering Swiss psychiatrist and psychoanalyst, left an indelible mark on the field of psychology. Born on July 26, 1875, in Kesswil, Switzerland, Jung’s work delved deep into the human psyche, exploring the realms of the unconscious mind, dreams, and archetypes. His theories and concepts continue to influence modern psychology, therapy, and even popular culture. This blog post aims to trace the fascinating journey of Carl Jung, from his early life to his lasting legacy.
 
+![Bettmann/Getty Images](/blog/carl_jung_1.webp)
+
 ### Early Life and Education
 
 Carl Jung was born into a family with a strong academic background. His father, Paul Jung, was a pastor, and his mother, Emilie Preiswerk, came from a family with a history of mental illness, which profoundly influenced Jung’s interest in the human mind. Despite a somewhat lonely and introspective childhood, Jung’s curiosity and intelligence shone through. He initially pursued a career in medicine, enrolling at the University of Basel in 1895, where he was particularly drawn to psychiatry.

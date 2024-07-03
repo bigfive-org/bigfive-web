@@ -15,6 +15,8 @@ Sigmund Freud, born Sigismund Schlomo Freud on May 6, 1856, in Freiberg, Moravia
 
 Freud enrolled at the University of Vienna in 1873, initially studying law before switching to medicine. He was particularly interested in neurology, and his early work involved research on the physiology of the brain. In 1881, he received his medical degree and began practicing as a clinical neurologist.
 
+![Photo: © Hulton-Deutsch Collection/CORBIS/Corbis via Getty Images](/blog/sigmund_freud_1.webp)
+
 ### The Development of Psychoanalysis
 
 Freud's journey into the depths of the human psyche began in earnest during his collaboration with Josef Breuer. Together, they worked on the case of Anna O., a patient suffering from what was then termed "hysteria." Through this case, Freud developed the idea that talking about one's problems could alleviate psychological distress. This concept, known as the "talking cure," became a cornerstone of psychoanalytic theory.
