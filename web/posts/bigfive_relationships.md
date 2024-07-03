@@ -17,9 +17,9 @@ In a fascinating study published in 2016, researchers delved into how the Big Fi
 
 #### **Personality Traits and Relationship Satisfaction**
 
-- **Neuroticism** is negatively associated with relationship satisfaction, possibly because high neuroticism can lead to negative interpretations within the relationship.
-- **Agreeableness, Conscientiousness, and Extraversion** are positively linked to relationship satisfaction. These traits contribute to better coping mechanisms during stress, which can enhance relationship quality.
-- **Openness** showed mixed results, indicating that while it could introduce novelty into relationships, it might also lead to a lack of commitment.
+- [**Neuroticism**](articles/neuroticism) is negatively associated with relationship satisfaction, possibly because high neuroticism can lead to negative interpretations within the relationship.
+- **[Agreeableness](articles/agreeableness), [Conscientiousness](articles/conscientiousness), and [Extraversion](articles/extraversion)** are positively linked to relationship satisfaction. These traits contribute to better coping mechanisms during stress, which can enhance relationship quality.
+- [**Openness**](articles/openness_to_experience) showed mixed results, indicating that while it could introduce novelty into relationships, it might also lead to a lack of commitment.
 
 #### **Self-Esteem as a Mediator**
 
