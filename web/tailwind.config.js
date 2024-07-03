@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sans)"],
+        mono: ["var(--font-geist-mono)"]
+      },
       keyframes: {
         heartbeat: {
           '0%': { transform: 'scale(1)' },
