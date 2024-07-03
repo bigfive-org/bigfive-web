@@ -15,6 +15,9 @@ Are you curious about what makes us happy, how we perceive the world, or what ou
 
 ### Meet Your Instructor: Paul Bloom
 
+
+![By Fronteiras do Pensamento - Paul Bloom no Fronteiras do Pensamento Florianópolis 2014, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=55835116](/blog/paul_bloom.jpg)
+
 Paul Bloom, a renowned professor with over 20 years of experience at Yale, brings a wealth of knowledge and enthusiasm to this course. His passion for psychology is palpable as he guides students through the intricacies of the mind. As he puts it, “I teach it to hundreds of undergraduates. It is one of my favorite courses to teach.” Bloom’s excitement about making this material accessible to a broader audience is evident, making the course both informative and enjoyable.
 
 ### Course Structure and Recommendations
