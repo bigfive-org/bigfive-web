@@ -19,9 +19,9 @@ Carl Jung was born into a family with a strong academic background. His father, 
 
 ### Career Beginnings and Collaboration with Freud
 
-After completing his medical degree in 1900, Jung began working at the Burghölzli Psychiatric Hospital in Zurich, under the guidance of Eugen Bleuler. It was here that Jung’s interest in the unconscious mind and psychological disorders flourished. He developed the Word Association Test, a tool used to explore the subconscious, which brought him to the attention of Sigmund Freud.
+After completing his medical degree in 1900, Jung began working at the Burghölzli Psychiatric Hospital in Zurich, under the guidance of Eugen Bleuler. It was here that Jung’s interest in the unconscious mind and psychological disorders flourished. He developed the Word Association Test, a tool used to explore the subconscious, which brought him to the attention of [Sigmund Freud](/articles/sigmund_freud).
 
-In 1907, Jung met Freud in Vienna, and the two quickly formed a close professional and personal bond. They collaborated extensively, with Jung initially supporting many of Freud’s ideas. However, significant theoretical differences soon emerged, particularly regarding the nature of the unconscious mind. While Freud emphasized sexual drives as the primary motivator of human behavior, Jung proposed a more complex structure, incorporating the collective unconscious and archetypes.
+In 1907, Jung met [Freud](/articles/sigmund_freud) in Vienna, and the two quickly formed a close professional and personal bond. They collaborated extensively, with Jung initially supporting many of Freud’s ideas. However, significant theoretical differences soon emerged, particularly regarding the nature of the unconscious mind. While Freud emphasized sexual drives as the primary motivator of human behavior, Jung proposed a more complex structure, incorporating the collective unconscious and archetypes.
 
 ### The Break with Freud and Development of Analytical Psychology
 

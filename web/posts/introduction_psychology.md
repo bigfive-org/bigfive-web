@@ -22,7 +22,7 @@ Paul Bloom, a renowned professor with over 20 years of experience at Yale, bring
 
 ### Course Structure and Recommendations
 
-The course is designed to be flexible. While you can jump into any lecture that piques your interest—be it on Freud, memory mistakes, or depression—Bloom recommends treating it like a traditional course. Sit down with your laptop, take notes, and follow the sequence of lectures for a more comprehensive understanding. To further enrich your learning, Bloom suggests doing the associated readings, which are freely available online from an excellent textbook. This approach ensures you gain a robust foundation in psychology.
+The course is designed to be flexible. While you can jump into any lecture that piques your interest—be it on [Freud](/articles/sigmund_freud), memory mistakes, or depression—Bloom recommends treating it like a traditional course. Sit down with your laptop, take notes, and follow the sequence of lectures for a more comprehensive understanding. To further enrich your learning, Bloom suggests doing the associated readings, which are freely available online from an excellent textbook. This approach ensures you gain a robust foundation in psychology.
 
 ### What You’ll Learn
 
