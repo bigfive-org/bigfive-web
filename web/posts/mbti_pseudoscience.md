@@ -47,7 +47,7 @@ The MBTI forces people into one of two categories for each dichotomy, but person
 
 **Outdated Theory**
 
-The MBTI is based on [Carl Jung's](/artciles/carl_jung) theories from the early 20th century. While Jung was a pioneer in psychology, his theories were not based on empirical research. Modern psychology has moved towards more evidence-based models of personality.
+The MBTI is based on [Carl Jung's](/articles/carl_jung) theories from the early 20th century. While Jung was a pioneer in psychology, his theories were not based on empirical research. Modern psychology has moved towards more evidence-based models of personality.
 
 **Lack of Acceptance in the Scientific Community**
 
