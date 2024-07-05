@@ -5,6 +5,7 @@ import { format, parseISO } from 'date-fns';
 import { Post } from 'contentlayer/generated';
 import { Link } from '@/navigation';
 import { calculateReadingTime } from '@/lib/helpers';
+import { Tooltip } from '@nextui-org/react';
 
 export function PostCard(post: Post) {
   return (
@@ -22,7 +23,14 @@ export function PostCard(post: Post) {
             height={400}
             width={400}
           />
-          <div className='absolute inset-0'></div>
+          <Tooltip content={post.author?.name} placement='top'>
+            <div className='absolute right-8 md:right-4 mt-2 z-10'>
+              <Avatar
+                src={post.author?.avatar}
+                isBordered
+              />
+            </div>
+          </Tooltip>
           <h3 className='z-10 mt-3 text-3xl font-bold'>{post.title}</h3>
           <p className='font-normal w-full text-default-600 mt-3'>
             {post.description}
@@ -37,9 +45,8 @@ export function PostCard(post: Post) {
             >
               {format(parseISO(post.date), 'LLLL d, yyyy')}
             </time>
-            <p>{calculateReadingTime(post.body.raw)} min read</p>
           </div>
-          <Avatar size='sm' src={post.author?.avatar} />
+          <p className='text-small text-default-500'>{calculateReadingTime(post.body.raw)} min read</p>
         </CardFooter>
       </Card>
     </Link>

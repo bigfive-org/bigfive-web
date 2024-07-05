@@ -110,7 +110,7 @@ const Results = ({ report, showExpanded }: ResultsProps) => {
         showExpanded={!!showExpanded}
         scoreText={t('score')}
       />
-      <Mbti results={report.results} />
+      {/* <Mbti results={report.results} /> */}
     </>
   );
 };
