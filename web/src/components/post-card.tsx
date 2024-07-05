@@ -25,10 +25,7 @@ export function PostCard(post: Post) {
           />
           <Tooltip content={post.author?.name} placement='top'>
             <div className='absolute right-8 md:right-4 mt-2 z-10'>
-              <Avatar
-                src={post.author?.avatar}
-                isBordered
-              />
+              <Avatar src={post.author?.avatar} isBordered />
             </div>
           </Tooltip>
           <h3 className='z-10 mt-3 text-3xl font-bold'>{post.title}</h3>
@@ -46,7 +43,9 @@ export function PostCard(post: Post) {
               {format(parseISO(post.date), 'LLLL d, yyyy')}
             </time>
           </div>
-          <p className='text-small text-default-500'>{calculateReadingTime(post.body.raw)} min read</p>
+          <p className='text-small text-default-500'>
+            {calculateReadingTime(post.body.raw)} min read
+          </p>
         </CardFooter>
       </Card>
     </Link>

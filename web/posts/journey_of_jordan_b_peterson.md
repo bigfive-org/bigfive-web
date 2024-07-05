@@ -50,12 +50,15 @@ Jordan B. Peterson's journey from a small-town boy in Alberta to an internationa
 #### **Sources**
 
 **Books by Jordan B. Peterson:**
+
 - Peterson, Jordan B. 12 Rules for Life: An Antidote to Chaos. Random House Canada, 2018.
 - Peterson, Jordan B. Maps of Meaning: The Architecture of Belief. Routledge, 1999.
 
 **Biographical Information:**
+
 - [Winestock, Geoff. "Jordan Peterson’s Gospel of Masculinity." The New Yorker, 12 June 2018.](https://www.newyorker.com/magazine/2018/03/05/jordan-petersons-gospel-of-masculinity)
 
 **Academic Contributions:**
+
 - Peterson, Jordan B., and Andrew J. Calder. "Personality and Prediction: Contingent Matching of the Predictive Validities of Personality Traits and Situations." Journal of Research in Personality, vol. 35, no. 3, 2001, pp. 348-368.
 - ["Jordan Peterson." University of Toronto Faculty Page.](https://www.psych.utoronto.ca/people/directories/all-faculty/jordan-peterson)

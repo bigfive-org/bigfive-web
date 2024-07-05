@@ -45,19 +45,22 @@ const vietnamese = {
     description: {
       top: 'Tìm hiểu bản thân tốt hơn với một bài kiểm tra tính cách <violet>miễn phí</violet>, mã nguồn mở.',
       subtop: 'Các',
-      subtop2: ' là mô hình tâm lý học được xác thực khoa học và đáng tin cậy nhất để đo lường tính cách.',
+      subtop2:
+        ' là mô hình tâm lý học được xác thực khoa học và đáng tin cậy nhất để đo lường tính cách.',
       reference: `Các bài kiểm tra và đánh giá cho trang web này được thu thập từ
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 bảng kiểm kê từ <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info: 'Bài kiểm tra sau đây chứa 120 câu hỏi và dự kiến sẽ mất khoảng 10 phút để hoàn thành.',
-      result: 'Sau khi bạn hoàn thành bài kiểm tra, bạn sẽ nhận được báo cáo chi tiết về tính cách trong các lĩnh vực sau:',
+      result:
+        'Sau khi bạn hoàn thành bài kiểm tra, bạn sẽ nhận được báo cáo chi tiết về tính cách trong các lĩnh vực sau:',
       tests_taken: 'bài kiểm tra đã thực hiện cho đến nay'
     }
   },
   about: {
     seo: {
       title: 'Về và đội ngũ Big Five',
-      description: 'BigFive có một đội ngũ rất tích cực và đam mê, luôn cố gắng đẩy BigFive tiến lên phía trước.'
+      description:
+        'BigFive có một đội ngũ rất tích cực và đam mê, luôn cố gắng đẩy BigFive tiến lên phía trước.'
     }
   },
   toolbar: {
@@ -97,7 +100,8 @@ bảng kiểm kê từ <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   form: {
     information: 'Thông tin',
-    informationText: 'Chúng tôi sử dụng thông tin bạn cung cấp để mang đến cho bạn kết quả chính xác nhất có thể',
+    informationText:
+      'Chúng tôi sử dụng thông tin bạn cung cấp để mang đến cho bạn kết quả chính xác nhất có thể',
     mostAccurate: 'kết quả chính xác nhất có thể',
     readMoreAbout: 'Đọc thêm về',
     privacy: 'quyền riêng tư',
@@ -138,7 +142,8 @@ bảng kiểm kê từ <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     title: 'Sự cởi mở với kinh nghiệm',
     seo: {
       title: 'Tổng quan về lĩnh vực Sự cởi mở với kinh nghiệm.',
-      description: 'Đọc thêm về lĩnh vực Sự cởi mở với kinh nghiệm trong mô hình b5'
+      description:
+        'Đọc thêm về lĩnh vực Sự cởi mở với kinh nghiệm trong mô hình b5'
     }
   },
   conscientiousness: {
@@ -171,7 +176,8 @@ bảng kiểm kê từ <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   getCompare: {
     title: 'So sánh người hoặc nhóm',
-    description1: 'So sánh kết quả từ bài kiểm tra tính cách bigfive với nhiều người.',
+    description1:
+      'So sánh kết quả từ bài kiểm tra tính cách bigfive với nhiều người.',
     description2: 'Nhập ID từ kết quả kiểm tra của bạn',
     description3: 'vào ô nhập ID',
     needToAddPeople: 'Bạn cần thêm người để so sánh họ',
@@ -201,12 +207,14 @@ bảng kiểm kê từ <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     reportLanguage: 'Ngôn ngữ báo cáo',
     seo: {
       title: 'Kết quả của tôi từ bài kiểm tra tính cách BigFive',
-      description: 'Xem tính cách của tôi và so sánh bạn trong các lĩnh vực sau: Sự nhạy cảm, Sự cởi mở với kinh nghiệm, Sự tận tâm, Sự hướng ngoại, Sự dễ chịu'
+      description:
+        'Xem tính cách của tôi và so sánh bạn trong các lĩnh vực sau: Sự nhạy cảm, Sự cởi mở với kinh nghiệm, Sự tận tâm, Sự hướng ngoại, Sự dễ chịu'
     }
   },
   getResult: {
     result: 'Kết quả',
-    explanation: 'Nếu bạn đã thực hiện bài kiểm tra và lưu ID của mình, bạn có thể xem kết quả tại đây bằng cách nhập ID bạn đã nhận được vào ô nhập ID',
+    explanation:
+      'Nếu bạn đã thực hiện bài kiểm tra và lưu ID của mình, bạn có thể xem kết quả tại đây bằng cách nhập ID bạn đã nhận được vào ô nhập ID',
     idInput: 'vào ô nhập ID',
     urlOrId: 'URL hoặc ID của kết quả của bạn',
     getResult: 'Xem kết quả',

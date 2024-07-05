@@ -35,11 +35,16 @@ export default async function ArticlesPage({
       <div className='text-center mt-8'>
         <h1 className='mb-2 font-bold text-4xl'>Personality articles</h1>
         <h5 className='text-default-500 text-lg'>
-          All the latest and greatest news and articles on Personality.<br />
-          Interested in writing for us? Get in touch <a href={`mailto:${supportEmail}`} className='underline'>here</a>.
+          All the latest and greatest news and articles on Personality.
+          <br />
+          Interested in writing for us? Get in touch{' '}
+          <a href={`mailto:${supportEmail}`} className='underline'>
+            here
+          </a>
+          .
         </h5>
       </div>
-      <SortButtons />
+      <SortButtons sortBy={sort} />
 
       <div className='mt-2 grid gap-4 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]'>
         {posts.map((post, idx) => (
