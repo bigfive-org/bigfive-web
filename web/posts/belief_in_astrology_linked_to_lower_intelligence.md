@@ -15,12 +15,12 @@ Astrology has long been a popular pseudoscience, with many people believing that
 
 ### Key Findings of the Study
 
-A study conducted by researchers at Lund University in Sweden, published in the journal Personality and Individual Differences, aimed to explore the relationship between belief in astrology, intelligence, and personality traits. The study involved 264 participants who completed an online survey assessing their belief in astrology, intelligence, and personality traits, including narcissism and the Big Five personality traits.
+A study conducted by researchers at Lund University in Sweden, published in the journal Personality and Individual Differences, aimed to explore the relationship between belief in astrology, intelligence, and personality traits. The study involved 264 participants who completed an online survey assessing their belief in astrology, intelligence, and personality traits, including [narcissism](/articles/narcissism) and the Big Five personality traits.
 
 The results of the study highlighted two main findings:
 
 - **Lower Intelligence**: The study found a negative correlation between intelligence and belief in astrology. Participants who scored higher on intelligence tests tended to have lower belief in astrology. This suggests that those with higher cognitive abilities are less likely to subscribe to astrological beliefs.
-- **Higher Narcissism**: Surprisingly, the strongest predictor of belief in astrology was narcissism. Individuals who believed strongly in astrology also scored higher on measures of narcissism. This might be due to the self-centered worldview that both astrology and narcissism can promote, where individuals see themselves as unique and special in ways that align with astrological interpretations.
+- [**Higher Narcissism**](/articles/narcissism): Surprisingly, the strongest predictor of belief in astrology was [narcissism](/articles/narcissism]. Individuals who believed strongly in astrology also scored higher on measures of narcissism. This might be due to the self-centered worldview that both astrology and narcissism can promote, where individuals see themselves as unique and special in ways that align with astrological interpretations.
 
 ### Implications and Considerations
 
@@ -30,7 +30,7 @@ However, the study does have its limitations. The sample was predominantly young
 
 ### Conclusion
 
-While astrology remains a popular pastime for many, this study suggests that those who deeply believe in its tenets might be more likely to have lower intelligence and higher narcissistic traits. These findings add to a growing body of literature that questions the cognitive and psychological foundations of belief in pseudoscience.
+While astrology remains a popular pastime for many, this study suggests that those who deeply believe in its tenets might be more likely to have lower intelligence and higher [narcissistic](/articles/narcissism) traits. These findings add to a growing body of literature that questions the cognitive and psychological foundations of belief in pseudoscience.
 
 As always, more research is needed to fully understand these relationships and to explore how cultural and social factors might influence belief in astrology. For now, it seems that a healthy dose of skepticism and critical thinking might be the best approach when it comes to the stars.
 

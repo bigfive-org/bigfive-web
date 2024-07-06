@@ -15,11 +15,11 @@ The COVID-19 pandemic has undeniably left a mark on every aspect of our lives, b
 
 ### Key Findings on Personality Changes
 
-The study, which involved a 21-month longitudinal observation of a diverse sample of U.S. participants, aimed to uncover how the Big Five personality traits (conscientiousness, extraversion, agreeableness, neuroticism, and openness) were affected during the pandemic. Here’s what they found:
+The study, which involved a 21-month longitudinal observation of a diverse sample of U.S. participants, aimed to uncover how the Big Five personality traits ([conscientiousness](/articles/conscientiousness), [extraversion](/articles/extraversion), [agreeableness](/articles/agreeableness), [neuroticism](/articles/neuroticism), and [openness](/articles/openness_to_experience) were affected during the pandemic. Here’s what they found:
 
-- **Conscientiousness** saw a slight increase, which suggests that people became more diligent and reliable, possibly as a reaction to the increased demands of adapting to new work and personal life arrangements.
-- **Extraversion** experienced a slight decrease, likely due to social distancing measures and reduced opportunities for social interaction.
-- **Neuroticism** also decreased slightly over the period, indicating that perhaps people adapted to the new norm and found new coping mechanisms.
+- [**Conscientiousness**](/articles/conscientiousness) saw a slight increase, which suggests that people became more diligent and reliable, possibly as a reaction to the increased demands of adapting to new work and personal life arrangements.
+- [**Extraversion**](/articles/extraversion) experienced a slight decrease, likely due to social distancing measures and reduced opportunities for social interaction.
+- [**Neuroticism**](/articles/neuroticism) also decreased slightly over the period, indicating that perhaps people adapted to the new norm and found new coping mechanisms.
 
 ### What Influences These Changes?
 

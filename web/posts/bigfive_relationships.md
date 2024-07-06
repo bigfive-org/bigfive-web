@@ -11,7 +11,7 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-In a fascinating study published in 2016, researchers delved into how the Big Five personality traits—neuroticism, agreeableness, conscientiousness, extraversion, and openness—play a significant role in romantic relationships, particularly when mediated by self-esteem.
+In a fascinating study published in 2016, researchers delved into how the Big Five personality traits—[neuroticism](/articles/neuroticism), [agreeableness](/articles/agreeableness), [conscientiousness](/articles/conscientiousness), [extraversion](/articles/extraversion), and [openness](/articles/openness_to_experience)—play a significant role in romantic relationships, particularly when mediated by self-esteem.
 
 ### Key Findings
 

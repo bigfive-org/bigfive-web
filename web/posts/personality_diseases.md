@@ -13,7 +13,7 @@ author:
 
 ### Outgoing Personalities and Health
 
-Are you a person with clear extroverted personality traits—social, warm, thrill-seeking, and positive? If so, it's less likely you'll suffer from heart disease. However, you may be more prone to anxiety and depression.
+Are you a person with clear [extroverted](/articles/extroverted) personality traits—social, warm, thrill-seeking, and positive? If so, it's less likely you'll suffer from heart disease. However, you may be more prone to anxiety and depression.
 
 ### Compassionate Personalities and Risks
 
@@ -29,9 +29,9 @@ The study primarily involved mapping out the dominant personality traits of part
 
 ### Other Findings
 
-Another personality trait, conscientiousness (organized, highly disciplined, dutiful, and eager to acquire skills), was linked to lower incidences of both heart disease and anxiety/depression among Australians.
+Another personality trait, [conscientiousness](/articles/conscientiousness) (organized, highly disciplined, dutiful, and eager to acquire skills), was linked to lower incidences of both heart disease and anxiety/depression among Australians.
 
-On the other hand, neuroticism (anxious, hostile, impulsive, and vulnerable) was associated with issues like high blood pressure and anxiety/depression.
+On the other hand, [neuroticism](/articles/neuroticism) (anxious, hostile, impulsive, and vulnerable) was associated with issues like high blood pressure and anxiety/depression.
 
 ### Uncertainty Remains
 
@@ -51,7 +51,7 @@ Researchers at The University of Melbourne argue that it's not necessarily the p
 
 ### Neuroticism's Clear Link
 
-The idea that different personality traits might relate to diseases has been popular among researchers since the 1950s. Yet, it wasn't until recently that any studies could definitively state such connections—except, perhaps, for neuroticism's clear link to psychological disorders.
+The idea that different personality traits might relate to diseases has been popular among researchers since the 1950s. Yet, it wasn't until recently that any studies could definitively state such connections—except, perhaps, for [neuroticism's](/articles/neuroticism) clear link to psychological disorders.
 
 ### International Studies
 
