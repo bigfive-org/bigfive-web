@@ -28,7 +28,7 @@ Conspiracy theories involve secret collaborations that aim to benefit some at th
 - **Paranoid Ideation**: People who are suspicious and think others have bad intentions often believe in conspiracy theories. This trait is strongly linked to conspiracy beliefs.
 - **Pseudoscientific Beliefs**: Those who believe in pseudoscience are also likely to believe in conspiracy theories, possibly due to a general tendency to see patterns that don’t exist.
 - **Religiosity/Spirituality**: Both religious and conspiracy beliefs can arise from trying to make sense of challenging events. Some studies find a positive link, while others do not.
-- **Schizotypy**: This trait includes odd beliefs and behaviors, along with paranoid tendencies, which helps explain its strong connection to conspiracy beliefs.
+- [**Schizotypy**](/articles/schizotypal): This trait includes odd beliefs and behaviors, along with paranoid tendencies, which helps explain its strong connection to conspiracy beliefs.
 - **Self-Esteem**: The relationship between self-esteem and conspiracy beliefs is complex, with both positive and negative correlations reported in different studies.
 - **Big Five Personality Traits**: Previous studies show weak relationships between the Big Five traits ([neuroticism](/articles/neuroticism), [extraversion](/articles/extraversion), [openness](/articles/openness_to_experience), [conscientiousness](/articles/conscientiousness), and [agreeableness](/articles/agreeableness)) and conspiracy beliefs, but this study provides updated insights.
 
@@ -40,7 +40,7 @@ The meta-analysis included studies that looked at the relationship between consp
 
 The study found varying degrees of connection between conspiracy beliefs and different personality traits:
 
-- **Strongest links**: Pseudoscientific beliefs (r = .46), paranoia (r = .34), schizotypy (r = .30), and [narcissism](/articles/narcissism) (r = .28).
+- **Strongest links**: Pseudoscientific beliefs (r = .46), paranoia (r = .34), [schizotypy](/articles/schizotypal) (r = .30), and [narcissism](/articles/narcissism) (r = .28).
 - **Weaker links**: Religiosity (r = .14) and cognitive ability (r = -.13).
 - **Weakest links**: Big Five traits and self-esteem (-.07 ≤ r ≤ .04).
 
