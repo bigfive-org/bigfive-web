@@ -15,7 +15,7 @@ In the realm of personality psychology, understanding how different groups exhib
 
 ### The Study's Background and Methodology
 
-The study centered on examining the Big Five personality traits—Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism—across different segments of the Iranian population, including male and female prisoners and non-prisoner patients. Utilizing tools like the Hare Psychopathy Checklist and the Revised Neuroticism-Extraversion-Openness Five-Factor Inventory, the research captured a comprehensive view of the personality landscapes prevalent in these groups.
+The study centered on examining the Big Five personality traits—[Openness](/articles/openness_to_experience), [Conscientiousness](/articles/conscientiousness), [Extraversion](/articles/extraversion), [Agreeableness](/articles/agreeableness), and [Neuroticism](/articles/neuroticism)—across different segments of the Iranian population, including male and female prisoners and non-prisoner patients. Utilizing tools like the Hare Psychopathy Checklist and the Revised Neuroticism-Extraversion-Openness Five-Factor Inventory, the research captured a comprehensive view of the personality landscapes prevalent in these groups.
 
 ### Key Findings and Their Implications
 

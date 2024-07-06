@@ -31,7 +31,7 @@ Employees scoring high on Openness are typically more creative and adaptable. Th
 
 5. **The Role of Agreeableness in Teamwork**
 
-Agreeable individuals tend to be cooperative and sympathetic, traits that enhance performance in collaborative settings. Their propensity to assist colleagues and contribute positively to team dynamics makes them invaluable in roles requiring teamwork.
+[Agreeable](/articles/agreeableness) individuals tend to be cooperative and sympathetic, traits that enhance performance in collaborative settings. Their propensity to assist colleagues and contribute positively to team dynamics makes them invaluable in roles requiring teamwork.
 
 6. **Conscientiousness Predicts Reliability**
 

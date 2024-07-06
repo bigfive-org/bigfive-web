@@ -51,7 +51,7 @@ The MBTI is based on [Carl Jung's](/articles/carl_jung) theories from the early 
 
 **Lack of Acceptance in the Scientific Community**
 
-Despite its popularity in business and personal development, the MBTI is not widely accepted by psychologists. It is rarely used in contemporary psychological research or clinical practice. In contrast, the Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism) are well-supported by decades of research.
+Despite its popularity in business and personal development, the MBTI is not widely accepted by psychologists. It is rarely used in contemporary psychological research or clinical practice. In contrast, the Big Five personality traits ([Openness](/articles/openness_to_experience), [Conscientiousness](/articles/conscientiousness), [Extraversion](/articles/extraversion), [Agreeableness](/articles/agreeableness), and [Neuroticism](/articles/neuroticism)) are well-supported by decades of research.
 
 **Better Alternatives**
 

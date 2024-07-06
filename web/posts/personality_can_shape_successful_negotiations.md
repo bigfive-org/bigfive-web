@@ -15,7 +15,7 @@ When it comes to negotiating, many of us think that focusing solely on profit is
 
 ### The Big Five Personality Traits
 
-The Big Five personality traits—Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism—can significantly influence negotiation strategies. Here's how:
+The Big Five personality traits—[Openness](/articles/openness_to_experience), [Conscientiousness](/articles/conscientiousness), [Extraversion](/articles/extraversion), [Agreeableness](/articles/agreeableness), and [Neuroticism](/articles/neuroticism)—can significantly influence negotiation strategies. Here's how:
 
 - **Openness**: Open individuals tend to be more creative and adaptable in negotiations. They can think outside the box, finding innovative solutions that benefit both parties.
 - **Conscientiousness**: Highly conscientious people are thorough and detail-oriented. They prepare extensively for negotiations, which helps in crafting deals that are fair and well-documented.

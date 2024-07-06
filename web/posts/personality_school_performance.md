@@ -21,15 +21,15 @@ The research focused on the "Big Five" personality traits: [Neuroticism](/articl
 
 ### Openness and Conscientiousness: The Stars of School Success
 
-Among the Big Five, two traits stand out for their impact on school performance: Openness and Conscientiousness. Students who score high in Openness are curious and imaginative, often excelling in subjects that require creative thinking and problem-solving. Conscientious students, with their discipline and organized approach, tend to perform well across all academic areas due to their ability to stay focused and complete tasks effectively.
+Among the Big Five, two traits stand out for their impact on school performance: [Openness](/articles/openness_to_experience) and [Conscientiousness](/articles/conscientiousness). Students who score high in Openness are curious and imaginative, often excelling in subjects that require creative thinking and problem-solving. Conscientious students, with their discipline and organized approach, tend to perform well across all academic areas due to their ability to stay focused and complete tasks effectively.
 
 ### Neuroticism: A Potential Hurdle
 
-Conversely, the trait of Neuroticism, which is associated with emotional instability and anxiety, has been linked to lower academic performance. The anxiety and stress that often accompany high levels of Neuroticism can interfere with a student's ability to focus and perform well in test situations.
+Conversely, the trait of [Neuroticism](/articles/neuroticism), which is associated with emotional instability and anxiety, has been linked to lower academic performance. The anxiety and stress that often accompany high levels of Neuroticism can interfere with a student's ability to focus and perform well in test situations.
 
 ### Extraversion and Agreeableness: Minimal but Positive Effects
 
-Extraversion and Agreeableness showed smaller, yet positive associations with academic performance. Extraverts may not always outperform introverts academically, but their sociability can lead to better interactions and networking with peers and teachers. Agreeable students tend to cooperate more with others, which can be beneficial in group projects and collaborative learning environments.
+Extraversion and [Agreeableness](/articles/agreeableness) showed smaller, yet positive associations with academic performance. Extraverts may not always outperform introverts academically, but their sociability can lead to better interactions and networking with peers and teachers. Agreeable students tend to cooperate more with others, which can be beneficial in group projects and collaborative learning environments.
 
 ### Beyond Genetics: The Role of Environment
 
