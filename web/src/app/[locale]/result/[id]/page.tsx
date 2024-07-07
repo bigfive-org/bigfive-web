@@ -19,11 +19,12 @@ export async function generateMetadata({
   params: { locale: string; id: string };
 }) {
   const t = await getTranslations({ locale, namespace: 'results' });
+  const localePath = locale === 'en' ? '' : `/${locale}`;
   return {
     title: t('seo.title'),
     description: t('seo.description'),
     alternates: {
-      canonical: basePath + `/result/${id}`,
+      canonical: basePath + localePath + `/result/${id}`,
       languages: locales.reduce(
         (a, v) => ({ ...a, [v]: `${v}/result/${id}` }),
         {}

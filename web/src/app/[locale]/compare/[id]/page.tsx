@@ -14,11 +14,12 @@ export async function generateMetadata({
   params: { locale: string; id: string };
 }) {
   const t = await getTranslations({ locale, namespace: 'getCompare' });
+  const localePath = locale === 'en' ? '' : `/${locale}`;
   return {
     title: t('title'),
     description: t('description1'),
     alternates: {
-      canonical: basePath + `/compare/${id}`,
+      canonical: basePath + localePath + `/compare/${id}`,
       languages: locales.reduce(
         (a, v) => ({ ...a, [v]: `${v}/compare/${id}` }),
         {}

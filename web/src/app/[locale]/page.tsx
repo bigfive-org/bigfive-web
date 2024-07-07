@@ -26,15 +26,18 @@ import { Translated } from '@/components/translated';
 import { HomeHeader, HomeHrec1 } from '@/components/ads/ads';
 import { basePath } from '@/config/site';
 
-export const metadata = {
-  alternates: {
-    canonical: basePath,
-    languages: locales.reduce((a, v) => ({ ...a, [v]: `${basePath}/${v}` }), {})
-  }
-};
-
 interface HomeProps {
   params: { locale: string };
+}
+
+export async function generateMetadata({ params: { locale } }: HomeProps) {
+  const localePath = locale === 'en' ? '' : `/${locale}`;
+  return {
+    alternates: {
+      canonical: basePath + localePath,
+      languages: locales.reduce((a, v) => ({ ...a, [v]: `${basePath}/${v}` }), {})
+    }
+  }
 }
 
 export default function Home({ params: { locale } }: HomeProps) {
