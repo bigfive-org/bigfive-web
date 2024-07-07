@@ -66,11 +66,15 @@ There have been many public figures throughout history who have been described a
 
 **Historical Figures**
 
+![Hitler, Napoleon](/blog/napoleon_hitler.webp)
+
 - **Napoleon Bonaparte**: The French military leader and emperor is often cited as an example of narcissism due to his grandiose ambitions, need for admiration, and sense of entitlement.
 - **Adolf Hitler**: The dictator of Nazi Germany exhibited extreme grandiosity, a need for admiration, and a lack of empathy, which are core traits of narcissism.
 - **Joseph Stalin**: The Soviet leader displayed many narcissistic traits, including a need for absolute power, lack of empathy, and ruthless behavior towards others.
 
 **Modern Figures**
+
+![West, Trump, Jobs](/blog/west_trump_jobs.jpg)
 
 - **Donald Trump**: The former U.S. President has been frequently discussed in the context of narcissism due to his behavior, including his need for constant praise, grandiosity, and sensitivity to criticism.
 - **Kanye West**: The rapper and fashion designer has often displayed behaviors associated with narcissism, such as a strong sense of self-importance, need for admiration, and public displays of grandiosity.
@@ -78,10 +82,14 @@ There have been many public figures throughout history who have been described a
 
 **Celebrities**
 
+![Kardashian, Madonna](/blog/kardashian_madonna.webp)
+
 - **Madonna**: The pop icon is often mentioned in discussions about narcissism due to her self-promotion, need for attention, and grandiose public persona.
 - **Kim Kardashian**: The reality TV star and entrepreneur is frequently cited as exhibiting narcissistic traits through her intense focus on her image, need for admiration, and public displays of wealth and status.
 
 **Business Leaders**
+
+![Musk, Bezos](/blog/musk_bezos.jpg)
 
 - **Elon Musk**: The CEO of SpaceX and Tesla is often described as having narcissistic traits due to his grandiose visions, high confidence in his own abilities, and need for public admiration.
 - **Jeff Bezos**: The founder of Amazon has been discussed in the context of narcissism due to his ambitious nature, intense focus on his goals, and need for control.
