@@ -189,6 +189,7 @@ export default function Home({ params: { locale } }: HomeProps) {
         >
           <div
             className='absolute rounded-full'
+            dir="ltr"
             style={{
               width: '130px',
               top: 130 / 6,
