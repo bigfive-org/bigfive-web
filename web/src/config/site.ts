@@ -155,7 +155,7 @@ export const siteConfig = {
   links: {
     github: 'https://github.com/rubynor/bigfive-web',
     twitter: 'https://twitter.com/BigFiveOrg',
-    linkedIn: 'https://www.linkedin.com/company/rubynor-as/',
+    linkedIn: 'https://www.linkedin.com/company/bigfive-personality/',
     facebook: 'https://www.facebook.com/bigfivepersonality/',
     mastadon: 'https://mastodon.social/@bigfive'
   }
