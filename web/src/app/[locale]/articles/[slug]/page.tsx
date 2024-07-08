@@ -3,7 +3,7 @@ import { allPosts } from 'contentlayer/generated';
 import { ChevronRightLinearIcon } from '@/components/icons';
 import NextLink from 'next/link';
 import { User } from '@nextui-org/user';
-import { Chip, Link } from '@nextui-org/react';
+import { Chip, Divider, Link } from '@nextui-org/react';
 import { Image } from '@nextui-org/image';
 import { calculateReadingTime } from '@/lib/helpers';
 import { ViewCounter } from '@/components/view-counter';
@@ -81,7 +81,7 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
             <Link
               isBlock
               as={NextLink}
-              className='text-default-500 hover:text-default-900 justify-start mb-2'
+              className='text-default-700 hover:text-default-900 justify-start mb-2'
               color='foreground'
               href='/articles'
               size='md'
@@ -92,18 +92,6 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
               />
               Back to articles
             </Link>
-          </div>
-          <div>
-            <div className='mb-3 flex w-full flex-col items-end'>
-              <User
-                // href={post.author?.link}
-                name={currentPost.author?.name}
-                description={currentPost.author?.username}
-                avatarProps={{
-                  src: currentPost.author?.avatar
-                }}
-              />
-            </div>
           </div>
         </div>
         {currentPost.image && (
@@ -133,7 +121,18 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
             {format(parseISO(currentPost.date), 'LLLL d, yyyy')}
           </time>
         </div>
-        <ShareArticle slug={params.slug} />
+        <Divider className='mt-8' />
+        <div className='mt-4 flex w-full'>
+          <div className='flex w-full'>
+            <User
+              name={currentPost.author.name}
+              avatarProps={{ src: currentPost.author.avatar }}
+              description={currentPost.author?.username}
+            />
+          </div>
+          <ShareArticle slug={params.slug} />
+        </div>
+        <Divider className='mt-4' />
         <div
           className='[&>*]:mb-3 [&>*:last-child]:mb-0 articlePage mt-10'
           dangerouslySetInnerHTML={{ __html: currentPost.body.html }}

@@ -32,7 +32,7 @@ const socialMedia = [
 
 export function ShareArticle({ slug }: ShareArticleProps) {
   return (
-    <div className='flex justify-end mt-4 gap-2'>
+    <div className='flex gap-2'>
       {socialMedia.map(({ name, icon: Icon, url }) => (
         <Tooltip key={name} content={`Share on ${name}`} placement='top'>
           <NextUILink
@@ -40,7 +40,7 @@ export function ShareArticle({ slug }: ShareArticleProps) {
             href={`${url}${basePath}/articles/${slug}`}
             aria-label={name}
           >
-            <Icon size={24} className='text-default-500' />
+            <Icon size={24} className='text-default-500 hover:text-primary' />
           </NextUILink>
         </Tooltip>
       ))}

@@ -17,6 +17,10 @@ Conspiracy theories are widespread and can have significant social impacts, maki
 
 Conspiracy theories, such as those about 9/11 or COVID-19, are common and can cause harm, like fostering prejudice or undermining public health. Understanding why some people are more inclined to believe in these theories is essential for reducing their negative effects. This study provides an overview of the personality traits linked to conspiracy beliefs and examines reasons for differences in findings through moderator analyses.
 
+A well-established finding is that beliefs in contradictory conspiracy theories (e.g., Princess Diana was murdered vs. faked her own death) are positively correlated. This is commonly interpreted as evidence that people systematically believe blatant inconsistencies. However, recent research proposes a compelling alternative explanation: Disbelieving both conspiracy theories also yields a positive correlation.
+
+In four preregistered studies (total N = 7,641 adults), participants evaluated 28 sets of contradictory conspiracy theories. While the positive correlation was replicated, this was mostly due to participants who believed the official versions of these events (e.g., Princess Diana died in a car accident). Among participants who disbelieved these official stories, the correlation was inconsistent at best. A mini meta-analysis revealed a negative correlation among these participants, particularly due to the dead-or-alive cases. This suggests that researchers should reconsider the notion of systematic belief in contradictory conspiracy theories.
+
 ### Theory
 
 Conspiracy theories involve secret collaborations that aim to benefit some at the expense of others, often kept hidden due to their illegality or immorality. Historical examples, like the CIA's mind control program, make these beliefs seem plausible. From an evolutionary perspective, being suspicious of outgroups might have been protective, explaining why some people are prone to conspiracy beliefs today.
