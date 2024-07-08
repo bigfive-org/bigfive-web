@@ -13,7 +13,7 @@ author:
 
 ### Outgoing Personalities and Health
 
-Are you a person with clear [extroverted](/articles/extroverted) personality traits—social, warm, thrill-seeking, and positive? If so, it's less likely you'll suffer from heart disease. However, you may be more prone to anxiety and depression.
+Are you a person with clear [extroverted](/articles/extraversion) personality traits—social, warm, thrill-seeking, and positive? If so, it's less likely you'll suffer from heart disease. However, you may be more prone to anxiety and depression.
 
 ### Compassionate Personalities and Risks
 
