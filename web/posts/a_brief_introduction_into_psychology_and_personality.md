@@ -15,6 +15,8 @@ Psychology, the scientific study of mind and behavior, has deep roots in ancient
 
 ### Philosophy and Mythology-  and their Greek ancestry
 
+![Psyche, Cupid, Narcissus](/blog/narcissus_psyche_cupid.jpg)
+
 The word "psychology" is derived from the Greek word "psyche," meaning soul or mind. According to an ancient  myth, Psyche, whose name means “soul”, was a mortal woman who was transformed into a goddess. She fell in love with Cupid. Her struggle to keep her sweet heart is a journey of self-realization and personal growth. Apart from assigning her name to science, she has also inspired many fairy-tales, such as Beauty and the Beast.
 
 The Greek philosophers Socrates, Plato, and Aristotle pondered the nature of the human soul, ethics, and the essence of individuality. Mythology also played a crucial role in shaping early psychological concepts, e.g. [narcissism](/articles/narcissism) (recognized as self absorption).  The myth is about Narcissus, the son of a river god and a nymph. He is a youth of exceptional beauty and everyone is struck by his good looks. Eventually, upon spotting his own reflection in water, he is so absorbed by his own image, that he falls into the pond, and drowns.
