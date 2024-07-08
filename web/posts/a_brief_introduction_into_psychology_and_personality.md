@@ -1,6 +1,6 @@
 ---
 title: A brief introduction into Psychology and Personality
-date: 2024-05-01
+date: 2024-07-09
 description: This article explores the evolution of personality theory from its mythological origins in ancient Greece to contemporary psychological frameworks, highlighting key concepts and tools like the MBTI and the Big Five personality traits model.
 image: '/blog/psychology_heaven.webp'
 tags: psychology, personality, ancient Greece, mythological origins, Greek philosophers, Socrates, Plato, Aristotle, Hippocrates, four temperaments, Sigmund Freud, psychoanalysis, Carl Jung, analytical psychology, Jungian archetypes, Carl Rogers, humanistic psychology, Myers-Briggs Type Indicator, MBTI, Big Five personality traits, personality tests, personality theory, self-concept, collective unconscious, individuation, psychological assessment, personality models
