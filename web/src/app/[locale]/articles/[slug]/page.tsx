@@ -14,7 +14,7 @@ import { PostCard } from '@/components/post-card';
 import { ShareArticle } from '@/components/share-article';
 
 export const generateStaticParams = async () =>
-  allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
+  allPosts.map((post) => ({ slug: post.slug }));
 
 export const generateMetadata = ({
   params

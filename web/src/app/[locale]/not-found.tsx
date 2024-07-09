@@ -22,7 +22,7 @@ export default function NotFound() {
           Go back
         </Button>
       </div>
-      <Image src='/not_found.webp' className='mt-5' />
+      <Image src='/not_found.webp' className='mt-5' alt='Page not found' />
     </main>
   );
 }

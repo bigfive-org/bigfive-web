@@ -25,6 +25,7 @@ import NextLink from 'next/link';
 import { Translated } from '@/components/translated';
 import { HomeHeader, HomeHrec1 } from '@/components/ads/ads';
 import { basePath } from '@/config/site';
+import { getTranslationLocale } from '@/lib/helpers';
 
 interface HomeProps {
   params: { locale: string };
@@ -48,7 +49,14 @@ export default function Home({ params: { locale } }: HomeProps) {
   const t = useTranslations('frontpage');
   const f = useTranslations('facets');
 
-  const posts = allPosts
+
+  const translationLocale = getTranslationLocale(locale);
+
+  const localizedPosts = allPosts.filter(
+    (post) => post.locale === translationLocale
+  );
+
+  const posts = localizedPosts
     .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
     .slice(0, 3);
 
