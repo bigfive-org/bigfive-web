@@ -9,7 +9,7 @@ interface ViewCounterProps {
 export async function ViewCounter({ postId }: ViewCounterProps) {
   'use server';
   noStore();
-  const views = await kv.incr(postId.replace('.md', ''));
+  const views = await kv.incr(postId);
 
   return <p>{Intl.NumberFormat('en-us').format(views)} views</p>;
 }
@@ -21,7 +21,7 @@ export async function ariclesByPopularity(posts: Post[]): Promise<Post[]> {
   noStore();
   const postViews: PostWithViews[] = await Promise.all(
     posts.map(async (post) => {
-      const views = Number(await kv.get(post._id.replace('.md', '')));
+      const views = Number(await kv.get(post.slug));
       return { ...post, views };
     })
   );

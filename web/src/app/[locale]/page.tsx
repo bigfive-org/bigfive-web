@@ -35,9 +35,12 @@ export async function generateMetadata({ params: { locale } }: HomeProps) {
   return {
     alternates: {
       canonical: basePath + localePath,
-      languages: locales.reduce((a, v) => ({ ...a, [v]: `${basePath}/${v}` }), {})
+      languages: locales.reduce(
+        (a, v) => ({ ...a, [v]: `${basePath}/${v}` }),
+        {}
+      )
     }
-  }
+  };
 }
 
 export default function Home({ params: { locale } }: HomeProps) {
@@ -192,7 +195,7 @@ export default function Home({ params: { locale } }: HomeProps) {
         >
           <div
             className='absolute rounded-full'
-            dir="ltr"
+            dir='ltr'
             style={{
               width: '130px',
               top: 130 / 6,

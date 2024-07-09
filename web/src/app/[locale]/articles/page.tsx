@@ -6,6 +6,7 @@ import { ArticleHeader } from '@/components/ads/ads';
 import { ariclesByPopularity } from '@/components/view-counter';
 import SortButtons from './sort-buttons';
 import { supportEmail } from '@/config/site';
+import { getTranslationLocale } from '@/lib/helpers';
 
 interface ArticlesProps {
   params: { locale: string };
@@ -20,11 +21,17 @@ export default async function ArticlesPage({
 }: ArticlesProps) {
   unstable_setRequestLocale(locale);
 
+  const translationLocale = getTranslationLocale(locale);
+
+  const localizedPosts = allPosts.filter(
+    (post) => post.locale === translationLocale
+  );
+
   let posts;
   if (sort === 'popularity') {
-    posts = await ariclesByPopularity(allPosts);
+    posts = await ariclesByPopularity(localizedPosts);
   } else {
-    posts = allPosts.sort((a, b) =>
+    posts = localizedPosts.sort((a, b) =>
       compareDesc(new Date(a.date), new Date(b.date))
     );
   }

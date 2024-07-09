@@ -68,3 +68,13 @@ export function calculateReadingTime(content: string) {
 
   return readingTime;
 }
+
+const spanishLanguages = ['es', 'ca', 'pt-br', 'pt'];
+const translatedLanguages = ['no'];
+
+export function getTranslationLocale(locale: string) {
+  // if (spanishLanguages.includes(locale)) {
+  //   return 'es';
+  // }
+  return translatedLanguages.includes(locale) ? locale : 'en';
+}

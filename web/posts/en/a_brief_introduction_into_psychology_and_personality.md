@@ -13,13 +13,13 @@ author:
 
 Psychology, the scientific study of mind and behavior, has deep roots in ancient Greece, where philosophy and mythology laid the groundwork for understanding human nature. This article explores the evolution of personality theory from its mythological origins to contemporary psychological frameworks.
 
-### Philosophy and Mythology-  and their Greek ancestry
+### Philosophy and Mythology- and their Greek ancestry
 
 ![Psyche, Cupid, Narcissus](/blog/narcissus_psyche_cupid.jpg)
 
-The word "psychology" is derived from the Greek word "psyche," meaning soul or mind. According to an ancient  myth, Psyche, whose name means “soul”, was a mortal woman who was transformed into a goddess. She fell in love with Cupid. Her struggle to keep her sweet heart is a journey of self-realization and personal growth. Apart from assigning her name to science, she has also inspired many fairy-tales, such as Beauty and the Beast.
+The word "psychology" is derived from the Greek word "psyche," meaning soul or mind. According to an ancient myth, Psyche, whose name means “soul”, was a mortal woman who was transformed into a goddess. She fell in love with Cupid. Her struggle to keep her sweet heart is a journey of self-realization and personal growth. Apart from assigning her name to science, she has also inspired many fairy-tales, such as Beauty and the Beast.
 
-The Greek philosophers Socrates, Plato, and Aristotle pondered the nature of the human soul, ethics, and the essence of individuality. Mythology also played a crucial role in shaping early psychological concepts, e.g. [narcissism](/articles/narcissism) (recognized as self absorption).  The myth is about Narcissus, the son of a river god and a nymph. He is a youth of exceptional beauty and everyone is struck by his good looks. Eventually, upon spotting his own reflection in water, he is so absorbed by his own image, that he falls into the pond, and drowns.
+The Greek philosophers Socrates, Plato, and Aristotle pondered the nature of the human soul, ethics, and the essence of individuality. Mythology also played a crucial role in shaping early psychological concepts, e.g. [narcissism](/articles/narcissism) (recognized as self absorption). The myth is about Narcissus, the son of a river god and a nymph. He is a youth of exceptional beauty and everyone is struck by his good looks. Eventually, upon spotting his own reflection in water, he is so absorbed by his own image, that he falls into the pond, and drowns.
 
 ### Personae and Identity
 
@@ -32,11 +32,11 @@ The concept of the four temperaments dates back to ancient Greece and the work o
 - **Sanguine (blood)** - Associated with a sociable, pleasure-seeking, and optimistic personality.
 - **Choleric (yellow bile)** - Linked to ambition, leadership, and irritability.
 - **Melancholic (black bile)** - Connected to introspection, sadness, and a detail-oriented nature.
-- **Phlegmatic (phlegm)** - Characterized by calmness, reliability, and  thoughtfulness. Each temperament had its pres and cons, but were thought to be affected by the balance of humors ( bodily fluids).  This theory integrated early ideas about physical health with personality traits.
+- **Phlegmatic (phlegm)** - Characterized by calmness, reliability, and thoughtfulness. Each temperament had its pres and cons, but were thought to be affected by the balance of humors ( bodily fluids). This theory integrated early ideas about physical health with personality traits.
 
-### Sigmund Freud (1856 - 1939), Checkoslovakia/Austria -  The Father of Psychoanalysis
+### Sigmund Freud (1856 - 1939), Checkoslovakia/Austria - The Father of Psychoanalysis
 
-[Sigmund Freud](/articles/sigmund_freud) is often regarded as the father of modern psychology due to his development of psychoanalysis. [Freud's](/articles/sigmund_freud) theory of personality is based on the interplay of three fundamental structures: the id, ego, and superego. The id represents primal, biological desires, the ego  mediates reality, and the superego embodies moral standards. Freud also introduced concepts drawn from Greek mythology, such as the Oedipus complex, where a child feels a subconscious sexual attraction to the opposite-sex parent and hostility toward the same-sex parent.
+[Sigmund Freud](/articles/sigmund_freud) is often regarded as the father of modern psychology due to his development of psychoanalysis. [Freud's](/articles/sigmund_freud) theory of personality is based on the interplay of three fundamental structures: the id, ego, and superego. The id represents primal, biological desires, the ego mediates reality, and the superego embodies moral standards. Freud also introduced concepts drawn from Greek mythology, such as the Oedipus complex, where a child feels a subconscious sexual attraction to the opposite-sex parent and hostility toward the same-sex parent.
 
 ### Freud vs. Jung and Jungian Archetypes
 

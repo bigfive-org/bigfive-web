@@ -1,11 +1,11 @@
 import { format, parseISO } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
-import { ChevronRightLinearIcon } from '@/components/icons';
+import { ChevronRightLinearIcon, InfoIcon } from '@/components/icons';
 import NextLink from 'next/link';
 import { User } from '@nextui-org/user';
 import { Chip, Divider, Link } from '@nextui-org/react';
 import { Image } from '@nextui-org/image';
-import { calculateReadingTime } from '@/lib/helpers';
+import { calculateReadingTime, getTranslationLocale } from '@/lib/helpers';
 import { ViewCounter } from '@/components/view-counter';
 import { Suspense } from 'react';
 import { basePath } from '@/config/site';
@@ -19,9 +19,17 @@ export const generateStaticParams = async () =>
 export const generateMetadata = ({
   params
 }: {
-  params: { slug: string };
+  params: {
+    slug: string;
+    locale: string;
+  };
 }): Metadata => {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
+  const translationLocale = getTranslationLocale(params.locale);
+  const localizedPosts = allPosts.filter(
+    (post) => post.locale === translationLocale
+  );
+
+  const post = localizedPosts.find((post) => post.slug === params.slug);
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
   return {
     title: post.title,
@@ -52,11 +60,17 @@ export const generateMetadata = ({
   };
 };
 
-const PostLayout = async ({ params }: { params: { slug: string } }) => {
-  const currentPost = allPosts.find(
-    (post) => post._raw.flattenedPath === params.slug
+const PostLayout = async ({
+  params
+}: {
+  params: { slug: string; locale: string };
+}) => {
+  const translationLocale = getTranslationLocale(params.locale);
+  const localizedPosts = allPosts.filter(
+    (post) => post.locale === translationLocale
   );
 
+  const currentPost = localizedPosts.find((post) => post.slug === params.slug);
   const posts = allPosts.filter((aPost) => aPost._id !== currentPost?._id);
 
   const currentTags = new Set(currentPost?.tags?.split(', '));
@@ -93,14 +107,21 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
               Back to articles
             </Link>
           </div>
+          {getTranslationLocale(params.locale) !== 'en' && (
+            <div className='text-default-700'>
+              <InfoIcon size={20} className='inline-block mr-1' />
+              AI generated translation
+            </div>
+          )}
         </div>
         {currentPost.image && (
-          <div className='relative w-full'>
+          <div className='relative'>
             <Image
               src={currentPost.image}
               alt={currentPost.title}
-              width={1200}
               height={600}
+              width={1200}
+              removeWrapper
               className='mb-4 w-full object-cover'
             />
             <div className='absolute inset-0 flex md:mt-8 mt-2 mx-2 md:mx-4'>
@@ -115,7 +136,7 @@ const PostLayout = async ({ params }: { params: { slug: string } }) => {
         <div className='flex justify-between text-small mb-2 text-default-500 w-full'>
           <p>{calculateReadingTime(currentPost.body.raw)} min read</p>
           <Suspense>
-            <ViewCounter postId={currentPost._id} />
+            <ViewCounter postId={currentPost.slug} />
           </Suspense>
           <time dateTime={currentPost.date}>
             {format(parseISO(currentPost.date), 'LLLL d, yyyy')}
