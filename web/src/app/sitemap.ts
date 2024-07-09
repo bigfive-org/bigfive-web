@@ -90,9 +90,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${basePath}/articles`,
       lastModified: new Date()
     },
-    ...postUrls.map((article) => ({
-      url: `${basePath}${article}`,
-      lastModified: new Date()
-    }))
+    ...['', '/no'].flatMap((lang) =>
+      postUrls.map((article) => ({
+        url: `${basePath}${lang}${article}`,
+        lastModified: new Date()
+      }))
+    )
   ];
 }
