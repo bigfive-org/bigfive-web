@@ -28,7 +28,9 @@ export function PostCard(post: Post) {
               <Avatar src={post.author?.avatar} isBordered />
             </div>
           </Tooltip>
-          <h3 className='z-10 mt-3 text-3xl font-bold'>{post.title}</h3>
+          <h3 className='z-10 mt-3 text-3xl font-bold hyphens-auto'>
+            {post.title}
+          </h3>
           <p className='font-normal w-full text-default-600 mt-3'>
             {post.description}
           </p>
