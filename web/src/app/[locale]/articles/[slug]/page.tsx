@@ -60,11 +60,14 @@ export const generateMetadata = ({
   };
 };
 
-const PostLayout = async ({
-  params
-}: {
-  params: { slug: string; locale: string };
-}) => {
+interface PostLayoutProps {
+  params: {
+    slug: string;
+    locale: string
+  };
+}
+
+const PostLayout = async ({ params }: PostLayoutProps) => {
   const translationLocale = getTranslationLocale(params.locale);
   const localizedPosts = allPosts.filter(
     (post) => post.locale === translationLocale
@@ -91,24 +94,22 @@ const PostLayout = async ({
     <article className='w-full flex flex-col justify-start items-center prose prose-neutral'>
       <div>
         <div className='flex'>
-          <div className='flex grow'>
-            <Link
-              isBlock
-              as={NextLink}
-              className='text-default-700 hover:text-default-900 justify-start mb-2'
-              color='foreground'
-              href='/articles'
-              size='md'
-            >
-              <ChevronRightLinearIcon
-                className='rotate-180 inline-block mr-1'
-                size={15}
-              />
-              Back to articles
-            </Link>
-          </div>
+          <Link
+            isBlock
+            as={NextLink}
+            className='text-default-700 hover:text-default-900 justify-start mb-2'
+            color='foreground'
+            href='/articles'
+            size='md'
+          >
+            <ChevronRightLinearIcon
+              className='rotate-180 inline-block mr-1'
+              size={15}
+            />
+            Back to articles
+          </Link>
           {getTranslationLocale(params.locale) !== 'en' && (
-            <div className='text-default-700'>
+            <div className='text-default-700 ml-auto'>
               <InfoIcon size={20} className='inline-block mr-1' />
               AI generated translation
             </div>
