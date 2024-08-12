@@ -19,9 +19,8 @@ Freud enrolled at the University of Vienna in 1873, initially studying law befor
 
 ### The Development of Psychoanalysis
 
-Freud's journey into the depths of the human psyche began in earnest during his collaboration with Josef Breuer. Together, they worked on the case of Anna O., a patient suffering from what was then termed "hysteria." Through this case, Freud developed the idea that talking about one's problems could alleviate psychological distress. This concept, known as the "talking cure," became a cornerstone of psychoanalytic theory.
-
-In 1895, Freud and Breuer published "Studies on Hysteria," which introduced the idea that psychological issues could be rooted in unconscious processes. This marked the birth of psychoanalysis. Freud proposed that the mind is divided into three parts: the conscious, the preconscious, and the unconscious. He argued that repressed memories and desires in the unconscious mind influence behavior and thought processes.
+Freud's journey into the depths of the human psyche began in earnest during his collaboration with Josef Breuer. Together, they worked on the case of Anna O., a patient suffering from what was then termed "hysteria." (from Greek hystera, which means womb).  Through this case, Freud developed the idea that talking about one's problems could alleviate psychological distress. This concept, known as the "talking cure," became a cornerstone of psychoanalytic theory. In the 2011 fictional drama movie “A Dangerous Method”  directed by David Cronenberg we meet Sigmund Freud (Viggo Mortensen) and Carl Jung (Michael Fassbender) practicing “the talking cure” on their patient Sabina Spielrein (Keira Knightley). Sabina Spielrein later obtained her doctorate in psychiatry (where she contributed to developing the field of psychoanalysis).
+In 1895, Freud and Breuer published "Studies on Hysteria,"  which introduced the idea that psychological issues could be rooted in unconscious processes. This marked the birth of psychoanalysis. Freud proposed that the mind is divided into three parts: the conscious, the preconscious, and the unconscious. He argued that repressed memories and desires in the unconscious mind influence behavior and thought processes.
 
 ### Key Theories and Works
 
@@ -38,7 +37,7 @@ Freud's seminal works, such as "The Interpretation of Dreams" (1900), "Three Ess
 
 Freud's impact on psychology and culture is undeniable. He introduced a new way of thinking about the human mind, behavior, and the importance of early childhood experiences. His work influenced not only psychology but also art, literature, and popular culture.
 
-However, Freud's theories have also faced significant criticism. Some argue that his ideas are unscientific and lack empirical support. Others criticize his overemphasis on sexuality and his perceived misogyny. Despite these criticisms, Freud's contributions to the field of psychology continue to be studied and debated.
+However, Freud's theories have also faced significant criticism. Some argue that his ideas are unscientific and lack empirical support. Others criticize his overemphasis on sexuality and the fact that his methods are only based on adults and upper class women from the late 19th century in Vienna. Despite these criticisms, Freud's contributions to the field of psychology continue to be studied and debated.
 
 ### Later Years and Death
 
