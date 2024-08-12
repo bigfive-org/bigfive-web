@@ -1,6 +1,6 @@
 ---
 title: 'Dive into the Mind: Exploring Paul Bloom’s Free Yale Course on Introduction to Psychology'
-date: 2024-07-03
+date: 2024-01-03
 description: Discover the fascinating insights into the human mind with Paul Bloom's free online Yale course, "Introduction to Psychology," covering topics from mental illness to the roots of happiness.
 image: '/blog/psychology_school.webp'
 tags: Paul Bloom, Yale, Introduction to Psychology, free online course, psychology course, human mind, mental illness, happiness, child development, language acquisition, emotions, social behavior, perception, memory, Freud, Skinner, brain science, mental health, online education, psychology lecture, cognitive science, psychology research, free education resources, online learning.

@@ -1,6 +1,6 @@
 ---
 title: 'Dykk inn i sinnet: Utforsk Paul Blooms gratis Yale-kurs i introduksjon til psykologi'
-date: 2024-07-03
+date: 2024-01-03
 description: Oppdag fascinerende innsikter i menneskesinnet med Paul Blooms gratis nettkurs fra Yale, "Introduction to Psychology," som dekker temaer fra mentale lidelser til røttene til lykke.
 image: '/blog/psychology_school.webp'
 tags: Paul Bloom, Yale, Introduction to Psychology, gratis nettkurs, psykologikurs, menneskesinnet, mentale lidelser, lykke, barns utvikling, språktilegnelse, følelser, sosial atferd, persepsjon, hukommelse, Freud, Skinner, hjernens vitenskap, mental helse, nettbasert utdanning, psykologiforelesning, kognitiv vitenskap, psykologiforskning, gratis utdanningsressurser, nettbasert læring.
