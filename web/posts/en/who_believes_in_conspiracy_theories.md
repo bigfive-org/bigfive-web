@@ -1,6 +1,6 @@
 ---
 title: Who Believes in Conspiracy Theories? A Meta-Analysis on Personality Traits
-date: 2024-07-06
+date: 2024-05-01
 description: This study explores the relationship between belief in conspiracy theories and various personality traits, identifying key factors that influence these beliefs and suggesting implications for targeted interventions.
 image: '/blog/conspiracy_theory.webp'
 tags: conspiracy theories, personality traits, meta-analysis, pseudoscientific beliefs, paranoia, schizotypy, narcissism, religiosity, cognitive ability, Big Five personality traits, belief in conspiracy theories, psychological research, intervention strategies, social impacts of conspiracy theories, personality psychology

@@ -1,6 +1,6 @@
 ---
 title: Hvem tror på konspirasjonsteorier? En meta-analyse om personlighetstrekk
-date: 2024-07-06
+date: 2024-05-01
 description: Denne studien ser på sammenhengen mellom tro på konspirasjonsteorier og ulike personlighetstrekk, og identifiserer nøkkelfaktorer som påvirker dette.
 image: '/blog/conspiracy_theory.webp'
 tags: konspirasjonsteorier, personlighetstrekk, meta-analyse, pseudovitenskapelige troer, paranoia, schizotypi, narsissisme, religiøsitet, kognitiv evne, Big Five personlighetstrekk, tro på konspirasjonsteorier, psykologisk forskning, intervensjonsstrategier, sosiale konsekvenser av konspirasjonsteorier, personlighetspsykologi
