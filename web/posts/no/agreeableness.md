@@ -11,38 +11,37 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-Medmenneskelighet reflekterer individuelle forskjeller i bekymring for samarbeid og sosial harmoni. Medmenneskelige individer verdsetter det å komme overens med andre.
+Medmenneskelighet reflekterer individuelle forskjeller når det gjelder samarbeid og sosial harmoni. Medmenneskelige individer verdsetter det å komme overens med andre meget høyt.
 
 De er derfor hensynsfulle, vennlige, generøse, hjelpsomme, og villige til å kompromittere sine interesser med andres.
 Medmenneskelige personer har også et optimistisk syn på menneskets natur.
 De tror at folk i bunn og grunn er ærlige, anstendige og pålitelige.
-Umedmenneskelige individer setter egeninteresse over det å komme overens med andre.
+individer med liten medmenneskelighet setter egeninteresse over det å komme overens med andre.
 
-De er generelt ikke opptatt av andres velferd, og er derfor lite sannsynlige til å strekke seg for andre mennesker.
-Noen ganger fører deres skepsis til andres motiver til at de blir mistenksomme, uvennlige og usamarbeidsvillige.
+De er generelt ikke opptatt av andres velferd, og det er derfor lite sannsynlig at de strekker seg langt for å hjelpe andre. 
+Noen ganger fører deres skepsis til andres motiver til at de blir mistenksomme, uvennlige og  lite samarbeidsvillige.
 
-> Medmenneskelighet reflekterer individuelle forskjeller i bekymring for samarbeid og sosial harmoni.
+> Medmenneskelighet reflekterer individuelle forskjeller i bekymringen rundt samarbeid og sosial harmoni.
 
-Medmenneskelighet er åpenbart fordelaktig for å oppnå og opprettholde popularitet. Medmenneskelige mennesker er bedre likt enn umedmenneskelige mennesker.
-På den andre siden er medmenneskelighet ikke nyttig i situasjoner som krever tøffe eller absolutte objektive beslutninger.
-Umedmenneskelige mennesker kan være utmerkede vitenskapsfolk, kritikere eller soldater.
+De som utviser stormedmenneskelighet  har åpenbart  en fordel ved at de  oppnår og opprettholder popularitet, og de er bedre likt enn mennesker som skårer lavt på  menneskelighet. På den andre siden er medmenneskelighet ikke nyttig i situasjoner som krever tøffe eller absolutte objektive beslutninger.
+Individer med lav medmenneskelighet kan være utmerkede vitenskapsfolk, kritikere eller soldater.
 
 ### Tillit
 
-En person med høy tillit antar at de fleste mennesker er rettferdige, ærlige og har gode intensjoner. Personer med lav tillit ser på andre som egoistiske, slu og potensielt farlige.
+En person med høy tillit antar at de fleste mennesker er rettferdige, ærlige og har gode intensjoner. Personer med lav tillit til andre ser på andre som egoistiske, slu og potensielt farlige.
 
 ### Moral
 
 De som skårer høyt på denne skalaen ser ingen behov for å late som eller manipulere når de omgås andre, og er derfor åpne, direkte og oppriktige.
 De som skårer lavt mener at en viss grad av bedrag i sosiale relasjoner er nødvendig. Folk finner det relativt lett å forholde seg til de rettfremme høyscorerne på denne skalaen.
-De synes generelt det er vanskeligere å forholde seg til de mindre rettfremme lavscorerne på denne skalaen.
-Det bør gjøres klart at lavscorere ikke er prinsipp- eller umoralske; de er rett og slett mer forbeholdne og mindre villige til å åpent avsløre hele sannheten.
+De synes generelt det er vanskeligere å forholde seg til de som mindre rettfremme og som skårer lavt på denne skalaen.
+Det bør gjøres klart at de som skårer lavt ikke er prinsipp- eller umoralske; de er rett og slett mer forbeholdne og mindre villige til å åpent avsløre hele sannheten.
 
 ### Altruisme
 
-Altruistiske mennesker finner genuin glede i å hjelpe andre mennesker. Derfor er de generelt villige til å assistere de som er i nød.
-Altruistiske mennesker opplever at det å gjøre ting for andre er en form for selvrealisering snarere enn selvoppofrelse.
-Lavscorere på denne skalaen liker ikke spesielt å hjelpe de som er i nød. Forespørsler om hjelp føles som en byrde snarere enn en mulighet for selvrealisering.
+Altruistiske mennesker finner genuin glede i å hjelpe andre mennesker. Derfor er de generelt villige til å hjelpe de som er i nød.
+Altruistiske mennesker opplever at det å gjøre noefor andre er en form for selvrealisering snarere enn selvoppofrelse.
+De som skårer lavt på denne skalaen liker ikke spesielt å hjelpe de som er i nød. Forespørsler om hjelp føles som en byrde, snarere enn en mulighet for selvrealisering.
 
 ### Samarbeid
 
@@ -52,13 +51,14 @@ De som skårer lavt på denne skalaen er mer sannsynlige til å intimidere andre
 
 ### Beskjedenhet
 
-Høyscorere på denne skalaen liker ikke å hevde at de er bedre enn andre mennesker.
-I noen tilfeller kan denne holdningen stamme fra lav selvtillit eller selvfølelse. Likevel synes noen mennesker med høy selvfølelse at ubeskjedenhet er usømmelig.
+De som skårer høyt på denne skalaen liker ikke å hevde at de er bedre enn andre mennesker.
+I noen tilfeller kan denne holdningen stamme fra lav selvtillit eller selvfølelse. Likevel synes noen mennesker med høy selvfølelse at ubeskjedenhet ikke sømmer seg.
 De som er villige til å beskrive seg selv som overlegne, har en tendens til å bli sett på som ubehagelig arrogante av andre mennesker.
 
 ### Sympati
 
-Folk som skårer høyt på denne skalaen er ømhjertede og medfølende.
-De føler andres smerte vikarierende og blir lett rørt til medlidenhet.
-Lavscorere blir ikke sterkt påvirket av menneskelig lidelse. De er stolte av å ta objektive beslutninger basert på fornuft.
+Folk som skårer høyt på denne skalaen er varmhjertede og medfølende.
+De føler andres smerte og blir lett rørt til medlidenhet.
+De som skårer lavt blir ikke sterkt påvirket av menneskelig lidelse. De er stolte av å ta objektive beslutninger basert på fornuft.
 De er mer opptatt av sannhet og upartisk rettferdighet enn av barmhjertighet.
+
