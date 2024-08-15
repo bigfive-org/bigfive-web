@@ -1,9 +1,9 @@
 ---
-title: 'Myers-Briggs Type Indicator: Hvorfor det regnes som pseudovitenskap'
+title: 'Myers-Briggs Type Indicator: Hvorfor karakteriseres MBTI som pseudovitenskap'
 date: 2024-06-18
-description: Hvorfor Myers-Briggs Type Indicator (MBTI), til tross for sin popularitet, regnes som pseudovitenskap på grunn av manglende vitenskapelig gyldighet, pålitelighet og dens utdaterte teoretiske grunnlag.
+description: Hvorfor Myers-Briggs Type Indicator (MBTI), til tross for sin popularitet, regnes som pseudovitenskap er grunnet i dens manglende vitenskapelige gyldighet, pålitelighet og dens utdaterte teoretiske grunnlag.
 image: '/blog/carl_jung.webp'
-tags: MBTI, Myers-Briggs, personlighetstest, pseudovitenskap, psykologi, personlighetstyper, Carl Jung, Big Five personlighetstrekk, vitenskapelig gyldighet, pålitelighet, personlighetsvurdering, personlighetsforskning, introversjon, ekstroversjon, sansing, intuisjon, tenkning, følelse, vurdering, persepsjon, bedriftslagbygging, psykologiske verktøy, evidensbaserte modeller
+tags: MBTI, Myers-Briggs, personlighetstest, pseudovitenskap, psykologi, personlighetstyper, Carl Jung, Big Five personlighetstrekk, vitenskapelig gyldighet, pålitelighet, personlighetsvurdering, personlighetsforskning, introversjon, ekstroversjon, sansing, intuisjon, tenkning, følelse, vurdering, persepsjon, bedriftsteambygging, psykologiske verktøy, evidensbaserte modeller
 author:
   name: 'Jonas Enge'
   username: '@maccyber'
@@ -11,34 +11,33 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-Myers-Briggs Type Indicator (MBTI) er en av de mest populære personlighetstestene i verden. Mange har tatt testen for å finne ut om de er introverte eller ekstroverte, tenkere eller følere. Til tross for sin utbredte bruk, anser mange psykologer og forskere MBTI som pseudovitenskap. La oss dykke inn i hvorfor det er slik.
+Myers-Briggs Type Indicator (MBTI) er en av de mest populære personlighetstestene i verden. Mange har tatt testen for å finne ut om de er introverte eller ekstroverte, og om de er mere tanke- eller følelsesorienterte. Til tross for sin utbredte bruk, anser mange psykologer og forskere MBTI som pseudovitenskap. La oss finne ut hvorfor det er slik.
 
 ### Hva er MBTI?
 
-MBTI er en personlighetstest som klassifiserer mennesker i 16 forskjellige typer basert på fire dikotomier:
+MBTI er en personlighetstest som klassifiserer mennesker i 16 forskjellige typer basert på fire dikotomier (kategorier som gjensidig utelukker hverandre):
 
 - Introversjon (I) vs. Ekstroversjon (E)
 - Sansing (S) vs. Intuisjon (N)
 - Tenkning (T) vs. Følelse (F)
 - Vurdering (J) vs. Persepsjon (P)
 
-Disse kategoriene er ment å beskrive hvordan mennesker oppfatter verden og tar beslutninger. For eksempel er en INFJ-type en person som er introvert, intuitiv, følende og vurderende.
+Disse kategoriene er ment å beskrive hvordan mennesker oppfatter verden og tar beslutninger. For eksempel er en INFJ-type en person som er introvert, intuitiv, orientert mot følelser og vurderende.
 
-### Hvorfor folk elsker det
-
+### Hvorfor folk elsker denne testen
 MBTI er populær av flere grunner:
 
 - **Lett å forstå**: Kategoriene er enkle og relaterbare.
-- **Positive beskrivelser**: Testen gir ofte positiv tilbakemelding, noe som får folk til å føle seg bra om resultatene sine.
-- **Bedriftsbruk**: Mange selskaper bruker MBTI til lagbygging og forståelse av medarbeiderdynamikk.
+- **Positive beskrivelser**: Testen gir ofte positiv tilbakemelding, noe som får folk til å føle seg bra etter å ha fått resultatene sine-
+- **Bedriftsbruk**: Mange selskaper bruker MBTI til teambygging og forståelse av medarbeiderdynamikk.
 
 ### Problemer med MBTI
 
-Til tross for sin popularitet har MBTI flere betydelige mangler som undergraver dens vitenskapelige troverdighet.
+Til tross for sin popularitet, har MBTI flere betydelige mangler som undergraver dens vitenskapelige troverdighet.
 
 **Mangel på vitenskapelig gyldighet og pålitelighet**
 
-- **Gyldighet**: Gyldighet refererer til hvor godt en test måler det den skal måle. Forskning har vist at MBTI ikke pålitelig forutsier jobbytelse, suksess eller tilfredshet.
+- **Gyldighet**: Gyldighet refererer til hvor godt en test måler det den skal måle. Forskning har vist at MBTI ikke  er pålitelig når den  forutsier jobbytelse, suksess eller tilfredshet.
 - **Pålitelighet**: Pålitelighet betyr at en test konsekvent gir de samme resultatene over tid. Studier har funnet at mange mennesker får forskjellige resultater når de tar MBTI på nytt etter noen uker, noe som indikerer lav pålitelighet.
 
 **Dikotome skalaer**
@@ -51,16 +50,15 @@ MBTI er basert på [Carl Jungs](/articles/carl_jung) teorier fra tidlig på 1900
 
 **Mangel på aksept i det vitenskapelige miljøet**
 
-Til tross for sin popularitet innenfor næringsliv og personlig utvikling, er ikke MBTI allment akseptert av psykologer. Det brukes sjelden i moderne psykologisk forskning eller klinisk praksis. I motsetning til dette er Big Five personlighetstrekk ([Åpenhet](/articles/openness_to_experience), [Planmessighet](/articles/conscientiousness), [Ekstroversjon](/articles/extraversion), [Omgjengelighet](/articles/agreeableness) og [Nevrotisisme](/articles/neuroticism)) godt støttet av tiår med forskning.
+Til tross for sin popularitet innenfor næringsliv og personlig utvikling, er ikke MBTI allment akseptert av psykologer. Det brukes sjelden i moderne psykologisk forskning eller klinisk praksis. I motsetning til dette er Big Fives personlighetstrekk ([Åpenhet](/articles/openness_to_experience), [Planmessighet](/articles/conscientiousness), [Ekstroversjon](/articles/extraversion), [Omgjengelighet](/articles/agreeableness) og [Nevrotisisme](/articles/neuroticism)) godt støttet av tiår med forskning.
 
 **Bedre alternativer**
 
-Big Five personlighetstrekk tilbyr en mer nøyaktig og pålitelig ramme for å forstå personlighet. I motsetning til MBTI eksisterer Big Five-trekkene på et kontinuum og anerkjenner kompleksiteten i menneskelig atferd. Denne modellen er basert på omfattende vitenskapelig forskning og gir et mer nyansert syn på personlighet.
+Big Fives personlighetstrekk tilbyr en mer nøyaktig og pålitelig ramme for å forstå personlighet. I motsetning til MBTI er Big Five-trekkene mer kontinuerlige,  og den tar hensyn til kompleksiteten i menneskelig atferd. Denne modellen er basert på omfattende vitenskapelig forskning og gir et mer nyansert syn på personlighet.
 
 ### Konklusjon
 
-Selv om MBTI kan være morsom og tilby noen innsikter i din personlighet, bør den tas med en klype salt. Dens mangel på vitenskapelig gyldighet og pålitelighet, avhengighet av utdaterte teorier og binære kategorisering gjør den mer til en pseudovitenskap enn et pålitelig psykologisk verktøy. For de som er interessert i en mer nøyaktig forståelse av personlighet, er Big Five-trekkene et bedre valg, støttet av omfattende forskning og vitenskapelig støtte.
-
+Selv om MBTI kan være morsom og tilby noe innsikt i din personlighet, bør den tas med en klype salt. Dens mangel på vitenskapelig gyldighet og pålitelighet, avhengighet av utdaterte teorier og binære kategorisering gjør den mer til en pseudovitenskap enn et pålitelig psykologisk verktøy. For de som er interessert i en mer nøyaktig forståelse av personlighet, er Big Five-trekkene et bedre valg, støttet av omfattende forskning og vitenskap.
 Sammenfattende er MBTI et interessant verktøy for selvrefleksjon, men ikke en vitenskapelig pålitelig metode for å forstå personlighet. Neste gang du tar en personlighetstest, vurder den vitenskapelige evidensen bak den og velg en modell som tilbyr en mer nøyaktig og pålitelig vurdering av hvem du er.
 
 #### **Kilder**
