@@ -23,7 +23,7 @@ Noen ganger fører deres skepsis til andres motiver til at de blir mistenksomme,
 
 > Medmenneskelighet reflekterer individuelle forskjeller i bekymringen rundt samarbeid og sosial harmoni.
 
-De som utviser stormedmenneskelighet  har åpenbart  en fordel ved at de  oppnår og opprettholder popularitet, og de er bedre likt enn mennesker som skårer lavt på  menneskelighet. På den andre siden er medmenneskelighet ikke nyttig i situasjoner som krever tøffe eller absolutte objektive beslutninger.
+De som utviser stor medmenneskelighet  har åpenbart  en fordel ved at de  oppnår og opprettholder popularitet, og de er bedre likt enn mennesker som skårer lavt på  menneskelighet. På den andre siden er medmenneskelighet ikke nyttig i situasjoner som krever tøffe eller absolutte objektive beslutninger.
 Individer med lav medmenneskelighet kan være utmerkede vitenskapsfolk, kritikere eller soldater.
 
 ### Tillit
