@@ -1,4 +1,4 @@
----
+--
 title: 'Nevrotisisme'
 date: 2021-12-24
 description: En artikkel om personlighetstrekket nevrotisisme.
@@ -11,48 +11,47 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-Nevrotisisme refererer til tendensen til å oppleve negative følelser.
+Personlighetstrekket nevrotisisme refererer til tendensen til å oppleve negative følelser.
 
-Freud brukte opprinnelig begrepet nevrose for å beskrive en tilstand preget av mental nød, emosjonell lidelse og en manglende evne til å håndtere livets normale krav effektivt.
+Freud brukte opprinnelig begrepet nevrose for å beskrive en tilstand preget av mental nød, emosjonell lidelse og en manglende evne til å håndtere livets normale krav på en hensiktsmessig måte.
 
-Han foreslo at alle viser noen tegn på nevrose, men at vi varierer i vår grad av lidelse og våre spesifikke symptomer på nød.
+Han mente at alle mennesker har en viss tilbøyelighet til  nevroser, men at graden og symptomene kan variere.
+I dag refererer nevrotisisme til tilbøyeligheten til å oppleve negative følelser.
 
-I dag refererer nevrotisisme til tendensen til å oppleve negative følelser.
-
-De som skårer høyt på nevrotisisme kan oppleve primært én spesifikk negativ følelse som angst, sinne eller depresjon, men er sannsynligvis også tilbøyelige til å oppleve flere av disse følelsene.
+De som skårer høyt på nevrotisisme kan oppleve én spesifikk negativ følelse som angst, sinne eller depresjon, men er sannsynligvis også tilbøyelige til å kjenne på flere av disse følelsene.
 
 > Nevrotisisme refererer til tendensen til å oppleve negative følelser.
 
 Personer med høy nevrotisisme er emosjonelt reaktive.
 
-De reagerer emosjonelt på hendelser som ikke ville påvirke de fleste andre, og deres reaksjoner har en tendens til å være mer intense enn normalt.
+De reagerer emosjonelt på hendelser som ikke ville ha påvirket de fleste andre, og deres reaksjoner har en tendens til å være mer intense enn  det som anses som normalt.
 
-De er mer tilbøyelige til å tolke vanlige situasjoner som truende, og mindre frustrasjoner som håpløst vanskelige.
+De er mer tilbøyelige til å tolke vanlige,hverdagslige situasjoner som truende, og mindre frustrasjoner som håpløst vanskelige.
 
-Deres negative emosjonelle reaksjoner har en tendens til å vare uvanlig lenge, noe som betyr at de ofte er i dårlig humør.
+Deres negative emosjonelle reaksjoner har en tendens til å vedvare uvanlig lenge, noe som ofte kan virke inn på humøret.
 
-Disse problemene med emosjonell regulering kan redusere en nevrotikers evne til å tenke klart, ta beslutninger og håndtere stress effektivt.
+Dersom man skårer høyt på nevrotisisme, kan utfordringene med emosjonell regulering redusere evnen til å tenke klart, ta beslutninger og håndtere stress effektivt.
 
 ### Angst
 
-"Hvile-eller-kjemp"-systemet i hjernen til engstelige individer aktiveres for lett og for ofte. Derfor føler personer med høy angst ofte at noe farlig er i ferd med å skje. De kan være redde for spesifikke situasjoner eller generelt fryktsomme. De føler seg anspente, nervøse og urolige. Personer med lav angst er generelt rolige og fryktløse.
+"Kjemp-eller-flykt"-systemet i hjernen til engstelige individer aktiveres for lett og for ofte. Derfor føler personer som skårer høyt på angst ofte at noe farlig er i ferd med å skje. De kan være redde for spesifikke situasjoner eller være generelt engstelige. De føler seg anspente, nervøse og urolige. Personer med lav angst er generelt rolige og fryktløse.
 
 ### Sinne
 
-Personer som skårer høyt på sinne føler raseri når ting ikke går deres vei. De er sensitive for å bli behandlet rettferdig og føler seg forurettet og bitre når de føler at de blir lurt. Denne skalaen måler tendensen til å føle sinne; om personen uttrykker irritasjon og fiendtlighet avhenger av individets nivå av nevrotisisme. Personer med lav skår blir ikke ofte eller lett sinte.
+Personer som skårer høyt på sinne føler raseri når ting ikke går deres vei. De er svært opptatt av å bli behandlet rettferdig og føler seg forurettet og bitre når de føler at de blir lurt. Denne dimensjonen måler tendensen til å føle sinne; om personen uttrykker irritasjon og fiendtlighet avhenger av individets nivå av nevrotisisme. Personer med lav skår blir sjelden sinte.
 
 ### Depresjon
 
-Denne skalaen måler tendensen til å føle seg trist, nedtrykt og motløs. Høye skårere mangler energi og har vanskeligheter med å starte aktiviteter. Personer med lav skår er vanligvis fri fra disse depressive følelsene.
+Denne dimensjonen måler tendensen til å føle seg trist, nedtrykt og motløs. De som skårer høyt her mangler energi og har vanskeligheter med å starte aktiviteter. Personer med lav skår kjenner vanligvis lite på disse depressive følelsene.
 
 ### Selvbevissthet
 
-Selvbevisste individer er sensitive for hva andre tenker om dem. Deres bekymring for avvisning og latterliggjøring får dem til å føle seg sjenerte og ukomfortable blant andre. De blir lett flaue og føler seg ofte skamfulle. Deres frykt for at andre vil kritisere eller gjøre narr av dem er overdrevet og urealistisk, men deres klossethet og ubehag kan gjøre disse fryktene til en selvoppfyllende profeti. Personer med lav skår lider derimot ikke av den feilaktige oppfatningen at alle ser på og dømmer dem. De føler seg ikke nervøse i sosiale situasjoner.
+Selvbevisste individer er sensitive for hva andre tenker om dem. Deres bekymring for avvisning og latterliggjøring får dem til å føle seg sjenerte og ukomfortable blant andre. De blir lett flaue og føler seg ofte skamfulle. Deres frykt for at andre vil kritisere eller gjøre narr av dem er overdrevet og urealistisk, men deres klossethet og ubehag kan gjøre frykten forbundet med dette til en selvoppfyllende profeti. Personer med lav skår lider derimot ikke av den feilaktige oppfatningen at alle ser på  dem og dømmer dem. De føler seg ikke engstelige i sosiale situasjoner.
 
-### Immoderation
+### Impulsivitet
 
-Umoderate individer føler sterke cravings og lyster som de har vanskeligheter med å motstå. De har en tendens til å være orientert mot kortsiktige gleder og belønninger i stedet for langsiktige konsekvenser. Personer med lav skår opplever ikke sterke, uimotståelige cravings og finner seg derfor ikke fristet til å overdrive.
+Impulsive individer føler sterke impulser (cravings) og lyster som de har vanskeligheter med å motstå. De har en tendens til å være orientert mot kortsiktige gleder og belønninger i stedet for langsiktige konsekvenser. Personer med lav skår opplever ikke slike sterke, uimotståelige cravings og blir derfor ikke fristet til å overdrive.
 
 ### Sårbarhet
 
-Personer med høy skår på sårbarhet opplever panikk, forvirring og hjelpeløshet når de er under press eller stress. Personer med lav skår føler seg mer selvsikre, trygge og klare i tankene når de er stresset.
+Personer med høy skår på sårbarhet opplever panikk, forvirring og hjelpeløshet når de er under press eller stress. Personer med lav skår føler seg mer selvsikre, trygge og er rasjonelle når de er stresset.
