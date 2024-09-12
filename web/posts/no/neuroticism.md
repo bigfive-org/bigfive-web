@@ -1,5 +1,5 @@
---
-title: 'Nevrotisisme'
+---
+title: Nevrotisisme
 date: 2021-12-24
 description: En artikkel om personlighetstrekket nevrotisisme.
 image: '/blog/traits/neuroticism_2.webp'
