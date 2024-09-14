@@ -11,13 +11,13 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-Ekstroversjon er preget av uttalt engasjement med den ytre verden.
+Ekstroversjon er et personlighetstrekk som omhandler engasjement  og samhandling med den ytre verden.
 
-Ekstroverte liker å være sammen med mennesker, er fulle av energi, og opplever ofte positive følelser. De har en tendens til å være entusiastiske, handlingsorienterte individer som sannsynligvis sier "Ja!" eller "La oss gå!" til muligheter for spenning. I grupper liker de å snakke, hevde seg selv, og tiltrekke seg oppmerksomhet.
+Ekstroverte liker å være sammen med mennesker, er fulle av energi, og opplever ofte positive følelser. De har en tendens til å være entusiastiske, handlingsorienterte individer som sannsynligvis sier "Ja!" eller "La oss sette i gang !" hvis det åpner muligheter for å oppleve spenning. I grupper liker de å snakke, hevde seg selv, og tiltrekke seg oppmerksomhet.
 
-> Ekstroversjon er preget av uttalt engasjement med den ytre verden.
+> Ekstroversjon er preget av et stort engasjement i den ytre verden.
 
-Introverte mangler den sprudlende energien og aktivitetsnivået til ekstroverte. De har en tendens til å være stille, lavmælte, ettertenksomme, og frakoblet fra den sosiale verden. Deres mangel på sosial involvering bør ikke tolkes som sjenanse eller depresjon; introverte trenger rett og slett mindre stimulering enn ekstroverte og foretrekker å være alene. Den uavhengige og reserverte naturen til introverte blir noen ganger feiltolket som uvennlighet eller arroganse. I virkeligheten vil en introvert som skårer høyt på ekstroversjonsskalaen ikke oppsøke andre, men vil være ganske hyggelig når han eller hun blir tilnærmet.
+Introverte mangler den sprudlende energien og aktivitetsnivået til ekstroverte. De har en tendens til å være stille, lavmælte, ettertenksomme, og frakoblet fra den sosiale verden. Deres mangel på sosial involvering bør ikke tolkes som sjenanse eller depresjon; introverte trenger rett og slett mindre stimulering enn ekstroverte og foretrekker å være alene. Den uavhengige og reserverte naturen til introverte blir noen ganger feiltolket som uvennlighet eller arroganse. I virkeligheten vil en introvert som skårer høyt på ekstroversjonsskalaen ikke oppsøke andre, men vil oppleves som ganske omgjengelige når man først  blir kjent. 
 
 ### Vennlighet
 
@@ -25,7 +25,7 @@ Vennlige mennesker liker oppriktig andre mennesker og viser åpent positive føl
 
 ### Selskapelighet
 
-Selskapelige mennesker finner andres selskap behagelig stimulerende og givende. De liker spenningen i folkemengder. Lavt skårende har en tendens til å føle seg overveldet av store folkemengder og unngår dem derfor aktivt. De misliker ikke nødvendigvis å være sammen med folk noen ganger, men deres behov for privatliv og tid for seg selv er mye større enn for individer som skårer høyt på denne skalaen.
+Selskapelige mennesker finner andres selskap behagelig stimulerende og givende. De liker spenningen i folkemengder. Lavt skårende har en tendens til å føle seg overveldet av store folkemengder og unngår dem derfor aktivt. De misliker ikke nødvendigvis å være sammen med andre noen ganger, men deres behov for privatliv og tid for seg selv er mye større enn for individer som skårer høyt på denne skalaen.
 
 ### Selvsikkerhet
 
@@ -37,8 +37,9 @@ Aktive individer lever raske, travle liv. De beveger seg raskt, energisk og kraf
 
 ### Spenningssøkende
 
-Høyt skårende på denne skalaen kjeder seg lett uten høye nivåer av stimulering. De elsker skarpt lys og liv og røre. De er sannsynligvis villige til å ta risiko og søke spenning. Lavt skårende føler seg overveldet av støy og oppstyr og liker ikke spenningssøkende aktiviteter.
+Høyt skårende på denne skalaen kjeder seg lett uten høye nivåer av stimulering. De elsker liv og røre. De er sannsynligvis villige til å ta risiko og søke spenning. Lavt skårende føler seg overveldet av støy og oppstyr og liker ikke spenningssøkende aktiviteter.
 
 ### Munterhet
 
-Denne skalaen måler positivt humør og følelser, ikke negative følelser (som er en del av nevrotisisme-domenet). Personer som skårer høyt på denne skalaen opplever vanligvis en rekke positive følelser, inkludert lykke, entusiasme, optimisme og glede. Lavt skårende er ikke like tilbøyelige til slike energiske, høye ånder.
+Denne skalaen måler positivt humør og følelser, ikke negative følelser (som er en del av nevrotisisme-domenet). Personer som skårer høyt på denne skalaen opplever vanligvis en rekke positive følelser, inkludert lykke, entusiasme, optimisme og glede. Lavt skårende er ikke like tilbøyelige til å oppleve slike energiske, høye stemninger. 
+
