@@ -1,7 +1,7 @@
 ---
-title: Er uenige personer mer sannsynlig å oppnå makt på jobben?
+title: Vil kranglefanter oppnå makt på jobben?
 date: 2024-04-01
-description: En studie som avslører at uenige trekk som egoisme og manipulasjon ikke hjelper til å oppnå makt på jobben, i motsetning til den positive korrelasjonen mellom ekstroversjon og karriereutvikling.
+description: En studie som avslører at personlighetsttrekk som egoisme og manipulasjon ikke hjelper til å oppnå makt på jobben. Dette står i kontrast  til den positive korrelasjonen mellom ekstroversjon og karriereutvikling.
 image: '/blog/leadership.webp'
 tags: uenige personligheter, lederskap, karriereutvikling, organisasjonskultur, ekstroversjon, atferd på arbeidsplassen, maktdynamikk, ansattrelasjoner, ledertrening, profesjonell vekst
 author:
@@ -11,21 +11,21 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-Innen arbeidslivet og lederskap finnes det en vedvarende myte om at det å være aggressiv og manipulerende - trekk som ofte oppfattes som uenige - faktisk kan hjelpe en med å klatre på den bedriftsmessige stigen. Denne forestillingen antyder at det å være en "drittsekk" kan være en billett til å oppnå makt og innflytelse. En omfattende studie ledet av Cameron Anderson fra Haas School of Business ved University of California, Berkeley, sammen med sine kolleger, utfordrer imidlertid denne antakelsen med solid empirisk bevis.
+Innen arbeidslivet og lederskap finnes det en vedvarende myte om at det å være aggressiv og manipulerende - trekk som ofte oppfattes som uenighet- faktisk kan hjelpe en med å klatre på karrierestigen. Denne forestillingen antyder at det å være en "drittsekk" kan være en billett til å oppnå makt og innflytelse. En omfattende studie ledet av Cameron Anderson fra Haas School of Business ved University of California, Berkeley, sammen med sine kolleger, utfordrer imidlertid denne antakelsen med solide empiriske bevis.
 
 ### Essensen av studien
 
-Forskerne startet på en reise for å forstå om det virkelig er en fordel å være uenig i profesjonelle settinger. Over omtrent 14 år fulgte de individer fra deres studietid og inn i deres karrierer, og analyserte deres personlighetstrekk og nivået av makt de oppnådde innenfor sine organisasjoner.
+Forskerne startet på en lang vei for å forstå om det virkelig er en fordel å være uenig i profesjonelle sammenhenger. Over omtrent 14 år fulgte de individer fra deres studietid og inn i deres karrierer, og analyserte deres personlighetstrekk og nivået av makt de oppnådde innenfor sine organisasjoner.
 
 ### Hovedfunn: Uenighet lønner seg ikke
 
 Resultatene var ganske avslørende: å være uenig - karakterisert ved trekk som egoisme, stridslyst og manipulasjon - korrelerer ikke med å oppnå mer makt på jobben. I motsetning til hva noen kanskje forventer, fant studien at disse individene ikke steg til høyere maktposisjoner mer enn deres mer enige motparter.
 
-Interessant nok, mens uenige individer ofte engasjerte seg i mer dominant-aggressiv atferd som kunne virke gunstig for å klatre på hierarkisk stige, viste de samtidig færre kollektive atferder som generøsitet og samarbeidsvilje. Denne mangelen på kollektive atferder, som er essensielle for å bygge robuste profesjonelle relasjoner, oppveide eventuelle potensielle gevinster fra deres aggressive taktikker.
+Interessant nok, mens uenige individer ofte engasjerte seg i mer dominant-aggressiv atferd som kunne virke gunstig for å klatre på en hierarkisk stige, viste de samtidig færre kollektive atferder slik som generøsitet og samarbeidsvilje. Denne mangelen på kollektiv atferd,  som er essensiell for å bygge robuste profesjonelle relasjoner, oppveide eventuelle potensielle gevinster fra deres aggressive taktikker.
 
 ### Ekstroversjon: En mer pålitelig vei til makt
 
-Studien kontrasterte effektene av uenighet med de av ekstroversjon - et trekk karakterisert ved energi, sosialitet og selvsikkerhet. I motsetning til uenighet, var ekstroversjon konsekvent knyttet til høyere makt innenfor organisasjoner. Ekstroverte, med deres tilbøyelighet til å være utadvendte og energiske, var mer sannsynlige til å oppnå innflytelsesrike posisjoner, sannsynligvis fordi de engasjerer seg mer effektivt i nettverksbygging og alliansebygging, som er avgjørende i de fleste forretningsmiljøer.
+Studien kontrasterte effektene av uenighet med de av ekstroversjon - et trekk karakterisert ved energi, sosialitet og selvsikkerhet. I motsetning til uenighet, var ekstroversjon konsekvent knyttet til høyere makt innenfor organisasjoner. Ekstroverte, med deres tilbøyelighet til å være utadvendte og energiske, var mer tilbøyelige til å oppnå innflytelsesrike posisjoner, sannsynligvis fordi de engasjerer seg mer effektivt i nettverksbygging og alliansebygging, som er avgjørende i de fleste forretningsmiljøer.
 
 ### Hvorfor dette er viktig å forstå
 
@@ -41,7 +41,7 @@ Denne studien fungerer som en viktig påminnelse om at mens media eller populær
 
 ### Konklusjon
 
-Å være en drittsekk får deg ikke foran på arbeidsplassen. Ambisiøse ledere vil ha godt av å investere i sine sosiale ferdigheter og evne til å positivt engasjere seg med andre. Til syvende og sist er det de støttende, ekstroverte og samarbeidende individene som mest sannsynlig stiger til topps - en oppmuntrende tanke for alle som ønsker å lede med integritet og positivitet.
+Å være en drittsekk bidrar ikke til at du forfremmes på arbeidsplassen. Ambisiøse ledere vil profitere på  å investere i sosiale ferdigheter og  bør ha evne til å positivt engasjere seg med andre. Til syvende og sist er det de støttende, ekstroverte og samarbeidende individene som mest sannsynlig stiger til topps - en oppmuntrende tanke for alle som ønsker å lede med integritet og positivitet.
 
 I reisen mot karrierevekst, la oss huske: vennlighet og selvsikkerhet er ikke gjensidig utelukkende, men kan være kraftfulle allierte i å klatre på den profesjonelle stigen.
 
