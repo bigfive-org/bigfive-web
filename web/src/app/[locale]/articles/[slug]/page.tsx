@@ -108,7 +108,7 @@ const PostLayout = async ({ params }: PostLayoutProps) => {
             />
             Back to articles
           </Link>
-          {getTranslationLocale(params.locale) !== 'en' && (
+          {!['en', 'no'].includes(getTranslationLocale(params.locale)) && (
             <div className='text-default-700 ml-auto'>
               <InfoIcon size={20} className='inline-block mr-1' />
               AI generated translation
