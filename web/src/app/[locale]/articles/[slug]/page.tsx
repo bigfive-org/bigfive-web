@@ -92,7 +92,7 @@ const PostLayout = async ({ params }: PostLayoutProps) => {
   if (!currentPost) throw new Error(`Post not found for slug: ${params.slug}`);
   return (
     <article className='w-full flex flex-col justify-start items-center prose prose-neutral'>
-      <div>
+      <div className='lg:max-w-screen-md m-auto'>
         <div className='flex'>
           <Link
             isBlock
