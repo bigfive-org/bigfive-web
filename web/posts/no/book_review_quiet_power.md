@@ -33,4 +33,4 @@ Jeg vil gi Quiet Power en vurdering på 7 av 10. Den kan være nyttig og læreri
 Quiet Power kan kjøpes gjennom Amazon
 https://amzn.to/3MBFOCt
 
-Dette er en «refferal link», så vi vil få en liten «kick back» hvis du kjøper den her.
+Dette er en «referral link», så vi vil få en liten «kick back» hvis du kjøper den her.
