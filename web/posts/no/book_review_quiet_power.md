@@ -31,6 +31,6 @@ Alt i alt synes jeg Quiet Power var en interessant bok som tilbyr praktiske råd
 Jeg vil gi Quiet Power en vurdering på 7 av 10. Den kan være nyttig og lærerik, spesielt for unge introverte.
 
 Quiet Power kan kjøpes gjennom Amazon
-https://amzn.to/3MBFOCt
+[https://amzn.to/3MBFOCt](https://amzn.to/3MBFOCt)
 
 Dette er en «referral link», så vi vil få en liten «kick back» hvis du kjøper den her.
