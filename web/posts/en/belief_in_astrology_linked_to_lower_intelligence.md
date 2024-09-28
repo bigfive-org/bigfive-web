@@ -20,7 +20,7 @@ A study conducted by researchers at Lund University in Sweden, published in the 
 The results of the study highlighted two main findings:
 
 - **Lower Intelligence**: The study found a negative correlation between intelligence and belief in astrology. Participants who scored higher on intelligence tests tended to have lower belief in astrology. This suggests that those with higher cognitive abilities are less likely to subscribe to astrological beliefs.
-- [**Higher Narcissism**](/articles/narcissism): Surprisingly, the strongest predictor of belief in astrology was [narcissism](/articles/narcissism]. Individuals who believed strongly in astrology also scored higher on measures of narcissism. This might be due to the self-centered worldview that both astrology and narcissism can promote, where individuals see themselves as unique and special in ways that align with astrological interpretations.
+- [**Higher Narcissism**](/articles/narcissism): Surprisingly, the strongest predictor of belief in astrology was [narcissism](/articles/narcissism). Individuals who believed strongly in astrology also scored higher on measures of narcissism. This might be due to the self-centered worldview that both astrology and narcissism can promote, where individuals see themselves as unique and special in ways that align with astrological interpretations.
 
 ### Implications and Considerations
 
