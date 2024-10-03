@@ -11,7 +11,7 @@ author:
   avatar: '/avatars/maccyber.webp'
 ---
 
-# Kan barndomstraumer få oss til å aldres raskere? Hvordan stress Ppåvirker våre celler og vår helse
+# Kan barndomstraumer få oss til å aldres raskere? Hvordan stress påvirker våre celler og vår helse
 
 Vi har alle hørt at stress kan påvirke helsen vår negativt. Men visste du at traumatiske opplevelser i barndommen faktisk kan fremskynde aldringsprosessen?
 Ny forskning kaster lys over hvordan motgang i barndommen kan påvirke cellene våre, og potensielt føre til for tidlig aldring.
