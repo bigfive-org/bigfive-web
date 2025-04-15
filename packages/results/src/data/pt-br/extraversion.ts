@@ -3,89 +3,96 @@ import { type TemplateDomain } from '../../types'
 const extraversion: TemplateDomain = {
   domain: 'E',
   title: 'Extroversão',
-  shortDescription: 'A extroversão é marcada pela sociabilidade, engajamento com o mundo externo.',
-  description: `Extrovertidos gostam de estar rodeados de pessoas, são cheios 
-de energia, e normalmente seus dias são carregados de emoções positivas. Eles 
-tendem a ser animados, orientados para a ação. Provavelmente você vai escutar 
-deles palavras motivadoras, como 'Bora!' e 'Vamos? Vamos!' Quando estão em 
-grupos eles gostam de falar, se destacar e chamar a atenção. Ao contrátio, os 
-introvertidos tendem a ser discretos e mais quietos, gostam de passar o tempo 
-sozinhos. Sua falta de envolvimento social não deve ser interpretado como timidez 
-ou depressão. O introvertido simplesmente precisa de menos estímulo do que um 
-extrovertido e prefere sua própria companhia. A independência e reserva do 
-introvertido é às vezes confundido como falta de amizade ou arrogância. 
-Na verdade, um introvertido que pontua alto na "afabilidade" é o tipo de pessoa 
-que não busca ajuda de outros, mas será bastante simpático e solicito quando o chamarem.`,
+  shortDescription: 'A Extroversão é caracterizada por um envolvimento marcante com o mundo externo.',
+  description: `Extrovertidos gostam de estar com outras pessoas, são cheios de energia e
+frequentemente experimentam emoções positivas. Eles tendem a ser entusiasmados,
+orientados para a ação e são indivíduos propensos a dizer "Sim!" ou "Vamos lá!"
+quando surge uma oportunidade de diversão. Em grupos, gostam de falar,
+se impor e chamar a atenção para si mesmos.
+<br /><br />
+Introvertidos não possuem o mesmo nível de entusiasmo, energia e atividade dos
+extrovertidos. Eles tendem a ser quietos, reservados, deliberados e
+menos envolvidos no mundo social. Sua falta de envolvimento social
+não deve ser interpretada como timidez ou depressão; o
+introvertido simplesmente precisa de menos estímulo do que um extrovertido e prefere
+ficar sozinho. <br /><br />A independência e a reserva do introvertido
+às vezes são confundidas com falta de simpatia ou arrogância. Na realidade, um
+introvertido que pontua alto na dimensão de afabilidade pode não buscar a companhia dos outros,
+mas será bastante agradável quando abordado.`,
   results: [
     {
-      score: 'low', // do not translate this line
-      text: `Sua pontuação para "extroversão" é baixa, indicando que 
-você tende a ser mais introvertido, reservado e tranquilo. Você curte 
-a solidão e atividades individuais. Ter alguns amigos próximos pra 
-você já é um grande nível de socialização.`
+      score: 'low', // não traduzir esta linha
+      text: `Sua pontuação em Extroversão é baixa, indicando que você é
+introvertido, reservado e quieto. Você aprecia a solidão e atividades
+solitárias. Sua socialização tende a ser restrita a poucos amigos próximos.`
     },
     {
-      score: 'neutral', // do not translate this line
-      text: `Sua pontuação extroversão é média, indicando que você 
-não é nem super tímido e nem o mais comunicativo do seu grupo. Você 
-aproveita o tempo com outros, mas também gosta de estar sozinho.`
+      score: 'neutral', // não traduzir esta linha
+      text: `Sua pontuação em Extroversão é média, indicando que você não é
+nem um solitário retraído nem uma pessoa extremamente falante. Você gosta de
+passar tempo com os outros, mas também aprecia momentos sozinho.`
     },
     {
-      score: 'high', // do not translate this line
-      text: `Sua pontuação para extroversão é alta, indicando que 
-você é bastante sociável, extrovertido, energético e animado. Você 
-prefere estar por perto de pessoas a maior parte do tempo. `
+      score: 'high', // não traduzir esta linha
+      text: `Sua pontuação em Extroversão é alta, indicando que você é
+sociável, extrovertido, enérgico e animado. Você prefere estar cercado
+por pessoas a maior parte do tempo.`
     }
   ],
   facets: [
     {
       facet: 1,
-      title: 'Simpatia',
-      text: `Pessoas amigáveis, que fazem amigos rapidamente e com 
-muita facilidade. Os que pontuam baixo para simpatia não são 
-necessariamente frios e hostis, são apenas menos comunicativos, mais 
-distantes e reservados.`
+      title: 'Afabilidade',
+      text: `Pessoas com alta Afabilidade genuinamente gostam dos outros e
+demonstram abertamente sentimentos positivos em relação às pessoas. Elas fazem
+amizades rapidamente e formam relações íntimas com facilidade.
+Pessoas com pontuação baixa em Afabilidade não são necessariamente frias
+ou hostis, mas não buscam ativamente os outros e são percebidas
+como distantes e reservadas.`
     },
     {
       facet: 2,
-      title: 'Sociabilidade',
-      text: `Preferência pela companhia dos outros e evita estar 
-sozinho. Se sentem bem em multidões/aglomerações. Já os que pontuam 
-pouco tendem a se sentir tensos em grandes multidões e por isso evitam 
-aglomerações. Não são antisociais/antipáticos, apenas sentem mais 
-necessidade de privacidade e tempo para si mesmos do que as pessoas 
-que têm pontuação alta.`
+      title: 'Gregariedade',
+      text: `Pessoas altamente gregárias acham a companhia dos
+outros estimulante e recompensadora. Elas gostam da
+agitação de multidões. Pessoas com pontuação baixa tendem a se sentir sobrecarregadas por
+grandes grupos e, por isso, evitam ativamente multidões. Elas não necessariamente
+desgostam de estar com outras pessoas, mas sua necessidade de privacidade e
+tempo sozinhas é muito maior do que a daqueles que pontuam alto nesta escala.`
     },
     {
       facet: 3,
       title: 'Assertividade',
-      text: `Gostam de assumir o comando e direcionar as atividades 
-dos outros. Tendem a conquistar cargos de liderança e dominar situações 
-sociais. Já as pessoas com pontuação baixa tendem a ser mais quietos e 
-não se incomodam quando os outros comandam as atividades em grupos.`
+      text: `Pessoas com pontuação alta em Assertividade gostam de falar,
+tomar a iniciativa e direcionar as atividades dos outros. Elas tendem a ser
+líderes nos grupos. Pessoas com pontuação baixa falam pouco e deixam
+os outros conduzirem as atividades do grupo.`
     },
     {
       facet: 4,
-      title: 'Atividade',
-      text: `Pessoas com estilo de vida acelerado e propensos a estarem 
-ativos. Gostam de estar em movimento e normalmente estão envolvidos em 
-muitas atividades ao mesmo tempo. Pesoas que tem pontuação baixa seguem 
-um ritmo mais lento e tranquilo, são mais relaxadas.`
+      title: 'Nível de Atividade',
+      text: `Indivíduos ativos levam uma vida agitada e dinâmica.
+Eles se movimentam rapidamente, com energia e vigor, e se envolvem em muitas atividades.
+Pessoas com pontuação baixa nesta escala têm um ritmo mais lento e
+relaxado.`
     },
     {
       facet: 5,
-      title: 'Busca de Sensações',
-      text: `Alegres e estimulados. Têm preferência por barulho. Ficam 
-entediados facilmente, adoram luzes brilhantes e movimento. Eles são mais 
-propensos a arriscar-se e viver fortes emoções. Os com pontuação baixa não 
-gostam de barulho e tumulto e fogem de experiências com fortes emoções.`
+      title: 'Busca por Estímulos',
+      text: `Pessoas com pontuação alta nesta escala se entediam facilmente
+sem altos níveis de estímulo. Elas adoram luzes brilhantes e a agitação da vida urbana.
+São propensas a correr riscos e buscar emoções fortes. Pessoas com pontuação baixa
+se sentem sobrecarregadas por ruídos e confusão e evitam experiências radicais.`
     },
     {
       facet: 6,
-      title: 'Emoções Positivas',
-      text: `Pessoas alto astral, bem humoradas, lidam com as situações com 
-emoções positivas com felicidade, entusiasmo e alegria. As pessoas que 
-alcançam uma pontuação baixa não tem um temperamento tão enérgico e alto astral`
+      title: 'Entusiasmo',
+      text: `Esta escala mede o humor positivo e
+os sentimentos de felicidade, e não emoções negativas (que fazem parte do domínio
+do Volatilidade Emocional). Pessoas com pontuação alta nesta escala costumam
+experimentar uma ampla gama de emoções positivas, incluindo felicidade,
+entusiasmo, otimismo e alegria. Pessoas com pontuação baixa não são tão propensas
+a esses estados de ânimo elevados.`
     }
   ]
 }
