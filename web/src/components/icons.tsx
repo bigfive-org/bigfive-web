@@ -194,22 +194,85 @@ export const ArrowRightIcon = ({
   ...props
 }: IconSvgProps) => (
   <svg
-    aria-hidden='true'
-    focusable='false'
-    height={size || height}
-    role='presentation'
-    viewBox='0 0 16 9'
+    xmlns='http://www.w3.org/2000/svg'
     width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
     {...props}
   >
-    <path
-      fill='currentColor'
-      d='M12.5 5h-9c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5'
-    />
-    <path
-      fill='currentColor'
-      d='M10 8.5a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l3.15-3.15l-3.15-3.15c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l3.5 3.5c.2.2.2.51 0 .71l-3.5 3.5c-.1.1-.23.15-.35.15Z'
-    />
+    <path d='M5 12h14' />
+    <path d='m12 5 7 7-7 7' />
+  </svg>
+);
+
+export const CrownIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294zM5 21h14' />
+  </svg>
+);
+
+export const ZapIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z' />
+  </svg>
+);
+
+export const ShieldIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z' />
   </svg>
 );
 
@@ -792,5 +855,83 @@ export const SortIcon = ({
       <path d='M2.293 12.293a1 1 0 0 1 1.414 0l3 3a1 1 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414' />
       <path d='M6 15a1 1 0 0 1-1-1V6a1 1 0 1 1 2 0v8a1 1 0 0 1-1 1' />
     </g>
+  </svg>
+);
+
+export const BuildingIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z'></path>
+    <path d='M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2'></path>
+    <path d='M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2'></path>
+    <path d='M10 6h4'></path>
+    <path d='M10 10h4'></path>
+    <path d='M10 14h4'></path>
+    <path d='M10 18h4'></path>
+  </svg>
+);
+
+export const UsersIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'></path>
+    <circle cx='9' cy='7' r='4'></circle>
+    <path d='M22 21v-2a4 4 0 0 0-3-3.87'></path>
+    <path d='M16 3.13a4 4 0 0 1 0 7.75'></path>
+  </svg>
+);
+
+export const BarChartIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={size || width}
+    height={size || height}
+    viewBox='0 0 24 24'
+    fill='none'
+    stroke='currentColor'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    {...props}
+  >
+    <path d='M3 3v18h18'></path>
+    <path d='M18 17V9'></path>
+    <path d='M13 17V5'></path>
+    <path d='M8 17v-3'></path>
   </svg>
 );
