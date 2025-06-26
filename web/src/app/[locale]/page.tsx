@@ -26,6 +26,7 @@ import { Translated } from '@/components/translated';
 import { HomeHeader, HomeHrec1 } from '@/components/ads/ads';
 import { basePath } from '@/config/site';
 import { getTranslationLocale } from '@/lib/helpers';
+import EnterpriseCTA from '@/components/enterprise-cta';
 
 interface HomeProps {
   params: { locale: string };
@@ -48,7 +49,6 @@ export default function Home({ params: { locale } }: HomeProps) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('frontpage');
   const f = useTranslations('facets');
-
 
   const translationLocale = getTranslationLocale(locale);
 
@@ -156,6 +156,8 @@ export default function Home({ params: { locale } }: HomeProps) {
         <div className='mt-20 mx-2'>
           <FeaturesGrid features={features} />
         </div>
+
+        <EnterpriseCTA />
       </div>
 
       <section className='border-t border-b border-divider px-8 mt-16 lg:mt-44 text-center'>
