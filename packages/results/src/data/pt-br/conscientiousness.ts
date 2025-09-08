@@ -2,100 +2,114 @@ import { type TemplateDomain } from '../../types'
 
 const conscientiousness: TemplateDomain = {
   domain: 'C',
-  title: 'Consciência',
-  shortDescription: 'Diz respeito à forma como controlamos, conduzimos e direcionamos nossos impulsos.',
-  description: `Consciência gira em torno da ideia de organização e perseverança. 
-Indivíduos conscientes normalmente são considerados inteligentes, pois idealizam 
-metas de longo prazo, planejam como vão alcançar seus objetivos e persistem até 
-concluírem, por esse motivo, sua inteligência também está ligada a capacidade de 
-controlar impulsos. São extremamente capazes de pensar sobre consequências futuras 
-antes de agir. Ao invés de ir em busca de recompensas rápidas, o consciente tende 
-a dedicar-se a grandes projetos, onde é devidamente cauteloso em suas atividades. 
-As pessoas o consideram uma pessoa prudente e sábia. Os benefícios de ser uma pessoa 
-dessa categoria é a consciência de seus atos, pois evitam problemas e os ajuda a 
-alcançar altos níveis de assertividade e sucesso através de planejamento, propósito 
-e persistência. Também são considerados extremamente confiáveis. Porém podem ser 
-perfeccionistas, obcecados e 'workaholics'. Em alguns momentos são considerados 
-chatos e "impositores". Já as pessoas que não estão nessa categoria podem ser criticadas 
-por não serem tão confiáveis, terem pouca ou nenhuma ambição e por serem desobedientes. 
-Agem sem pensar. Porém, ao agir com espontaneidade e impulsivamente podem ser considerados 
-divertidos e alegres. Vale lembrar que os impulsos não são necessariamente ruins, pois em alguns 
-casos uma decisão rápida pode estar ligada a agilidade e eficácia. No entanto, agir por 
-impulso pode levar a vários problemas e inclusive prejudicar a sociedade. Outro problema 
-com atos impulsivos é que eles muitas vezes produzem recompensas imediatas, mas suas 
-consequências a longo prazo são ruins. O comportamento impulsivo, mesmo quando não é 
-totalmente destrutivo, prejudica a assertividade pois dificulta a assimilação de resolução 
-de problemas. Também afeta aos envolvidos em projetos que requerem sequências organizadas 
-ou são dividiidos em etapas.`,
+  title: 'Realização',
+  shortDescription: 'A Realização diz respeito à forma como controlamos, regulamos e direcionamos nossos impulsos.',
+  description: `Indivíduos impulsivos podem ser vistos pelos outros como divertidos,
+extrovertidos e cheios de energia. 
+<br /><br />
+No entanto, agir por impulso pode levar a problemas de diversas formas.
+O comportamento impulsivo, mesmo quando não é seriamente destrutivo,
+reduz a eficácia de uma pessoa de maneira significativa.
+Agir impulsivamente impede a consideração de cursos alternativos de ação,
+alguns dos quais poderiam ser mais sábios do que a escolha impulsiva.
+A impulsividade também desvia as pessoas de projetos que exigem sequências organizadas de etapas.
+As realizações de uma pessoa impulsiva são, portanto, pequenas, dispersas e inconsistentes.
+<br /><br />
+Uma característica da inteligência, é a capacidade de pensar sobre as
+consequências futuras antes de agir por impulso. A atividade inteligente
+envolve contemplar objetivos de longo prazo, organizar e planejar rotas
+para alcançar esses objetivos e persistir mesmo diante de impulsos
+momentâneos contrários. A ideia de que a inteligência envolve controle dos
+impulsos é bem representada pelo termo prudência, um rótulo alternativo para
+o domínio da Realização. Ser prudente significa tanto ser sábio quanto cauteloso.
+<br /><br />
+Pessoas que pontuam alto na escala de Realização são percebidas pelos outros
+como inteligentes. Evitam problemas e alcançam altos níveis de sucesso por
+meio de planejamento intencional e persistência. Eles também são vistos de
+forma positiva pelos outros como inteligentes e confiáveis. Por outro lado,
+podem ser perfeccionistas compulsivos e viciados em trabalho.
+Além disso, indivíduos extremamente realizados podem ser vistos como rigorosos
+e entediantes.
+<br /><br />
+Pessoas com baixa realização podem ser criticadas por sua falta de confiabilidade,
+ambição e incapacidade de seguir regras, mas experimentarão muitos prazeres
+momentâneos e nunca serão chamadas de rígidas.`,
   results: [
     {
-      score: 'low', // do not translate this line
-      text: `Sua pontuação em "Consciência" é baixa, indicando que você gosta 
-de viver o agora e faz as coisas de maneira impulsiva. Seu trabalho tende a ser 
-desorganizado e costumam te avaliar como descuidado.`
+      score: 'low', // não traduzir esta linha
+      text: `Sua pontuação em Realização é baixa, indicando que você gosta de viver
+o momento e fazer o que lhe agrada agora. Seu trabalho tende a ser
+descuidado e desorganizado.`
     },
     {
-      score: 'neutral', // do not translate this line
-      text: `Sua pontuação em "Consciência" é média. Isso significa que você 
-é razoavelmente organizado e tem auto-controle.`
+      score: 'neutral', // não traduzir esta linha
+      text: `Sua pontuação em Realização é média. Isso significa que você é
+razoavelmente confiável, organizado e autocontrolado.`
     },
     {
-      score: 'high', // do not translate this line
-      text: `"Sua pontuação em Consciência" é alta. Você é uma pessoa 
-que define bem seus objetivos e os realiza com determinação. Te consideram 
-confiável e trabalhador."`
+      score: 'high', // não traduzir esta linha
+      text: `Sua pontuação em Realização é alta. Isso significa que você estabelece
+metas claras e as persegue com determinação. As pessoas o consideram
+confiável e trabalhador.`
     }
   ],
   facets: [
     {
       facet: 1,
       title: 'Autoeficácia',
-      text: `Quem pontua alto normalmente tem confiança para realizar as coisas. Se 
-sente capaz, acredita que têm a inteligência (senso comum) e autocontrole necessários 
-para alcançar o sucesso e lidam tranquilamente com os desafios e dificuldades da vida. 
-Pessoas com pontuação baixa não se sentem eficazes, e podem se sentir perdidos, como se 
-não estivessem no controle de suas vidas.`
+      text: `Autoeficácia descreve a crença na própria capacidade
+de realizar tarefas. Pessoas com pontuação alta acreditam que têm a inteligência
+(senso comum), determinação e autocontrole necessários para alcançar o sucesso.
+Pessoas com pontuação baixa não se sentem eficazes e podem ter a sensação de que
+não têm controle sobre suas vidas.`
     },
     {
       facet: 2,
-      title: 'Ordem',
-      text: `Pontuação alta indica clareza e abordagem metódica das tarefas. Essas pessoas 
-gostam de viver de acordo com rotinas e horários, costumam criar listas e fazer planejamento. 
-Organização é seu sobrenome. Pessoas com baixa pontuação tendem a ser desorganizadas e dispersas.`
+      title: 'Organização',
+      text: `Pessoas com pontuação alta em organização são
+bem-organizadas. Elas gostam de viver de acordo com rotinas e horários. Elas
+fazem listas e planejam suas atividades. Pessoas com pontuação baixa tendem a ser
+desorganizadas e dispersas.`
     },
     {
       facet: 3,
       title: 'Senso de Dever',
-      text: `Pessoas conscientes, muito dogmáticas em seus valores. Valorizam o dever e 
-obrigação. Têm um forte senso de moral. Pessoas com pontuação baixa consideram regras, 
-contratos e regulamentações exageradas, podendo ser vistos como não confiáveis ou até mesmo 
-irresponsáveis.`
+      text: `Esta escala reflete a força do senso de
+dever e obrigação de uma pessoa. Aqueles que pontuam alto nesta escala têm um forte
+senso de obrigação moral. Pessoas com pontuação baixa acham que contratos, regras e
+regulamentos são muito restritivos. Elas podem ser vistas como pouco confiáveis ou
+até irresponsáveis.`
     },
     {
       facet: 4,
-      title: 'Realização-Esforço',
-      text: `Disposição para trabalhar duro e são motivados por metas (se esforçam para 
-alcançar a excelência). Gostam de se sentir reconhecidos e tem objetivos claros na vida. Às 
-vezes a busca por perfeição os tornam 'workaholic', obcecados com o trabalho. Pessoas que 
-pontuam pouco nessa competência se sentem realizados quando cumprem determinada tarefa com 
-o mínimo de trabalho/esforço, podendo ser visto como preguiçoso.`
+      title: 'Busca por Realização',
+      text: `Indivíduos que pontuam alto nesta
+escala se esforçam muito para alcançar a excelência. Seu desejo de serem reconhecidos
+como bem-sucedidos os mantém focados em seus objetivos ambiciosos. Eles costumam ter
+um forte senso de direção na vida, mas pontuações extremamente altas podem
+indicar obsessão pelo trabalho. Pessoas com pontuação baixa estão satisfeitas
+com o mínimo esforço e podem ser vistas pelos outros
+como preguiçosas.`
     },
     {
       facet: 5,
       title: 'Autodisciplina',
-      text: `Alta capacidade de seguir com as tarefas e limitar a distração. Se mantém a 
-persistentes mesmo em tarefas difíceis ou que não gostem de fazer. Não procrastinam para 
-começar e finalizar tarefas e são extremamente focadas quando iniciam uma atividade. Aqueles 
-com pouca autodisciplina procrastinam e tem mais dificuldade de 'acompanhar o ritmo'. Muitas 
-vezes não conseguem completar tarefas, mesmo as que eles queiram muito finalizar.`
+      text: `Autodisciplina - o que muitas pessoas chamam de
+força de vontade - refere-se à capacidade de persistir em tarefas difíceis ou desagradáveis
+até sua conclusão. Pessoas com alta autodisciplina
+conseguem superar a relutância em começar tarefas e manter o foco apesar
+das distrações. Aqueles com baixa autodisciplina procrastinam e têm pouca
+capacidade de seguir adiante, frequentemente falhando em concluir tarefas -
+mesmo aquelas que desejam muito terminar.`
     },
     {
       facet: 6,
-      title: 'Cautela',
-      text: `Tendem a refletir cuidadosamente sobre as decisões antes de agir. Pensam nas 
-possibilidades e consequências das ações antes de tomar uma decisão. Já os que pontuam baixo 
-normalmente falam/fazem a primeira coisa que vem à mente sem pensar muito nas consequências das 
-suas palavras e ações.`
+      title: 'Deliberação',
+      text: `Deliberação descreve a disposição de
+pensar nas possibilidades antes de agir. Pessoas com pontuação alta em Deliberação
+demoram para tomar decisões. Pessoas com pontuação baixa costumam dizer ou fazer
+a primeira coisa que vem à mente, sem considerar alternativas e as
+possíveis consequências dessas alternativas.`
     }
   ]
 }
