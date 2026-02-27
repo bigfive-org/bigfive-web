@@ -66,12 +66,18 @@ export default async function ComparePage({
     })
   );
 
-  const categories = reports[0].report.results.map((result) => result.title);
+  const domains = reports[0].report.results;
+  const categories = domains.map((result) => result.title);
 
   const series = reports.map(({ name, report }) => {
     return {
       name,
-      data: report.results.map((result) => result.score)
+      data: domains.map((domain) => {
+        const match = report.results.find(
+          (r) => r.domain === domain.domain
+        );
+        return match?.score ?? 0;
+      })
     };
   });
   const getNamedFacets = (domain: string) =>
