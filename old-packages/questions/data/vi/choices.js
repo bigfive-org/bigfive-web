@@ -28,12 +28,12 @@ module.exports = {
   ],
   minus: [
     {
-      text: 'Rất đúng',
+      text: 'Rất không chính xác',
       score: 5,
       color: 1
     },
     {
-      text: 'Khá đúng',
+      text: 'Khá là không chính xác',
       score: 4,
       color: 2
     },
@@ -43,12 +43,12 @@ module.exports = {
       color: 3
     },
     {
-      text: 'Khá là không chính xác',
+      text: 'Khá đúng',
       score: 2,
       color: 4
     },
     {
-      text: 'Rất không chính xác',
+      text: 'Rất đúng',
       score: 1,
       color: 5
     }
